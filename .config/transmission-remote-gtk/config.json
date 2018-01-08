@@ -1,0 +1,81 @@
+{
+  "profiles" : [
+    {
+    }
+  ],
+  "profile-id" : 0,
+  "tree-views" : {
+    "TrgTorrentTreeView" : {
+      "sort-col" : -1,
+      "sort-type" : 0
+    },
+    "TrgTrackersTreeView" : {
+      "sort-col" : -2,
+      "sort-type" : 0,
+      "widths" : [
+        40,
+        109,
+        51,
+        105,
+        110,
+        110,
+        87,
+        88
+      ],
+      "columns" : [
+        "tier",
+        "announce-url",
+        "last-announce-peer-count",
+        "seeder-count",
+        "leecher-count",
+        "last-announce-time",
+        "last-result",
+        "scrape-url"
+      ]
+    },
+    "TrgFilesTreeView" : {
+      "sort-col" : -2,
+      "sort-type" : 0,
+      "widths" : [
+        121,
+        110,
+        141,
+        149,
+        136
+      ],
+      "columns" : [
+        "name",
+        "size",
+        "progress",
+        "wanted",
+        "priority"
+      ]
+    },
+    "TrgPeersTreeView" : {
+      "sort-col" : -2,
+      "sort-type" : 0,
+      "widths" : [
+        62,
+        78,
+        131,
+        110,
+        105,
+        80,
+        91
+      ],
+      "columns" : [
+        "ip",
+        "host",
+        "down-speed",
+        "up-speed",
+        "progress",
+        "flags",
+        "client"
+      ]
+    }
+  },
+  "window-height" : 716,
+  "window-width" : 443,
+  "notebook-paned-pos" : 300,
+  "states-paned-pos" : 120
+}
