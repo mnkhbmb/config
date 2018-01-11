@@ -1,0 +1,134 @@
+[01/11/18, 12:59:27:664] info: ╔════════════════════════════════════════════════════════════════════════════╗
+[01/11/18, 12:59:27:665] info: ║      Slack 3.0.2, linux 4.9.75-1-lts on x64 at 01/11/18, 12:59:27:661      ║
+[01/11/18, 12:59:27:665] info: ╚════════════════════════════════════════════════════════════════════════════╝
+[01/11/18, 12:59:27:797] info: Initializing local storage instance at path: /home/mnkhbmb/.config/Slack/local-settings.json
+[01/11/18, 12:59:28:156] error: Calls failed to load, bailing
+[01/11/18, 12:59:28:159] info: updateSuspendResume: true
+[01/11/18, 12:59:28:160] warn: updateSpellcheckerLanguage: Tried to update language, but spellchecker not initialized
+[01/11/18, 12:59:42:916] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    0,
+    20
+  ],
+  "size": [
+    1366,
+    748
+  ]
+}
+[01/11/18, 12:59:47:271] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T8MVCNGTA"
+}
+[01/11/18, 12:59:47:710] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T8MVCNGTA"
+}
+[01/11/18, 12:59:49:793] info: Store: SELECT_CHANNEL C8MVCNMPA
+[01/11/18, 12:59:49:795] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T8MVCNGTA"
+}
+[01/11/18, 12:59:49:796] info: Store: UPDATE_SETTINGS
+{
+  "locale": "en-US"
+}
+[01/11/18, 12:59:49:798] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T8MVCNGTA",
+  "theme": {
+    "active_item": "#4C9689",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#38978D",
+    "badge": "#EB4D5C",
+    "column_bg": "#4D394B",
+    "hover_item": "#3E313C",
+    "menu_bg": "#3E313C",
+    "text_color": "#FFFFFF"
+  }
+}
+[01/11/18, 12:59:50:988] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": false,
+  "teamId": "T8MVCNGTA"
+}
+[01/11/18, 12:59:50:989] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T8MVCNGTA"
+}
+[01/11/18, 12:59:50:990] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "webapp-loaded",
+  "teamId": "T8MVCNGTA"
+}
+[01/11/18, 12:59:51:003] info: Store: STORE_API_TOKEN
+{
+  "teamId": "T8MVCNGTA",
+  "token": "xoxs-⋯"
+}
+[01/11/18, 12:59:51:508] info: Couldn't detect language for text of length '949': Failed to identify language, ignoring sample
+[01/11/18, 13:00:11:301] info: Unloading spellchecker
+[01/11/18, 13:01:42:282] info: Unloading spellchecker
+[01/11/18, 13:01:43:354] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    0,
+    0
+  ],
+  "size": [
+    1366,
+    768
+  ]
+}
+[01/11/18, 13:29:40:664] info: Unloading spellchecker
+[01/11/18, 13:29:41:042] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    0,
+    20
+  ],
+  "size": [
+    1366,
+    748
+  ]
+}
+[01/11/18, 13:29:42:216] info: Unloading spellchecker
+[01/11/18, 13:29:45:494] info: Unloading spellchecker
+[01/11/18, 13:30:01:898] info: Unloading spellchecker
+[01/11/18, 13:30:04:623] info: Unloading spellchecker
+[01/11/18, 13:30:07:599] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    0,
+    0
+  ],
+  "size": [
+    1366,
+    768
+  ]
+}
+[01/11/18, 13:30:12:155] info: Unloading spellchecker
+[01/11/18, 13:30:12:731] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    0,
+    20
+  ],
+  "size": [
+    1366,
+    748
+  ]
+}
+[01/11/18, 13:30:12:913] info: Unloading spellchecker
+[01/11/18, 15:06:19:312] info: Unloading spellchecker

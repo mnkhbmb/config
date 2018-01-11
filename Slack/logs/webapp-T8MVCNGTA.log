@@ -1,0 +1,55 @@
+info: ╔════════════════════════════════════════════════════════════════════════════╗
+info: ║      Slack 3.0.2, linux 4.9.75-1-lts on x64 at 01/11/18, 12:59:24:312      ║
+info: ╚════════════════════════════════════════════════════════════════════════════╝
+error: Calls failed to load, bailing
+info: Jan-11 12:59:34.321 [BOOT] booted! pri:0 version:1515639913 start_ms:1515646771649 (2672ms ago)
+info: Jan-11 12:59:34.326 [BOOT] Starting incremental boot (early)
+info: Jan-11 12:59:46.759 [SOCKET-MANAGER] (T8MVCNGTA) Changing from never_connected to prov_connect
+info: Jan-11 12:59:46.760 [SOCKET-MANAGER] (T8MVCNGTA) will stay in prov_connect state for up to 10000 ms
+info: Jan-11 12:59:46.761 [SOCKET-MANAGER] (T8MVCNGTA) Changing from prov_connect to prov_connecting
+info: Jan-11 12:59:46.763 [SOCKET-MANAGER] (T8MVCNGTA) will stay in prov_connecting state for up to 20000 ms
+info: Jan-11 12:59:49.285 [BOOT] Finalizing incremental boot
+info: Jan-11 12:59:49.572 [FLANNEL] received a user_counts_request call while we are not connected; deferring
+info: Jan-11 12:59:49.572 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (49) timestamps added
+info: Jan-11 12:59:50.340 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: Jan-11 12:59:50.350 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Jan-11 12:59:50.360 [CHECK-UNREADS] Not marking C8MVCNMPA because not fully booted
+info: Jan-11 12:59:50.624 [SOCKET-MANAGER] (T8MVCNGTA) Changing from prov_connecting to prov_connected
+info: Jan-11 12:59:50.624 [SOCKET-MANAGER] (T8MVCNGTA) will stay in prov_connected state for up to 60000 ms
+info: Jan-11 12:59:50.626 [FLANNEL] connected! Continuing deferred user_counts_request call
+info: Jan-11 12:59:50.627 [INFO] Got start data from Socket Manager; hydrating it
+warn: 2018/1/11 12:59:50.640  Received a reply to a message we have no record of sending (reply_to = 164, type = message)
+warn: Jan-11 12:59:50.740 activity is not scalar! it needs to be handled by upsertTeam specifically to test if it has changed! object
+info: Jan-11 12:59:50.754 [BOOT] Completed incremental boot
+info: Jan-11 12:59:50.859 [BOOT] _maybeFinalizeOrOpenConnectionToMS will finalize SocketManager
+info: Jan-11 12:59:50.859 [SOCKET-MANAGER] (T8MVCNGTA) Changing from prov_connected to prov_finalize
+info: Jan-11 12:59:50.860 [SOCKET-MANAGER] (T8MVCNGTA) will stay in prov_finalize state for up to 10000 ms
+info: Jan-11 12:59:50.860 [SOCKET-MANAGER] (T8MVCNGTA) Changing from prov_finalize to prov_finalizing
+info: Jan-11 12:59:50.860 [SOCKET-MANAGER] (T8MVCNGTA) will stay in prov_finalizing state for up to 10000 ms
+info: Jan-11 12:59:50.860 [SOCKET-MANAGER] (T8MVCNGTA) Changing from prov_finalizing to connected
+info: Jan-11 12:59:50.861 [SOCKET-MANAGER] (T8MVCNGTA) will stay in connected state for up to Infinity ms
+info: Jan-11 12:59:50.861 [BOOT] _maybeFinalizeOrOpenConnectionToMS did finalize SocketManager
+info: Jan-11 12:59:50.862 [BOOT] Finished first boot 4111 ms after DOM ready
+info: Jan-11 12:59:50.991 [CHECK-UNREADS] Checking unreads after fully booted
+info: Jan-11 12:59:50.992 [CHECK-UNREADS] Not marking C8MVCNMPA because attention not on chat
+info: Jan-11 12:59:51.256 [UNREAD-COUNTS] Completed users.counts processing
+info: Jan-11 13:00:07.620 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-11 13:00:07.620 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-11 13:01:42.313 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-11 13:01:42.313 [CHECK-UNREADS] Not marking C8MVCNMPA because attention not on chat
+info: Jan-11 13:29:40.840 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-11 13:29:40.840 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-11 13:29:42.110 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-11 13:29:42.110 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-11 13:29:44.738 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-11 13:29:44.738 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-11 13:30:01.696 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-11 13:30:01.696 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-11 13:30:04.451 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-11 13:30:04.451 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-11 13:30:11.772 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-11 13:30:11.772 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-11 13:30:12.702 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-11 13:30:12.702 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-11 15:06:11.999 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-11 15:06:11.999 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
