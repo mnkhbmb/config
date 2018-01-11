@@ -5,7 +5,7 @@ background-alt = #444
 alert = #bd2c40
 bgblue = #010024
 white = #f8f8f8
-pink = ${xrdb:color4}
+pink = ${xrdb:color3}
 dpink = #a01849
 cyan = #23ceef
 dcyan = #157b8f
@@ -38,7 +38,7 @@ radius = 6.0
 separator = |
 ;separator = 
 
-primary = ${colors.dpink}
+primary = ${colors.primary}
 foreground = ${colors.foreground}
 background = ${colors.background}
 
@@ -61,7 +61,7 @@ tray-maxsize=24
 
 modules-left = i3 
 modules-center = xwindow
-modules-right = powermenu music volume temperature memory cpu wlan eth battery1 date custom
+modules-right = powermenu usb-mount music volume temperature memory cpu wlan eth battery1 date custom
 
 [bar/button]
 width = 100%
@@ -76,7 +76,7 @@ fotn-2 = Roboto Condensend:fontformat=truetype:size7.5;3
 
 override-redirect = true
 wm-restack = i3
-modules-right =  weather
+modules-right =  dropbox-isrunning weather
 modules-left =  longeth longwlan
 modules-center = filesystem
 
@@ -211,6 +211,7 @@ interval = 2
 label = 
 format = <label> <ramp-coreload>
 format-padding = 1
+;format-foreground = ${colors.pink}
 ;format-background = ${colors.dcyan}
 ;format-underline = ${colors.cyan}
 
@@ -222,36 +223,6 @@ ramp-coreload-4 = ▅
 ramp-coreload-5 = ▆
 ramp-coreload-6 = ▇
 ramp-coreload-7 = 
-
-
-
-[module/temperature]
-type = internal/temperature
-interval = 1
-thermal-zone = 0
-warn-temperature = 60
-
-label = %temperature%
-format = <ramp> <label>
-format-padding = 1
-;format-background = ${colors.dcyan}
-;format-underline = ${colors.cyan}
-format-foreground = ${colors.primary}
-
-label-warn = %temperature%
-format-warn = <ramp> <label-warn>
-format-warn-padding = 1
-;format-warn-background = ${colors.dpink}
-format-warn-underline = ${colors.pink}
-
-hwmon-path= /sys/devices/platform/coretemp.0/hwmon/hwmon2/temp1_input
-
-ramp-0 = 
-ramp-1 = 
-ramp-2 = 
-ramp-3 = 
-ramp-4 = 
-ramp-foreground = ${colors.primary}
 
 
 [module/memory]
@@ -506,3 +477,53 @@ label = %output%
 format = <label>
 format-padding = 1
 format-foreground = ${colors.primary}
+
+[module/temperature]
+type = internal/temperature
+interval = 1
+thermal-zone = 0
+warn-temperature = 60
+
+label = %temperature%
+format = <ramp> <label>
+format-padding = 1
+;format-background = ${colors.dcyan}
+;format-underline = ${colors.cyan}
+format-foreground = ${colors.primary}
+
+label-warn = %temperature%
+format-warn = <ramp> <label-warn>
+format-warn-padding = 1
+;format-warn-background = ${colors.dpink}
+format-warn-underline = ${colors.pink}
+
+;hwmon-path= /sys/devices/platform/coretemp.0/hwmon/hwmon2/temp3_input
+
+;exec = ~/.config/polybar/temp.sh
+
+ramp-0 = 
+ramp-1 = 
+ramp-2 = 
+ramp-3 = 
+ramp-4 = 
+ramp-foregroun = ${colors.primary}
+
+[module/redshift-temperature]
+type = custom/script
+exec = ~/.config/polybar/redshift.sh
+interval = 5
+
+
+
+[module/usb-mount]
+type = custom/script
+exec = ~/.config/polybar/usbmount.sh
+interval = 5
+click-left = ~/.config/polybar/usbmount.sh --mount
+click-right = ~/.config/polybar/usbmount.sh --unmount
+
+[module/dropbox-isrunning]
+type = custom/script
+exec = ~/.config/polybar/scripts/dropbox-isrunning.sh
+interval = 5
+click-left = ~/.config/polybar/scripts/dropbox-isrunning.sh --toggle
