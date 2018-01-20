@@ -1,0 +1,85 @@
+[01/18/18, 10:06:55:863] info: ╔════════════════════════════════════════════════════════════════════════════╗
+[01/18/18, 10:06:55:864] info: ║      Slack 3.0.2, linux 4.9.76-1-lts on x64 at 01/18/18, 10:06:55:858      ║
+[01/18/18, 10:06:55:864] info: ╚════════════════════════════════════════════════════════════════════════════╝
+[01/18/18, 10:06:56:337] info: Initializing local storage instance at path: /home/mnkhbmb/.config/Slack/local-settings.json
+[01/18/18, 10:07:04:831] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T8MVCNGTA"
+}
+[01/18/18, 10:07:04:850] info: Store: MAIN_WINDOW_SHOWN
+[01/18/18, 10:07:05:416] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T8MVCNGTA"
+}
+[01/18/18, 10:07:05:642] info: Store: SELECT_CHANNEL D8NH9B5BM
+[01/18/18, 10:07:05:649] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T8MVCNGTA"
+}
+[01/18/18, 10:07:05:653] info: Store: UPDATE_SETTINGS
+{
+  "locale": "en-US"
+}
+[01/18/18, 10:07:05:815] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T8MVCNGTA",
+  "theme": {
+    "active_item": "#4C9689",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#38978D",
+    "badge": "#EB4D5C",
+    "column_bg": "#4D394B",
+    "hover_item": "#3E313C",
+    "menu_bg": "#3E313C",
+    "text_color": "#FFFFFF"
+  }
+}
+[01/18/18, 10:07:06:357] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    689,
+    36
+  ],
+  "size": [
+    661,
+    716
+  ]
+}
+[01/18/18, 10:07:07:265] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": false,
+  "teamId": "T8MVCNGTA"
+}
+[01/18/18, 10:07:07:522] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T8MVCNGTA"
+}
+[01/18/18, 10:07:07:525] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "webapp-loaded",
+  "teamId": "T8MVCNGTA"
+}
+[01/18/18, 10:07:07:963] info: Store: STORE_API_TOKEN
+{
+  "teamId": "T8MVCNGTA",
+  "token": "xoxs-⋯"
+}
+[01/18/18, 10:07:17:765] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    917,
+    36
+  ],
+  "size": [
+    433,
+    716
+  ]
+}

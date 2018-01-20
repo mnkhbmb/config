@@ -1,0 +1,82 @@
+[01/11/18, 16:36:39:536] info: ╔════════════════════════════════════════════════════════════════════════════╗
+[01/11/18, 16:36:39:537] info: ║      Slack 3.0.2, linux 4.9.75-1-lts on x64 at 01/11/18, 16:36:39:533      ║
+[01/11/18, 16:36:39:537] info: ╚════════════════════════════════════════════════════════════════════════════╝
+[01/11/18, 16:36:39:656] info: Initializing local storage instance at path: /home/mnkhbmb/.config/Slack/local-settings.json
+[01/11/18, 16:36:40:029] error: Calls failed to load, bailing
+[01/11/18, 16:36:40:033] info: updateSuspendResume: true
+[01/11/18, 16:36:40:033] warn: updateSpellcheckerLanguage: Tried to update language, but spellchecker not initialized
+[01/11/18, 16:36:43:606] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T8MVCNGTA"
+}
+[01/11/18, 16:36:43:614] info: Store: MAIN_WINDOW_SHOWN
+[01/11/18, 16:36:45:190] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T8MVCNGTA"
+}
+[01/11/18, 16:36:45:191] info: Store: SELECT_CHANNEL C8MVCNMPA
+[01/11/18, 16:36:45:191] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T8MVCNGTA"
+}
+[01/11/18, 16:36:45:192] info: Store: UPDATE_SETTINGS
+{
+  "locale": "en-US"
+}
+[01/11/18, 16:36:45:193] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T8MVCNGTA",
+  "theme": {
+    "active_item": "#4C9689",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#38978D",
+    "badge": "#EB4D5C",
+    "column_bg": "#4D394B",
+    "hover_item": "#3E313C",
+    "menu_bg": "#3E313C",
+    "text_color": "#FFFFFF"
+  }
+}
+[01/11/18, 16:36:45:194] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    0,
+    20
+  ],
+  "size": [
+    1366,
+    748
+  ]
+}
+[01/11/18, 16:36:46:300] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": false,
+  "teamId": "T8MVCNGTA"
+}
+[01/11/18, 16:36:46:301] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T8MVCNGTA"
+}
+[01/11/18, 16:36:46:301] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "webapp-loaded",
+  "teamId": "T8MVCNGTA"
+}
+[01/11/18, 16:36:46:316] info: Store: STORE_API_TOKEN
+{
+  "teamId": "T8MVCNGTA",
+  "token": "xoxs-⋯"
+}
+[01/11/18, 16:36:46:504] info: Unloading spellchecker
+[01/11/18, 16:36:47:180] info: Couldn't detect language for text of length '949': Failed to identify language, ignoring sample
+[01/11/18, 16:36:54:202] info: Unloading spellchecker
+[01/11/18, 16:37:37:195] info: Unloading spellchecker
+[01/11/18, 16:45:26:602] info: Unloading spellchecker
+[01/11/18, 16:45:28:458] info: Unloading spellchecker

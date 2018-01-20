@@ -1,0 +1,87 @@
+[01/20/18, 11:57:50:099] info: ╔════════════════════════════════════════════════════════════════════════════╗
+[01/20/18, 11:57:50:100] info: ║      Slack 3.0.2, linux 4.9.76-1-lts on x64 at 01/20/18, 11:57:50:096      ║
+[01/20/18, 11:57:50:100] info: ╚════════════════════════════════════════════════════════════════════════════╝
+[01/20/18, 11:57:50:230] info: Initializing local storage instance at path: /home/mnkhbmb/.config/Slack/local-settings.json
+[01/20/18, 11:57:51:566] error: Calls failed to load, bailing
+[01/20/18, 11:57:51:571] info: updateSuspendResume: true
+[01/20/18, 11:57:51:572] warn: updateSpellcheckerLanguage: Tried to update language, but spellchecker not initialized
+[01/20/18, 11:57:58:706] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T8MVCNGTA"
+}
+[01/20/18, 11:57:58:715] info: Store: MAIN_WINDOW_SHOWN
+[01/20/18, 11:58:00:639] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T8MVCNGTA"
+}
+[01/20/18, 11:58:00:640] info: Store: SELECT_CHANNEL D8NH9B5BM
+[01/20/18, 11:58:00:641] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T8MVCNGTA"
+}
+[01/20/18, 11:58:00:642] info: Store: UPDATE_SETTINGS
+{
+  "locale": "en-US"
+}
+[01/20/18, 11:58:00:643] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T8MVCNGTA",
+  "theme": {
+    "active_item": "#4C9689",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#38978D",
+    "badge": "#EB4D5C",
+    "column_bg": "#4D394B",
+    "hover_item": "#3E313C",
+    "menu_bg": "#3E313C",
+    "text_color": "#FFFFFF"
+  }
+}
+[01/20/18, 11:58:00:652] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    0,
+    20
+  ],
+  "size": [
+    1366,
+    748
+  ]
+}
+[01/20/18, 11:58:01:040] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": false,
+  "teamId": "T8MVCNGTA"
+}
+[01/20/18, 11:58:01:042] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T8MVCNGTA"
+}
+[01/20/18, 11:58:01:042] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "webapp-loaded",
+  "teamId": "T8MVCNGTA"
+}
+[01/20/18, 11:58:01:317] info: Store: STORE_API_TOKEN
+{
+  "teamId": "T8MVCNGTA",
+  "token": "xoxs-⋯"
+}
+[01/20/18, 11:58:06:206] info: Raw Locale list: ["C","en_US.utf8","POSIX",""]
+[01/20/18, 11:58:06:207] info: Filtered Locale list: ["en_US"]
+[01/20/18, 11:58:06:207] info: Counts: {"en":["en_US"]}
+[01/20/18, 11:58:06:207] info: Setting en
+[01/20/18, 11:58:06:208] info: Result: {"en":"en-US"}
+[01/20/18, 11:58:06:210] info: Requesting to load en-US, alternatives are ["en-US","en-US","en-US"]
+[01/20/18, 11:58:06:212] info: Loading dictionary for language en-US
+[01/20/18, 11:58:06:233] info: Returning local copy: /home/mnkhbmb/.config/Slack/dictionaries/en-US.bdic
+[01/20/18, 11:58:06:300] info: Setting current spellchecker to en-US, requested language was en-US
+[01/20/18, 11:58:06:300] info: Creating node-spellchecker instance
+[01/20/18, 11:58:06:301] info: Actually installing spell check provider to Electron

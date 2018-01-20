@@ -1,0 +1,237 @@
+[01/15/18, 00:26:05:905] info: ╔════════════════════════════════════════════════════════════════════════════╗
+[01/15/18, 00:26:05:906] info: ║      Slack 3.0.2, linux 4.9.75-1-lts on x64 at 01/15/18, 00:26:05:901      ║
+[01/15/18, 00:26:05:906] info: ╚════════════════════════════════════════════════════════════════════════════╝
+[01/15/18, 00:26:06:043] info: Initializing local storage instance at path: /home/mnkhbmb/.config/Slack/local-settings.json
+[01/15/18, 00:26:06:701] error: Calls failed to load, bailing
+[01/15/18, 00:26:06:704] info: updateSuspendResume: true
+[01/15/18, 00:26:06:705] warn: updateSpellcheckerLanguage: Tried to update language, but spellchecker not initialized
+[01/15/18, 00:26:10:590] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T8MVCNGTA"
+}
+[01/15/18, 00:26:10:595] info: Store: MAIN_WINDOW_SHOWN
+[01/15/18, 00:26:10:995] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T8MVCNGTA"
+}
+[01/15/18, 00:26:12:060] info: Store: SELECT_CHANNEL C8MVCNMPA
+[01/15/18, 00:26:12:060] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T8MVCNGTA"
+}
+[01/15/18, 00:26:12:061] info: Store: UPDATE_SETTINGS
+{
+  "locale": "en-US"
+}
+[01/15/18, 00:26:12:062] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T8MVCNGTA",
+  "theme": {
+    "active_item": "#4C9689",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#38978D",
+    "badge": "#EB4D5C",
+    "column_bg": "#4D394B",
+    "hover_item": "#3E313C",
+    "menu_bg": "#3E313C",
+    "text_color": "#FFFFFF"
+  }
+}
+[01/15/18, 00:26:12:063] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    689,
+    36
+  ],
+  "size": [
+    661,
+    716
+  ]
+}
+[01/15/18, 00:26:13:458] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": false,
+  "teamId": "T8MVCNGTA"
+}
+[01/15/18, 00:26:13:459] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T8MVCNGTA"
+}
+[01/15/18, 00:26:13:468] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "webapp-loaded",
+  "teamId": "T8MVCNGTA"
+}
+[01/15/18, 00:26:13:564] info: Store: STORE_API_TOKEN
+{
+  "teamId": "T8MVCNGTA",
+  "token": "xoxs-⋯"
+}
+[01/15/18, 00:26:16:069] info: Couldn't detect language for text of length '657': Failed to identify language, ignoring sample
+[01/15/18, 00:26:45:275] info: Unloading spellchecker
+[01/15/18, 00:26:46:272] info: Unloading spellchecker
+[01/15/18, 00:26:48:301] info: Unloading spellchecker
+[01/15/18, 00:26:48:301] info: Store: SET_FULL_SCREEN
+[01/16/18, 17:46:17:033] info: ╔════════════════════════════════════════════════════════════════════════════╗
+[01/16/18, 17:46:17:034] info: ║      Slack 3.0.2, linux 4.9.75-1-lts on x64 at 01/16/18, 17:46:17:030      ║
+[01/16/18, 17:46:17:034] info: ╚════════════════════════════════════════════════════════════════════════════╝
+[01/16/18, 17:46:18:103] info: Initializing local storage instance at path: /home/mnkhbmb/.config/Slack/local-settings.json
+[01/16/18, 17:46:32:325] info: Store: SELECT_CHANNEL D8NH9B5BM
+[01/16/18, 17:46:32:334] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US"
+}
+[01/16/18, 17:46:32:335] info: Store: UPDATE_SETTINGS
+{
+  "locale": "en-US"
+}
+[01/16/18, 17:46:32:750] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T8MVCNGTA"
+}
+[01/16/18, 17:46:32:766] info: Store: MAIN_WINDOW_SHOWN
+[01/16/18, 17:46:33:036] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T8MVCNGTA",
+  "theme": {
+    "active_item": "#4C9689",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#38978D",
+    "badge": "#EB4D5C",
+    "column_bg": "#4D394B",
+    "hover_item": "#3E313C",
+    "menu_bg": "#3E313C",
+    "text_color": "#FFFFFF"
+  }
+}
+[01/16/18, 17:46:33:224] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T8MVCNGTA"
+}
+[01/16/18, 17:46:33:777] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    0,
+    20
+  ],
+  "size": [
+    1366,
+    748
+  ]
+}
+[01/16/18, 17:46:34:268] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": false,
+  "teamId": "T8MVCNGTA"
+}
+[01/16/18, 17:46:34:357] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T8MVCNGTA"
+}
+[01/16/18, 17:46:34:359] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "webapp-loaded",
+  "teamId": "T8MVCNGTA"
+}
+[01/16/18, 17:46:34:548] info: Store: STORE_API_TOKEN
+{
+  "teamId": "T8MVCNGTA",
+  "token": "xoxs-⋯"
+}
+[01/16/18, 17:46:49:195] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    0,
+    20
+  ],
+  "size": [
+    1366,
+    748
+  ]
+}
+[01/16/18, 17:47:03:580] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    0,
+    0
+  ],
+  "size": [
+    1366,
+    768
+  ]
+}
+[01/16/18, 17:47:45:032] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    0,
+    20
+  ],
+  "size": [
+    1366,
+    748
+  ]
+}
+[01/16/18, 18:02:08:779] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    0,
+    0
+  ],
+  "size": [
+    1366,
+    768
+  ]
+}
+[01/16/18, 18:18:46:808] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    0,
+    20
+  ],
+  "size": [
+    1366,
+    748
+  ]
+}
+[01/16/18, 18:19:48:479] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    0,
+    0
+  ],
+  "size": [
+    1366,
+    768
+  ]
+}
+[01/16/18, 18:19:57:056] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    0,
+    20
+  ],
+  "size": [
+    1366,
+    748
+  ]
+}

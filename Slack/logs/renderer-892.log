@@ -1,0 +1,111 @@
+[01/15/18, 21:38:56:526] info: ╔════════════════════════════════════════════════════════════════════════════╗
+[01/15/18, 21:38:56:528] info: ║      Slack 3.0.2, linux 4.9.75-1-lts on x64 at 01/15/18, 21:38:56:521      ║
+[01/15/18, 21:38:56:528] info: ╚════════════════════════════════════════════════════════════════════════════╝
+[01/15/18, 21:38:56:660] info: Initializing local storage instance at path: /home/mnkhbmb/.config/Slack/local-settings.json
+[01/15/18, 21:38:57:617] error: Calls failed to load, bailing
+[01/15/18, 21:38:57:620] info: updateSuspendResume: true
+[01/15/18, 21:38:57:621] warn: updateSpellcheckerLanguage: Tried to update language, but spellchecker not initialized
+[01/15/18, 21:39:02:798] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T8MVCNGTA"
+}
+[01/15/18, 21:39:02:802] info: Store: MAIN_WINDOW_SHOWN
+[01/15/18, 21:39:02:992] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T8MVCNGTA"
+}
+[01/15/18, 21:39:02:994] info: Store: SELECT_CHANNEL D8NH9B5BM
+[01/15/18, 21:39:02:995] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US"
+}
+[01/15/18, 21:39:02:996] info: Store: UPDATE_SETTINGS
+{
+  "locale": "en-US"
+}
+[01/15/18, 21:39:03:003] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    0,
+    20
+  ],
+  "size": [
+    1366,
+    748
+  ]
+}
+[01/15/18, 21:39:03:176] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T8MVCNGTA",
+  "theme": {
+    "active_item": "#4C9689",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#38978D",
+    "badge": "#EB4D5C",
+    "column_bg": "#4D394B",
+    "hover_item": "#3E313C",
+    "menu_bg": "#3E313C",
+    "text_color": "#FFFFFF"
+  }
+}
+[01/15/18, 21:39:03:654] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": false,
+  "teamId": "T8MVCNGTA"
+}
+[01/15/18, 21:39:03:671] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T8MVCNGTA"
+}
+[01/15/18, 21:39:03:671] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "webapp-loaded",
+  "teamId": "T8MVCNGTA"
+}
+[01/15/18, 21:39:03:902] info: Store: STORE_API_TOKEN
+{
+  "teamId": "T8MVCNGTA",
+  "token": "xoxs-⋯"
+}
+[01/15/18, 21:39:05:287] info: Unloading spellchecker
+[01/15/18, 21:39:08:205] info: Raw Locale list: ["C","en_US.utf8","POSIX",""]
+[01/15/18, 21:39:08:205] info: Filtered Locale list: ["en_US"]
+[01/15/18, 21:39:08:205] info: Counts: {"en":["en_US"]}
+[01/15/18, 21:39:08:205] info: Setting en
+[01/15/18, 21:39:08:206] info: Result: {"en":"en-US"}
+[01/15/18, 21:39:08:207] info: Requesting to load en-US, alternatives are ["en-US","en-US","en-US"]
+[01/15/18, 21:39:08:208] info: Loading dictionary for language en-US
+[01/15/18, 21:39:08:241] info: Returning local copy: /home/mnkhbmb/.config/Slack/dictionaries/en-US.bdic
+[01/15/18, 21:39:08:258] info: Setting current spellchecker to en-US, requested language was en-US
+[01/15/18, 21:39:08:258] info: Creating node-spellchecker instance
+[01/15/18, 21:39:08:260] info: Actually installing spell check provider to Electron
+[01/15/18, 21:45:02:368] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[01/15/18, 21:45:02:369] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[01/15/18, 21:45:02:520] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": null,
+  "channel": "D8NH9B5BM",
+  "content": "[REDACTED]",
+  "id": "A2Ac9hYWAV6LyP",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=D8NH9B5BM&message=1516023900.000479&team=T8MVCNGTA",
+  "msg": "1516023900.000479",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/15/18, 22:04:35:517] info: Store: FOREGROUND_APP
+[01/15/18, 22:04:36:051] info: Store: FOREGROUND_APP
+[01/15/18, 22:04:36:531] info: Store: FOREGROUND_APP
+[01/15/18, 22:04:38:019] info: Restoring spellchecker
+[01/15/18, 22:04:38:020] info: Loading dictionary for language en-US
+[01/15/18, 22:04:38:020] info: Returning local copy: /home/mnkhbmb/.config/Slack/dictionaries/en-US.bdic
+[01/15/18, 22:04:38:063] info: Setting current spellchecker to en-US, requested language was en-US
+[01/15/18, 22:04:40:105] info: Unloading spellchecker

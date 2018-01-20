@@ -47,7 +47,7 @@ bindsym $mod+Return exec i3-sensible-terminal
 
 # autostart programs
 exec_always --no-startup-id "compton --config $HOME/.config/compton/compton.conf"
-exec --no-startup-id xrdb -load ~/.Xdefaults
+exec --no-startup-id xrdb -load ~/.Xresources
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 exec --no-startup-id compton
 exec --no-startup-id dropbox start

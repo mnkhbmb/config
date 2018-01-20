@@ -53,3 +53,1781 @@ info: Jan-11 13:30:12.702 [CHECK-UNREADS] Checking unreads after window became f
 info: Jan-11 13:30:12.702 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
 info: Jan-11 15:06:11.999 [CHECK-UNREADS] Checking unreads after window became focused
 info: Jan-11 15:06:11.999 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: ╔════════════════════════════════════════════════════════════════════════════╗
+info: ║      Slack 3.0.2, linux 4.9.75-1-lts on x64 at 01/11/18, 16:36:34:781      ║
+info: ╚════════════════════════════════════════════════════════════════════════════╝
+error: Calls failed to load, bailing
+info: Jan-11 16:36:43.610 [BOOT] booted! pri:0 version:1515656725 start_ms:1515659800807 (2253ms ago)
+info: Jan-11 16:36:43.660 [BOOT] Starting incremental boot (early)
+info: Jan-11 16:36:43.526 [SOCKET-MANAGER] (T8MVCNGTA) Changing from never_connected to prov_connect
+info: Jan-11 16:36:43.526 [SOCKET-MANAGER] (T8MVCNGTA) will stay in prov_connect state for up to 10000 ms
+info: Jan-11 16:36:43.527 [SOCKET-MANAGER] (T8MVCNGTA) Changing from prov_connect to prov_connecting
+info: Jan-11 16:36:43.527 [SOCKET-MANAGER] (T8MVCNGTA) will stay in prov_connecting state for up to 20000 ms
+info: Jan-11 16:36:44.665 [BOOT] Finalizing incremental boot
+info: Jan-11 16:36:45.230 [FLANNEL] received a user_counts_request call while we are not connected; deferring
+info: Jan-11 16:36:45.240 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (49) timestamps added
+info: Jan-11 16:36:45.436 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: Jan-11 16:36:45.437 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Jan-11 16:36:45.437 [CHECK-UNREADS] Not marking C8MVCNMPA because not fully booted
+info: Jan-11 16:36:46.300 [SOCKET-MANAGER] (T8MVCNGTA) Changing from prov_connecting to prov_connected
+info: Jan-11 16:36:46.300 [SOCKET-MANAGER] (T8MVCNGTA) will stay in prov_connected state for up to 60000 ms
+info: Jan-11 16:36:46.400 [FLANNEL] connected! Continuing deferred user_counts_request call
+info: Jan-11 16:36:46.600 [INFO] Got start data from Socket Manager; hydrating it
+warn: 2018/1/11 16:36:46.900  Received a reply to a message we have no record of sending (reply_to = 164, type = message)
+warn: Jan-11 16:36:46.110 activity is not scalar! it needs to be handled by upsertTeam specifically to test if it has changed! object
+info: Jan-11 16:36:46.123 [BOOT] Completed incremental boot
+info: Jan-11 16:36:46.189 [BOOT] _maybeFinalizeOrOpenConnectionToMS will finalize SocketManager
+info: Jan-11 16:36:46.189 [SOCKET-MANAGER] (T8MVCNGTA) Changing from prov_connected to prov_finalize
+info: Jan-11 16:36:46.189 [SOCKET-MANAGER] (T8MVCNGTA) will stay in prov_finalize state for up to 10000 ms
+info: Jan-11 16:36:46.189 [SOCKET-MANAGER] (T8MVCNGTA) Changing from prov_finalize to prov_finalizing
+info: Jan-11 16:36:46.189 [SOCKET-MANAGER] (T8MVCNGTA) will stay in prov_finalizing state for up to 10000 ms
+info: Jan-11 16:36:46.190 [SOCKET-MANAGER] (T8MVCNGTA) Changing from prov_finalizing to connected
+info: Jan-11 16:36:46.190 [SOCKET-MANAGER] (T8MVCNGTA) will stay in connected state for up to Infinity ms
+info: Jan-11 16:36:46.190 [BOOT] _maybeFinalizeOrOpenConnectionToMS did finalize SocketManager
+info: Jan-11 16:36:46.191 [BOOT] Finished first boot 2673 ms after DOM ready
+info: Jan-11 16:36:46.308 [CHECK-UNREADS] Checking unreads after fully booted
+info: Jan-11 16:36:46.309 [CHECK-UNREADS] Marking C8MVCNMPA because unread line is visible
+info: Jan-11 16:36:46.312 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because last_read changed to 1515659804.000000
+info: Jan-11 16:36:46.601 [UNREAD-COUNTS] Completed users.counts processing
+info: Jan-11 16:36:53.606 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-11 16:36:53.606 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-11 16:37:36.633 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-11 16:37:36.634 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-11 16:45:25.356 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-11 16:45:25.356 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-11 16:45:27.669 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-11 16:45:27.670 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: ╔════════════════════════════════════════════════════════════════════════════╗
+info: ║      Slack 3.0.2, linux 4.9.75-1-lts on x64 at 01/11/18, 16:56:35:569      ║
+info: ╚════════════════════════════════════════════════════════════════════════════╝
+error: Calls failed to load, bailing
+info: Jan-11 16:56:50.190 [BOOT] booted! pri:0 version:1515656725 start_ms:1515661007144 (2874ms ago)
+info: Jan-11 16:56:50.240 [BOOT] Starting incremental boot (early)
+info: Jan-11 16:56:50.643 [SOCKET-MANAGER] (T8MVCNGTA) Changing from never_connected to prov_connect
+info: Jan-11 16:56:50.644 [SOCKET-MANAGER] (T8MVCNGTA) will stay in prov_connect state for up to 10000 ms
+info: Jan-11 16:56:50.645 [SOCKET-MANAGER] (T8MVCNGTA) Changing from prov_connect to prov_connecting
+info: Jan-11 16:56:50.645 [SOCKET-MANAGER] (T8MVCNGTA) will stay in prov_connecting state for up to 20000 ms
+info: Jan-11 16:56:51.973 [BOOT] Finalizing incremental boot
+info: Jan-11 16:56:52.673 [FLANNEL] received a user_counts_request call while we are not connected; deferring
+info: Jan-11 16:56:53.103 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: Jan-11 16:56:53.104 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Jan-11 16:56:53.105 [CHECK-UNREADS] Not marking C8MVCNMPA because not fully booted
+info: Jan-11 16:56:53.255 [SOCKET-MANAGER] (T8MVCNGTA) Changing from prov_connecting to prov_connected
+info: Jan-11 16:56:53.255 [SOCKET-MANAGER] (T8MVCNGTA) will stay in prov_connected state for up to 60000 ms
+info: Jan-11 16:56:53.256 [FLANNEL] connected! Continuing deferred user_counts_request call
+info: Jan-11 16:56:53.257 [INFO] Got start data from Socket Manager; hydrating it
+warn: 2018/1/11 16:56:53.261  Received a reply to a message we have no record of sending (reply_to = 164, type = message)
+warn: Jan-11 16:56:53.363 activity is not scalar! it needs to be handled by upsertTeam specifically to test if it has changed! object
+info: Jan-11 16:56:53.374 [BOOT] Completed incremental boot
+info: Jan-11 16:56:53.474 [BOOT] _maybeFinalizeOrOpenConnectionToMS will finalize SocketManager
+info: Jan-11 16:56:53.474 [SOCKET-MANAGER] (T8MVCNGTA) Changing from prov_connected to prov_finalize
+info: Jan-11 16:56:53.474 [SOCKET-MANAGER] (T8MVCNGTA) will stay in prov_finalize state for up to 10000 ms
+info: Jan-11 16:56:53.475 [SOCKET-MANAGER] (T8MVCNGTA) Changing from prov_finalize to prov_finalizing
+info: Jan-11 16:56:53.475 [SOCKET-MANAGER] (T8MVCNGTA) will stay in prov_finalizing state for up to 10000 ms
+info: Jan-11 16:56:53.475 [SOCKET-MANAGER] (T8MVCNGTA) Changing from prov_finalizing to connected
+info: Jan-11 16:56:53.475 [SOCKET-MANAGER] (T8MVCNGTA) will stay in connected state for up to Infinity ms
+info: Jan-11 16:56:53.475 [BOOT] _maybeFinalizeOrOpenConnectionToMS did finalize SocketManager
+info: Jan-11 16:56:53.476 [BOOT] Finished first boot 2840 ms after DOM ready
+info: Jan-11 16:56:53.576 [CHECK-UNREADS] Checking unreads after fully booted
+info: Jan-11 16:56:53.576 [CHECK-UNREADS] Not marking C8MVCNMPA because attention not on chat
+info: Jan-11 16:56:55.492 [UNREAD-COUNTS] Completed users.counts processing
+info: Jan-11 16:56:55.649 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-11 16:56:55.651 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-11 16:56:55.652 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-11 16:56:55.652 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-11 16:56:59.290 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-11 16:56:59.291 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-11 16:57:01.235 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-11 16:57:01.235 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-11 17:11:28.500 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-11 17:11:28.500 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-11 17:15:40.159 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:15:40.161 [UNREAD-COUNTS] Updated unread_cnt for C8MVCNMPA: 1
+info: Jan-11 17:15:40.162 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:15:40.162 [CHECK-UNREADS] Not marking C8MVCNMPA because attention not on chat
+info: Jan-11 17:15:48.127 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:15:48.128 [UNREAD-COUNTS] Updated unread_cnt for C8MVCNMPA: 2
+info: Jan-11 17:15:48.128 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:15:48.129 [CHECK-UNREADS] Not marking C8MVCNMPA because attention not on chat
+info: Jan-11 17:15:50.810 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-11 17:15:50.810 [CHECK-UNREADS] Marking C8MVCNMPA because unread line is visible
+info: Jan-11 17:15:50.816 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because last_read changed to 1515662147.000315
+info: Jan-11 17:15:50.816 [UNREAD-COUNTS] Updated unread_cnt for C8MVCNMPA: 0
+info: Jan-11 17:15:55.276 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:15:55.276 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:15:55.277 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-11 17:15:55.626 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because message removed
+info: Jan-11 17:15:55.626 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:15:55.626 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:15:55.626 [CHECK-UNREADS] Marking C8MVCNMPA because unread line is visible
+info: Jan-11 17:15:55.627 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because last_read changed to 1515662155.000078
+info: Jan-11 17:15:55.963 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:15:55.963 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:15:55.963 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-11 17:15:56.411 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because message removed
+info: Jan-11 17:15:56.411 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:15:56.411 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:15:56.412 [CHECK-UNREADS] Marking C8MVCNMPA because unread line is visible
+info: Jan-11 17:15:56.412 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because last_read changed to 1515662156.000038
+info: Jan-11 17:16:00.190 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-11 17:16:00.190 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-11 17:16:09.984 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:16:09.985 [UNREAD-COUNTS] Updated unread_cnt for C8MVCNMPA: 1
+info: Jan-11 17:16:09.986 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:16:09.986 [CHECK-UNREADS] Not marking C8MVCNMPA because attention not on chat
+info: Jan-11 17:16:13.594 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-11 17:16:13.594 [CHECK-UNREADS] Marking C8MVCNMPA because unread line is visible
+info: Jan-11 17:16:13.595 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because last_read changed to 1515662169.000264
+info: Jan-11 17:16:13.595 [UNREAD-COUNTS] Updated unread_cnt for C8MVCNMPA: 0
+info: Jan-11 17:16:14.132 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:16:14.132 [UNREAD-COUNTS] Updated unread_cnt for C8MVCNMPA: 1
+info: Jan-11 17:16:14.132 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:16:14.133 [CHECK-UNREADS] Marking C8MVCNMPA because unread line is visible
+info: Jan-11 17:16:14.135 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because last_read changed to 1515662173.000316
+info: Jan-11 17:16:14.135 [UNREAD-COUNTS] Updated unread_cnt for C8MVCNMPA: 0
+info: Jan-11 17:16:18.460 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-11 17:16:18.460 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-11 17:16:20.260 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-11 17:16:20.260 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-11 17:16:21.353 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:16:21.353 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:16:21.353 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-11 17:16:21.708 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:16:21.708 [UNREAD-COUNTS] Updated unread_cnt for C8MVCNMPA: 1
+info: Jan-11 17:16:21.709 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:16:21.709 [CHECK-UNREADS] Marking C8MVCNMPA because unread line is visible
+info: Jan-11 17:16:21.711 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because last_read changed to 1515662181.000127
+info: Jan-11 17:16:21.711 [UNREAD-COUNTS] Updated unread_cnt for C8MVCNMPA: 0
+info: Jan-11 17:16:21.715 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because message removed
+info: Jan-11 17:16:21.715 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:16:21.716 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:16:21.716 [CHECK-UNREADS] Marking C8MVCNMPA because unread line is visible
+info: Jan-11 17:16:21.716 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because last_read changed to 1515662181.000156
+info: Jan-11 17:16:24.283 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:16:24.283 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:16:24.283 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-11 17:16:24.581 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:16:24.581 [UNREAD-COUNTS] Updated unread_cnt for C8MVCNMPA: 1
+info: Jan-11 17:16:24.582 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:16:24.582 [CHECK-UNREADS] Marking C8MVCNMPA because unread line is visible
+info: Jan-11 17:16:24.585 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because last_read changed to 1515662184.000154
+info: Jan-11 17:16:24.585 [UNREAD-COUNTS] Updated unread_cnt for C8MVCNMPA: 0
+info: Jan-11 17:16:24.630 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because message removed
+info: Jan-11 17:16:24.630 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:16:24.630 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:16:24.631 [CHECK-UNREADS] Marking C8MVCNMPA because unread line is visible
+info: Jan-11 17:16:24.632 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because last_read changed to 1515662184.000174
+info: Jan-11 17:16:26.206 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:16:26.207 [UNREAD-COUNTS] Updated unread_cnt for C8MVCNMPA: 1
+info: Jan-11 17:16:26.208 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:16:26.208 [CHECK-UNREADS] Not marking C8MVCNMPA because attention not on chat
+info: Jan-11 17:16:27.657 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-11 17:16:27.658 [CHECK-UNREADS] Marking C8MVCNMPA because unread line is visible
+info: Jan-11 17:16:27.659 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because last_read changed to 1515662185.000383
+info: Jan-11 17:16:27.659 [UNREAD-COUNTS] Updated unread_cnt for C8MVCNMPA: 0
+warn: Jan-11 17:16:28.110 NOT going back in time on channel C8MVCNMPA. last_read = 1515662185.000383 -> 1515662184.000174, reason: unspecified
+info: Jan-11 17:16:29.696 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-11 17:16:29.696 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-11 17:16:43.323 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-11 17:16:43.323 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-11 17:16:43.323 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-11 17:16:43.323 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+warn: Jan-11 17:16:45.495 channel "C8MVCNMPA" already displayed
+info: Jan-11 17:16:48.845 [INFO] TS.files.uploadProcessingOver polling_file_id:F8R8ET56W polling_ticket:t298346441687 polling_count:1
+info: Jan-11 17:16:48.847 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:16:48.848 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:16:48.848 [CHECK-UNREADS] Not marking C8MVCNMPA because attention not on chat
+info: Jan-11 17:16:48.849 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because last_read changed to 1515662207.000126
+info: Jan-11 17:16:49.806 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-11 17:16:49.807 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-11 17:16:51.990 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-11 17:16:51.990 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-11 17:16:52.518 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-11 17:16:52.518 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-11 17:17:08.930 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:17:08.930 [UNREAD-COUNTS] Updated unread_cnt for C8MVCNMPA: 1
+info: Jan-11 17:17:08.931 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:17:08.931 [CHECK-UNREADS] Not marking C8MVCNMPA because attention not on chat
+info: Jan-11 17:17:12.596 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:17:12.596 [UNREAD-COUNTS] Updated unread_cnt for C8MVCNMPA: 2
+info: Jan-11 17:17:12.597 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:17:12.597 [CHECK-UNREADS] Not marking C8MVCNMPA because attention not on chat
+info: Jan-11 17:17:15.465 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:17:15.466 [UNREAD-COUNTS] Updated unread_cnt for C8MVCNMPA: 3
+info: Jan-11 17:17:15.467 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:17:15.467 [CHECK-UNREADS] Not marking C8MVCNMPA because attention not on chat
+info: Jan-11 17:17:17.363 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-11 17:17:17.363 [CHECK-UNREADS] Marking C8MVCNMPA because unread line is visible
+info: Jan-11 17:17:17.364 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because last_read changed to 1515662235.000002
+info: Jan-11 17:17:17.364 [UNREAD-COUNTS] Updated unread_cnt for C8MVCNMPA: 0
+info: Jan-11 17:17:18.432 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:17:18.432 [UNREAD-COUNTS] Updated unread_cnt for C8MVCNMPA: 1
+info: Jan-11 17:17:18.433 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:17:18.433 [CHECK-UNREADS] Marking C8MVCNMPA because unread line is visible
+info: Jan-11 17:17:18.436 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because last_read changed to 1515662238.000072
+info: Jan-11 17:17:18.436 [UNREAD-COUNTS] Updated unread_cnt for C8MVCNMPA: 0
+info: Jan-11 17:17:19.850 [CHECK-UNREADS] unreadLineVisible updated: true -> false
+info: Jan-11 17:17:20.699 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: Jan-11 17:17:20.699 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Jan-11 17:17:20.700 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-11 17:17:39.132 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:17:39.132 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:17:39.132 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-11 17:17:39.519 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because message removed
+info: Jan-11 17:17:39.519 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:17:39.519 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:17:39.520 [CHECK-UNREADS] Marking C8MVCNMPA because unread line is visible
+info: Jan-11 17:17:39.520 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because last_read changed to 1515662259.000009
+info: Jan-11 17:17:39.944 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:17:39.944 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:17:39.944 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-11 17:17:40.290 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because message removed
+info: Jan-11 17:17:40.290 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:17:40.291 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:17:40.291 [CHECK-UNREADS] Marking C8MVCNMPA because unread line is visible
+info: Jan-11 17:17:40.291 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because last_read changed to 1515662260.000019
+info: Jan-11 17:17:44.715 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-11 17:17:44.715 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-11 17:17:56.899 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:17:56.899 [UNREAD-COUNTS] Updated unread_cnt for C8MVCNMPA: 1
+info: Jan-11 17:17:56.900 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:17:56.900 [CHECK-UNREADS] Not marking C8MVCNMPA because attention not on chat
+info: Jan-11 17:17:58.355 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-11 17:17:58.355 [CHECK-UNREADS] Marking C8MVCNMPA because unread line is visible
+info: Jan-11 17:17:58.356 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because last_read changed to 1515662276.000328
+info: Jan-11 17:17:58.356 [UNREAD-COUNTS] Updated unread_cnt for C8MVCNMPA: 0
+info: Jan-11 17:18:02.978 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:18:02.979 [UNREAD-COUNTS] Updated unread_cnt for C8MVCNMPA: 1
+info: Jan-11 17:18:02.979 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:18:02.979 [CHECK-UNREADS] Not marking C8MVCNMPA because attention not on chat
+info: Jan-11 17:18:29.652 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:18:29.652 [UNREAD-COUNTS] Updated unread_cnt for C8MVCNMPA: 2
+info: Jan-11 17:18:29.653 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:18:29.653 [CHECK-UNREADS] Not marking C8MVCNMPA because attention not on chat
+info: Jan-11 17:18:32.718 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:18:32.719 [UNREAD-COUNTS] Updated unread_cnt for C8MVCNMPA: 3
+info: Jan-11 17:18:32.719 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:18:32.720 [CHECK-UNREADS] Not marking C8MVCNMPA because attention not on chat
+info: Jan-11 17:18:35.473 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-11 17:18:35.473 [CHECK-UNREADS] Not marking C8MVCNMPA because attention not on chat
+info: Jan-11 17:18:36.338 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-11 17:18:36.338 [CHECK-UNREADS] Marking C8MVCNMPA because unread line is visible
+info: Jan-11 17:18:36.340 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because last_read changed to 1515662312.000176
+info: Jan-11 17:18:36.340 [UNREAD-COUNTS] Updated unread_cnt for C8MVCNMPA: 0
+info: Jan-11 17:18:36.957 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-11 17:18:36.957 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-11 17:18:38.142 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:18:38.142 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:18:38.142 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-11 17:18:38.206 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:18:38.207 [UNREAD-COUNTS] Updated unread_cnt for C8MVCNMPA: 1
+info: Jan-11 17:18:38.207 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:18:38.207 [CHECK-UNREADS] Marking C8MVCNMPA because unread line is visible
+info: Jan-11 17:18:38.209 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because last_read changed to 1515662317.000521
+info: Jan-11 17:18:38.209 [UNREAD-COUNTS] Updated unread_cnt for C8MVCNMPA: 0
+info: Jan-11 17:18:38.489 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because message removed
+info: Jan-11 17:18:38.490 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:18:38.490 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:18:38.490 [CHECK-UNREADS] Marking C8MVCNMPA because unread line is visible
+info: Jan-11 17:18:38.490 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because last_read changed to 1515662318.000056
+info: Jan-11 17:18:38.693 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:18:38.693 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:18:38.693 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-11 17:18:39.390 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because message removed
+info: Jan-11 17:18:39.390 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:18:39.390 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:18:39.390 [CHECK-UNREADS] Marking C8MVCNMPA because unread line is visible
+info: Jan-11 17:18:39.400 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because last_read changed to 1515662318.000317
+info: Jan-11 17:18:43.603 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:18:43.603 [UNREAD-COUNTS] Updated unread_cnt for C8MVCNMPA: 1
+info: Jan-11 17:18:43.604 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:18:43.604 [CHECK-UNREADS] Not marking C8MVCNMPA because attention not on chat
+info: Jan-11 17:18:46.742 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-11 17:18:46.743 [CHECK-UNREADS] Marking C8MVCNMPA because unread line is visible
+info: Jan-11 17:18:46.744 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because last_read changed to 1515662323.000225
+info: Jan-11 17:18:46.744 [UNREAD-COUNTS] Updated unread_cnt for C8MVCNMPA: 0
+info: Jan-11 17:18:47.670 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:18:47.670 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:18:47.670 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-11 17:18:48.129 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because message removed
+info: Jan-11 17:18:48.129 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:18:48.129 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:18:48.130 [CHECK-UNREADS] Not marking C8MVCNMPA because attention not on chat
+info: Jan-11 17:18:53.364 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:18:53.364 [UNREAD-COUNTS] Updated unread_cnt for C8MVCNMPA: 1
+info: Jan-11 17:18:53.365 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:18:53.365 [CHECK-UNREADS] Not marking C8MVCNMPA because attention not on chat
+info: Jan-11 17:18:56.834 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:18:56.834 [UNREAD-COUNTS] Updated unread_cnt for C8MVCNMPA: 2
+info: Jan-11 17:18:56.835 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:18:56.835 [CHECK-UNREADS] Not marking C8MVCNMPA because attention not on chat
+info: Jan-11 17:18:58.785 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:18:58.785 [UNREAD-COUNTS] Updated unread_cnt for C8MVCNMPA: 3
+info: Jan-11 17:18:58.786 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:18:58.786 [CHECK-UNREADS] Not marking C8MVCNMPA because attention not on chat
+info: Jan-11 17:19:06.462 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:19:06.462 [UNREAD-COUNTS] Updated unread_cnt for C8MVCNMPA: 4
+info: Jan-11 17:19:06.463 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:19:06.463 [CHECK-UNREADS] Not marking C8MVCNMPA because attention not on chat
+info: Jan-11 17:19:12.826 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:19:12.827 [UNREAD-COUNTS] Updated unread_cnt for C8MVCNMPA: 5
+info: Jan-11 17:19:12.827 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:19:12.828 [CHECK-UNREADS] Not marking C8MVCNMPA because attention not on chat
+info: Jan-11 17:19:13.616 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:19:13.617 [UNREAD-COUNTS] Updated unread_cnt for C8MVCNMPA: 6
+info: Jan-11 17:19:13.617 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:19:13.618 [CHECK-UNREADS] Not marking C8MVCNMPA because attention not on chat
+info: Jan-11 17:19:58.713 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-11 17:19:58.713 [CHECK-UNREADS] Marking C8MVCNMPA because unread line is visible
+info: Jan-11 17:19:58.715 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because last_read changed to 1515662353.000205
+info: Jan-11 17:19:58.715 [UNREAD-COUNTS] Updated unread_cnt for C8MVCNMPA: 0
+info: Jan-11 17:20:06.266 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:20:06.266 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:20:06.267 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-11 17:20:06.662 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because message removed
+info: Jan-11 17:20:06.662 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:20:06.662 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:20:06.662 [CHECK-UNREADS] Marking C8MVCNMPA because unread line is visible
+info: Jan-11 17:20:06.663 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because last_read changed to 1515662406.000099
+info: Jan-11 17:20:16.101 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-11 17:20:16.101 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-11 17:20:16.101 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-11 17:20:16.102 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-11 17:20:24.452 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-11 17:20:24.453 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-11 17:20:30.180 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-11 17:20:30.180 [CHECK-UNREADS] Not marking C8MVCNMPA because attention not on chat
+info: Jan-11 17:20:30.180 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-11 17:20:30.180 [CHECK-UNREADS] Not marking C8MVCNMPA because attention not on chat
+warn: Jan-11 17:20:31.515 channel "C8MVCNMPA" already displayed
+info: Jan-11 17:20:37.384 [INFO] TS.files.uploadProcessingOver polling_file_id:F8QJNB5PA polling_ticket:t297405066917 polling_count:2
+info: Jan-11 17:20:37.386 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:20:37.386 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:20:37.386 [CHECK-UNREADS] Not marking C8MVCNMPA because attention not on chat
+info: Jan-11 17:20:37.387 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because last_read changed to 1515662435.000474
+info: Jan-11 17:20:55.175 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-11 17:20:55.176 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-11 17:20:56.110 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-11 17:20:56.110 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-11 17:20:57.489 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-11 17:20:57.489 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-11 17:21:07.324 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:21:07.324 [UNREAD-COUNTS] Updated unread_cnt for C8MVCNMPA: 1
+info: Jan-11 17:21:07.324 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:21:07.325 [CHECK-UNREADS] Not marking C8MVCNMPA because attention not on chat
+info: Jan-11 17:21:08.410 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:21:08.410 [UNREAD-COUNTS] Updated unread_cnt for C8MVCNMPA: 2
+info: Jan-11 17:21:08.420 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:21:08.420 [CHECK-UNREADS] Not marking C8MVCNMPA because attention not on chat
+info: Jan-11 17:21:10.732 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-11 17:21:10.733 [CHECK-UNREADS] Marking C8MVCNMPA because unread line is visible
+info: Jan-11 17:21:10.735 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because last_read changed to 1515662467.000385
+info: Jan-11 17:21:10.735 [UNREAD-COUNTS] Updated unread_cnt for C8MVCNMPA: 0
+info: Jan-11 17:21:14.234 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:21:14.235 [UNREAD-COUNTS] Updated unread_cnt for C8MVCNMPA: 1
+info: Jan-11 17:21:14.235 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:21:14.235 [CHECK-UNREADS] Not marking C8MVCNMPA because attention not on chat
+info: Jan-11 17:21:22.195 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:21:22.195 [UNREAD-COUNTS] Updated unread_cnt for C8MVCNMPA: 2
+info: Jan-11 17:21:22.196 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:21:22.196 [CHECK-UNREADS] Not marking C8MVCNMPA because attention not on chat
+info: Jan-11 17:21:33.906 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:21:33.906 [UNREAD-COUNTS] Updated unread_cnt for C8MVCNMPA: 3
+info: Jan-11 17:21:33.906 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:21:33.907 [CHECK-UNREADS] Marking C8MVCNMPA because unread line is visible
+info: Jan-11 17:21:33.908 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because last_read changed to 1515662493.000282
+info: Jan-11 17:21:33.908 [UNREAD-COUNTS] Updated unread_cnt for C8MVCNMPA: 0
+info: Jan-11 17:21:43.446 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-11 17:21:43.446 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-11 17:21:47.423 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-11 17:21:47.423 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-11 17:22:08.874 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-11 17:22:08.874 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-11 17:22:12.926 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:22:12.927 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:22:12.927 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-11 17:22:13.329 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because message removed
+info: Jan-11 17:22:13.329 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:22:13.330 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:22:13.330 [CHECK-UNREADS] Marking C8MVCNMPA because unread line is visible
+info: Jan-11 17:22:13.330 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because last_read changed to 1515662532.000384
+info: Jan-11 17:22:20.899 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-11 17:22:20.900 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-11 17:22:26.800 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-11 17:22:26.800 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-11 17:22:26.939 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-11 17:22:26.940 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-11 17:22:31.516 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-11 17:22:31.516 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-11 17:22:44.546 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:22:44.546 [UNREAD-COUNTS] Updated unread_cnt for C8MVCNMPA: 1
+info: Jan-11 17:22:44.547 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:22:44.547 [CHECK-UNREADS] Not marking C8MVCNMPA because attention not on chat
+info: Jan-11 17:22:50.900 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-11 17:22:50.100 [CHECK-UNREADS] Marking C8MVCNMPA because unread line is visible
+info: Jan-11 17:22:50.110 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because last_read changed to 1515662564.000004
+info: Jan-11 17:22:50.110 [UNREAD-COUNTS] Updated unread_cnt for C8MVCNMPA: 0
+info: Jan-11 17:22:52.403 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:22:52.404 [UNREAD-COUNTS] Updated unread_cnt for C8MVCNMPA: 1
+info: Jan-11 17:22:52.404 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:22:52.404 [CHECK-UNREADS] Marking C8MVCNMPA because unread line is visible
+info: Jan-11 17:22:52.406 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because last_read changed to 1515662571.000520
+info: Jan-11 17:22:52.406 [UNREAD-COUNTS] Updated unread_cnt for C8MVCNMPA: 0
+info: Jan-11 17:22:52.435 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-11 17:22:52.435 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+warn: Jan-11 17:22:53.163 NOT going back in time on channel C8MVCNMPA. last_read = 1515662571.000520 -> 1515662564.000004, reason: unspecified
+info: Jan-11 17:22:53.572 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-11 17:22:53.572 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-11 17:22:53.572 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-11 17:22:53.572 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-11 17:22:53.572 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-11 17:22:53.573 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-11 17:22:55.828 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:22:55.829 [UNREAD-COUNTS] Updated unread_cnt for C8MVCNMPA: 1
+info: Jan-11 17:22:55.829 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:22:55.830 [CHECK-UNREADS] Marking C8MVCNMPA because unread line is visible
+info: Jan-11 17:22:55.831 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because last_read changed to 1515662575.000214
+info: Jan-11 17:22:55.832 [UNREAD-COUNTS] Updated unread_cnt for C8MVCNMPA: 0
+info: Jan-11 17:22:59.877 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:22:59.877 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:22:59.877 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-11 17:23:00.337 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because message removed
+info: Jan-11 17:23:00.337 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:23:00.337 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:23:00.337 [CHECK-UNREADS] Marking C8MVCNMPA because unread line is visible
+info: Jan-11 17:23:00.338 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because last_read changed to 1515662579.000423
+info: Jan-11 17:23:03.610 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-11 17:23:03.610 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-11 17:23:05.554 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:23:05.554 [UNREAD-COUNTS] Updated unread_cnt for C8MVCNMPA: 1
+info: Jan-11 17:23:05.555 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:23:05.555 [CHECK-UNREADS] Marking C8MVCNMPA because unread line is visible
+info: Jan-11 17:23:05.557 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because last_read changed to 1515662585.000055
+info: Jan-11 17:23:05.557 [UNREAD-COUNTS] Updated unread_cnt for C8MVCNMPA: 0
+info: Jan-11 17:23:11.938 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-11 17:23:11.938 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-11 17:23:19.489 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:23:19.489 [UNREAD-COUNTS] Updated unread_cnt for C8MVCNMPA: 1
+info: Jan-11 17:23:19.490 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:23:19.490 [CHECK-UNREADS] Not marking C8MVCNMPA because attention not on chat
+info: Jan-11 17:23:20.203 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:23:20.203 [UNREAD-COUNTS] Updated unread_cnt for C8MVCNMPA: 2
+info: Jan-11 17:23:20.204 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:23:20.204 [CHECK-UNREADS] Not marking C8MVCNMPA because attention not on chat
+info: Jan-11 17:23:34.769 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:23:34.770 [UNREAD-COUNTS] Updated unread_cnt for C8MVCNMPA: 3
+info: Jan-11 17:23:34.771 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:23:34.771 [CHECK-UNREADS] Not marking C8MVCNMPA because attention not on chat
+info: Jan-11 17:23:49.302 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-11 17:23:49.303 [CHECK-UNREADS] Marking C8MVCNMPA because unread line is visible
+info: Jan-11 17:23:49.304 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because last_read changed to 1515662614.000298
+info: Jan-11 17:23:49.305 [UNREAD-COUNTS] Updated unread_cnt for C8MVCNMPA: 0
+info: Jan-11 17:23:55.320 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-11 17:23:55.320 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-11 17:23:58.858 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-11 17:23:58.858 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-11 17:24:40.650 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-11 17:24:40.651 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-11 17:24:41.582 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-11 17:24:41.582 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-11 17:24:47.500 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:24:47.500 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:24:47.500 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-11 17:24:47.442 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because message removed
+info: Jan-11 17:24:47.442 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:24:47.442 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:24:47.442 [CHECK-UNREADS] Marking C8MVCNMPA because unread line is visible
+info: Jan-11 17:24:47.443 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because last_read changed to 1515662686.000521
+info: Jan-11 17:24:50.449 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:24:50.449 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:24:50.449 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-11 17:24:50.821 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because message removed
+info: Jan-11 17:24:50.821 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:24:50.821 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:24:50.821 [CHECK-UNREADS] Marking C8MVCNMPA because unread line is visible
+info: Jan-11 17:24:50.822 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because last_read changed to 1515662690.000294
+info: Jan-11 17:24:59.156 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-11 17:24:59.156 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-11 17:25:03.140 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-11 17:25:03.140 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-11 17:25:05.581 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-11 17:25:05.581 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-11 17:25:06.450 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-11 17:25:06.450 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-11 17:25:10.687 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:25:10.687 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:25:10.687 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-11 17:25:18.253 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-11 17:25:18.254 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-11 17:25:52.793 [SOCKET-MANAGER] (T8MVCNGTA) Changing from connected to error
+info: Jan-11 17:25:52.793 [SOCKET-MANAGER] (T8MVCNGTA) will stay in error state for up to 10000 ms
+error: Jan-11 17:25:52.794 SOCKET-MANAGER (T8MVCNGTA) Closing socket due to unknown error
+info: 2018/1/11 17:25:52.795  Stacktrace: ↴
+ at e (https://cfr.slack-edge.com/bv1-1/rollup-core_required_ts.4ebefec8f3aaadc0e210.min.js:1:62892)
+at https://cfr.slack-edge.com/bv1-1/application.a12e5c3a1dca7799548f.min.js:1:875023
+at e (https://cfr.slack-edge.com/bv1-1/application.a12e5c3a1dca7799548f.min.js:1:1081891)
+at e (https://cfr.slack-edge.com/bv1-1/application.a12e5c3a1dca7799548f.min.js:1:1083614)
+at s (https://cfr.slack-edge.com/bv1-1/application.a12e5c3a1dca7799548f.min.js:1:1001815)
+at e (https://cfr.slack-edge.com/bv1-1/application.a12e5c3a1dca7799548f.min.js:1:1083987)
+at e (https://cfr.slack-edge.com/bv1-1/application.a12e5c3a1dca7799548f.min.js:1:1078015)
+at e.<anonymous> (https://cfr.slack-edge.com/bv1-1/rollup-core_required_libs.e2128ea6d06d0290a7f7.min.js:1:833771)
+at O (https://cfr.slack-edge.com/bv1-1/application.a12e5c3a1dca7799548f.min.js:1:1136864)
+at WebSocket._socket.onclose (https://cfr.slack-edge.com/bv1-1/application.a12e5c3a1dca7799548f.min.js:1:1138530)
+info: Jan-11 17:25:52.797 [INFO] Hiding the reconnection banner because we are disconnected
+info: Jan-11 17:25:52.809 [SOCKET-MANAGER] (T8MVCNGTA) Changing from error to wait_for_connectivity
+info: Jan-11 17:25:52.809 [SOCKET-MANAGER] (T8MVCNGTA) will stay in wait_for_connectivity state for up to 300000 ms
+info: Jan-11 17:25:54.219 [SOCKET-MANAGER] (T8MVCNGTA) Changing from wait_for_connectivity to wait_for_rate_limit
+info: Jan-11 17:25:54.219 [SOCKET-MANAGER] (T8MVCNGTA) will stay in wait_for_rate_limit state for up to 120000 ms
+info: Jan-11 17:25:54.220 [SOCKET-MANAGER] (T8MVCNGTA) Changing from wait_for_rate_limit to connect
+info: Jan-11 17:25:54.220 [SOCKET-MANAGER] (T8MVCNGTA) will stay in connect state for up to 10000 ms
+info: Jan-11 17:25:54.220 [SOCKET-MANAGER] (T8MVCNGTA) Changing from connect to checking_fast_reconnect
+info: Jan-11 17:25:54.220 [SOCKET-MANAGER] (T8MVCNGTA) will stay in checking_fast_reconnect state for up to 60000 ms
+info: Jan-11 17:25:55.258 [SOCKET-MANAGER] (T8MVCNGTA) Changing from checking_fast_reconnect to connecting
+info: Jan-11 17:25:55.258 [SOCKET-MANAGER] (T8MVCNGTA) will stay in connecting state for up to 20000 ms
+info: Jan-11 17:25:56.148 [SOCKET-MANAGER] (T8MVCNGTA) Changing from connecting to connected
+info: Jan-11 17:25:56.149 [SOCKET-MANAGER] (T8MVCNGTA) will stay in connected state for up to Infinity ms
+info: Jan-11 17:25:56.149 [EVENTLOG] fr=true, lc=false, lt=1515662692.000316
+info: Jan-11 17:25:56.166 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:25:56.179 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:25:56.180 [UNREAD-COUNTS] Updated unread_cnt for C8MVCNMPA: 1
+info: Jan-11 17:25:56.180 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:25:56.180 [CHECK-UNREADS] Not marking C8MVCNMPA because attention not on chat
+info: Jan-11 17:25:56.190 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:25:56.190 [UNREAD-COUNTS] Updated unread_cnt for C8MVCNMPA: 2
+info: Jan-11 17:25:56.191 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:25:56.191 [CHECK-UNREADS] Not marking C8MVCNMPA because attention not on chat
+info: Jan-11 17:25:56.199 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:25:56.199 [UNREAD-COUNTS] Updated unread_cnt for C8MVCNMPA: 3
+info: Jan-11 17:25:56.200 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:25:56.200 [CHECK-UNREADS] Not marking C8MVCNMPA because attention not on chat
+info: Jan-11 17:25:56.211 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:25:56.211 [UNREAD-COUNTS] Updated unread_cnt for C8MVCNMPA: 4
+info: Jan-11 17:25:56.211 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:25:56.212 [CHECK-UNREADS] Not marking C8MVCNMPA because attention not on chat
+info: Jan-11 17:25:56.218 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:25:56.219 [UNREAD-COUNTS] Updated unread_cnt for C8MVCNMPA: 5
+info: Jan-11 17:25:56.220 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:25:56.220 [CHECK-UNREADS] Not marking C8MVCNMPA because attention not on chat
+info: Jan-11 17:25:56.232 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:25:56.234 [UNREAD-COUNTS] Updated unread_cnt for C8MVCNMPA: 6
+info: Jan-11 17:25:56.235 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:25:56.235 [CHECK-UNREADS] Not marking C8MVCNMPA because attention not on chat
+info: Jan-11 17:25:56.244 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:25:56.245 [UNREAD-COUNTS] Updated unread_cnt for C8MVCNMPA: 7
+info: Jan-11 17:25:56.246 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:25:56.246 [CHECK-UNREADS] Not marking C8MVCNMPA because attention not on chat
+info: Jan-11 17:25:56.254 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:25:56.256 [UNREAD-COUNTS] Updated unread_cnt for C8MVCNMPA: 8
+info: Jan-11 17:25:56.256 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:25:56.256 [CHECK-UNREADS] Not marking C8MVCNMPA because attention not on chat
+info: Jan-11 17:25:56.266 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:25:56.267 [UNREAD-COUNTS] Updated unread_cnt for C8MVCNMPA: 9
+info: Jan-11 17:25:56.267 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:25:56.267 [CHECK-UNREADS] Not marking C8MVCNMPA because attention not on chat
+warn: 2018/1/11 17:25:56.268  Received a reply to a message we have no record of sending (reply_to = 16621, type = message)
+error: Jan-11 17:25:56.269
+info: Jan-11 17:25:58.168 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-11 17:25:58.168 [CHECK-UNREADS] Marking C8MVCNMPA because unread line is visible
+info: Jan-11 17:25:58.169 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because last_read changed to 1515662753.000232
+info: Jan-11 17:25:58.169 [UNREAD-COUNTS] Updated unread_cnt for C8MVCNMPA: 0
+info: Jan-11 17:26:05.224 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:26:05.224 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:26:05.224 [CHECK-UNREADS] Marking C8MVCNMPA because unread line is visible
+info: Jan-11 17:26:05.225 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because last_read changed to 1515662764.000495
+info: Jan-11 17:26:07.550 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:26:07.550 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:26:07.560 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-11 17:26:07.475 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because message removed
+info: Jan-11 17:26:07.475 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:26:07.475 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:26:07.476 [CHECK-UNREADS] Marking C8MVCNMPA because unread line is visible
+info: Jan-11 17:26:07.476 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because last_read changed to 1515662767.000001
+warn: Jan-11 17:26:08.690 NOT going back in time on channel C8MVCNMPA. last_read = 1515662767.000001 -> 1515662764.000495, reason: unspecified
+info: Jan-11 17:26:14.329 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:26:14.329 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:26:14.329 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-11 17:26:14.696 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because message removed
+info: Jan-11 17:26:14.696 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:26:14.696 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:26:14.697 [CHECK-UNREADS] Marking C8MVCNMPA because unread line is visible
+info: Jan-11 17:26:14.697 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because last_read changed to 1515662774.000252
+info: Jan-11 17:26:14.895 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:26:14.895 [UNREAD-COUNTS] Updated unread_cnt for C8MVCNMPA: 1
+info: Jan-11 17:26:14.896 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:26:14.896 [CHECK-UNREADS] Marking C8MVCNMPA because unread line is visible
+info: Jan-11 17:26:14.898 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because last_read changed to 1515662774.000343
+info: Jan-11 17:26:14.898 [UNREAD-COUNTS] Updated unread_cnt for C8MVCNMPA: 0
+info: Jan-11 17:26:18.136 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:26:18.136 [UNREAD-COUNTS] Updated unread_cnt for C8MVCNMPA: 1
+info: Jan-11 17:26:18.137 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:26:18.137 [CHECK-UNREADS] Marking C8MVCNMPA because unread line is visible
+info: Jan-11 17:26:18.138 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because last_read changed to 1515662777.000359
+info: Jan-11 17:26:18.138 [UNREAD-COUNTS] Updated unread_cnt for C8MVCNMPA: 0
+info: Jan-11 17:26:22.835 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:26:22.835 [UNREAD-COUNTS] Updated unread_cnt for C8MVCNMPA: 1
+info: Jan-11 17:26:22.836 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:26:22.836 [CHECK-UNREADS] Marking C8MVCNMPA because unread line is visible
+info: Jan-11 17:26:22.838 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because last_read changed to 1515662782.000311
+info: Jan-11 17:26:22.838 [UNREAD-COUNTS] Updated unread_cnt for C8MVCNMPA: 0
+warn: Jan-11 17:26:22.873 NOT going back in time on channel C8MVCNMPA. last_read = 1515662782.000311 -> 1515662777.000359, reason: unspecified
+info: Jan-11 17:26:22.963 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:26:22.963 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:26:22.963 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-11 17:26:23.308 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because message removed
+info: Jan-11 17:26:23.309 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:26:23.309 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:26:23.309 [CHECK-UNREADS] Marking C8MVCNMPA because unread line is visible
+info: Jan-11 17:26:23.310 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because last_read changed to 1515662782.000585
+info: Jan-11 17:26:25.662 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:26:25.662 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:26:25.662 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-11 17:26:26.800 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because message removed
+info: Jan-11 17:26:26.800 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:26:26.900 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:26:26.900 [CHECK-UNREADS] Marking C8MVCNMPA because unread line is visible
+info: Jan-11 17:26:26.900 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because last_read changed to 1515662785.000328
+info: Jan-11 17:26:39.461 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-11 17:26:39.461 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-11 17:26:40.574 [CHECK-UNREADS] unreadLineVisible updated: true -> false
+info: Jan-11 17:26:52.670 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-11 17:26:52.670 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-11 17:26:53.351 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-11 17:26:53.351 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-11 17:26:53.351 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-11 17:26:53.351 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-11 17:26:53.351 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-11 17:26:53.351 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-11 17:27:06.721 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-11 17:27:06.721 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-11 17:28:04.459 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-11 17:28:04.460 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-11 17:28:04.460 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-11 17:28:04.460 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-11 17:28:04.460 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-11 17:28:04.460 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-11 17:28:32.911 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-11 17:28:32.911 [CHECK-UNREADS] Not marking C8MVCNMPA because attention not on chat
+info: Jan-11 17:29:33.651 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-11 17:29:33.652 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-11 17:29:35.261 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: Jan-11 17:29:35.261 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Jan-11 17:29:35.262 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-11 17:29:48.209 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:29:48.209 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:29:48.209 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-11 17:29:48.562 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because message removed
+info: Jan-11 17:29:48.562 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:29:48.562 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:29:48.563 [CHECK-UNREADS] Marking C8MVCNMPA because unread line is visible
+info: Jan-11 17:29:48.564 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because last_read changed to 1515662988.000129
+info: Jan-11 17:29:48.901 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:29:48.901 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:29:48.901 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-11 17:29:49.238 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because message removed
+info: Jan-11 17:29:49.238 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:29:49.239 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:29:49.239 [CHECK-UNREADS] Not marking C8MVCNMPA because attention not on chat
+info: Jan-11 17:29:50.757 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-11 17:29:50.757 [CHECK-UNREADS] Marking C8MVCNMPA because unread line is visible
+info: Jan-11 17:29:50.758 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because last_read changed to 1515662988.000443
+info: Jan-11 17:30:11.819 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-11 17:30:11.820 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-11 17:30:12.613 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-11 17:30:12.614 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-11 17:30:25.712 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:30:25.713 [UNREAD-COUNTS] Updated unread_cnt for C8MVCNMPA: 1
+info: Jan-11 17:30:25.714 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:30:25.714 [CHECK-UNREADS] Not marking C8MVCNMPA because attention not on chat
+info: Jan-11 17:32:29.401 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-11 17:32:29.401 [CHECK-UNREADS] Marking C8MVCNMPA because unread line is visible
+info: Jan-11 17:32:29.402 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because last_read changed to 1515663025.000083
+info: Jan-11 17:32:29.403 [UNREAD-COUNTS] Updated unread_cnt for C8MVCNMPA: 0
+info: Jan-11 17:32:32.270 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:32:32.280 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:32:32.280 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-11 17:32:32.365 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because message removed
+info: Jan-11 17:32:32.365 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:32:32.367 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:32:32.367 [CHECK-UNREADS] Marking C8MVCNMPA because unread line is visible
+info: Jan-11 17:32:32.368 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because last_read changed to 1515663152.000011
+info: Jan-11 17:32:32.697 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:32:32.698 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:32:32.698 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-11 17:32:33.350 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because message removed
+info: Jan-11 17:32:33.350 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:32:33.350 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:32:33.350 [CHECK-UNREADS] Marking C8MVCNMPA because unread line is visible
+info: Jan-11 17:32:33.360 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because last_read changed to 1515663152.000310
+warn: Jan-11 17:32:33.720 NOT going back in time on channel C8MVCNMPA. last_read = 1515663152.000310 -> 1515663025.000083, reason: unspecified
+info: Jan-11 17:32:37.424 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:32:37.425 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:32:37.425 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-11 17:32:37.761 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because message removed
+info: Jan-11 17:32:37.761 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:32:37.761 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:32:37.762 [CHECK-UNREADS] Marking C8MVCNMPA because unread line is visible
+info: Jan-11 17:32:37.762 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because last_read changed to 1515663157.000326
+warn: Jan-11 17:32:38.820 NOT going back in time on channel C8MVCNMPA. last_read = 1515663157.000326 -> 1515663152.000310, reason: unspecified
+info: Jan-11 17:32:38.532 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:32:38.532 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:32:38.532 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-11 17:32:38.950 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because message removed
+info: Jan-11 17:32:38.950 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:32:38.951 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:32:38.951 [CHECK-UNREADS] Not marking C8MVCNMPA because attention not on chat
+info: Jan-11 17:33:58.330 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:33:58.330 [UNREAD-COUNTS] Updated unread_cnt for C8MVCNMPA: 1
+info: Jan-11 17:33:58.331 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:33:58.331 [CHECK-UNREADS] Not marking C8MVCNMPA because attention not on chat
+info: Jan-11 17:34:02.123 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:34:02.123 [UNREAD-COUNTS] Updated unread_cnt for C8MVCNMPA: 2
+info: Jan-11 17:34:02.124 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:34:02.124 [CHECK-UNREADS] Not marking C8MVCNMPA because attention not on chat
+info: Jan-11 17:34:02.282 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-11 17:34:02.282 [CHECK-UNREADS] Marking C8MVCNMPA because unread line is visible
+info: Jan-11 17:34:02.284 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because last_read changed to 1515663241.000430
+info: Jan-11 17:34:02.284 [UNREAD-COUNTS] Updated unread_cnt for C8MVCNMPA: 0
+info: Jan-11 17:34:05.793 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:34:05.793 [UNREAD-COUNTS] Updated unread_cnt for C8MVCNMPA: 1
+info: Jan-11 17:34:05.794 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:34:05.794 [CHECK-UNREADS] Marking C8MVCNMPA because unread line is visible
+info: Jan-11 17:34:05.796 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because last_read changed to 1515663245.000253
+info: Jan-11 17:34:05.796 [UNREAD-COUNTS] Updated unread_cnt for C8MVCNMPA: 0
+info: Jan-11 17:34:09.543 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:34:09.543 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:34:09.543 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-11 17:34:09.979 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because message removed
+info: Jan-11 17:34:09.980 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:34:09.980 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:34:09.980 [CHECK-UNREADS] Marking C8MVCNMPA because unread line is visible
+info: Jan-11 17:34:09.981 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because last_read changed to 1515663249.000397
+info: Jan-11 17:34:13.565 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:34:13.565 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:34:13.565 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-11 17:34:13.901 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because message removed
+info: Jan-11 17:34:13.901 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:34:13.901 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:34:13.901 [CHECK-UNREADS] Marking C8MVCNMPA because unread line is visible
+info: Jan-11 17:34:13.902 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because last_read changed to 1515663253.000398
+info: Jan-11 17:34:15.548 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:34:15.548 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:34:15.548 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-11 17:34:15.885 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because message removed
+info: Jan-11 17:34:15.885 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:34:15.885 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:34:15.885 [CHECK-UNREADS] Marking C8MVCNMPA because unread line is visible
+info: Jan-11 17:34:15.886 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because last_read changed to 1515663255.000353
+info: Jan-11 17:34:18.400 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-11 17:34:18.410 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-11 17:34:20.346 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:34:20.346 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:34:20.346 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-11 17:34:20.734 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because message removed
+info: Jan-11 17:34:20.734 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:34:20.734 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:34:20.734 [CHECK-UNREADS] Not marking C8MVCNMPA because attention not on chat
+info: Jan-11 17:35:01.293 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:35:01.293 [UNREAD-COUNTS] Updated unread_cnt for C8MVCNMPA: 1
+info: Jan-11 17:35:01.294 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:35:01.294 [CHECK-UNREADS] Not marking C8MVCNMPA because attention not on chat
+info: Jan-11 17:35:07.252 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-11 17:35:07.252 [CHECK-UNREADS] Marking C8MVCNMPA because unread line is visible
+info: Jan-11 17:35:07.254 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because last_read changed to 1515663301.000023
+info: Jan-11 17:35:07.254 [UNREAD-COUNTS] Updated unread_cnt for C8MVCNMPA: 0
+info: Jan-11 17:35:09.354 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:35:09.354 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:35:09.354 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-11 17:35:09.701 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because message removed
+info: Jan-11 17:35:09.702 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:35:09.702 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:35:09.702 [CHECK-UNREADS] Marking C8MVCNMPA because unread line is visible
+info: Jan-11 17:35:09.702 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because last_read changed to 1515663309.000269
+info: Jan-11 17:35:11.533 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:35:11.534 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:35:11.535 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-11 17:35:11.936 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because message removed
+info: Jan-11 17:35:11.937 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:35:11.937 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:35:11.937 [CHECK-UNREADS] Marking C8MVCNMPA because unread line is visible
+info: Jan-11 17:35:11.938 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because last_read changed to 1515663311.000339
+info: Jan-11 17:35:14.600 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:35:14.601 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:35:14.601 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-11 17:35:14.942 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because message removed
+info: Jan-11 17:35:14.942 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:35:14.942 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:35:14.942 [CHECK-UNREADS] Marking C8MVCNMPA because unread line is visible
+info: Jan-11 17:35:14.943 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because last_read changed to 1515663314.000296
+info: Jan-11 17:35:35.694 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:35:35.695 [UNREAD-COUNTS] Updated unread_cnt for C8MVCNMPA: 1
+info: Jan-11 17:35:35.696 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:35:35.696 [CHECK-UNREADS] Not marking C8MVCNMPA because attention not on chat
+info: Jan-11 17:35:36.268 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:35:36.268 [UNREAD-COUNTS] Updated unread_cnt for C8MVCNMPA: 2
+info: Jan-11 17:35:36.269 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:35:36.269 [CHECK-UNREADS] Not marking C8MVCNMPA because attention not on chat
+info: Jan-11 17:35:38.160 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-11 17:35:38.160 [CHECK-UNREADS] Marking C8MVCNMPA because unread line is visible
+info: Jan-11 17:35:38.170 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because last_read changed to 1515663335.000563
+info: Jan-11 17:35:38.170 [UNREAD-COUNTS] Updated unread_cnt for C8MVCNMPA: 0
+info: Jan-11 17:35:39.410 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:35:39.410 [UNREAD-COUNTS] Updated unread_cnt for C8MVCNMPA: 1
+info: Jan-11 17:35:39.410 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:35:39.411 [CHECK-UNREADS] Marking C8MVCNMPA because unread line is visible
+info: Jan-11 17:35:39.412 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because last_read changed to 1515663339.000085
+info: Jan-11 17:35:39.412 [UNREAD-COUNTS] Updated unread_cnt for C8MVCNMPA: 0
+info: Jan-11 17:35:43.309 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:35:43.309 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:35:43.309 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-11 17:35:43.649 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because message removed
+info: Jan-11 17:35:43.649 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-11 17:35:43.649 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-11 17:35:43.649 [CHECK-UNREADS] Not marking C8MVCNMPA because attention not on chat
+info: Jan-11 17:38:32.548 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-11 17:38:32.549 [CHECK-UNREADS] Marking C8MVCNMPA because unread line is visible
+info: Jan-11 17:38:32.550 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because last_read changed to 1515663343.000228
+info: Jan-11 17:38:48.352 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-11 17:38:48.352 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-11 17:39:09.651 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-11 17:39:09.652 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-11 17:39:11.504 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-11 17:39:11.504 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-11 17:40:58.215 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-11 17:40:58.215 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: ╔════════════════════════════════════════════════════════════════════════════╗
+info: ║      Slack 3.0.2, linux 4.9.75-1-lts on x64 at 01/12/18, 10:40:58:923      ║
+info: ╚════════════════════════════════════════════════════════════════════════════╝
+error: Calls failed to load, bailing
+info: Jan-12 10:41:15.673 [BOOT] booted! pri:0 version:1515723695 start_ms:1515724872705 (2968ms ago)
+info: Jan-12 10:41:15.679 [BOOT] Starting incremental boot (early)
+info: Jan-12 10:41:16.175 [SOCKET-MANAGER] (T8MVCNGTA) Changing from never_connected to prov_connect
+info: Jan-12 10:41:16.175 [SOCKET-MANAGER] (T8MVCNGTA) will stay in prov_connect state for up to 10000 ms
+info: Jan-12 10:41:16.176 [SOCKET-MANAGER] (T8MVCNGTA) Changing from prov_connect to prov_connecting
+info: Jan-12 10:41:16.176 [SOCKET-MANAGER] (T8MVCNGTA) will stay in prov_connecting state for up to 20000 ms
+info: Jan-12 10:41:17.220 [BOOT] Finalizing incremental boot
+info: Jan-12 10:41:18.890 [FLANNEL] received a user_counts_request call while we are not connected; deferring
+info: Jan-12 10:41:18.900 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (49) timestamps added
+info: Jan-12 10:41:18.488 [SOCKET-MANAGER] (T8MVCNGTA) Changing from prov_connecting to prov_connected
+info: Jan-12 10:41:18.488 [SOCKET-MANAGER] (T8MVCNGTA) will stay in prov_connected state for up to 60000 ms
+info: Jan-12 10:41:18.489 [FLANNEL] connected! Continuing deferred user_counts_request call
+info: Jan-12 10:41:18.490 [INFO] Got start data from Socket Manager; hydrating it
+info: Jan-12 10:41:18.631 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: Jan-12 10:41:18.632 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Jan-12 10:41:18.632 [CHECK-UNREADS] Not marking C8MVCNMPA because not fully booted
+warn: Jan-12 10:41:18.687 activity is not scalar! it needs to be handled by upsertTeam specifically to test if it has changed! object
+info: Jan-12 10:41:18.698 [BOOT] Completed incremental boot
+info: Jan-12 10:41:18.784 [BOOT] _maybeFinalizeOrOpenConnectionToMS will finalize SocketManager
+info: Jan-12 10:41:18.784 [SOCKET-MANAGER] (T8MVCNGTA) Changing from prov_connected to prov_finalize
+info: Jan-12 10:41:18.784 [SOCKET-MANAGER] (T8MVCNGTA) will stay in prov_finalize state for up to 10000 ms
+info: Jan-12 10:41:18.785 [SOCKET-MANAGER] (T8MVCNGTA) Changing from prov_finalize to prov_finalizing
+info: Jan-12 10:41:18.785 [SOCKET-MANAGER] (T8MVCNGTA) will stay in prov_finalizing state for up to 10000 ms
+info: Jan-12 10:41:18.785 [SOCKET-MANAGER] (T8MVCNGTA) Changing from prov_finalizing to connected
+info: Jan-12 10:41:18.786 [SOCKET-MANAGER] (T8MVCNGTA) will stay in connected state for up to Infinity ms
+info: Jan-12 10:41:18.786 [BOOT] _maybeFinalizeOrOpenConnectionToMS did finalize SocketManager
+info: Jan-12 10:41:18.786 [BOOT] Finished first boot 2620 ms after DOM ready
+info: Jan-12 10:41:18.901 [CHECK-UNREADS] Checking unreads after fully booted
+info: Jan-12 10:41:18.902 [CHECK-UNREADS] Marking C8MVCNMPA because unread line is visible
+info: Jan-12 10:41:18.906 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because last_read changed to 1515724876.000000
+info: Jan-12 10:41:19.916 [UNREAD-COUNTS] Completed users.counts processing
+info: Jan-12 10:41:24.184 [ACTION:CHANNEL-SIDEBAR] Selected D8NH9B5BM
+info: Jan-12 10:41:24.216 [MESSAGE-LIST] Switching channels: D8NH9B5BM timestamps: 0
+info: Jan-12 10:41:24.279 [MESSAGE-LIST] requestAround channelId: D8NH9B5BM isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Jan-12 10:41:24.280 [HISTORY-FETCH] Fetching history for message pane: D8NH9B5BM
+info: Jan-12 10:41:24.283 [MESSAGE-LIST] componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 0
+info: Jan-12 10:41:24.301 [MESSAGE-LIST] requestAround channelId: D8NH9B5BM isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Jan-12 10:41:24.303 [MESSAGE-LIST] componentWillReceiveProps isLoading: true isLoadingOlder: false timestamps: 0
+info: Jan-12 10:41:25.292 [UNREAD-COUNTS] Counting unreads in D8NH9B5BM because (33) timestamps added
+info: Jan-12 10:41:25.297 [MESSAGE-LIST] componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 33
+info: Jan-12 10:41:25.374 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: Jan-12 10:41:25.405 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Jan-12 10:41:25.405 [CHECK-UNREADS] Marking D8NH9B5BM because unread line is visible
+info: Jan-12 10:41:25.407 [UNREAD-COUNTS] Counting unreads in D8NH9B5BM because last_read changed to 1515682800.000562
+info: Jan-12 10:41:25.408 [UNREAD-COUNTS] Updated unread_cnt for D8NH9B5BM: 0
+info: Jan-12 10:44:38.421 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-12 10:44:38.421 [CHECK-UNREADS] Not marking D8NH9B5BM because last_read >= latest && channel is read
+info: Jan-12 10:44:38.905 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-12 10:44:38.906 [CHECK-UNREADS] Not marking D8NH9B5BM because last_read >= latest && channel is read
+info: Jan-12 10:44:45.100 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-12 10:44:45.110 [CHECK-UNREADS] Not marking D8NH9B5BM because last_read >= latest && channel is read
+info: ╔════════════════════════════════════════════════════════════════════════════╗
+info: ║      Slack 3.0.2, linux 4.9.75-1-lts on x64 at 01/14/18, 19:11:33:412      ║
+info: ╚════════════════════════════════════════════════════════════════════════════╝
+error: Calls failed to load, bailing
+info: Jan-14 19:11:50.230 [BOOT] booted! pri:0 version:1515914626 start_ms:1515928306270 (3752ms ago)
+info: Jan-14 19:11:50.230 [BOOT] Starting incremental boot (early)
+info: Jan-14 19:11:50.595 [SOCKET-MANAGER] (T8MVCNGTA) Changing from never_connected to prov_connect
+info: Jan-14 19:11:50.596 [SOCKET-MANAGER] (T8MVCNGTA) will stay in prov_connect state for up to 10000 ms
+info: Jan-14 19:11:50.597 [SOCKET-MANAGER] (T8MVCNGTA) Changing from prov_connect to prov_connecting
+info: Jan-14 19:11:50.597 [SOCKET-MANAGER] (T8MVCNGTA) will stay in prov_connecting state for up to 20000 ms
+info: Jan-14 19:11:51.593 [BOOT] Finalizing incremental boot
+info: Jan-14 19:11:52.549 [UNREAD-COUNTS] Counting unreads in D8NH9B5BM because (42) timestamps added
+info: Jan-14 19:11:52.553 [UNREAD-COUNTS] Updated unread_cnt for D8NH9B5BM: 8
+info: Jan-14 19:11:53.540 [SOCKET-MANAGER] (T8MVCNGTA) Changing from prov_connecting to prov_connected
+info: Jan-14 19:11:53.540 [SOCKET-MANAGER] (T8MVCNGTA) will stay in prov_connected state for up to 60000 ms
+info: Jan-14 19:11:53.570 [INFO] Got start data from Socket Manager; hydrating it
+warn: Jan-14 19:11:53.193 activity is not scalar! it needs to be handled by upsertTeam specifically to test if it has changed! object
+info: Jan-14 19:11:53.205 [BOOT] Completed incremental boot
+info: Jan-14 19:11:53.280 [BOOT] _maybeFinalizeOrOpenConnectionToMS will finalize SocketManager
+info: Jan-14 19:11:53.280 [SOCKET-MANAGER] (T8MVCNGTA) Changing from prov_connected to prov_finalize
+info: Jan-14 19:11:53.280 [SOCKET-MANAGER] (T8MVCNGTA) will stay in prov_finalize state for up to 10000 ms
+info: Jan-14 19:11:53.280 [SOCKET-MANAGER] (T8MVCNGTA) Changing from prov_finalize to prov_finalizing
+info: Jan-14 19:11:53.280 [SOCKET-MANAGER] (T8MVCNGTA) will stay in prov_finalizing state for up to 10000 ms
+info: Jan-14 19:11:53.281 [SOCKET-MANAGER] (T8MVCNGTA) Changing from prov_finalizing to connected
+info: Jan-14 19:11:53.281 [SOCKET-MANAGER] (T8MVCNGTA) will stay in connected state for up to Infinity ms
+info: Jan-14 19:11:53.281 [BOOT] _maybeFinalizeOrOpenConnectionToMS did finalize SocketManager
+info: Jan-14 19:11:53.282 [BOOT] Finished first boot 2695 ms after DOM ready
+info: Jan-14 19:11:53.344 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: Jan-14 19:11:53.426 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Jan-14 19:11:53.427 [CHECK-UNREADS] Marking D8NH9B5BM because unread line is visible
+info: Jan-14 19:11:53.430 [UNREAD-COUNTS] Counting unreads in D8NH9B5BM because last_read changed to 1515928311.000000
+info: Jan-14 19:11:53.431 [UNREAD-COUNTS] Updated unread_cnt for D8NH9B5BM: 0
+info: Jan-14 19:11:53.450 [CHECK-UNREADS] Checking unreads after fully booted
+info: Jan-14 19:11:53.451 [CHECK-UNREADS] Not marking D8NH9B5BM because last_read >= latest && channel is read
+info: Jan-14 19:11:53.476 [CHECK-UNREADS] unreadLineVisible updated: true -> false
+info: Jan-14 19:11:54.128 [UNREAD-COUNTS] Completed users.counts processing
+info: Jan-14 19:11:57.426 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-14 19:11:57.426 [CHECK-UNREADS] Not marking D8NH9B5BM because last_read >= latest && channel is read
+info: Jan-14 19:12:02.230 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-14 19:12:02.230 [CHECK-UNREADS] Not marking D8NH9B5BM because last_read >= latest && channel is read
+info: Jan-14 19:12:03.650 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-14 19:12:03.660 [CHECK-UNREADS] Not marking D8NH9B5BM because last_read >= latest && channel is read
+info: Jan-14 19:12:27.470 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-14 19:12:27.470 [CHECK-UNREADS] Not marking D8NH9B5BM because last_read >= latest && channel is read
+info: Jan-14 19:12:28.388 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-14 19:12:28.389 [CHECK-UNREADS] Not marking D8NH9B5BM because last_read >= latest && channel is read
+info: Jan-14 19:12:29.981 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-14 19:12:29.981 [CHECK-UNREADS] Not marking D8NH9B5BM because last_read >= latest && channel is read
+info: Jan-14 19:12:31.480 [ACTION:CHANNEL-SIDEBAR] Selected D8NH9B5GT
+info: Jan-14 19:12:31.518 [MESSAGE-LIST] Switching channels: D8NH9B5GT timestamps: 0
+info: Jan-14 19:12:31.525 [MESSAGE-LIST] requestAround channelId: D8NH9B5GT isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Jan-14 19:12:31.526 [HISTORY-FETCH] Fetching history for message pane: D8NH9B5GT
+info: Jan-14 19:12:31.544 [MESSAGE-LIST] requestAround channelId: D8NH9B5GT isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Jan-14 19:12:31.546 [MESSAGE-LIST] componentWillReceiveProps isLoading: true isLoadingOlder: null timestamps: 0
+info: Jan-14 19:12:32.800 [ACTION:CHANNEL-SIDEBAR] Selected C8MVCNMPA
+info: Jan-14 19:12:32.590 [MESSAGE-LIST] Switching channels: C8MVCNMPA timestamps: 0
+info: Jan-14 19:12:32.590 [MESSAGE-LIST] componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 0
+info: Jan-14 19:12:32.600 [MESSAGE-LIST] requestAround channelId: C8MVCNMPA isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Jan-14 19:12:32.600 [HISTORY-FETCH] Fetching history for message pane: C8MVCNMPA
+info: Jan-14 19:12:32.102 [MESSAGE-LIST] componentWillReceiveProps isLoading: true isLoadingOlder: null timestamps: 0
+info: Jan-14 19:12:33.530 [MESSAGE-LIST] componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 42
+info: Jan-14 19:12:33.870 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: Jan-14 19:12:33.161 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Jan-14 19:12:33.161 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-14 19:12:35.551 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-14 19:12:35.551 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-14 19:12:35.551 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-14 19:12:35.914 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because message removed
+info: Jan-14 19:12:35.914 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-14 19:12:35.914 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-14 19:12:35.914 [CHECK-UNREADS] Not marking C8MVCNMPA because attention not on chat
+info: Jan-14 19:16:43.218 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-14 19:16:43.219 [UNREAD-COUNTS] Updated unread_cnt for C8MVCNMPA: 1
+info: Jan-14 19:16:43.219 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-14 19:16:43.220 [CHECK-UNREADS] Not marking C8MVCNMPA because attention not on chat
+info: Jan-14 19:27:29.573 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-14 19:27:29.574 [CHECK-UNREADS] Marking C8MVCNMPA because unread line is visible
+info: Jan-14 19:27:29.576 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because last_read changed to 1515928602.000058
+info: Jan-14 19:27:29.576 [UNREAD-COUNTS] Updated unread_cnt for C8MVCNMPA: 0
+info: Jan-14 19:27:33.361 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-14 19:27:33.361 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-14 19:27:33.362 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-14 19:27:33.716 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because message removed
+info: Jan-14 19:27:33.716 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (1) timestamps added
+info: Jan-14 19:27:33.716 [UNREAD-COUNTS] Checking unreads in C8MVCNMPA after a new message
+info: Jan-14 19:27:33.717 [CHECK-UNREADS] Marking C8MVCNMPA because unread line is visible
+info: Jan-14 19:27:33.718 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because last_read changed to 1515929253.000032
+info: ╔════════════════════════════════════════════════════════════════════════════╗
+info: ║      Slack 3.0.2, linux 4.9.75-1-lts on x64 at 01/15/18, 00:25:58:741      ║
+info: ╚════════════════════════════════════════════════════════════════════════════╝
+error: Calls failed to load, bailing
+info: Jan-15 00:26:10.410 [BOOT] booted! pri:0 version:1515914626 start_ms:1515947167519 (2522ms ago)
+info: Jan-15 00:26:10.420 [BOOT] Starting incremental boot (early)
+info: Jan-15 00:26:10.470 [SOCKET-MANAGER] (T8MVCNGTA) Changing from never_connected to prov_connect
+info: Jan-15 00:26:10.471 [SOCKET-MANAGER] (T8MVCNGTA) will stay in prov_connect state for up to 10000 ms
+info: Jan-15 00:26:10.472 [SOCKET-MANAGER] (T8MVCNGTA) Changing from prov_connect to prov_connecting
+info: Jan-15 00:26:10.472 [SOCKET-MANAGER] (T8MVCNGTA) will stay in prov_connecting state for up to 20000 ms
+info: Jan-15 00:26:11.460 [BOOT] Finalizing incremental boot
+info: Jan-15 00:26:11.787 [FLANNEL] received a user_counts_request call while we are not connected; deferring
+info: Jan-15 00:26:11.788 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because (49) timestamps added
+info: Jan-15 00:26:11.791 [UNREAD-COUNTS] Updated unread_cnt for C8MVCNMPA: 4
+info: Jan-15 00:26:12.435 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: Jan-15 00:26:12.436 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Jan-15 00:26:12.436 [CHECK-UNREADS] Not marking C8MVCNMPA because not fully booted
+info: Jan-15 00:26:13.159 [SOCKET-MANAGER] (T8MVCNGTA) Changing from prov_connecting to prov_connected
+info: Jan-15 00:26:13.159 [SOCKET-MANAGER] (T8MVCNGTA) will stay in prov_connected state for up to 60000 ms
+info: Jan-15 00:26:13.160 [FLANNEL] connected! Continuing deferred user_counts_request call
+info: Jan-15 00:26:13.161 [INFO] Got start data from Socket Manager; hydrating it
+warn: Jan-15 00:26:13.264 activity is not scalar! it needs to be handled by upsertTeam specifically to test if it has changed! object
+info: Jan-15 00:26:13.275 [BOOT] Completed incremental boot
+info: Jan-15 00:26:13.351 [BOOT] _maybeFinalizeOrOpenConnectionToMS will finalize SocketManager
+info: Jan-15 00:26:13.352 [SOCKET-MANAGER] (T8MVCNGTA) Changing from prov_connected to prov_finalize
+info: Jan-15 00:26:13.352 [SOCKET-MANAGER] (T8MVCNGTA) will stay in prov_finalize state for up to 10000 ms
+info: Jan-15 00:26:13.352 [SOCKET-MANAGER] (T8MVCNGTA) Changing from prov_finalize to prov_finalizing
+info: Jan-15 00:26:13.352 [SOCKET-MANAGER] (T8MVCNGTA) will stay in prov_finalizing state for up to 10000 ms
+info: Jan-15 00:26:13.352 [SOCKET-MANAGER] (T8MVCNGTA) Changing from prov_finalizing to connected
+info: Jan-15 00:26:13.352 [SOCKET-MANAGER] (T8MVCNGTA) will stay in connected state for up to Infinity ms
+info: Jan-15 00:26:13.353 [BOOT] _maybeFinalizeOrOpenConnectionToMS did finalize SocketManager
+info: Jan-15 00:26:13.353 [BOOT] Finished first boot 2892 ms after DOM ready
+info: Jan-15 00:26:13.469 [CHECK-UNREADS] Checking unreads after fully booted
+info: Jan-15 00:26:13.469 [CHECK-UNREADS] Marking C8MVCNMPA because unread line is visible
+info: Jan-15 00:26:13.472 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because last_read changed to 1515947171.000000
+info: Jan-15 00:26:13.472 [UNREAD-COUNTS] Updated unread_cnt for C8MVCNMPA: 0
+info: Jan-15 00:26:14.140 [UNREAD-COUNTS] Completed users.counts processing
+info: Jan-15 00:26:45.484 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-15 00:26:45.485 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-15 00:26:46.569 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-15 00:26:46.569 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: ╔════════════════════════════════════════════════════════════════════════════╗
+info: ║      Slack 3.0.2, linux 4.9.75-1-lts on x64 at 01/15/18, 12:30:53:102      ║
+info: ╚════════════════════════════════════════════════════════════════════════════╝
+error: Calls failed to load, bailing
+info: ╔════════════════════════════════════════════════════════════════════════════╗
+info: ║      Slack 3.0.2, linux 4.9.75-1-lts on x64 at 01/15/18, 12:32:57:130      ║
+info: ╚════════════════════════════════════════════════════════════════════════════╝
+error: Calls failed to load, bailing
+info: Jan-15 12:33:04.260 [BOOT] booted! pri:0 version:1515989703 start_ms:1515990781935 (2325ms ago)
+info: Jan-15 12:33:04.260 [BOOT] Starting incremental boot (early)
+info: Jan-15 12:33:04.608 [SOCKET-MANAGER] (T8MVCNGTA) Changing from never_connected to prov_connect
+info: Jan-15 12:33:04.608 [SOCKET-MANAGER] (T8MVCNGTA) will stay in prov_connect state for up to 10000 ms
+info: Jan-15 12:33:04.609 [SOCKET-MANAGER] (T8MVCNGTA) Changing from prov_connect to prov_connecting
+info: Jan-15 12:33:04.609 [SOCKET-MANAGER] (T8MVCNGTA) will stay in prov_connecting state for up to 20000 ms
+info: Jan-15 12:33:05.832 [BOOT] Finalizing incremental boot
+info: Jan-15 12:33:06.344 [FLANNEL] received a user_counts_request call while we are not connected; deferring
+info: Jan-15 12:33:06.819 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: Jan-15 12:33:06.820 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Jan-15 12:33:06.820 [CHECK-UNREADS] Not marking C8MVCNMPA because not fully booted
+info: Jan-15 12:33:10.505 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-15 12:33:10.505 [CHECK-UNREADS] Not marking C8MVCNMPA because not fully booted
+info: Jan-15 12:33:10.537 [SOCKET-MANAGER] (T8MVCNGTA) Changing from prov_connecting to prov_connected
+info: Jan-15 12:33:10.537 [SOCKET-MANAGER] (T8MVCNGTA) will stay in prov_connected state for up to 60000 ms
+info: Jan-15 12:33:10.538 [FLANNEL] connected! Continuing deferred user_counts_request call
+info: Jan-15 12:33:10.540 [INFO] Got start data from Socket Manager; hydrating it
+warn: Jan-15 12:33:10.648 activity is not scalar! it needs to be handled by upsertTeam specifically to test if it has changed! object
+info: Jan-15 12:33:10.661 [BOOT] Completed incremental boot
+info: Jan-15 12:33:10.735 [BOOT] _maybeFinalizeOrOpenConnectionToMS will finalize SocketManager
+info: Jan-15 12:33:10.736 [SOCKET-MANAGER] (T8MVCNGTA) Changing from prov_connected to prov_finalize
+info: Jan-15 12:33:10.736 [SOCKET-MANAGER] (T8MVCNGTA) will stay in prov_finalize state for up to 10000 ms
+info: Jan-15 12:33:10.736 [SOCKET-MANAGER] (T8MVCNGTA) Changing from prov_finalize to prov_finalizing
+info: Jan-15 12:33:10.736 [SOCKET-MANAGER] (T8MVCNGTA) will stay in prov_finalizing state for up to 10000 ms
+info: Jan-15 12:33:10.736 [SOCKET-MANAGER] (T8MVCNGTA) Changing from prov_finalizing to connected
+info: Jan-15 12:33:10.737 [SOCKET-MANAGER] (T8MVCNGTA) will stay in connected state for up to Infinity ms
+info: Jan-15 12:33:10.737 [BOOT] _maybeFinalizeOrOpenConnectionToMS did finalize SocketManager
+info: Jan-15 12:33:10.738 [BOOT] Finished first boot 6137 ms after DOM ready
+info: Jan-15 12:33:10.870 [CHECK-UNREADS] Checking unreads after fully booted
+info: Jan-15 12:33:10.871 [CHECK-UNREADS] Marking C8MVCNMPA because unread line is visible
+info: Jan-15 12:33:10.875 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because last_read changed to 1515990788.000000
+info: Jan-15 12:33:11.529 [UNREAD-COUNTS] Completed users.counts processing
+info: Jan-15 12:33:23.169 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-15 12:33:23.169 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-15 12:33:25.182 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-15 12:33:25.182 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-15 12:34:04.910 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-15 12:34:04.910 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-15 12:34:42.881 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-15 12:34:42.881 [CHECK-UNREADS] Not marking C8MVCNMPA because attention not on chat
+info: Jan-15 12:35:39.412 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-15 12:35:39.413 [CHECK-UNREADS] Not marking C8MVCNMPA because last_read >= latest && channel is read
+info: Jan-15 12:35:42.768 [ACTION:CHANNEL-SIDEBAR] Selected D8NH9B5BM
+info: Jan-15 12:35:42.799 [MESSAGE-LIST] Switching channels: D8NH9B5BM timestamps: 0
+info: Jan-15 12:35:42.816 [MESSAGE-LIST] requestAround channelId: D8NH9B5BM isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Jan-15 12:35:42.817 [HISTORY-FETCH] Fetching history for message pane: D8NH9B5BM
+info: Jan-15 12:35:42.820 [MESSAGE-LIST] componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 0
+info: Jan-15 12:35:42.856 [MESSAGE-LIST] requestAround channelId: D8NH9B5BM isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Jan-15 12:35:42.857 [MESSAGE-LIST] componentWillReceiveProps isLoading: true isLoadingOlder: false timestamps: 0
+info: Jan-15 12:35:43.723 [UNREAD-COUNTS] Counting unreads in D8NH9B5BM because (43) timestamps added
+info: Jan-15 12:35:43.727 [MESSAGE-LIST] componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 43
+info: Jan-15 12:35:43.806 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: Jan-15 12:35:43.842 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Jan-15 12:35:43.842 [CHECK-UNREADS] Marking D8NH9B5BM because unread line is visible
+info: Jan-15 12:35:43.846 [UNREAD-COUNTS] Counting unreads in D8NH9B5BM because last_read changed to 1515937500.000089
+info: Jan-15 12:35:43.846 [UNREAD-COUNTS] Updated unread_cnt for D8NH9B5BM: 0
+info: Jan-15 12:36:16.327 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-15 12:36:16.327 [CHECK-UNREADS] Not marking D8NH9B5BM because last_read >= latest && channel is read
+info: Jan-15 12:37:41.449 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-15 12:37:41.449 [CHECK-UNREADS] Not marking D8NH9B5BM because last_read >= latest && channel is read
+info: Jan-15 12:38:00.814 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-15 12:38:00.814 [CHECK-UNREADS] Not marking D8NH9B5BM because last_read >= latest && channel is read
+info: Jan-15 12:38:14.689 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-15 12:38:14.689 [CHECK-UNREADS] Not marking D8NH9B5BM because last_read >= latest && channel is read
+info: Jan-15 12:38:30.506 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-15 12:38:30.506 [CHECK-UNREADS] Not marking D8NH9B5BM because last_read >= latest && channel is read
+info: Jan-15 12:42:56.313 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-15 12:42:56.313 [CHECK-UNREADS] Not marking D8NH9B5BM because last_read >= latest && channel is read
+info: Jan-15 12:42:57.138 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-15 12:42:57.138 [CHECK-UNREADS] Not marking D8NH9B5BM because last_read >= latest && channel is read
+info: Jan-15 12:43:02.651 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-15 12:43:02.652 [CHECK-UNREADS] Not marking D8NH9B5BM because last_read >= latest && channel is read
+info: Jan-15 12:43:03.767 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-15 12:43:03.767 [CHECK-UNREADS] Not marking D8NH9B5BM because last_read >= latest && channel is read
+info: Jan-15 12:43:06.447 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-15 12:43:06.448 [CHECK-UNREADS] Not marking D8NH9B5BM because last_read >= latest && channel is read
+info: Jan-15 13:32:36.931 [SOCKET-MANAGER] (T8MVCNGTA) got offline event; moving to DISCONNECT as needed
+info: Jan-15 13:32:36.932 [SOCKET-MANAGER] (T8MVCNGTA) Changing from connected to disconnect
+info: Jan-15 13:32:36.932 [SOCKET-MANAGER] (T8MVCNGTA) will stay in disconnect state for up to 10000 ms
+info: Jan-15 13:32:36.933 [SOCKET-MANAGER] (T8MVCNGTA) Changing from disconnect to disconnecting
+info: Jan-15 13:32:36.933 [SOCKET-MANAGER] (T8MVCNGTA) will stay in disconnecting state for up to 10000 ms
+info: Jan-15 13:32:36.934 [SOCKET-MANAGER] (T8MVCNGTA) Changing from disconnecting to disconnected
+info: Jan-15 13:32:36.934 [SOCKET-MANAGER] (T8MVCNGTA) will stay in disconnected state for up to 10000 ms
+info: Jan-15 13:32:36.935 [SOCKET-MANAGER] (T8MVCNGTA) Disconnected! Online? false
+info: Jan-15 13:32:36.935 [SOCKET-MANAGER] (T8MVCNGTA) Changing from disconnected to wait_for_connectivity
+info: Jan-15 13:32:36.935 [SOCKET-MANAGER] (T8MVCNGTA) will stay in wait_for_connectivity state for up to 300000 ms
+info: Jan-15 13:32:36.940 [INFO] Hiding the reconnection banner because we are disconnected
+warn: Jan-15 18:22:09.699 Internet connection still offline after 1 attempts (browser says it is still offline)
+warn: Jan-15 18:22:10.726 Internet connection still offline after 2 attempts (browser says it is still offline)
+warn: Jan-15 18:22:11.727 Internet connection still offline after 3 attempts (browser says it is still offline)
+warn: Jan-15 18:22:12.727 Internet connection still offline after 4 attempts (browser says it is still offline)
+warn: Jan-15 18:22:13.727 Internet connection still offline after 5 attempts (browser says it is still offline)
+warn: Jan-15 18:22:14.728 Internet connection still offline after 6 attempts (browser says it is still offline)
+warn: Jan-15 18:22:15.734 Internet connection still offline after 7 attempts (unable to reach API)
+info: Jan-15 18:22:17.967 [INFO] Internet connection has been re-established after 8 retry attempts; offline for NaN seconds
+info: Jan-15 18:22:17.968 [SOCKET-MANAGER] (T8MVCNGTA) Changing from wait_for_connectivity to wait_for_rate_limit
+info: Jan-15 18:22:17.968 [SOCKET-MANAGER] (T8MVCNGTA) will stay in wait_for_rate_limit state for up to 120000 ms
+info: Jan-15 18:22:17.969 [SOCKET-MANAGER] (T8MVCNGTA) Changing from wait_for_rate_limit to connect
+info: Jan-15 18:22:17.969 [SOCKET-MANAGER] (T8MVCNGTA) will stay in connect state for up to 10000 ms
+info: Jan-15 18:22:17.969 [SOCKET-MANAGER] (T8MVCNGTA) Changing from connect to checking_fast_reconnect
+info: Jan-15 18:22:17.969 [SOCKET-MANAGER] (T8MVCNGTA) will stay in checking_fast_reconnect state for up to 60000 ms
+info: Jan-15 18:22:17.970 [SOCKET-MANAGER] (T8MVCNGTA) Changing from checking_fast_reconnect to prov_connect
+info: Jan-15 18:22:17.970 [SOCKET-MANAGER] (T8MVCNGTA) will stay in prov_connect state for up to 10000 ms
+info: Jan-15 18:22:17.970 [SOCKET-MANAGER] (T8MVCNGTA) Changing from prov_connect to prov_connecting
+info: Jan-15 18:22:17.970 [SOCKET-MANAGER] (T8MVCNGTA) will stay in prov_connecting state for up to 20000 ms
+info: Jan-15 18:22:20.539 [SOCKET-MANAGER] (T8MVCNGTA) Changing from prov_connecting to prov_connected
+info: Jan-15 18:22:20.539 [SOCKET-MANAGER] (T8MVCNGTA) will stay in prov_connected state for up to 60000 ms
+info: Jan-15 18:22:20.540 [INFO] Got start data from Socket Manager; hydrating it
+info: Jan-15 18:22:20.641 [INFO] Successfully hydrated start data from Socket Manager; processing it
+warn: Jan-15 18:22:20.642 activity is not scalar! it needs to be handled by upsertTeam specifically to test if it has changed! object
+info: Jan-15 18:22:20.750 [BOOT] _maybeFinalizeOrOpenConnectionToMS will finalize SocketManager
+info: Jan-15 18:22:20.750 [SOCKET-MANAGER] (T8MVCNGTA) Changing from prov_connected to prov_finalize
+info: Jan-15 18:22:20.750 [SOCKET-MANAGER] (T8MVCNGTA) will stay in prov_finalize state for up to 10000 ms
+info: Jan-15 18:22:20.750 [SOCKET-MANAGER] (T8MVCNGTA) Changing from prov_finalize to prov_finalizing
+info: Jan-15 18:22:20.750 [SOCKET-MANAGER] (T8MVCNGTA) will stay in prov_finalizing state for up to 10000 ms
+info: Jan-15 18:22:20.751 [SOCKET-MANAGER] (T8MVCNGTA) Changing from prov_finalizing to connected
+info: Jan-15 18:22:20.751 [SOCKET-MANAGER] (T8MVCNGTA) will stay in connected state for up to Infinity ms
+info: Jan-15 18:22:20.751 [BOOT] _maybeFinalizeOrOpenConnectionToMS did finalize SocketManager
+info: Jan-15 18:22:20.751 [EVENTLOG] fr=false, lc=false, lt=1515990946.000110
+info: Jan-15 18:22:20.751 [EVENTLOG] fetching events since 1515990946.000110 (20794.999890089035 seconds ago)
+info: Jan-15 18:22:20.772 [MESSAGE-LIST] requestAround channelId: D8NH9B5BM isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Jan-15 18:22:20.772 [HISTORY-FETCH] Fetching history for message pane: D8NH9B5BM
+info: Jan-15 18:22:20.773 [CHECK-UNREADS] unreadLineVisible updated: true -> false
+info: Jan-15 18:22:20.774 [MESSAGE-LIST] componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 0
+info: Jan-15 18:22:20.795 [MESSAGE-LIST] requestAround channelId: D8NH9B5BM isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Jan-15 18:22:20.797 [MESSAGE-LIST] componentWillReceiveProps isLoading: true isLoadingOlder: false timestamps: 0
+info: Jan-15 18:22:21.802 [EVENTLOG] nothing to process
+info: Jan-15 18:22:21.802 [EVENTLOG] fetched finish (cancelled? false)
+info: Jan-15 18:22:21.802 [EVENTLOG] dispatching signal and clearing timestamp
+info: Jan-15 18:22:22.749 [UNREAD-COUNTS] Completed users.counts processing
+info: Jan-15 18:22:22.760 [UNREAD-COUNTS] Counting unreads in D8NH9B5BM because (43) timestamps added
+info: Jan-15 18:22:22.761 [MESSAGE-LIST] componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 43
+info: Jan-15 18:22:22.839 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: Jan-15 18:22:22.852 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Jan-15 18:22:22.852 [CHECK-UNREADS] Not marking D8NH9B5BM because attention not on chat
+info: Jan-15 18:22:33.607 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-15 18:22:33.607 [CHECK-UNREADS] Not marking D8NH9B5BM because last_read >= latest && channel is read
+info: Jan-15 19:32:16.349 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-15 19:32:16.350 [CHECK-UNREADS] Not marking D8NH9B5BM because last_read >= latest && channel is read
+info: Jan-15 19:56:43.291 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-15 19:56:43.291 [CHECK-UNREADS] Not marking D8NH9B5BM because last_read >= latest && channel is read
+info: ╔════════════════════════════════════════════════════════════════════════════╗
+info: ║      Slack 3.0.2, linux 4.9.75-1-lts on x64 at 01/15/18, 21:38:47:853      ║
+info: ╚════════════════════════════════════════════════════════════════════════════╝
+error: Calls failed to load, bailing
+info: Jan-15 21:39:01.960 [BOOT] booted! pri:0 version:1516014585 start_ms:1516023538635 (2460ms ago)
+info: Jan-15 21:39:01.960 [BOOT] Starting incremental boot (early)
+info: Jan-15 21:39:01.436 [SOCKET-MANAGER] (T8MVCNGTA) Changing from never_connected to prov_connect
+info: Jan-15 21:39:01.436 [SOCKET-MANAGER] (T8MVCNGTA) will stay in prov_connect state for up to 10000 ms
+info: Jan-15 21:39:01.437 [SOCKET-MANAGER] (T8MVCNGTA) Changing from prov_connect to prov_connecting
+info: Jan-15 21:39:01.437 [SOCKET-MANAGER] (T8MVCNGTA) will stay in prov_connecting state for up to 20000 ms
+info: Jan-15 21:39:02.168 [BOOT] Finalizing incremental boot
+info: Jan-15 21:39:02.791 [UNREAD-COUNTS] Counting unreads in D8NH9B5BM because (43) timestamps added
+info: Jan-15 21:39:02.984 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-15 21:39:02.984 [CHECK-UNREADS] Not marking D8NH9B5BM because not fully booted
+info: Jan-15 21:39:03.110 [FLANNEL] received a user_query_request call while we are not connected; deferring
+info: Jan-15 21:39:03.341 [SOCKET-MANAGER] (T8MVCNGTA) Changing from prov_connecting to prov_connected
+info: Jan-15 21:39:03.342 [SOCKET-MANAGER] (T8MVCNGTA) will stay in prov_connected state for up to 60000 ms
+info: Jan-15 21:39:03.343 [FLANNEL] connected! Continuing deferred user_query_request call
+info: Jan-15 21:39:03.344 [INFO] Got start data from Socket Manager; hydrating it
+info: Jan-15 21:39:03.373 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: Jan-15 21:39:03.374 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Jan-15 21:39:03.374 [CHECK-UNREADS] Not marking D8NH9B5BM because not fully booted
+warn: Jan-15 21:39:03.445 activity is not scalar! it needs to be handled by upsertTeam specifically to test if it has changed! object
+info: Jan-15 21:39:03.460 [BOOT] Completed incremental boot
+info: Jan-15 21:39:03.547 [BOOT] _maybeFinalizeOrOpenConnectionToMS will finalize SocketManager
+info: Jan-15 21:39:03.547 [SOCKET-MANAGER] (T8MVCNGTA) Changing from prov_connected to prov_finalize
+info: Jan-15 21:39:03.547 [SOCKET-MANAGER] (T8MVCNGTA) will stay in prov_finalize state for up to 10000 ms
+info: Jan-15 21:39:03.547 [SOCKET-MANAGER] (T8MVCNGTA) Changing from prov_finalize to prov_finalizing
+info: Jan-15 21:39:03.547 [SOCKET-MANAGER] (T8MVCNGTA) will stay in prov_finalizing state for up to 10000 ms
+info: Jan-15 21:39:03.548 [SOCKET-MANAGER] (T8MVCNGTA) Changing from prov_finalizing to connected
+info: Jan-15 21:39:03.548 [SOCKET-MANAGER] (T8MVCNGTA) will stay in connected state for up to Infinity ms
+info: Jan-15 21:39:03.548 [BOOT] _maybeFinalizeOrOpenConnectionToMS did finalize SocketManager
+info: Jan-15 21:39:03.548 [BOOT] Finished first boot 2122 ms after DOM ready
+info: Jan-15 21:39:03.655 [CHECK-UNREADS] Checking unreads after fully booted
+info: Jan-15 21:39:03.655 [CHECK-UNREADS] Marking D8NH9B5BM because unread line is visible
+info: Jan-15 21:39:03.659 [UNREAD-COUNTS] Counting unreads in D8NH9B5BM because last_read changed to 1516023541.000000
+info: Jan-15 21:39:04.649 [UNREAD-COUNTS] Completed users.counts processing
+info: Jan-15 21:45:02.275 [UNREAD-COUNTS] Counting unreads in D8NH9B5BM because (1) timestamps added
+info: Jan-15 21:45:02.276 [UNREAD-COUNTS] Updated unread_cnt for D8NH9B5BM: 1
+info: Jan-15 21:45:02.277 [UNREAD-COUNTS] Checking unreads in D8NH9B5BM after a new message
+info: Jan-15 21:45:02.277 [CHECK-UNREADS] Not marking D8NH9B5BM because attention not on chat
+info: Jan-15 22:04:38.520 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-15 22:04:38.530 [CHECK-UNREADS] Marking D8NH9B5BM because unread line is visible
+info: Jan-15 22:04:38.560 [UNREAD-COUNTS] Counting unreads in D8NH9B5BM because last_read changed to 1516023900.000479
+info: Jan-15 22:04:38.560 [UNREAD-COUNTS] Updated unread_cnt for D8NH9B5BM: 0
+info: ╔════════════════════════════════════════════════════════════════════════════╗
+info: ║      Slack 3.0.2, linux 4.9.75-1-lts on x64 at 01/16/18, 17:46:10:884      ║
+info: ╚════════════════════════════════════════════════════════════════════════════╝
+error: Calls failed to load, bailing
+info: Jan-16 17:46:29.719 [BOOT] booted! pri:0 version:1516080518 start_ms:1516095984051 (5668ms ago)
+info: Jan-16 17:46:29.720 [BOOT] Starting incremental boot (early)
+info: Jan-16 17:46:31.812 [SOCKET-MANAGER] (T8MVCNGTA) Changing from never_connected to prov_connect
+info: Jan-16 17:46:31.813 [SOCKET-MANAGER] (T8MVCNGTA) will stay in prov_connect state for up to 10000 ms
+info: Jan-16 17:46:31.814 [SOCKET-MANAGER] (T8MVCNGTA) Changing from prov_connect to prov_connecting
+info: Jan-16 17:46:31.814 [SOCKET-MANAGER] (T8MVCNGTA) will stay in prov_connecting state for up to 20000 ms
+info: Jan-16 17:46:32.327 [BOOT] Finalizing incremental boot
+info: Jan-16 17:46:32.666 [UNREAD-COUNTS] Counting unreads in D8NH9B5BM because (44) timestamps added
+info: Jan-16 17:46:33.000 [FLANNEL] received a user_query_request call while we are not connected; deferring
+info: Jan-16 17:46:33.590 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-16 17:46:33.590 [CHECK-UNREADS] Not marking D8NH9B5BM because not fully booted
+info: Jan-16 17:46:33.198 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: Jan-16 17:46:33.198 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Jan-16 17:46:33.199 [CHECK-UNREADS] Not marking D8NH9B5BM because not fully booted
+info: Jan-16 17:46:34.148 [SOCKET-MANAGER] (T8MVCNGTA) Changing from prov_connecting to prov_connected
+info: Jan-16 17:46:34.149 [SOCKET-MANAGER] (T8MVCNGTA) will stay in prov_connected state for up to 60000 ms
+info: Jan-16 17:46:34.150 [FLANNEL] connected! Continuing deferred user_query_request call
+info: Jan-16 17:46:34.151 [INFO] Got start data from Socket Manager; hydrating it
+warn: Jan-16 17:46:34.252 activity is not scalar! it needs to be handled by upsertTeam specifically to test if it has changed! object
+info: Jan-16 17:46:34.263 [BOOT] Completed incremental boot
+info: Jan-16 17:46:34.342 [BOOT] _maybeFinalizeOrOpenConnectionToMS will finalize SocketManager
+info: Jan-16 17:46:34.343 [SOCKET-MANAGER] (T8MVCNGTA) Changing from prov_connected to prov_finalize
+info: Jan-16 17:46:34.343 [SOCKET-MANAGER] (T8MVCNGTA) will stay in prov_finalize state for up to 10000 ms
+info: Jan-16 17:46:34.343 [SOCKET-MANAGER] (T8MVCNGTA) Changing from prov_finalize to prov_finalizing
+info: Jan-16 17:46:34.343 [SOCKET-MANAGER] (T8MVCNGTA) will stay in prov_finalizing state for up to 10000 ms
+info: Jan-16 17:46:34.343 [SOCKET-MANAGER] (T8MVCNGTA) Changing from prov_finalizing to connected
+info: Jan-16 17:46:34.343 [SOCKET-MANAGER] (T8MVCNGTA) will stay in connected state for up to Infinity ms
+info: Jan-16 17:46:34.344 [BOOT] _maybeFinalizeOrOpenConnectionToMS did finalize SocketManager
+info: Jan-16 17:46:34.344 [BOOT] Finished first boot 2541 ms after DOM ready
+info: Jan-16 17:46:34.452 [CHECK-UNREADS] Checking unreads after fully booted
+info: Jan-16 17:46:34.453 [CHECK-UNREADS] Marking D8NH9B5BM because unread line is visible
+info: Jan-16 17:46:34.458 [UNREAD-COUNTS] Counting unreads in D8NH9B5BM because last_read changed to 1516095992.000000
+info: Jan-16 17:46:35.367 [UNREAD-COUNTS] Completed users.counts processing
+info: Jan-16 17:46:48.106 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-16 17:46:48.106 [CHECK-UNREADS] Not marking D8NH9B5BM because last_read >= latest && channel is read
+info: Jan-16 17:47:44.770 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-16 17:47:44.770 [CHECK-UNREADS] Not marking D8NH9B5BM because last_read >= latest && channel is read
+info: Jan-16 18:01:17.437 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-16 18:01:17.437 [CHECK-UNREADS] Not marking D8NH9B5BM because last_read >= latest && channel is read
+info: Jan-16 18:18:45.860 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-16 18:18:45.860 [CHECK-UNREADS] Not marking D8NH9B5BM because last_read >= latest && channel is read
+info: Jan-16 18:19:56.950 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-16 18:19:56.960 [CHECK-UNREADS] Not marking D8NH9B5BM because last_read >= latest && channel is read
+info: Jan-16 18:36:52.501 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-16 18:36:52.501 [CHECK-UNREADS] Not marking D8NH9B5BM because last_read >= latest && channel is read
+info: Jan-16 18:38:16.358 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-16 18:38:16.359 [CHECK-UNREADS] Not marking D8NH9B5BM because last_read >= latest && channel is read
+info: ╔════════════════════════════════════════════════════════════════════════════╗
+info: ║      Slack 3.0.2, linux 4.9.76-1-lts on x64 at 01/16/18, 19:58:39:180      ║
+info: ╚════════════════════════════════════════════════════════════════════════════╝
+error: Calls failed to load, bailing
+info: Jan-16 19:58:54.910 [BOOT] booted! pri:0 version:1516102549 start_ms:1516103930142 (3948ms ago)
+info: Jan-16 19:58:54.910 [BOOT] Starting incremental boot (early)
+info: Jan-16 19:58:54.752 [SOCKET-MANAGER] (T8MVCNGTA) Changing from never_connected to prov_connect
+info: Jan-16 19:58:54.753 [SOCKET-MANAGER] (T8MVCNGTA) will stay in prov_connect state for up to 10000 ms
+info: Jan-16 19:58:54.756 [SOCKET-MANAGER] (T8MVCNGTA) Changing from prov_connect to prov_connecting
+info: Jan-16 19:58:54.756 [SOCKET-MANAGER] (T8MVCNGTA) will stay in prov_connecting state for up to 20000 ms
+info: Jan-16 19:58:55.746 [BOOT] Finalizing incremental boot
+info: Jan-16 19:58:57.173 [SOCKET-MANAGER] (T8MVCNGTA) Changing from prov_connecting to prov_connected
+info: Jan-16 19:58:57.173 [SOCKET-MANAGER] (T8MVCNGTA) will stay in prov_connected state for up to 60000 ms
+info: Jan-16 19:58:57.175 [INFO] Got start data from Socket Manager; hydrating it
+warn: Jan-16 19:58:57.396 activity is not scalar! it needs to be handled by upsertTeam specifically to test if it has changed! object
+info: Jan-16 19:58:57.432 [BOOT] Completed incremental boot
+info: Jan-16 19:58:57.695 [BOOT] _maybeFinalizeOrOpenConnectionToMS will finalize SocketManager
+info: Jan-16 19:58:57.696 [SOCKET-MANAGER] (T8MVCNGTA) Changing from prov_connected to prov_finalize
+info: Jan-16 19:58:57.696 [SOCKET-MANAGER] (T8MVCNGTA) will stay in prov_finalize state for up to 10000 ms
+info: Jan-16 19:58:57.697 [SOCKET-MANAGER] (T8MVCNGTA) Changing from prov_finalize to prov_finalizing
+info: Jan-16 19:58:57.697 [SOCKET-MANAGER] (T8MVCNGTA) will stay in prov_finalizing state for up to 10000 ms
+info: Jan-16 19:58:57.698 [SOCKET-MANAGER] (T8MVCNGTA) Changing from prov_finalizing to connected
+info: Jan-16 19:58:57.698 [SOCKET-MANAGER] (T8MVCNGTA) will stay in connected state for up to Infinity ms
+info: Jan-16 19:58:57.699 [BOOT] _maybeFinalizeOrOpenConnectionToMS did finalize SocketManager
+info: Jan-16 19:58:57.699 [BOOT] Finished first boot 2962 ms after DOM ready
+info: Jan-16 19:58:57.816 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: Jan-16 19:58:57.919 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Jan-16 19:58:57.920 [CHECK-UNREADS] Not marking D8NH9B5BM because attention not on chat
+info: Jan-16 19:58:57.941 [CHECK-UNREADS] Checking unreads after fully booted
+info: Jan-16 19:58:57.941 [CHECK-UNREADS] Not marking D8NH9B5BM because attention not on chat
+info: Jan-16 19:58:58.853 [UNREAD-COUNTS] Completed users.counts processing
+info: Jan-16 19:59:02.580 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-16 19:59:02.590 [CHECK-UNREADS] Not marking D8NH9B5BM because last_read >= latest && channel is read
+info: Jan-16 20:05:22.992 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-16 20:05:22.992 [CHECK-UNREADS] Not marking D8NH9B5BM because last_read >= latest && channel is read
+info: Jan-16 20:29:48.319 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-16 20:29:48.319 [CHECK-UNREADS] Not marking D8NH9B5BM because last_read >= latest && channel is read
+info: Jan-16 20:35:26.547 [UNREAD-COUNTS] Updated unread_cnt for C8MVCNMPA: 1
+info: Jan-16 20:49:35.481 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because last_read changed to 1516106126.000165
+info: Jan-16 20:49:35.481 [UNREAD-COUNTS] Updated unread_cnt for C8MVCNMPA: 0
+info: Jan-16 20:49:55.755 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because last_read changed to 1516106984.000165
+info: Jan-16 20:54:48.156 [UNREAD-COUNTS] Updated unread_cnt for C8MVCNMPA: 1
+info: Jan-16 21:08:38.759 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because last_read changed to 1516107287.000313
+info: Jan-16 21:08:38.759 [UNREAD-COUNTS] Updated unread_cnt for C8MVCNMPA: 0
+info: Jan-16 21:08:55.743 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because last_read changed to 1516108134.000219
+info: Jan-16 21:09:40.210 [UNREAD-COUNTS] Updated unread_cnt for C8MVCNMPA: 1
+info: Jan-16 21:09:41.670 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because last_read changed to 1516108179.000387
+info: Jan-16 21:09:41.671 [UNREAD-COUNTS] Updated unread_cnt for C8MVCNMPA: 0
+info: Jan-16 21:09:45.562 [UNREAD-COUNTS] Updated unread_cnt for C8MVCNMPA: 1
+info: Jan-16 21:09:46.803 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because last_read changed to 1516108185.000107
+info: Jan-16 21:09:46.803 [UNREAD-COUNTS] Updated unread_cnt for C8MVCNMPA: 0
+info: Jan-16 21:09:56.970 [UNREAD-COUNTS] Updated unread_cnt for C8MVCNMPA: 1
+info: Jan-16 21:09:58.704 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because last_read changed to 1516108195.000385
+info: Jan-16 21:09:58.704 [UNREAD-COUNTS] Updated unread_cnt for C8MVCNMPA: 0
+info: Jan-16 21:45:01.166 [UNREAD-COUNTS] Counting unreads in D8NH9B5BM because (1) timestamps added
+info: Jan-16 21:45:01.167 [UNREAD-COUNTS] Updated unread_cnt for D8NH9B5BM: 1
+info: Jan-16 21:45:01.168 [UNREAD-COUNTS] Checking unreads in D8NH9B5BM after a new message
+info: Jan-16 21:45:01.169 [CHECK-UNREADS] Not marking D8NH9B5BM because attention not on chat
+info: Jan-16 22:17:34.664 [UNREAD-COUNTS] Counting unreads in D8NH9B5BM because last_read changed to 1516110300.000433
+info: Jan-16 22:17:34.664 [UNREAD-COUNTS] Updated unread_cnt for D8NH9B5BM: 0
+info: Jan-16 22:30:01.837 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because last_read changed to 1516113000.000065
+info: Jan-16 22:30:03.507 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because last_read changed to 1516113002.000458
+info: Jan-16 22:30:25.583 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because last_read changed to 1516113024.000227
+info: Jan-16 22:30:28.487 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because last_read changed to 1516113026.000923
+info: Jan-16 22:30:31.910 [UNREAD-COUNTS] Counting unreads in C8MVCNMPA because last_read changed to 1516113029.000593
+info: Jan-17 01:06:38.468 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-17 01:06:38.468 [CHECK-UNREADS] Not marking D8NH9B5BM because last_read >= latest && channel is read
+warn: %cUnhandled rejection Error: Cannot send message; this socket has been closed
+    at e (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.7a64e26a5b3a816ed505.min.js:1:1319788)
+    at e (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.7a64e26a5b3a816ed505.min.js:1:1272989)
+    at https://a.slack-edge.com/bv1-1/rollup-core_required_libs.7a64e26a5b3a816ed505.min.js:1:1235548
+    at https://a.slack-edge.com/bv1-1/rollup-core_required_libs.7a64e26a5b3a816ed505.min.js:1:55996
+    at https://a.slack-edge.com/bv1-1/application.24163974f09b83406035.min.js:1:2632755
+    at https://a.slack-edge.com/bv1-1/rollup-core_required_libs.7a64e26a5b3a816ed505.min.js:1:55996
+    at Object.dispatch (https://a.slack-edge.com/bv1-1/application.24163974f09b83406035.min.js:1:233592)
+    at Object.n [as dispatch] (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.aebd03f1d3094a6c7afd.min.js:1:105190)
+    at Object.send (https://a.slack-edge.com/bv1-1/application.24163974f09b83406035.min.js:1:1770394)
+    at Object.e [as tickleMS] (https://a.slack-edge.com/bv1-1/rollup-client.a12f078c015999a18956.min.js:1:310072)
+    at Object.e [as maybeTickleMS] (https://a.slack-edge.com/bv1-1/rollup-client.a12f078c015999a18956.min.js:1:309889)
+    at Object.e [as maybeTickleMS] (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.aebd03f1d3094a6c7afd.min.js:1:131357)
+    at Object.maybeTickleMS (https://ascendinglmao.slack.com/messages:811:11)
+    at setInterval (/usr/lib/slack/resources/app.asar/src/ssb/setup-idle-tickle.ts:21:19)
+info: Jan-17 01:13:47.178 [SOCKET-MANAGER] (T8MVCNGTA) Changing from connected to error
+info: Jan-17 01:13:47.179 [SOCKET-MANAGER] (T8MVCNGTA) will stay in error state for up to 10000 ms
+error: Jan-17 01:13:47.179 SOCKET-MANAGER (T8MVCNGTA) Closing socket due to unknown error
+info: 2018/1/17 01:13:47.181  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.aebd03f1d3094a6c7afd.min.js:1:62935)
+at https://a.slack-edge.com/bv1-1/rollup-core_required_libs.7a64e26a5b3a816ed505.min.js:1:1130111
+at e (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.7a64e26a5b3a816ed505.min.js:1:1278686)
+at e (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.7a64e26a5b3a816ed505.min.js:1:1280409)
+at s (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.7a64e26a5b3a816ed505.min.js:1:1237509)
+at e (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.7a64e26a5b3a816ed505.min.js:1:1280782)
+at e (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.7a64e26a5b3a816ed505.min.js:1:1274810)
+at e.<anonymous> (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.7a64e26a5b3a816ed505.min.js:1:1092922)
+at E (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.7a64e26a5b3a816ed505.min.js:1:1317691)
+at WebSocket._socket.onclose (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.7a64e26a5b3a816ed505.min.js:1:1319357)
+info: Jan-17 01:13:47.184 [INFO] Hiding the reconnection banner because we are disconnected
+info: Jan-17 01:13:47.199 [SOCKET-MANAGER] (T8MVCNGTA) Changing from error to wait_for_connectivity
+info: Jan-17 01:13:47.199 [SOCKET-MANAGER] (T8MVCNGTA) will stay in wait_for_connectivity state for up to 300000 ms
+info: Jan-17 01:13:48.495 [SOCKET-MANAGER] (T8MVCNGTA) Changing from wait_for_connectivity to wait_for_rate_limit
+info: Jan-17 01:13:48.495 [SOCKET-MANAGER] (T8MVCNGTA) will stay in wait_for_rate_limit state for up to 120000 ms
+info: Jan-17 01:13:48.496 [SOCKET-MANAGER] (T8MVCNGTA) Changing from wait_for_rate_limit to connect
+info: Jan-17 01:13:48.497 [SOCKET-MANAGER] (T8MVCNGTA) will stay in connect state for up to 10000 ms
+info: Jan-17 01:13:48.497 [SOCKET-MANAGER] (T8MVCNGTA) Changing from connect to checking_fast_reconnect
+info: Jan-17 01:13:48.497 [SOCKET-MANAGER] (T8MVCNGTA) will stay in checking_fast_reconnect state for up to 60000 ms
+info: Jan-17 01:13:49.490 [SOCKET-MANAGER] (T8MVCNGTA) Changing from checking_fast_reconnect to connecting
+info: Jan-17 01:13:49.490 [SOCKET-MANAGER] (T8MVCNGTA) will stay in connecting state for up to 20000 ms
+info: Jan-17 01:13:51.482 [SOCKET-MANAGER] (T8MVCNGTA) received an error of type 3: Cannot create connection
+info: Jan-17 01:13:51.483 [SOCKET-MANAGER] (T8MVCNGTA) Changing from connecting to error
+info: Jan-17 01:13:51.483 [SOCKET-MANAGER] (T8MVCNGTA) will stay in error state for up to 10000 ms
+error: Jan-17 01:13:51.483 SOCKET-MANAGER (T8MVCNGTA) Closing socket due to unknown error
+info: 2018/1/17 01:13:51.484  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.aebd03f1d3094a6c7afd.min.js:1:62935)
+at https://a.slack-edge.com/bv1-1/rollup-core_required_libs.7a64e26a5b3a816ed505.min.js:1:1130111
+at e (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.7a64e26a5b3a816ed505.min.js:1:1278686)
+at e (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.7a64e26a5b3a816ed505.min.js:1:1280409)
+at e (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.7a64e26a5b3a816ed505.min.js:1:1275604)
+at e.<anonymous> (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.7a64e26a5b3a816ed505.min.js:1:1092922)
+at k (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.7a64e26a5b3a816ed505.min.js:1:1318413)
+at WebSocket._socket.onmessage (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.7a64e26a5b3a816ed505.min.js:1:1319405)
+warn: Jan-17 01:13:51.484 Unexpected start error: Cannot create connection
+info: Jan-17 01:13:51.492 [SOCKET-MANAGER] (T8MVCNGTA) Changing from error to wait_for_connectivity
+info: Jan-17 01:13:51.492 [SOCKET-MANAGER] (T8MVCNGTA) will stay in wait_for_connectivity state for up to 300000 ms
+info: Jan-17 01:13:52.439 [SOCKET-MANAGER] (T8MVCNGTA) Changing from wait_for_connectivity to wait_for_rate_limit
+info: Jan-17 01:13:52.440 [SOCKET-MANAGER] (T8MVCNGTA) will stay in wait_for_rate_limit state for up to 120000 ms
+info: Jan-17 01:13:52.440 [SOCKET-MANAGER] (T8MVCNGTA) Changing from wait_for_rate_limit to connect
+info: Jan-17 01:13:52.440 [SOCKET-MANAGER] (T8MVCNGTA) will stay in connect state for up to 10000 ms
+info: Jan-17 01:13:52.440 [SOCKET-MANAGER] (T8MVCNGTA) Changing from connect to checking_fast_reconnect
+info: Jan-17 01:13:52.440 [SOCKET-MANAGER] (T8MVCNGTA) will stay in checking_fast_reconnect state for up to 60000 ms
+info: Jan-17 01:13:52.441 [SOCKET-MANAGER] (T8MVCNGTA) Changing from checking_fast_reconnect to prov_connect
+info: Jan-17 01:13:52.441 [SOCKET-MANAGER] (T8MVCNGTA) will stay in prov_connect state for up to 10000 ms
+info: Jan-17 01:13:52.441 [SOCKET-MANAGER] (T8MVCNGTA) Changing from prov_connect to prov_connecting
+info: Jan-17 01:13:52.441 [SOCKET-MANAGER] (T8MVCNGTA) will stay in prov_connecting state for up to 20000 ms
+info: Jan-17 01:13:55.591 [SOCKET-MANAGER] (T8MVCNGTA) Changing from prov_connecting to prov_connected
+info: Jan-17 01:13:55.591 [SOCKET-MANAGER] (T8MVCNGTA) will stay in prov_connected state for up to 60000 ms
+info: Jan-17 01:13:55.592 [INFO] Got start data from Socket Manager; hydrating it
+warn: 2018/1/17 01:13:55.594  Received a reply to a message we have no record of sending (reply_to = 327, type = message)
+info: Jan-17 01:13:55.700 [INFO] Successfully hydrated start data from Socket Manager; processing it
+warn: Jan-17 01:13:55.700 activity is not scalar! it needs to be handled by upsertTeam specifically to test if it has changed! object
+info: Jan-17 01:13:55.849 [BOOT] _maybeFinalizeOrOpenConnectionToMS will finalize SocketManager
+info: Jan-17 01:13:55.850 [SOCKET-MANAGER] (T8MVCNGTA) Changing from prov_connected to prov_finalize
+info: Jan-17 01:13:55.850 [SOCKET-MANAGER] (T8MVCNGTA) will stay in prov_finalize state for up to 10000 ms
+info: Jan-17 01:13:55.850 [SOCKET-MANAGER] (T8MVCNGTA) Changing from prov_finalize to prov_finalizing
+info: Jan-17 01:13:55.850 [SOCKET-MANAGER] (T8MVCNGTA) will stay in prov_finalizing state for up to 10000 ms
+info: Jan-17 01:13:55.851 [SOCKET-MANAGER] (T8MVCNGTA) Changing from prov_finalizing to connected
+info: Jan-17 01:13:55.851 [SOCKET-MANAGER] (T8MVCNGTA) will stay in connected state for up to Infinity ms
+info: Jan-17 01:13:55.851 [BOOT] _maybeFinalizeOrOpenConnectionToMS did finalize SocketManager
+info: Jan-17 01:13:55.851 [EVENTLOG] fr=false, lc=false, lt=1516113031.000642
+info: Jan-17 01:13:55.851 [EVENTLOG] fetching events since 1516113031.000642 (9804.999357938766 seconds ago)
+info: Jan-17 01:13:55.888 [MESSAGE-LIST] requestAround channelId: D8NH9B5BM isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Jan-17 01:13:55.889 [HISTORY-FETCH] Fetching history for message pane: D8NH9B5BM
+info: Jan-17 01:13:55.891 [CHECK-UNREADS] unreadLineVisible updated: true -> false
+info: Jan-17 01:13:55.909 [MESSAGE-LIST] requestAround channelId: D8NH9B5BM isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Jan-17 01:13:55.911 [MESSAGE-LIST] componentWillReceiveProps isLoading: true isLoadingOlder: null timestamps: 0
+info: Jan-17 01:13:56.817 [EVENTLOG] nothing to process
+info: Jan-17 01:13:56.817 [EVENTLOG] fetched finish (cancelled? false)
+info: Jan-17 01:13:56.817 [EVENTLOG] dispatching signal and clearing timestamp
+info: Jan-17 01:13:57.483 [UNREAD-COUNTS] Completed users.counts processing
+info: Jan-17 01:13:57.644 [UNREAD-COUNTS] Counting unreads in D8NH9B5BM because (42) timestamps added
+info: Jan-17 01:13:57.657 [MESSAGE-LIST] componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 45
+info: Jan-17 01:13:57.731 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: Jan-17 01:13:57.747 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Jan-17 01:13:57.747 [CHECK-UNREADS] Not marking D8NH9B5BM because attention not on chat
+info: Jan-17 01:39:47.810 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-17 01:39:47.811 [CHECK-UNREADS] Not marking D8NH9B5BM because last_read >= latest && channel is read
+info: Jan-17 01:39:49.210 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-17 01:39:49.210 [CHECK-UNREADS] Not marking D8NH9B5BM because last_read >= latest && channel is read
+info: Jan-17 01:39:52.899 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-17 01:39:52.900 [CHECK-UNREADS] Not marking D8NH9B5BM because last_read >= latest && channel is read
+info: Jan-17 01:40:22.175 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-17 01:40:22.175 [CHECK-UNREADS] Not marking D8NH9B5BM because last_read >= latest && channel is read
+info: Jan-17 01:43:05.871 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-17 01:43:05.872 [CHECK-UNREADS] Not marking D8NH9B5BM because last_read >= latest && channel is read
+info: ╔════════════════════════════════════════════════════════════════════════════╗
+info: ║      Slack 3.0.2, linux 4.9.76-1-lts on x64 at 01/18/18, 10:06:50:392      ║
+info: ╚════════════════════════════════════════════════════════════════════════════╝
+error: Calls failed to load, bailing
+info: Jan-18 10:07:04.940 [BOOT] booted! pri:0 version:1516240898 start_ms:1516241221166 (2928ms ago)
+info: Jan-18 10:07:04.950 [BOOT] Starting incremental boot (early)
+info: Jan-18 10:07:04.586 [T8MVCNGTA] SOCKET-MANAGER:  Changing from never_connected to prov_connect
+info: Jan-18 10:07:04.587 [T8MVCNGTA] SOCKET-MANAGER:  will stay in prov_connect state for up to 10000 ms
+info: Jan-18 10:07:04.588 [T8MVCNGTA] SOCKET-MANAGER:  Changing from prov_connect to prov_connecting
+info: Jan-18 10:07:04.588 [T8MVCNGTA] SOCKET-MANAGER:  will stay in prov_connecting state for up to 20000 ms
+info: Jan-18 10:07:05.647 [BOOT] Finalizing incremental boot
+info: Jan-18 10:07:06.620 [UNREAD-COUNTS] Counting unreads in D8NH9B5BM because (46) timestamps added
+info: Jan-18 10:07:07.700 [T8MVCNGTA] SOCKET-MANAGER:  Changing from prov_connecting to prov_connected
+info: Jan-18 10:07:07.700 [T8MVCNGTA] SOCKET-MANAGER:  will stay in prov_connected state for up to 60000 ms
+info: Jan-18 10:07:07.720 [INFO] Got start data from Socket Manager; hydrating it
+warn: Jan-18 10:07:07.242 activity is not scalar! it needs to be handled by upsertTeam specifically to test if it has changed! object
+info: Jan-18 10:07:07.258 [BOOT] Completed incremental boot
+info: Jan-18 10:07:07.393 [BOOT] _maybeFinalizeOrOpenConnectionToMS will finalize SocketManager
+info: Jan-18 10:07:07.394 [T8MVCNGTA] SOCKET-MANAGER:  Changing from prov_connected to prov_finalize
+info: Jan-18 10:07:07.394 [T8MVCNGTA] SOCKET-MANAGER:  will stay in prov_finalize state for up to 10000 ms
+info: Jan-18 10:07:07.394 [T8MVCNGTA] SOCKET-MANAGER:  Changing from prov_finalize to prov_finalizing
+info: Jan-18 10:07:07.394 [T8MVCNGTA] SOCKET-MANAGER:  will stay in prov_finalizing state for up to 10000 ms
+info: Jan-18 10:07:07.395 [T8MVCNGTA] SOCKET-MANAGER:  Changing from prov_finalizing to connected
+info: Jan-18 10:07:07.395 [T8MVCNGTA] SOCKET-MANAGER:  will stay in connected state for up to Infinity ms
+info: Jan-18 10:07:07.395 [BOOT] _maybeFinalizeOrOpenConnectionToMS did finalize SocketManager
+info: Jan-18 10:07:07.396 [BOOT] Finished first boot 2817 ms after DOM ready
+info: Jan-18 10:07:07.483 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: Jan-18 10:07:07.538 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Jan-18 10:07:07.539 [CHECK-UNREADS] Marking D8NH9B5BM because unread line is visible
+info: Jan-18 10:07:07.542 [UNREAD-COUNTS] Counting unreads in D8NH9B5BM because last_read changed to 1516241224.000000
+info: Jan-18 10:07:07.542 [UNREAD-COUNTS] Updated unread_cnt for D8NH9B5BM: 0
+info: Jan-18 10:07:07.551 [CHECK-UNREADS] Checking unreads after fully booted
+info: Jan-18 10:07:07.551 [CHECK-UNREADS] Not marking D8NH9B5BM because last_read >= latest && channel is read
+info: Jan-18 10:07:08.231 [UNREAD-COUNTS] Completed users.counts processing
+info: Jan-18 10:07:17.187 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-18 10:07:17.187 [CHECK-UNREADS] Not marking D8NH9B5BM because last_read >= latest && channel is read
+info: ╔════════════════════════════════════════════════════════════════════════════╗
+info: ║      Slack 3.0.2, linux 4.9.76-1-lts on x64 at 01/18/18, 22:47:35:782      ║
+info: ╚════════════════════════════════════════════════════════════════════════════╝
+error: Calls failed to load, bailing
+info: Jan-18 22:47:51.395 [BOOT] booted! pri:0 version:1516284548 start_ms:1516286868824 (2570ms ago)
+info: Jan-18 22:47:51.395 [BOOT] Starting incremental boot (early)
+info: Jan-18 22:47:51.868 [T8MVCNGTA] SOCKET-MANAGER:  Changing from never_connected to prov_connect
+info: Jan-18 22:47:51.869 [T8MVCNGTA] SOCKET-MANAGER:  will stay in prov_connect state for up to 10000 ms
+info: Jan-18 22:47:51.869 [T8MVCNGTA] SOCKET-MANAGER:  Changing from prov_connect to prov_connecting
+info: Jan-18 22:47:51.870 [T8MVCNGTA] SOCKET-MANAGER:  will stay in prov_connecting state for up to 20000 ms
+info: Jan-18 22:47:52.869 [BOOT] Finalizing incremental boot
+info: Jan-18 22:47:53.868 [FLANNEL] received a user_query_request call while we are not connected; deferring
+info: Jan-18 22:47:54.115 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: Jan-18 22:47:54.116 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Jan-18 22:47:54.116 [CHECK-UNREADS] Not marking D8NH9B5BM because not fully booted
+info: Jan-18 22:47:54.790 [T8MVCNGTA] SOCKET-MANAGER:  Changing from prov_connecting to prov_connected
+info: Jan-18 22:47:54.790 [T8MVCNGTA] SOCKET-MANAGER:  will stay in prov_connected state for up to 60000 ms
+info: Jan-18 22:47:54.791 [FLANNEL] connected! Continuing deferred user_query_request call
+info: Jan-18 22:47:54.793 [INFO] Got start data from Socket Manager; hydrating it
+warn: Jan-18 22:47:54.900 activity is not scalar! it needs to be handled by upsertTeam specifically to test if it has changed! object
+info: Jan-18 22:47:54.910 [BOOT] Completed incremental boot
+info: Jan-18 22:47:54.984 [BOOT] _maybeFinalizeOrOpenConnectionToMS will finalize SocketManager
+info: Jan-18 22:47:54.984 [T8MVCNGTA] SOCKET-MANAGER:  Changing from prov_connected to prov_finalize
+info: Jan-18 22:47:54.985 [T8MVCNGTA] SOCKET-MANAGER:  will stay in prov_finalize state for up to 10000 ms
+info: Jan-18 22:47:54.985 [T8MVCNGTA] SOCKET-MANAGER:  Changing from prov_finalize to prov_finalizing
+info: Jan-18 22:47:54.985 [T8MVCNGTA] SOCKET-MANAGER:  will stay in prov_finalizing state for up to 10000 ms
+info: Jan-18 22:47:54.985 [T8MVCNGTA] SOCKET-MANAGER:  Changing from prov_finalizing to connected
+info: Jan-18 22:47:54.985 [T8MVCNGTA] SOCKET-MANAGER:  will stay in connected state for up to Infinity ms
+info: Jan-18 22:47:54.986 [BOOT] _maybeFinalizeOrOpenConnectionToMS did finalize SocketManager
+info: Jan-18 22:47:54.986 [BOOT] Finished first boot 3126 ms after DOM ready
+info: Jan-18 22:47:55.125 [CHECK-UNREADS] Checking unreads after fully booted
+info: Jan-18 22:47:55.126 [CHECK-UNREADS] Not marking D8NH9B5BM because attention not on chat (window_not_focused)
+info: Jan-18 22:47:55.630 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-18 22:47:55.630 [CHECK-UNREADS] Not marking D8NH9B5BM because attention not on chat (window_not_focused)
+info: Jan-18 22:47:55.816 [UNREAD-COUNTS] Completed users.counts processing
+info: Jan-18 22:47:56.478 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-18 22:47:56.479 [CHECK-UNREADS] Not marking D8NH9B5BM because last_read >= latest && channel is read
+info: Jan-18 22:53:59.957 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-18 22:53:59.957 [CHECK-UNREADS] Not marking D8NH9B5BM because last_read >= latest && channel is read
+info: Jan-18 22:54:05.172 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-18 22:54:05.172 [CHECK-UNREADS] Not marking D8NH9B5BM because last_read >= latest && channel is read
+info: Jan-18 23:00:01.333 [UNREAD-COUNTS] Counting unreads in D8NH9B5BM because (1) timestamps added
+info: Jan-18 23:00:01.335 [UNREAD-COUNTS] Updated unread_cnt for D8NH9B5BM: 1
+info: Jan-18 23:00:01.336 [UNREAD-COUNTS] Checking unreads in D8NH9B5BM after a new message
+info: Jan-18 23:00:01.336 [CHECK-UNREADS] Not marking D8NH9B5BM because attention not on chat (window_not_focused)
+info: Jan-18 23:12:22.647 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-18 23:12:22.648 [CHECK-UNREADS] Marking D8NH9B5BM because unread line is visible
+info: Jan-18 23:12:22.652 [UNREAD-COUNTS] Counting unreads in D8NH9B5BM because last_read changed to 1516287600.000701
+info: Jan-18 23:12:22.652 [UNREAD-COUNTS] Updated unread_cnt for D8NH9B5BM: 0
+info: Jan-18 23:12:23.601 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-18 23:12:23.601 [CHECK-UNREADS] Not marking D8NH9B5BM because last_read >= latest && channel is read
+info: Jan-18 23:12:28.770 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-18 23:12:28.770 [CHECK-UNREADS] Not marking D8NH9B5BM because last_read >= latest && channel is read
+info: Jan-18 23:12:30.759 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-18 23:12:30.759 [CHECK-UNREADS] Not marking D8NH9B5BM because last_read >= latest && channel is read
+info: ╔════════════════════════════════════════════════════════════════════════════╗
+info: ║      Slack 3.0.2, linux 4.9.76-1-lts on x64 at 01/20/18, 11:01:54:511      ║
+info: ╚════════════════════════════════════════════════════════════════════════════╝
+error: Calls failed to load, bailing
+info: Jan-20 11:02:11.667 [BOOT] booted! pri:0 version:1516413015 start_ms:1516417327651 (4016ms ago)
+info: Jan-20 11:02:11.668 [BOOT] Starting incremental boot (early)
+info: Jan-20 11:02:12.132 [T8MVCNGTA] SOCKET-MANAGER:  Changing from never_connected to prov_connect
+info: Jan-20 11:02:12.132 [T8MVCNGTA] SOCKET-MANAGER:  will stay in prov_connect state for up to 10000 ms
+info: Jan-20 11:02:12.133 [T8MVCNGTA] SOCKET-MANAGER:  Changing from prov_connect to prov_connecting
+info: Jan-20 11:02:12.133 [T8MVCNGTA] SOCKET-MANAGER:  will stay in prov_connecting state for up to 20000 ms
+info: Jan-20 11:02:13.162 [BOOT] Finalizing incremental boot
+info: Jan-20 11:02:13.692 [UNREAD-COUNTS] Counting unreads in D8NH9B5BM because (48) timestamps added
+info: Jan-20 11:02:13.878 [FLANNEL] received a user_query_request call while we are not connected; deferring
+info: Jan-20 11:02:14.720 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: Jan-20 11:02:14.730 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Jan-20 11:02:14.730 [CHECK-UNREADS] Not marking D8NH9B5BM because not fully booted
+info: Jan-20 11:02:14.206 [T8MVCNGTA] SOCKET-MANAGER:  Changing from prov_connecting to prov_connected
+info: Jan-20 11:02:14.206 [T8MVCNGTA] SOCKET-MANAGER:  will stay in prov_connected state for up to 60000 ms
+info: Jan-20 11:02:14.208 [FLANNEL] connected! Continuing deferred user_query_request call
+info: Jan-20 11:02:14.210 [INFO] Got start data from Socket Manager; hydrating it
+warn: Jan-20 11:02:14.311 activity is not scalar! it needs to be handled by upsertTeam specifically to test if it has changed! object
+info: Jan-20 11:02:14.330 [BOOT] Completed incremental boot
+info: Jan-20 11:02:14.412 [BOOT] _maybeFinalizeOrOpenConnectionToMS will finalize SocketManager
+info: Jan-20 11:02:14.413 [T8MVCNGTA] SOCKET-MANAGER:  Changing from prov_connected to prov_finalize
+info: Jan-20 11:02:14.413 [T8MVCNGTA] SOCKET-MANAGER:  will stay in prov_finalize state for up to 10000 ms
+info: Jan-20 11:02:14.413 [T8MVCNGTA] SOCKET-MANAGER:  Changing from prov_finalize to prov_finalizing
+info: Jan-20 11:02:14.413 [T8MVCNGTA] SOCKET-MANAGER:  will stay in prov_finalizing state for up to 10000 ms
+info: Jan-20 11:02:14.413 [T8MVCNGTA] SOCKET-MANAGER:  Changing from prov_finalizing to connected
+info: Jan-20 11:02:14.413 [T8MVCNGTA] SOCKET-MANAGER:  will stay in connected state for up to Infinity ms
+info: Jan-20 11:02:14.414 [BOOT] _maybeFinalizeOrOpenConnectionToMS did finalize SocketManager
+info: Jan-20 11:02:14.414 [BOOT] Finished first boot 2291 ms after DOM ready
+info: Jan-20 11:02:14.597 [CHECK-UNREADS] Checking unreads after fully booted
+info: Jan-20 11:02:14.598 [CHECK-UNREADS] Not marking D8NH9B5BM because attention not on chat (window_not_focused)
+info: Jan-20 11:02:15.797 [UNREAD-COUNTS] Completed users.counts processing
+info: Jan-20 11:11:48.100 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-20 11:11:48.200 [CHECK-UNREADS] Not marking D8NH9B5BM because last_read >= latest && channel is read
+info: Jan-20 11:12:47.232 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-20 11:12:47.232 [CHECK-UNREADS] Not marking D8NH9B5BM because last_read >= latest && channel is read
+info: Jan-20 11:13:33.968 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-20 11:13:33.968 [CHECK-UNREADS] Not marking D8NH9B5BM because last_read >= latest && channel is read
+info: Jan-20 11:14:28.321 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-20 11:14:28.321 [CHECK-UNREADS] Not marking D8NH9B5BM because last_read >= latest && channel is read
+info: ╔════════════════════════════════════════════════════════════════════════════╗
+info: ║      Slack 3.0.2, linux 4.9.76-1-lts on x64 at 01/20/18, 11:57:41:975      ║
+info: ╚════════════════════════════════════════════════════════════════════════════╝
+error: Calls failed to load, bailing
+info: Jan-20 11:57:57.850 [BOOT] booted! pri:0 version:1516417187 start_ms:1516420673784 (4065ms ago)
+info: Jan-20 11:57:57.852 [BOOT] Starting incremental boot (early)
+info: Jan-20 11:57:58.424 [T8MVCNGTA] SOCKET-MANAGER:  Changing from never_connected to prov_connect
+info: Jan-20 11:57:58.425 [T8MVCNGTA] SOCKET-MANAGER:  will stay in prov_connect state for up to 10000 ms
+info: Jan-20 11:57:58.426 [T8MVCNGTA] SOCKET-MANAGER:  Changing from prov_connect to prov_connecting
+info: Jan-20 11:57:58.426 [T8MVCNGTA] SOCKET-MANAGER:  will stay in prov_connecting state for up to 20000 ms
+info: Jan-20 11:57:59.320 [BOOT] Finalizing incremental boot
+info: Jan-20 11:58:00.433 [UNREAD-COUNTS] Counting unreads in D8NH9B5BM because (48) timestamps added
+info: Jan-20 11:58:00.630 [T8MVCNGTA] SOCKET-MANAGER:  Changing from prov_connecting to prov_connected
+info: Jan-20 11:58:00.630 [T8MVCNGTA] SOCKET-MANAGER:  will stay in prov_connected state for up to 60000 ms
+info: Jan-20 11:58:00.632 [INFO] Got start data from Socket Manager; hydrating it
+warn: Jan-20 11:58:00.740 activity is not scalar! it needs to be handled by upsertTeam specifically to test if it has changed! object
+info: Jan-20 11:58:00.758 [BOOT] Completed incremental boot
+info: Jan-20 11:58:00.880 [BOOT] _maybeFinalizeOrOpenConnectionToMS will finalize SocketManager
+info: Jan-20 11:58:00.880 [T8MVCNGTA] SOCKET-MANAGER:  Changing from prov_connected to prov_finalize
+info: Jan-20 11:58:00.880 [T8MVCNGTA] SOCKET-MANAGER:  will stay in prov_finalize state for up to 10000 ms
+info: Jan-20 11:58:00.881 [T8MVCNGTA] SOCKET-MANAGER:  Changing from prov_finalize to prov_finalizing
+info: Jan-20 11:58:00.881 [T8MVCNGTA] SOCKET-MANAGER:  will stay in prov_finalizing state for up to 10000 ms
+info: Jan-20 11:58:00.881 [T8MVCNGTA] SOCKET-MANAGER:  Changing from prov_finalizing to connected
+info: Jan-20 11:58:00.881 [T8MVCNGTA] SOCKET-MANAGER:  will stay in connected state for up to Infinity ms
+info: Jan-20 11:58:00.882 [BOOT] _maybeFinalizeOrOpenConnectionToMS did finalize SocketManager
+info: Jan-20 11:58:00.882 [BOOT] Finished first boot 2466 ms after DOM ready
+info: Jan-20 11:58:00.950 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: Jan-20 11:58:01.110 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Jan-20 11:58:01.110 [CHECK-UNREADS] Not marking D8NH9B5BM because attention not on chat (window_not_focused)
+info: Jan-20 11:58:01.530 [CHECK-UNREADS] Checking unreads after fully booted
+info: Jan-20 11:58:01.530 [CHECK-UNREADS] Not marking D8NH9B5BM because attention not on chat (window_not_focused)
+info: Jan-20 11:58:02.759 [UNREAD-COUNTS] Completed users.counts processing
+info: ╔════════════════════════════════════════════════════════════════════════════╗
+info: ║      Slack 3.0.2, linux 4.9.76-1-lts on x64 at 01/20/18, 12:18:01:963      ║
+info: ╚════════════════════════════════════════════════════════════════════════════╝
+error: Calls failed to load, bailing
+info: Jan-20 12:18:09.438 [BOOT] booted! pri:0 version:1516417187 start_ms:1516421886461 (2976ms ago)
+info: Jan-20 12:18:09.439 [BOOT] Starting incremental boot (early)
+info: Jan-20 12:18:09.949 [T8MVCNGTA] SOCKET-MANAGER:  Changing from never_connected to prov_connect
+info: Jan-20 12:18:09.949 [T8MVCNGTA] SOCKET-MANAGER:  will stay in prov_connect state for up to 10000 ms
+info: Jan-20 12:18:09.951 [T8MVCNGTA] SOCKET-MANAGER:  Changing from prov_connect to prov_connecting
+info: Jan-20 12:18:09.951 [T8MVCNGTA] SOCKET-MANAGER:  will stay in prov_connecting state for up to 20000 ms
+info: Jan-20 12:18:11.505 [BOOT] Finalizing incremental boot
+info: Jan-20 12:18:11.937 [UNREAD-COUNTS] Counting unreads in D8NH9B5BM because (48) timestamps added
+info: Jan-20 12:18:12.211 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-20 12:18:12.212 [CHECK-UNREADS] Not marking D8NH9B5BM because not fully booted
+info: Jan-20 12:18:12.245 [T8MVCNGTA] SOCKET-MANAGER:  Changing from prov_connecting to prov_connected
+info: Jan-20 12:18:12.245 [T8MVCNGTA] SOCKET-MANAGER:  will stay in prov_connected state for up to 60000 ms
+info: Jan-20 12:18:12.247 [INFO] Got start data from Socket Manager; hydrating it
+warn: Jan-20 12:18:12.356 activity is not scalar! it needs to be handled by upsertTeam specifically to test if it has changed! object
+info: Jan-20 12:18:12.378 [BOOT] Completed incremental boot
+info: Jan-20 12:18:12.518 [BOOT] _maybeFinalizeOrOpenConnectionToMS will finalize SocketManager
+info: Jan-20 12:18:12.519 [T8MVCNGTA] SOCKET-MANAGER:  Changing from prov_connected to prov_finalize
+info: Jan-20 12:18:12.519 [T8MVCNGTA] SOCKET-MANAGER:  will stay in prov_finalize state for up to 10000 ms
+info: Jan-20 12:18:12.519 [T8MVCNGTA] SOCKET-MANAGER:  Changing from prov_finalize to prov_finalizing
+info: Jan-20 12:18:12.520 [T8MVCNGTA] SOCKET-MANAGER:  will stay in prov_finalizing state for up to 10000 ms
+info: Jan-20 12:18:12.520 [T8MVCNGTA] SOCKET-MANAGER:  Changing from prov_finalizing to connected
+info: Jan-20 12:18:12.520 [T8MVCNGTA] SOCKET-MANAGER:  will stay in connected state for up to Infinity ms
+info: Jan-20 12:18:12.521 [BOOT] _maybeFinalizeOrOpenConnectionToMS did finalize SocketManager
+info: Jan-20 12:18:12.521 [BOOT] Finished first boot 2588 ms after DOM ready
+info: Jan-20 12:18:12.602 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: Jan-20 12:18:12.669 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Jan-20 12:18:12.669 [CHECK-UNREADS] Not marking D8NH9B5BM because attention not on chat (window_not_focused)
+info: Jan-20 12:18:12.688 [CHECK-UNREADS] Checking unreads after fully booted
+info: Jan-20 12:18:12.689 [CHECK-UNREADS] Not marking D8NH9B5BM because attention not on chat (window_not_focused)
+info: Jan-20 12:18:13.859 [UNREAD-COUNTS] Completed users.counts processing
+info: ╔════════════════════════════════════════════════════════════════════════════╗
+info: ║      Slack 3.0.2, linux 4.9.76-1-lts on x64 at 01/20/18, 12:23:21:693      ║
+info: ╚════════════════════════════════════════════════════════════════════════════╝
+error: Calls failed to load, bailing
+info: Jan-20 12:23:28.109 [BOOT] booted! pri:0 version:1516417187 start_ms:1516422205601 (2508ms ago)
+info: Jan-20 12:23:28.110 [BOOT] Starting incremental boot (early)
+info: Jan-20 12:23:28.419 [T8MVCNGTA] SOCKET-MANAGER:  Changing from never_connected to prov_connect
+info: Jan-20 12:23:28.419 [T8MVCNGTA] SOCKET-MANAGER:  will stay in prov_connect state for up to 10000 ms
+info: Jan-20 12:23:28.420 [T8MVCNGTA] SOCKET-MANAGER:  Changing from prov_connect to prov_connecting
+info: Jan-20 12:23:28.420 [T8MVCNGTA] SOCKET-MANAGER:  will stay in prov_connecting state for up to 20000 ms
+info: Jan-20 12:23:29.456 [BOOT] Finalizing incremental boot
+info: Jan-20 12:23:29.716 [UNREAD-COUNTS] Counting unreads in D8NH9B5BM because (48) timestamps added
+info: Jan-20 12:23:29.896 [FLANNEL] received a user_query_request call while we are not connected; deferring
+info: Jan-20 12:23:30.600 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: Jan-20 12:23:30.610 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Jan-20 12:23:30.610 [CHECK-UNREADS] Not marking D8NH9B5BM because not fully booted
+info: Jan-20 12:23:30.169 [T8MVCNGTA] SOCKET-MANAGER:  Changing from prov_connecting to prov_connected
+info: Jan-20 12:23:30.169 [T8MVCNGTA] SOCKET-MANAGER:  will stay in prov_connected state for up to 60000 ms
+info: Jan-20 12:23:30.171 [FLANNEL] connected! Continuing deferred user_query_request call
+info: Jan-20 12:23:30.172 [INFO] Got start data from Socket Manager; hydrating it
+warn: Jan-20 12:23:30.275 activity is not scalar! it needs to be handled by upsertTeam specifically to test if it has changed! object
+info: Jan-20 12:23:30.303 [BOOT] Completed incremental boot
+info: Jan-20 12:23:30.412 [BOOT] _maybeFinalizeOrOpenConnectionToMS will finalize SocketManager
+info: Jan-20 12:23:30.413 [T8MVCNGTA] SOCKET-MANAGER:  Changing from prov_connected to prov_finalize
+info: Jan-20 12:23:30.413 [T8MVCNGTA] SOCKET-MANAGER:  will stay in prov_finalize state for up to 10000 ms
+info: Jan-20 12:23:30.413 [T8MVCNGTA] SOCKET-MANAGER:  Changing from prov_finalize to prov_finalizing
+info: Jan-20 12:23:30.413 [T8MVCNGTA] SOCKET-MANAGER:  will stay in prov_finalizing state for up to 10000 ms
+info: Jan-20 12:23:30.414 [T8MVCNGTA] SOCKET-MANAGER:  Changing from prov_finalizing to connected
+info: Jan-20 12:23:30.414 [T8MVCNGTA] SOCKET-MANAGER:  will stay in connected state for up to Infinity ms
+info: Jan-20 12:23:30.414 [BOOT] _maybeFinalizeOrOpenConnectionToMS did finalize SocketManager
+info: Jan-20 12:23:30.415 [BOOT] Finished first boot 2004 ms after DOM ready
+info: Jan-20 12:23:30.564 [CHECK-UNREADS] Checking unreads after fully booted
+info: Jan-20 12:23:30.565 [CHECK-UNREADS] Marking D8NH9B5BM because unread line is visible
+info: Jan-20 12:23:30.569 [UNREAD-COUNTS] Counting unreads in D8NH9B5BM because last_read changed to 1516422207.000000
+info: Jan-20 12:23:31.410 [UNREAD-COUNTS] Completed users.counts processing
+info: Jan-20 12:23:56.284 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-20 12:23:56.284 [CHECK-UNREADS] Not marking D8NH9B5BM because last_read >= latest && channel is read
+warn: %cUnhandled rejection Error: Cannot send message; this socket has been closed
+    at e (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.e850209777dbb29a143a.min.js:1:1277608)
+    at e (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.e850209777dbb29a143a.min.js:1:1229771)
+    at https://a.slack-edge.com/bv1-1/rollup-core_required_libs.e850209777dbb29a143a.min.js:1:1193181
+    at https://a.slack-edge.com/bv1-1/rollup-core_required_libs.e850209777dbb29a143a.min.js:1:52217
+    at https://a.slack-edge.com/bv1-1/application.f5bd9b9ab6541c3de66e.min.js:1:2657493
+    at https://a.slack-edge.com/bv1-1/rollup-core_required_libs.e850209777dbb29a143a.min.js:1:52217
+    at Object.dispatch (https://a.slack-edge.com/bv1-1/application.f5bd9b9ab6541c3de66e.min.js:1:233708)
+    at Object.n [as dispatch] (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.0ff2ed4a60d1886c6825.min.js:1:105326)
+    at Object.send (https://a.slack-edge.com/bv1-1/application.f5bd9b9ab6541c3de66e.min.js:1:1781651)
+    at Object.e [as tickleMS] (https://a.slack-edge.com/bv1-1/rollup-client.79971601a6e7f07f24d2.min.js:1:311743)
+    at Object.e [as maybeTickleMS] (https://a.slack-edge.com/bv1-1/rollup-client.79971601a6e7f07f24d2.min.js:1:311560)
+    at Object.e [as maybeTickleMS] (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.0ff2ed4a60d1886c6825.min.js:1:131493)
+    at Object.maybeTickleMS (https://ascendinglmao.slack.com/messages:811:11)
+    at setInterval (/usr/lib/slack/resources/app.asar/src/ssb/setup-idle-tickle.ts:21:19)
+info: Jan-20 12:29:38.937 [T8MVCNGTA] SOCKET-MANAGER:  Changing from connected to error
+info: Jan-20 12:29:38.938 [T8MVCNGTA] SOCKET-MANAGER:  will stay in error state for up to 10000 ms
+error: Jan-20 12:29:38.938 T8MVCNGTA SOCKET-MANAGER:  Closing socket due to unknown error
+info: 2018/1/20 12:29:38.940  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.0ff2ed4a60d1886c6825.min.js:1:63047)
+at https://a.slack-edge.com/bv1-1/rollup-core_required_libs.e850209777dbb29a143a.min.js:1:1085120
+at e (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.e850209777dbb29a143a.min.js:1:1235468)
+at e (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.e850209777dbb29a143a.min.js:1:1237191)
+at s (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.e850209777dbb29a143a.min.js:1:1195142)
+at e (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.e850209777dbb29a143a.min.js:1:1237564)
+at e (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.e850209777dbb29a143a.min.js:1:1231592)
+at e.<anonymous> (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.e850209777dbb29a143a.min.js:1:1048484)
+at E (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.e850209777dbb29a143a.min.js:1:1275511)
+at WebSocket._socket.onclose (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.e850209777dbb29a143a.min.js:1:1277177)
+info: Jan-20 12:29:38.943 [INFO] Hiding the reconnection banner because we are disconnected
+info: Jan-20 12:29:38.955 [T8MVCNGTA] SOCKET-MANAGER:  Changing from error to wait_for_connectivity
+info: Jan-20 12:29:38.955 [T8MVCNGTA] SOCKET-MANAGER:  will stay in wait_for_connectivity state for up to 300000 ms
+info: Jan-20 12:29:40.406 [T8MVCNGTA] SOCKET-MANAGER:  Changing from wait_for_connectivity to wait_for_rate_limit
+info: Jan-20 12:29:40.406 [T8MVCNGTA] SOCKET-MANAGER:  will stay in wait_for_rate_limit state for up to 120000 ms
+info: Jan-20 12:29:40.407 [T8MVCNGTA] SOCKET-MANAGER:  Changing from wait_for_rate_limit to connect
+info: Jan-20 12:29:40.407 [T8MVCNGTA] SOCKET-MANAGER:  will stay in connect state for up to 10000 ms
+info: Jan-20 12:29:40.407 [T8MVCNGTA] SOCKET-MANAGER:  Changing from connect to checking_fast_reconnect
+info: Jan-20 12:29:40.407 [T8MVCNGTA] SOCKET-MANAGER:  will stay in checking_fast_reconnect state for up to 60000 ms
+info: Jan-20 12:29:41.346 [T8MVCNGTA] SOCKET-MANAGER:  Changing from checking_fast_reconnect to connecting
+info: Jan-20 12:29:41.346 [T8MVCNGTA] SOCKET-MANAGER:  will stay in connecting state for up to 20000 ms
+info: Jan-20 12:29:43.670 [T8MVCNGTA] SOCKET-MANAGER:  received an error of type 3: Cannot create connection
+info: Jan-20 12:29:43.680 [T8MVCNGTA] SOCKET-MANAGER:  Changing from connecting to error
+info: Jan-20 12:29:43.680 [T8MVCNGTA] SOCKET-MANAGER:  will stay in error state for up to 10000 ms
+error: Jan-20 12:29:43.680 T8MVCNGTA SOCKET-MANAGER:  Closing socket due to unknown error
+info: 2018/1/20 12:29:43.690  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.0ff2ed4a60d1886c6825.min.js:1:63047)
+at https://a.slack-edge.com/bv1-1/rollup-core_required_libs.e850209777dbb29a143a.min.js:1:1085120
+at e (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.e850209777dbb29a143a.min.js:1:1235468)
+at e (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.e850209777dbb29a143a.min.js:1:1237191)
+at e (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.e850209777dbb29a143a.min.js:1:1232386)
+at e.<anonymous> (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.e850209777dbb29a143a.min.js:1:1048484)
+at k (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.e850209777dbb29a143a.min.js:1:1276233)
+at WebSocket._socket.onmessage (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.e850209777dbb29a143a.min.js:1:1277225)
+warn: Jan-20 12:29:43.690 Unexpected start error: Cannot create connection
+info: Jan-20 12:29:43.750 [T8MVCNGTA] SOCKET-MANAGER:  Changing from error to wait_for_connectivity
+info: Jan-20 12:29:43.750 [T8MVCNGTA] SOCKET-MANAGER:  will stay in wait_for_connectivity state for up to 300000 ms
+info: Jan-20 12:29:44.920 [T8MVCNGTA] SOCKET-MANAGER:  Changing from wait_for_connectivity to wait_for_rate_limit
+info: Jan-20 12:29:44.920 [T8MVCNGTA] SOCKET-MANAGER:  will stay in wait_for_rate_limit state for up to 120000 ms
+info: Jan-20 12:29:44.920 [T8MVCNGTA] SOCKET-MANAGER:  Changing from wait_for_rate_limit to connect
+info: Jan-20 12:29:44.930 [T8MVCNGTA] SOCKET-MANAGER:  will stay in connect state for up to 10000 ms
+info: Jan-20 12:29:44.930 [T8MVCNGTA] SOCKET-MANAGER:  Changing from connect to checking_fast_reconnect
+info: Jan-20 12:29:44.930 [T8MVCNGTA] SOCKET-MANAGER:  will stay in checking_fast_reconnect state for up to 60000 ms
+info: Jan-20 12:29:44.940 [T8MVCNGTA] SOCKET-MANAGER:  Changing from checking_fast_reconnect to prov_connect
+info: Jan-20 12:29:44.940 [T8MVCNGTA] SOCKET-MANAGER:  will stay in prov_connect state for up to 10000 ms
+info: Jan-20 12:29:44.950 [T8MVCNGTA] SOCKET-MANAGER:  Changing from prov_connect to prov_connecting
+info: Jan-20 12:29:44.950 [T8MVCNGTA] SOCKET-MANAGER:  will stay in prov_connecting state for up to 20000 ms
+info: Jan-20 12:29:45.946 [T8MVCNGTA] SOCKET-MANAGER:  Changing from prov_connecting to prov_connected
+info: Jan-20 12:29:45.946 [T8MVCNGTA] SOCKET-MANAGER:  will stay in prov_connected state for up to 60000 ms
+info: Jan-20 12:29:45.947 [INFO] Got start data from Socket Manager; hydrating it
+info: Jan-20 12:29:46.550 [INFO] Successfully hydrated start data from Socket Manager; processing it
+warn: Jan-20 12:29:46.550 activity is not scalar! it needs to be handled by upsertTeam specifically to test if it has changed! object
+info: Jan-20 12:29:46.153 [BOOT] _maybeFinalizeOrOpenConnectionToMS will finalize SocketManager
+info: Jan-20 12:29:46.153 [T8MVCNGTA] SOCKET-MANAGER:  Changing from prov_connected to prov_finalize
+info: Jan-20 12:29:46.153 [T8MVCNGTA] SOCKET-MANAGER:  will stay in prov_finalize state for up to 10000 ms
+info: Jan-20 12:29:46.153 [T8MVCNGTA] SOCKET-MANAGER:  Changing from prov_finalize to prov_finalizing
+info: Jan-20 12:29:46.153 [T8MVCNGTA] SOCKET-MANAGER:  will stay in prov_finalizing state for up to 10000 ms
+info: Jan-20 12:29:46.154 [T8MVCNGTA] SOCKET-MANAGER:  Changing from prov_finalizing to connected
+info: Jan-20 12:29:46.154 [T8MVCNGTA] SOCKET-MANAGER:  will stay in connected state for up to Infinity ms
+info: Jan-20 12:29:46.154 [BOOT] _maybeFinalizeOrOpenConnectionToMS did finalize SocketManager
+info: Jan-20 12:29:46.154 [EVENTLOG] fr=false, lc=false, lt=1516422215.000025
+info: Jan-20 12:29:46.154 [EVENTLOG] fetching events since 1516422215.000025 (371.9999749660492 seconds ago)
+info: Jan-20 12:29:46.173 [MESSAGE-LIST] requestAround channelId: D8NH9B5BM isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Jan-20 12:29:46.174 [HISTORY-FETCH] Fetching history for message pane: D8NH9B5BM
+info: Jan-20 12:29:46.175 [CHECK-UNREADS] unreadLineVisible updated: true -> false
+info: Jan-20 12:29:46.193 [MESSAGE-LIST] requestAround channelId: D8NH9B5BM isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Jan-20 12:29:46.194 [MESSAGE-LIST] componentWillReceiveProps isLoading: true isLoadingOlder: null timestamps: 0
+info: Jan-20 12:29:46.490 [EVENTLOG] nothing to process
+info: Jan-20 12:29:46.490 [EVENTLOG] fetched finish (cancelled? false)
+info: Jan-20 12:29:46.490 [EVENTLOG] dispatching signal and clearing timestamp
+info: Jan-20 12:29:47.473 [UNREAD-COUNTS] Completed users.counts processing
+info: Jan-20 12:29:48.120 [MESSAGE-LIST] componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 48
+info: Jan-20 12:29:48.175 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: Jan-20 12:29:48.185 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Jan-20 12:29:48.185 [CHECK-UNREADS] Not marking D8NH9B5BM because attention not on chat (window_not_focused)
+info: Jan-20 12:49:07.330 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-20 12:49:07.340 [CHECK-UNREADS] Not marking D8NH9B5BM because last_read >= latest && channel is read
+info: Jan-20 12:49:07.230 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-20 12:49:07.230 [CHECK-UNREADS] Not marking D8NH9B5BM because last_read >= latest && channel is read
+info: Jan-20 12:49:09.918 [CHECK-UNREADS] Checking unreads after window became focused
+info: Jan-20 12:49:09.919 [CHECK-UNREADS] Not marking D8NH9B5BM because last_read >= latest && channel is read

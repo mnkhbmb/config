@@ -1,0 +1,790 @@
+[01/11/18, 16:56:42:899] info: ╔════════════════════════════════════════════════════════════════════════════╗
+[01/11/18, 16:56:42:900] info: ║      Slack 3.0.2, linux 4.9.75-1-lts on x64 at 01/11/18, 16:56:42:895      ║
+[01/11/18, 16:56:42:900] info: ╚════════════════════════════════════════════════════════════════════════════╝
+[01/11/18, 16:56:44:457] info: Initializing local storage instance at path: /home/mnkhbmb/.config/Slack/local-settings.json
+[01/11/18, 16:56:50:745] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T8MVCNGTA"
+}
+[01/11/18, 16:56:50:757] info: Store: MAIN_WINDOW_SHOWN
+[01/11/18, 16:56:51:267] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T8MVCNGTA"
+}
+[01/11/18, 16:56:51:767] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    689,
+    36
+  ],
+  "size": [
+    661,
+    716
+  ]
+}
+[01/11/18, 16:56:51:971] info: Store: SELECT_CHANNEL C8MVCNMPA
+[01/11/18, 16:56:51:975] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T8MVCNGTA"
+}
+[01/11/18, 16:56:51:980] info: Store: UPDATE_SETTINGS
+{
+  "locale": "en-US"
+}
+[01/11/18, 16:56:52:118] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T8MVCNGTA",
+  "theme": {
+    "active_item": "#4C9689",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#38978D",
+    "badge": "#EB4D5C",
+    "column_bg": "#4D394B",
+    "hover_item": "#3E313C",
+    "menu_bg": "#3E313C",
+    "text_color": "#FFFFFF"
+  }
+}
+[01/11/18, 16:56:53:380] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": false,
+  "teamId": "T8MVCNGTA"
+}
+[01/11/18, 16:56:53:534] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T8MVCNGTA"
+}
+[01/11/18, 16:56:53:537] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "webapp-loaded",
+  "teamId": "T8MVCNGTA"
+}
+[01/11/18, 16:56:53:843] info: Store: STORE_API_TOKEN
+{
+  "teamId": "T8MVCNGTA",
+  "token": "xoxs-⋯"
+}
+[01/11/18, 16:57:00:183] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    0,
+    20
+  ],
+  "size": [
+    1366,
+    748
+  ]
+}
+[01/11/18, 17:15:40:297] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "lPvSohqPoE3qro",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515662139.000325&team=T8MVCNGTA",
+  "msg": "1515662139.000325",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:15:48:193] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "M6Ef2iWrEo6OVQ",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515662147.000315&team=T8MVCNGTA",
+  "msg": "1515662147.000315",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:16:10:050] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "GEYFWsQxgZzyPQ",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515662169.000264&team=T8MVCNGTA",
+  "msg": "1515662169.000264",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:16:26:256] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "mP2SRt96oPy21M",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515662185.000383&team=T8MVCNGTA",
+  "msg": "1515662185.000383",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:16:43:293] info: Store: MAIN_WINDOW_FOCUSED
+[01/11/18, 17:17:08:986] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "5glu6u2g5DM8gP",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515662228.000361&team=T8MVCNGTA",
+  "msg": "1515662228.000361",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:17:12:642] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "P8MHNCj54XyZog",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515662232.000129&team=T8MVCNGTA",
+  "msg": "1515662232.000129",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:17:15:507] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "3GjIGFDk0yApDM",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515662235.000002&team=T8MVCNGTA",
+  "msg": "1515662235.000002",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:17:56:951] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "GEYFqHQxgZ8G4O",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515662276.000328&team=T8MVCNGTA",
+  "msg": "1515662276.000328",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:18:03:021] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "LRYilImpl2OnW6",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515662282.000316&team=T8MVCNGTA",
+  "msg": "1515662282.000316",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:18:29:686] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "LRYiVSmpl2Dmoz",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515662309.000222&team=T8MVCNGTA",
+  "msg": "1515662309.000222",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:18:32:759] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "3GjIZTDk0y4v16",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515662312.000176&team=T8MVCNGTA",
+  "msg": "1515662312.000176",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:18:43:641] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "oPvSJU6wY9yEKA",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515662323.000225&team=T8MVCNGTA",
+  "msg": "1515662323.000225",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:18:53:398] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "yn6SmcR8W0pzXL",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515662333.000022&team=T8MVCNGTA",
+  "msg": "1515662333.000022",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:18:56:865] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "AxQHmfYWrmLR5k",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515662336.000202&team=T8MVCNGTA",
+  "msg": "1515662336.000202",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:18:58:816] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "V95COhJYX06omv",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515662338.000179&team=T8MVCNGTA",
+  "msg": "1515662338.000179",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:19:06:494] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "By8hBij5L02Agr",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515662345.000550&team=T8MVCNGTA",
+  "msg": "1515662345.000550",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:19:12:862] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "yn6SXsR8W0p43o",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515662352.000190&team=T8MVCNGTA",
+  "msg": "1515662352.000190",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:19:13:647] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "WRwiktnGD0ZRmG",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515662353.000205&team=T8MVCNGTA",
+  "msg": "1515662353.000205",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:20:30:140] info: Store: MAIN_WINDOW_FOCUSED
+[01/11/18, 17:21:07:370] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "LRYiAumpl2wDlk",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515662467.000053&team=T8MVCNGTA",
+  "msg": "1515662467.000053",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:21:08:076] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "DAYHRCZYVjMMnX",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515662467.000385&team=T8MVCNGTA",
+  "msg": "1515662467.000385",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:21:43:337] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    16,
+    36
+  ],
+  "size": [
+    661,
+    716
+  ]
+}
+[01/11/18, 17:22:27:882] info: Store: UPDATE_SETTINGS
+{
+  "hasRunFromTray": true
+}
+[01/11/18, 17:22:27:883] info: Store: SHOW_TRAY_BALLOON
+{
+  "content": "Slack’s set to stay running in the notification area. To change this, visit Preferences > Linux App.",
+  "title": "Why didn’t Slack quit?"
+}
+[01/11/18, 17:22:27:978] info: Store: SET_FULL_SCREEN
+[01/11/18, 17:22:31:455] info: Store: FOREGROUND_APP
+[01/11/18, 17:22:31:655] info: Store: FOREGROUND_APP
+[01/11/18, 17:22:32:462] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    689,
+    36
+  ],
+  "size": [
+    661,
+    716
+  ]
+}
+[01/11/18, 17:22:44:601] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "pPRS7FGMNWRGG2",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515662564.000004&team=T8MVCNGTA",
+  "msg": "1515662564.000004",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:22:54:481] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    0,
+    20
+  ],
+  "size": [
+    1366,
+    748
+  ]
+}
+[01/11/18, 17:23:15:689] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    16,
+    36
+  ],
+  "size": [
+    661,
+    716
+  ]
+}
+[01/11/18, 17:23:19:527] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "1DYCZHXxjwBwYj",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515662599.000068&team=T8MVCNGTA",
+  "msg": "1515662599.000068",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:23:20:231] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "R7MSXIO5l2z27B",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515662600.000028&team=T8MVCNGTA",
+  "msg": "1515662600.000028",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:23:34:822] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "WRwirSnGD8VQ6M",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515662614.000298&team=T8MVCNGTA",
+  "msg": "1515662614.000298",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:25:56:348] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "6jmf6T57YG6Nx8",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515662706.000577&team=T8MVCNGTA",
+  "msg": "1515662706.000577",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:25:56:354] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "9mptJUO95WEK1k",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515662708.000020&team=T8MVCNGTA",
+  "msg": "1515662708.000020",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:25:56:360] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "kPwS8c9LBnVY8Q",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515662711.000139&team=T8MVCNGTA",
+  "msg": "1515662711.000139",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:25:56:365] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "nPYSvfZxn5JMEm",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515662714.000236&team=T8MVCNGTA",
+  "msg": "1515662714.000236",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:25:56:369] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "r6EfJhyAZVzRNQ",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515662718.000045&team=T8MVCNGTA",
+  "msg": "1515662718.000045",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:25:56:379] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "EBZH5iPW7rwqQD",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515662726.000054&team=T8MVCNGTA",
+  "msg": "1515662726.000054",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:25:56:387] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "ZRwigsyWgkjQP1",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515662726.000373&team=T8MVCNGTA",
+  "msg": "1515662726.000373",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:25:56:401] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "LRYiOtmplNqxgp",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515662750.000543&team=T8MVCNGTA",
+  "msg": "1515662750.000543",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:25:56:406] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "OREigur70mv951",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515662753.000232&team=T8MVCNGTA",
+  "msg": "1515662753.000232",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:26:52:095] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    16,
+    36
+  ],
+  "size": [
+    661,
+    716
+  ]
+}
+[01/11/18, 17:26:54:807] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    16,
+    36
+  ],
+  "size": [
+    661,
+    716
+  ]
+}
+[01/11/18, 17:27:31:820] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    16,
+    36
+  ],
+  "size": [
+    661,
+    716
+  ]
+}
+[01/11/18, 17:27:53:031] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    16,
+    16
+  ],
+  "size": [
+    661,
+    736
+  ]
+}
+[01/11/18, 17:28:01:841] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    16,
+    36
+  ],
+  "size": [
+    661,
+    716
+  ]
+}
+[01/11/18, 17:28:05:361] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    0,
+    20
+  ],
+  "size": [
+    1366,
+    748
+  ]
+}
+[01/11/18, 17:28:33:941] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    0,
+    0
+  ],
+  "size": [
+    1366,
+    768
+  ]
+}
+[01/11/18, 17:29:34:605] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    0,
+    20
+  ],
+  "size": [
+    1366,
+    748
+  ]
+}
+[01/11/18, 17:30:25:784] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "9mptXCO95WPW2J",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515663025.000083&team=T8MVCNGTA",
+  "msg": "1515663025.000083",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:33:58:376] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "QRNiQFkNBjQ8rQ",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515663237.000518&team=T8MVCNGTA",
+  "msg": "1515663237.000518",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:34:02:158] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "5glu8H2g5JlOyl",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515663241.000430&team=T8MVCNGTA",
+  "msg": "1515663241.000430",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:35:01:344] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "DAYHkIZYVpBYQn",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515663301.000023&team=T8MVCNGTA",
+  "msg": "1515663301.000023",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:35:35:734] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "3GjIQSDk0WOvw0",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515663335.000205&team=T8MVCNGTA",
+  "msg": "1515663335.000205",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:35:36:309] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "kPwSVT9LBn08AK",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515663335.000563&team=T8MVCNGTA",
+  "msg": "1515663335.000563",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:40:59:571] info: Store: FOREGROUND_APP

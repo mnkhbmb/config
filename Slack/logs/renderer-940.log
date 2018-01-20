@@ -1,0 +1,74 @@
+[01/15/18, 00:26:03:969] info: ╔════════════════════════════════════════════════════════════════════════════╗
+[01/15/18, 00:26:03:970] info: ║      Slack 3.0.2, linux 4.9.75-1-lts on x64 at 01/15/18, 00:26:03:966      ║
+[01/15/18, 00:26:03:970] info: ╚════════════════════════════════════════════════════════════════════════════╝
+[01/15/18, 00:26:04:970] info: Initializing local storage instance at path: /home/mnkhbmb/.config/Slack/local-settings.json
+[01/15/18, 00:26:10:556] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T8MVCNGTA"
+}
+[01/15/18, 00:26:10:569] info: Store: MAIN_WINDOW_SHOWN
+[01/15/18, 00:26:10:994] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T8MVCNGTA"
+}
+[01/15/18, 00:26:11:458] info: Store: SELECT_CHANNEL C8MVCNMPA
+[01/15/18, 00:26:11:462] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T8MVCNGTA"
+}
+[01/15/18, 00:26:11:495] info: Store: UPDATE_SETTINGS
+{
+  "locale": "en-US"
+}
+[01/15/18, 00:26:11:554] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T8MVCNGTA",
+  "theme": {
+    "active_item": "#4C9689",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#38978D",
+    "badge": "#EB4D5C",
+    "column_bg": "#4D394B",
+    "hover_item": "#3E313C",
+    "menu_bg": "#3E313C",
+    "text_color": "#FFFFFF"
+  }
+}
+[01/15/18, 00:26:11:620] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    689,
+    36
+  ],
+  "size": [
+    661,
+    716
+  ]
+}
+[01/15/18, 00:26:13:279] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": false,
+  "teamId": "T8MVCNGTA"
+}
+[01/15/18, 00:26:13:352] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T8MVCNGTA"
+}
+[01/15/18, 00:26:13:411] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "webapp-loaded",
+  "teamId": "T8MVCNGTA"
+}
+[01/15/18, 00:26:13:564] info: Store: STORE_API_TOKEN
+{
+  "teamId": "T8MVCNGTA",
+  "token": "xoxs-⋯"
+}
+[01/15/18, 00:26:48:295] info: Store: SET_FULL_SCREEN

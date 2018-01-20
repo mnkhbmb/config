@@ -1,0 +1,168 @@
+[01/15/18, 12:33:00:876] info: ╔════════════════════════════════════════════════════════════════════════════╗
+[01/15/18, 12:33:00:877] info: ║      Slack 3.0.2, linux 4.9.75-1-lts on x64 at 01/15/18, 12:33:00:873      ║
+[01/15/18, 12:33:00:877] info: ╚════════════════════════════════════════════════════════════════════════════╝
+[01/15/18, 12:33:01:035] info: Initializing local storage instance at path: /home/mnkhbmb/.config/Slack/local-settings.json
+[01/15/18, 12:33:01:332] error: Calls failed to load, bailing
+[01/15/18, 12:33:01:336] info: updateSuspendResume: true
+[01/15/18, 12:33:01:336] warn: updateSpellcheckerLanguage: Tried to update language, but spellchecker not initialized
+[01/15/18, 12:33:04:768] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T8MVCNGTA"
+}
+[01/15/18, 12:33:04:777] info: Store: MAIN_WINDOW_SHOWN
+[01/15/18, 12:33:06:353] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T8MVCNGTA"
+}
+[01/15/18, 12:33:06:559] info: Store: SELECT_CHANNEL C8MVCNMPA
+[01/15/18, 12:33:06:560] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T8MVCNGTA"
+}
+[01/15/18, 12:33:06:560] info: Store: UPDATE_SETTINGS
+{
+  "locale": "en-US"
+}
+[01/15/18, 12:33:06:561] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T8MVCNGTA",
+  "theme": {
+    "active_item": "#4C9689",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#38978D",
+    "badge": "#EB4D5C",
+    "column_bg": "#4D394B",
+    "hover_item": "#3E313C",
+    "menu_bg": "#3E313C",
+    "text_color": "#FFFFFF"
+  }
+}
+[01/15/18, 12:33:10:863] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": false,
+  "teamId": "T8MVCNGTA"
+}
+[01/15/18, 12:33:10:864] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T8MVCNGTA"
+}
+[01/15/18, 12:33:10:865] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "webapp-loaded",
+  "teamId": "T8MVCNGTA"
+}
+[01/15/18, 12:33:10:881] info: Store: STORE_API_TOKEN
+{
+  "teamId": "T8MVCNGTA",
+  "token": "xoxs-⋯"
+}
+[01/15/18, 12:33:11:409] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    0,
+    20
+  ],
+  "size": [
+    1366,
+    748
+  ]
+}
+[01/15/18, 12:33:11:608] info: Unloading spellchecker
+[01/15/18, 12:33:12:537] info: Couldn't detect language for text of length '657': Failed to identify language, ignoring sample
+[01/15/18, 12:33:22:391] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    16,
+    36
+  ],
+  "size": [
+    661,
+    716
+  ]
+}
+[01/15/18, 12:33:23:950] info: Unloading spellchecker
+[01/15/18, 12:33:26:065] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    0,
+    20
+  ],
+  "size": [
+    1366,
+    748
+  ]
+}
+[01/15/18, 12:33:26:086] info: Unloading spellchecker
+[01/15/18, 12:34:05:532] info: Unloading spellchecker
+[01/15/18, 12:34:42:835] info: Unloading spellchecker
+[01/15/18, 12:34:43:912] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    0,
+    20
+  ],
+  "size": [
+    1366,
+    748
+  ]
+}
+[01/15/18, 12:35:42:831] info: Store: SELECT_CHANNEL D8NH9B5BM
+[01/15/18, 12:35:45:148] info: Unloading spellchecker
+[01/15/18, 12:35:48:777] info: Couldn't get hint text from messages in channel: Failed to fetch recent messages
+[01/15/18, 12:36:17:428] info: Unloading spellchecker
+[01/15/18, 12:37:42:635] info: Unloading spellchecker
+[01/15/18, 12:38:01:522] info: Unloading spellchecker
+[01/15/18, 12:38:15:413] info: Unloading spellchecker
+[01/15/18, 12:38:30:869] info: Unloading spellchecker
+[01/15/18, 12:42:56:656] info: Unloading spellchecker
+[01/15/18, 12:43:01:485] info: Unloading spellchecker
+[01/15/18, 12:43:02:415] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    16,
+    36
+  ],
+  "size": [
+    661,
+    716
+  ]
+}
+[01/15/18, 12:43:02:918] info: Unloading spellchecker
+[01/15/18, 12:43:04:673] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    0,
+    20
+  ],
+  "size": [
+    1366,
+    748
+  ]
+}
+[01/15/18, 12:43:04:722] info: Unloading spellchecker
+[01/15/18, 12:43:07:270] info: Unloading spellchecker
+[01/15/18, 18:22:20:782] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": false,
+  "teamId": "T8MVCNGTA"
+}
+[01/15/18, 18:22:20:783] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T8MVCNGTA"
+}
+[01/15/18, 18:22:34:639] info: Unloading spellchecker
+[01/15/18, 19:32:18:729] info: Unloading spellchecker
+[01/15/18, 19:56:43:749] info: Unloading spellchecker

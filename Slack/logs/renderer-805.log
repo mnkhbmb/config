@@ -1,0 +1,33 @@
+[01/15/18, 12:30:58:869] info: ╔════════════════════════════════════════════════════════════════════════════╗
+[01/15/18, 12:30:58:871] info: ║      Slack 3.0.2, linux 4.9.75-1-lts on x64 at 01/15/18, 12:30:58:866      ║
+[01/15/18, 12:30:58:871] info: ╚════════════════════════════════════════════════════════════════════════════╝
+[01/15/18, 12:30:59:018] info: Initializing local storage instance at path: /home/mnkhbmb/.config/Slack/local-settings.json
+[01/15/18, 12:30:59:769] error: Calls failed to load, bailing
+[01/15/18, 12:30:59:772] info: updateSuspendResume: true
+[01/15/18, 12:30:59:773] warn: updateSpellcheckerLanguage: Tried to update language, but spellchecker not initialized
+[01/15/18, 12:30:59:887] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T8MVCNGTA"
+}
+[01/15/18, 12:30:59:896] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "empty-page",
+  "teamId": "T8MVCNGTA"
+}
+[01/15/18, 12:30:59:902] info: Store: SET_NETWORK_STATUS offline
+[01/15/18, 12:31:01:244] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": null,
+  "teamId": "T8MVCNGTA"
+}
+[01/15/18, 12:31:01:370] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": null,
+  "teamId": "T8MVCNGTA"
+}
+[01/15/18, 12:31:23:559] info: Store: QUIT_APP
+[01/15/18, 12:31:23:675] info: Store: REMOVE_WINDOW 2
+[01/15/18, 12:31:23:685] info: Store: QUIT_APP

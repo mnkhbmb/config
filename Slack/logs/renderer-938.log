@@ -1,0 +1,90 @@
+[01/14/18, 19:11:41:942] info: ╔════════════════════════════════════════════════════════════════════════════╗
+[01/14/18, 19:11:41:942] info: ║      Slack 3.0.2, linux 4.9.75-1-lts on x64 at 01/14/18, 19:11:41:937      ║
+[01/14/18, 19:11:41:942] info: ╚════════════════════════════════════════════════════════════════════════════╝
+[01/14/18, 19:11:43:440] info: Initializing local storage instance at path: /home/mnkhbmb/.config/Slack/local-settings.json
+[01/14/18, 19:11:50:745] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T8MVCNGTA"
+}
+[01/14/18, 19:11:50:760] info: Store: MAIN_WINDOW_SHOWN
+[01/14/18, 19:11:51:591] info: Store: SELECT_CHANNEL D8NH9B5BM
+[01/14/18, 19:11:51:595] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T8MVCNGTA"
+}
+[01/14/18, 19:11:51:598] info: Store: UPDATE_SETTINGS
+{
+  "locale": "en-US"
+}
+[01/14/18, 19:11:51:680] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T8MVCNGTA",
+  "theme": {
+    "active_item": "#4C9689",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#38978D",
+    "badge": "#EB4D5C",
+    "column_bg": "#4D394B",
+    "hover_item": "#3E313C",
+    "menu_bg": "#3E313C",
+    "text_color": "#FFFFFF"
+  }
+}
+[01/14/18, 19:11:52:119] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T8MVCNGTA"
+}
+[01/14/18, 19:11:53:210] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": false,
+  "teamId": "T8MVCNGTA"
+}
+[01/14/18, 19:11:53:351] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T8MVCNGTA"
+}
+[01/14/18, 19:11:53:356] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "webapp-loaded",
+  "teamId": "T8MVCNGTA"
+}
+[01/14/18, 19:11:53:463] info: Store: STORE_API_TOKEN
+{
+  "teamId": "T8MVCNGTA",
+  "token": "xoxs-⋯"
+}
+[01/14/18, 19:11:58:348] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    0,
+    20
+  ],
+  "size": [
+    1366,
+    748
+  ]
+}
+[01/14/18, 19:12:31:488] info: Store: SELECT_CHANNEL D8NH9B5GT
+[01/14/18, 19:12:32:014] info: Store: SELECT_CHANNEL C8MVCNMPA
+[01/14/18, 19:16:43:283] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "wlRfLhKj5KNQ2r",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515928602.000058&team=T8MVCNGTA",
+  "msg": "1515928602.000058",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/14/18, 19:27:28:145] info: Store: FOREGROUND_APP

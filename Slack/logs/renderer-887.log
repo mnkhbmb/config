@@ -1,0 +1,11 @@
+[01/11/18, 16:56:44:788] info: ╔════════════════════════════════════════════════════════════════════════════╗
+[01/11/18, 16:56:44:789] info: ║      Slack 3.0.2, linux 4.9.75-1-lts on x64 at 01/11/18, 16:56:44:783      ║
+[01/11/18, 16:56:44:790] info: ╚════════════════════════════════════════════════════════════════════════════╝
+[01/11/18, 16:56:44:910] info: Initializing local storage instance at path: /home/mnkhbmb/.config/Slack/local-settings.json
+[01/11/18, 16:56:50:748] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T8MVCNGTA"
+}
+[01/11/18, 16:56:50:757] info: Store: MAIN_WINDOW_SHOWN

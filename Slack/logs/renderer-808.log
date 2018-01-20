@@ -1,0 +1,37 @@
+[01/15/18, 12:30:58:944] info: ╔════════════════════════════════════════════════════════════════════════════╗
+[01/15/18, 12:30:58:945] info: ║      Slack 3.0.2, linux 4.9.75-1-lts on x64 at 01/15/18, 12:30:58:937      ║
+[01/15/18, 12:30:58:945] info: ╚════════════════════════════════════════════════════════════════════════════╝
+[01/15/18, 12:30:59:236] info: Initializing local storage instance at path: /home/mnkhbmb/.config/Slack/local-settings.json
+[01/15/18, 12:31:00:811] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T8MVCNGTA"
+}
+[01/15/18, 12:31:00:817] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "empty-page",
+  "teamId": "T8MVCNGTA"
+}
+[01/15/18, 12:31:00:818] info: Store: SET_NETWORK_STATUS offline
+[01/15/18, 12:31:01:242] warn: Tried to determine signed in status, but errored.
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[01/15/18, 12:31:01:244] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": null,
+  "teamId": "T8MVCNGTA"
+}
+[01/15/18, 12:31:01:368] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": null,
+  "teamId": "T8MVCNGTA"
+}
+[01/15/18, 12:31:23:560] info: Store: QUIT_APP
+[01/15/18, 12:31:23:675] info: Store: REMOVE_WINDOW 2
+[01/15/18, 12:31:23:685] info: Store: QUIT_APP

@@ -1,0 +1,145 @@
+[01/15/18, 12:32:57:942] info: ╔════════════════════════════════════════════════════════════════════════════╗
+[01/15/18, 12:32:57:943] info: ║      Slack 3.0.2, linux 4.9.75-1-lts on x64 at 01/15/18, 12:32:57:937      ║
+[01/15/18, 12:32:57:943] info: ╚════════════════════════════════════════════════════════════════════════════╝
+[01/15/18, 12:32:58:235] info: Initializing local storage instance at path: /home/mnkhbmb/.config/Slack/local-settings.json
+[01/15/18, 12:32:58:654] info: Store: SET_NETWORK_STATUS online
+[01/15/18, 12:33:04:761] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T8MVCNGTA"
+}
+[01/15/18, 12:33:04:778] info: Store: MAIN_WINDOW_SHOWN
+[01/15/18, 12:33:05:288] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T8MVCNGTA"
+}
+[01/15/18, 12:33:05:834] info: Store: SELECT_CHANNEL C8MVCNMPA
+[01/15/18, 12:33:05:835] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T8MVCNGTA"
+}
+[01/15/18, 12:33:05:837] info: Store: UPDATE_SETTINGS
+{
+  "locale": "en-US"
+}
+[01/15/18, 12:33:05:938] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T8MVCNGTA",
+  "theme": {
+    "active_item": "#4C9689",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#38978D",
+    "badge": "#EB4D5C",
+    "column_bg": "#4D394B",
+    "hover_item": "#3E313C",
+    "menu_bg": "#3E313C",
+    "text_color": "#FFFFFF"
+  }
+}
+[01/15/18, 12:33:10:667] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": false,
+  "teamId": "T8MVCNGTA"
+}
+[01/15/18, 12:33:10:749] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T8MVCNGTA"
+}
+[01/15/18, 12:33:10:753] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "webapp-loaded",
+  "teamId": "T8MVCNGTA"
+}
+[01/15/18, 12:33:10:870] info: Store: STORE_API_TOKEN
+{
+  "teamId": "T8MVCNGTA",
+  "token": "xoxs-⋯"
+}
+[01/15/18, 12:33:11:409] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    0,
+    20
+  ],
+  "size": [
+    1366,
+    748
+  ]
+}
+[01/15/18, 12:33:22:391] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    16,
+    36
+  ],
+  "size": [
+    661,
+    716
+  ]
+}
+[01/15/18, 12:33:26:065] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    0,
+    20
+  ],
+  "size": [
+    1366,
+    748
+  ]
+}
+[01/15/18, 12:34:43:911] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    0,
+    20
+  ],
+  "size": [
+    1366,
+    748
+  ]
+}
+[01/15/18, 12:35:42:777] info: Store: SELECT_CHANNEL D8NH9B5BM
+[01/15/18, 12:43:02:415] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    16,
+    36
+  ],
+  "size": [
+    661,
+    716
+  ]
+}
+[01/15/18, 12:43:04:673] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    0,
+    20
+  ],
+  "size": [
+    1366,
+    748
+  ]
+}
+[01/15/18, 18:22:20:651] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": false,
+  "teamId": "T8MVCNGTA"
+}
+[01/15/18, 18:22:20:751] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T8MVCNGTA"
+}

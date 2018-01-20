@@ -1,0 +1,73 @@
+[01/20/18, 11:57:47:863] info: ╔════════════════════════════════════════════════════════════════════════════╗
+[01/20/18, 11:57:47:864] info: ║      Slack 3.0.2, linux 4.9.76-1-lts on x64 at 01/20/18, 11:57:47:860      ║
+[01/20/18, 11:57:47:864] info: ╚════════════════════════════════════════════════════════════════════════════╝
+[01/20/18, 11:57:48:315] info: Initializing local storage instance at path: /home/mnkhbmb/.config/Slack/local-settings.json
+[01/20/18, 11:57:58:702] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T8MVCNGTA"
+}
+[01/20/18, 11:57:58:716] info: Store: MAIN_WINDOW_SHOWN
+[01/20/18, 11:57:59:235] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T8MVCNGTA"
+}
+[01/20/18, 11:57:59:447] info: Store: SELECT_CHANNEL D8NH9B5BM
+[01/20/18, 11:57:59:449] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T8MVCNGTA"
+}
+[01/20/18, 11:57:59:452] info: Store: UPDATE_SETTINGS
+{
+  "locale": "en-US"
+}
+[01/20/18, 11:57:59:454] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T8MVCNGTA",
+  "theme": {
+    "active_item": "#4C9689",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#38978D",
+    "badge": "#EB4D5C",
+    "column_bg": "#4D394B",
+    "hover_item": "#3E313C",
+    "menu_bg": "#3E313C",
+    "text_color": "#FFFFFF"
+  }
+}
+[01/20/18, 11:58:00:110] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    0,
+    20
+  ],
+  "size": [
+    1366,
+    748
+  ]
+}
+[01/20/18, 11:58:00:765] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": false,
+  "teamId": "T8MVCNGTA"
+}
+[01/20/18, 11:58:00:919] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T8MVCNGTA"
+}
+[01/20/18, 11:58:00:922] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "webapp-loaded",
+  "teamId": "T8MVCNGTA"
+}
+[01/20/18, 11:58:01:283] info: Store: STORE_API_TOKEN
+{
+  "teamId": "T8MVCNGTA",
+  "token": "xoxs-⋯"
+}

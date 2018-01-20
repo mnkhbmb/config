@@ -687,3 +687,6035 @@
   ],
   "isMaximized": false
 }
+[01/11/18, 16:36:31:843] info: ╔════════════════════════════════════════════════════════════════════════════╗
+[01/11/18, 16:36:31:844] info: ║      Slack 3.0.2, linux 4.9.75-1-lts on x64 at 01/11/18, 16:36:31:840      ║
+[01/11/18, 16:36:31:844] info: ╚════════════════════════════════════════════════════════════════════════════╝
+[01/11/18, 16:36:32:212] info: Initializing local storage instance at path: /home/mnkhbmb/.config/Slack/local-settings.json
+[01/11/18, 16:36:32:645] info: TraceRecorder: setting up trace recorder, trace will be stored under /home/mnkhbmb/.config/Slack/logs/recorded-trace
+[01/11/18, 16:36:33:852] info: BrowserStore: Keychain access previously denied, don't ask again
+[01/11/18, 16:36:33:894] info: Store: persist/REHYDRATE
+{
+  "appTeams": {
+    "selectedTeamId": "T8MVCNGTA",
+    "teamsByIndex": [
+      "T8MVCNGTA"
+    ],
+    "teamsToSignOut": []
+  },
+  "dialog": "[REDACTED]",
+  "downloads": "[REDACTED]",
+  "settings": {
+    "appVersion": "3.0.2",
+    "versionName": "Around The World",
+    "platform": "linux",
+    "platformVersion": {
+      "major": 4,
+      "minor": 9,
+      "build": 75
+    },
+    "isWin10": false,
+    "isBeforeWin10": false,
+    "resourcePath": "/usr/lib/slack/resources/app.asar",
+    "webappSrcPath": null,
+    "webappParams": null,
+    "isDevMode": false,
+    "devEnv": null,
+    "logFile": null,
+    "openDevToolsOnStart": false,
+    "pretendNotReallyWindows10": false,
+    "releaseChannel": "prod",
+    "autoHideMenuBar": false,
+    "isTitleBarHidden": false,
+    "hasRunApp": true,
+    "hasRunFromTray": false,
+    "reportIssueOnStartup": false,
+    "runFromTray": true,
+    "launchOnStartup": false,
+    "spellcheckerLanguage": null,
+    "zoomLevel": 0,
+    "workspaceIdleTimeout": 21600000,
+    "whitelistedUrlSchemes": [
+      "http:",
+      "https:",
+      "mailto:",
+      "skype:",
+      "spotify:",
+      "live:",
+      "callto:",
+      "tel:",
+      "im:",
+      "sip:",
+      "sips:",
+      "slack:"
+    ],
+    "isTitleBarForcedByUser": false,
+    "PrefSSBFileDownloadPath": "/home/mnkhbmb/Downloads",
+    "notificationMethod": null,
+    "notificationPlayback": null,
+    "notifyPosition": {
+      "corner": "bottom_right",
+      "display": "same_as_app"
+    },
+    "locale": "en-US",
+    "useHwAcceleration": true,
+    "os": false,
+    "release": false,
+    "desktopEnvironment": false,
+    "isAeroGlassEnabled": false,
+    "linux": {
+      "os": "",
+      "release": "",
+      "desktopEnvironment": ""
+    }
+  },
+  "teams": "[REDACTED]",
+  "unreads": {
+    "T8MVCNGTA": {
+      "unreads": 0,
+      "unreadHighlights": 0,
+      "showBullet": true
+    }
+  },
+  "windowFrame": {
+    "windowSettings": {
+      "size": [
+        1366,
+        748
+      ],
+      "position": [
+        0,
+        20
+      ],
+      "isMaximized": false
+    },
+    "isFullScreen": false
+  }
+}
+[01/11/18, 16:36:33:896] info: initializeMainWindowEpic: Waiting for selected team to load
+{
+  "selectedTeamId": "T8MVCNGTA"
+}
+[01/11/18, 16:36:33:896] info: NetworkStatus: Waiting for network online…
+[01/11/18, 16:36:33:898] info: UpdaterEpics: Updates disabled because
+{
+  "reasons": [
+    "using Linux"
+  ]
+}
+[01/11/18, 16:36:34:350] error: Couldn't get Linux distro info
+[01/11/18, 16:36:34:763] info: Store: INITIALIZE_SETTINGS
+{
+  "releaseChannel": "prod",
+  "platformVersion": {
+    "major": 4,
+    "minor": 9,
+    "build": 75
+  },
+  "isTitleBarHidden": false,
+  "isDevMode": false,
+  "appVersion": "3.0.2",
+  "versionName": "Around The World",
+  "devEnv": null,
+  "resourcePath": "/usr/lib/slack/resources/app.asar",
+  "webappSrcPath": null,
+  "webappParams": null,
+  "launchOnStartup": false,
+  "openDevToolsOnStart": false,
+  "logFile": null,
+  "pretendNotReallyWindows10": false,
+  "isAeroGlassEnabled": false,
+  "linux": {
+    "os": "",
+    "release": "",
+    "desktopEnvironment": ""
+  }
+}
+[01/11/18, 16:36:34:765] info: AutoLoginEpic: Checking for autologin.
+[01/11/18, 16:36:34:765] info: AutoLoginEpic: Completed autologin processing — successfully logged in 0 workspaces.
+[01/11/18, 16:36:34:765] info: Store: AUTOLOGIN_TEAMS_COMPLETE
+[01/11/18, 16:36:34:769] info: WebContentsMediator: Attaching to new webContents
+[01/11/18, 16:36:34:771] info: Store: ADD_WINDOW
+{
+  "id": 2,
+  "type": "main"
+}
+[01/11/18, 16:36:34:773] info: BrowserViewManager: Starting initialization
+[01/11/18, 16:36:34:774] info: BrowserViewManager: Activating BrowserView
+{
+  "teamId": "T8MVCNGTA"
+}
+[01/11/18, 16:36:34:774] info: BrowserViewManager: Creating BrowserView
+{
+  "teamId": "T8MVCNGTA"
+}
+[01/11/18, 16:36:34:775] info: WebContentsMediator: Attaching to new webContents
+[01/11/18, 16:36:34:778] info: BrowserViewManager: 
++-----------+------+-----+
+|           | Full | Min |
+|-----------+------+-----+
+| T8MVCNGTA | ✔    |     |
++-----------+------+-----+
+[01/11/18, 16:36:34:779] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "teamId": "T8MVCNGTA",
+  "state": "unloaded"
+}
+[01/11/18, 16:36:34:785] info: BrowserViewManager: Activating BrowserView
+{
+  "teamId": "T8MVCNGTA"
+}
+[01/11/18, 16:36:34:787] info: BrowserViewManager: 
++-----------+------+-----+
+|           | Full | Min |
+|-----------+------+-----+
+| T8MVCNGTA | ✔    |     |
++-----------+------+-----+
+[01/11/18, 16:36:34:788] info: BrowserViewManager: Finished initialization
+{
+  "elapsed": 13
+}
+[01/11/18, 16:36:34:790] info: PersistSettingsWindowBehavior: Loading windowMetrics
+{
+  "settings": {
+    "size": [
+      1366,
+      748
+    ],
+    "position": [
+      0,
+      20
+    ],
+    "isMaximized": false
+  }
+}
+[01/11/18, 16:36:34:830] info: Application: Setting main window ID
+{
+  "id": 2
+}
+[01/11/18, 16:36:34:832] info: App: Welcome to Slack 3.0.2 x64
+[01/11/18, 16:36:34:832] info: App load time: 3307ms
+[01/11/18, 16:36:34:945] info: Store: SET_FULL_SCREEN
+[01/11/18, 16:36:35:087] info: NetworkStatus: Response from api.test
+{
+  "status": "online"
+}
+[01/11/18, 16:36:35:088] info: Store: SET_NETWORK_STATUS online
+[01/11/18, 16:36:43:604] info: WebContents LifeCycle: webContents:3 from 'unloaded' to 'loaded' took 8822 ms
+[01/11/18, 16:36:43:604] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T8MVCNGTA"
+}
+[01/11/18, 16:36:43:610] info: initializeMainWindowEpic: Showing main window
+{
+  "shouldMinimize": false,
+  "shouldMaximize": false,
+  "shouldHide": false
+}
+[01/11/18, 16:36:43:612] info: Store: MAIN_WINDOW_SHOWN
+[01/11/18, 16:36:44:554] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T8MVCNGTA"
+}
+[01/11/18, 16:36:44:683] info: Store: SELECT_CHANNEL C8MVCNMPA
+[01/11/18, 16:36:44:686] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T8MVCNGTA"
+}
+[01/11/18, 16:36:44:689] info: Store: UPDATE_SETTINGS
+{
+  "locale": "en-US"
+}
+[01/11/18, 16:36:44:698] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T8MVCNGTA",
+  "theme": {
+    "active_item": "#4C9689",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#38978D",
+    "badge": "#EB4D5C",
+    "column_bg": "#4D394B",
+    "hover_item": "#3E313C",
+    "menu_bg": "#3E313C",
+    "text_color": "#FFFFFF"
+  }
+}
+[01/11/18, 16:36:44:701] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1366,
+    748
+  ],
+  "position": [
+    0,
+    20
+  ],
+  "isMaximized": false
+}
+[01/11/18, 16:36:46:127] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": false,
+  "teamId": "T8MVCNGTA"
+}
+[01/11/18, 16:36:46:199] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T8MVCNGTA"
+}
+[01/11/18, 16:36:46:201] info: WebContents LifeCycle: webContents:3 from 'loaded' to 'webapp-loaded' took 2598 ms
+[01/11/18, 16:36:46:201] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "webapp-loaded",
+  "teamId": "T8MVCNGTA"
+}
+[01/11/18, 16:36:46:304] info: Store: STORE_API_TOKEN
+{
+  "token": "xoxs-⋯",
+  "teamId": "T8MVCNGTA"
+}
+[01/11/18, 16:36:46:466] info: WebContentsMediator: Attaching to new webContents
+[01/11/18, 16:56:26:923] info: ╔════════════════════════════════════════════════════════════════════════════╗
+[01/11/18, 16:56:26:924] info: ║      Slack 3.0.2, linux 4.9.75-1-lts on x64 at 01/11/18, 16:56:26:920      ║
+[01/11/18, 16:56:26:924] info: ╚════════════════════════════════════════════════════════════════════════════╝
+[01/11/18, 16:56:27:659] info: Initializing local storage instance at path: /home/mnkhbmb/.config/Slack/local-settings.json
+[01/11/18, 16:56:28:935] info: TraceRecorder: setting up trace recorder, trace will be stored under /home/mnkhbmb/.config/Slack/logs/recorded-trace
+[01/11/18, 16:56:31:454] info: BrowserStore: Keychain access previously denied, don't ask again
+[01/11/18, 16:56:31:739] info: Store: persist/REHYDRATE
+{
+  "appTeams": {
+    "selectedTeamId": "T8MVCNGTA",
+    "teamsByIndex": [
+      "T8MVCNGTA"
+    ],
+    "teamsToSignOut": []
+  },
+  "dialog": "[REDACTED]",
+  "downloads": "[REDACTED]",
+  "settings": {
+    "appVersion": "3.0.2",
+    "versionName": "Around The World",
+    "platform": "linux",
+    "platformVersion": {
+      "major": 4,
+      "minor": 9,
+      "build": 75
+    },
+    "isWin10": false,
+    "isBeforeWin10": false,
+    "resourcePath": "/usr/lib/slack/resources/app.asar",
+    "webappSrcPath": null,
+    "webappParams": null,
+    "isDevMode": false,
+    "devEnv": null,
+    "logFile": null,
+    "openDevToolsOnStart": false,
+    "pretendNotReallyWindows10": false,
+    "releaseChannel": "prod",
+    "autoHideMenuBar": false,
+    "isTitleBarHidden": false,
+    "hasRunApp": true,
+    "hasRunFromTray": false,
+    "reportIssueOnStartup": false,
+    "runFromTray": true,
+    "launchOnStartup": false,
+    "spellcheckerLanguage": null,
+    "zoomLevel": 0,
+    "workspaceIdleTimeout": 21600000,
+    "whitelistedUrlSchemes": [
+      "http:",
+      "https:",
+      "mailto:",
+      "skype:",
+      "spotify:",
+      "live:",
+      "callto:",
+      "tel:",
+      "im:",
+      "sip:",
+      "sips:",
+      "slack:"
+    ],
+    "isTitleBarForcedByUser": false,
+    "PrefSSBFileDownloadPath": "/home/mnkhbmb/Downloads",
+    "notificationMethod": null,
+    "notificationPlayback": null,
+    "notifyPosition": {
+      "corner": "bottom_right",
+      "display": "same_as_app"
+    },
+    "locale": "en-US",
+    "useHwAcceleration": true,
+    "os": false,
+    "release": false,
+    "desktopEnvironment": false,
+    "isAeroGlassEnabled": false,
+    "linux": {
+      "os": "",
+      "release": "",
+      "desktopEnvironment": ""
+    }
+  },
+  "teams": "[REDACTED]",
+  "unreads": {
+    "T8MVCNGTA": {
+      "unreads": 0,
+      "unreadHighlights": 0,
+      "showBullet": true
+    }
+  },
+  "windowFrame": {
+    "windowSettings": {
+      "size": [
+        1366,
+        748
+      ],
+      "position": [
+        0,
+        20
+      ],
+      "isMaximized": false
+    },
+    "isFullScreen": false
+  }
+}
+[01/11/18, 16:56:31:740] info: initializeMainWindowEpic: Waiting for selected team to load
+{
+  "selectedTeamId": "T8MVCNGTA"
+}
+[01/11/18, 16:56:31:741] info: NetworkStatus: Waiting for network online…
+[01/11/18, 16:56:31:890] info: UpdaterEpics: Updates disabled because
+{
+  "reasons": [
+    "using Linux"
+  ]
+}
+[01/11/18, 16:56:34:144] error: Couldn't get Linux distro info
+[01/11/18, 16:56:35:551] info: Store: INITIALIZE_SETTINGS
+{
+  "releaseChannel": "prod",
+  "platformVersion": {
+    "major": 4,
+    "minor": 9,
+    "build": 75
+  },
+  "isTitleBarHidden": false,
+  "isDevMode": false,
+  "appVersion": "3.0.2",
+  "versionName": "Around The World",
+  "devEnv": null,
+  "resourcePath": "/usr/lib/slack/resources/app.asar",
+  "webappSrcPath": null,
+  "webappParams": null,
+  "launchOnStartup": false,
+  "openDevToolsOnStart": false,
+  "logFile": null,
+  "pretendNotReallyWindows10": false,
+  "isAeroGlassEnabled": false,
+  "linux": {
+    "os": "",
+    "release": "",
+    "desktopEnvironment": ""
+  }
+}
+[01/11/18, 16:56:35:553] info: AutoLoginEpic: Checking for autologin.
+[01/11/18, 16:56:35:553] info: AutoLoginEpic: Completed autologin processing — successfully logged in 0 workspaces.
+[01/11/18, 16:56:35:553] info: Store: AUTOLOGIN_TEAMS_COMPLETE
+[01/11/18, 16:56:35:557] info: WebContentsMediator: Attaching to new webContents
+[01/11/18, 16:56:35:559] info: Store: ADD_WINDOW
+{
+  "id": 2,
+  "type": "main"
+}
+[01/11/18, 16:56:35:561] info: BrowserViewManager: Starting initialization
+[01/11/18, 16:56:35:562] info: BrowserViewManager: Activating BrowserView
+{
+  "teamId": "T8MVCNGTA"
+}
+[01/11/18, 16:56:35:562] info: BrowserViewManager: Creating BrowserView
+{
+  "teamId": "T8MVCNGTA"
+}
+[01/11/18, 16:56:35:563] info: WebContentsMediator: Attaching to new webContents
+[01/11/18, 16:56:35:566] info: BrowserViewManager: 
++-----------+------+-----+
+|           | Full | Min |
+|-----------+------+-----+
+| T8MVCNGTA | ✔    |     |
++-----------+------+-----+
+[01/11/18, 16:56:35:567] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "teamId": "T8MVCNGTA",
+  "state": "unloaded"
+}
+[01/11/18, 16:56:35:573] info: BrowserViewManager: Activating BrowserView
+{
+  "teamId": "T8MVCNGTA"
+}
+[01/11/18, 16:56:35:576] info: BrowserViewManager: 
++-----------+------+-----+
+|           | Full | Min |
+|-----------+------+-----+
+| T8MVCNGTA | ✔    |     |
++-----------+------+-----+
+[01/11/18, 16:56:35:576] info: BrowserViewManager: Finished initialization
+{
+  "elapsed": 15
+}
+[01/11/18, 16:56:35:578] info: PersistSettingsWindowBehavior: Loading windowMetrics
+{
+  "settings": {
+    "size": [
+      1366,
+      748
+    ],
+    "position": [
+      0,
+      20
+    ],
+    "isMaximized": false
+  }
+}
+[01/11/18, 16:56:35:626] info: Application: Setting main window ID
+{
+  "id": 2
+}
+[01/11/18, 16:56:35:628] info: App: Welcome to Slack 3.0.2 x64
+[01/11/18, 16:56:35:628] info: App load time: 9732ms
+[01/11/18, 16:56:35:817] info: NetworkStatus: Response from api.test
+{
+  "status": "online"
+}
+[01/11/18, 16:56:35:818] info: Store: SET_NETWORK_STATUS online
+[01/11/18, 16:56:36:650] info: Store: SET_FULL_SCREEN
+[01/11/18, 16:56:50:742] info: WebContents LifeCycle: webContents:3 from 'unloaded' to 'loaded' took 15173 ms
+[01/11/18, 16:56:50:744] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T8MVCNGTA"
+}
+[01/11/18, 16:56:50:751] info: initializeMainWindowEpic: Showing main window
+{
+  "shouldMinimize": false,
+  "shouldMaximize": false,
+  "shouldHide": false
+}
+[01/11/18, 16:56:50:755] info: Store: MAIN_WINDOW_SHOWN
+[01/11/18, 16:56:51:266] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T8MVCNGTA"
+}
+[01/11/18, 16:56:51:766] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    661,
+    716
+  ],
+  "position": [
+    689,
+    36
+  ],
+  "isMaximized": false
+}
+[01/11/18, 16:56:51:970] info: Store: SELECT_CHANNEL C8MVCNMPA
+[01/11/18, 16:56:51:974] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T8MVCNGTA"
+}
+[01/11/18, 16:56:51:977] info: Store: UPDATE_SETTINGS
+{
+  "locale": "en-US"
+}
+[01/11/18, 16:56:52:117] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T8MVCNGTA",
+  "theme": {
+    "active_item": "#4C9689",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#38978D",
+    "badge": "#EB4D5C",
+    "column_bg": "#4D394B",
+    "hover_item": "#3E313C",
+    "menu_bg": "#3E313C",
+    "text_color": "#FFFFFF"
+  }
+}
+[01/11/18, 16:56:53:379] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": false,
+  "teamId": "T8MVCNGTA"
+}
+[01/11/18, 16:56:53:533] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T8MVCNGTA"
+}
+[01/11/18, 16:56:53:536] info: WebContents LifeCycle: webContents:3 from 'loaded' to 'webapp-loaded' took 2794 ms
+[01/11/18, 16:56:53:537] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "webapp-loaded",
+  "teamId": "T8MVCNGTA"
+}
+[01/11/18, 16:56:53:843] info: Store: STORE_API_TOKEN
+{
+  "token": "xoxs-⋯",
+  "teamId": "T8MVCNGTA"
+}
+[01/11/18, 16:56:55:510] info: WebContentsMediator: Attaching to new webContents
+[01/11/18, 16:57:00:182] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1366,
+    748
+  ],
+  "position": [
+    0,
+    20
+  ],
+  "isMaximized": false
+}
+[01/11/18, 17:15:40:296] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "lPvSohqPoE3qro",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515662139.000325&team=T8MVCNGTA",
+  "msg": "1515662139.000325",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:15:40:299] info: Creating new Electron notification.
+[01/11/18, 17:15:48:186] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "M6Ef2iWrEo6OVQ",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515662147.000315&team=T8MVCNGTA",
+  "msg": "1515662147.000315",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:15:48:195] info: Creating new Electron notification.
+[01/11/18, 17:16:10:049] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "GEYFWsQxgZzyPQ",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515662169.000264&team=T8MVCNGTA",
+  "msg": "1515662169.000264",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:16:10:052] info: Creating new Electron notification.
+[01/11/18, 17:16:26:255] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "mP2SRt96oPy21M",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515662185.000383&team=T8MVCNGTA",
+  "msg": "1515662185.000383",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:16:26:258] info: Creating new Electron notification.
+[01/11/18, 17:16:43:292] info: Store: MAIN_WINDOW_FOCUSED
+[01/11/18, 17:17:08:985] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "5glu6u2g5DM8gP",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515662228.000361&team=T8MVCNGTA",
+  "msg": "1515662228.000361",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:17:08:986] info: Creating new Electron notification.
+[01/11/18, 17:17:12:640] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "P8MHNCj54XyZog",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515662232.000129&team=T8MVCNGTA",
+  "msg": "1515662232.000129",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:17:12:641] info: Creating new Electron notification.
+[01/11/18, 17:17:15:505] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "3GjIGFDk0yApDM",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515662235.000002&team=T8MVCNGTA",
+  "msg": "1515662235.000002",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:17:15:507] info: Creating new Electron notification.
+[01/11/18, 17:17:56:945] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "GEYFqHQxgZ8G4O",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515662276.000328&team=T8MVCNGTA",
+  "msg": "1515662276.000328",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:17:56:947] info: Creating new Electron notification.
+[01/11/18, 17:18:03:019] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "LRYilImpl2OnW6",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515662282.000316&team=T8MVCNGTA",
+  "msg": "1515662282.000316",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:18:03:025] info: Creating new Electron notification.
+[01/11/18, 17:18:29:683] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "LRYiVSmpl2Dmoz",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515662309.000222&team=T8MVCNGTA",
+  "msg": "1515662309.000222",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:18:29:686] info: Creating new Electron notification.
+[01/11/18, 17:18:32:757] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "3GjIZTDk0y4v16",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515662312.000176&team=T8MVCNGTA",
+  "msg": "1515662312.000176",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:18:32:760] info: Creating new Electron notification.
+[01/11/18, 17:18:43:640] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "oPvSJU6wY9yEKA",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515662323.000225&team=T8MVCNGTA",
+  "msg": "1515662323.000225",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:18:43:641] info: Creating new Electron notification.
+[01/11/18, 17:18:53:394] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "yn6SmcR8W0pzXL",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515662333.000022&team=T8MVCNGTA",
+  "msg": "1515662333.000022",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:18:53:396] info: Creating new Electron notification.
+[01/11/18, 17:18:56:864] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "AxQHmfYWrmLR5k",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515662336.000202&team=T8MVCNGTA",
+  "msg": "1515662336.000202",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:18:56:865] info: Creating new Electron notification.
+[01/11/18, 17:18:58:815] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "V95COhJYX06omv",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515662338.000179&team=T8MVCNGTA",
+  "msg": "1515662338.000179",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:18:58:816] info: Creating new Electron notification.
+[01/11/18, 17:19:06:493] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "By8hBij5L02Agr",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515662345.000550&team=T8MVCNGTA",
+  "msg": "1515662345.000550",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:19:06:496] info: Creating new Electron notification.
+[01/11/18, 17:19:12:860] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "yn6SXsR8W0p43o",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515662352.000190&team=T8MVCNGTA",
+  "msg": "1515662352.000190",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:19:12:861] info: Creating new Electron notification.
+[01/11/18, 17:19:13:646] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "WRwiktnGD0ZRmG",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515662353.000205&team=T8MVCNGTA",
+  "msg": "1515662353.000205",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:19:13:648] info: Creating new Electron notification.
+[01/11/18, 17:20:30:140] info: Store: MAIN_WINDOW_FOCUSED
+[01/11/18, 17:21:07:368] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "LRYiAumpl2wDlk",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515662467.000053&team=T8MVCNGTA",
+  "msg": "1515662467.000053",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:21:07:370] info: Creating new Electron notification.
+[01/11/18, 17:21:08:075] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "DAYHRCZYVjMMnX",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515662467.000385&team=T8MVCNGTA",
+  "msg": "1515662467.000385",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:21:08:077] info: Creating new Electron notification.
+[01/11/18, 17:21:43:337] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    661,
+    716
+  ],
+  "position": [
+    16,
+    36
+  ],
+  "isMaximized": false
+}
+[01/11/18, 17:22:27:876] info: WindowCloseBehavior: Attempted to close the window, hiding due to run from tray
+[01/11/18, 17:22:27:878] info: Store: UPDATE_SETTINGS
+{
+  "hasRunFromTray": true
+}
+[01/11/18, 17:22:27:879] info: Store: SHOW_TRAY_BALLOON
+{
+  "title": "Why didn’t Slack quit?",
+  "content": "Slack’s set to stay running in the notification area. To change this, visit Preferences > Linux App."
+}
+[01/11/18, 17:22:27:880] info: Tray Handler: Showing a tray balloon with title: Why didn’t Slack quit?
+[01/11/18, 17:22:27:978] info: Store: SET_FULL_SCREEN
+[01/11/18, 17:22:31:455] info: Store: FOREGROUND_APP
+[01/11/18, 17:22:31:654] info: Store: FOREGROUND_APP
+[01/11/18, 17:22:32:461] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    661,
+    716
+  ],
+  "position": [
+    689,
+    36
+  ],
+  "isMaximized": false
+}
+[01/11/18, 17:22:44:599] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "pPRS7FGMNWRGG2",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515662564.000004&team=T8MVCNGTA",
+  "msg": "1515662564.000004",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:22:44:603] info: Creating new Electron notification.
+[01/11/18, 17:22:54:480] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1366,
+    748
+  ],
+  "position": [
+    0,
+    20
+  ],
+  "isMaximized": false
+}
+[01/11/18, 17:23:15:689] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    661,
+    716
+  ],
+  "position": [
+    16,
+    36
+  ],
+  "isMaximized": false
+}
+[01/11/18, 17:23:19:526] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "1DYCZHXxjwBwYj",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515662599.000068&team=T8MVCNGTA",
+  "msg": "1515662599.000068",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:23:19:527] info: Creating new Electron notification.
+[01/11/18, 17:23:20:230] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "R7MSXIO5l2z27B",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515662600.000028&team=T8MVCNGTA",
+  "msg": "1515662600.000028",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:23:20:231] info: Creating new Electron notification.
+[01/11/18, 17:23:34:820] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "WRwirSnGD8VQ6M",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515662614.000298&team=T8MVCNGTA",
+  "msg": "1515662614.000298",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:23:34:822] info: Creating new Electron notification.
+[01/11/18, 17:25:56:345] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "6jmf6T57YG6Nx8",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515662706.000577&team=T8MVCNGTA",
+  "msg": "1515662706.000577",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:25:56:348] info: Creating new Electron notification.
+[01/11/18, 17:25:56:352] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "9mptJUO95WEK1k",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515662708.000020&team=T8MVCNGTA",
+  "msg": "1515662708.000020",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:25:56:354] info: Creating new Electron notification.
+[01/11/18, 17:25:56:359] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "kPwS8c9LBnVY8Q",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515662711.000139&team=T8MVCNGTA",
+  "msg": "1515662711.000139",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:25:56:361] info: Creating new Electron notification.
+[01/11/18, 17:25:56:364] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "nPYSvfZxn5JMEm",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515662714.000236&team=T8MVCNGTA",
+  "msg": "1515662714.000236",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:25:56:365] info: Creating new Electron notification.
+[01/11/18, 17:25:56:368] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "r6EfJhyAZVzRNQ",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515662718.000045&team=T8MVCNGTA",
+  "msg": "1515662718.000045",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:25:56:369] info: Creating new Electron notification.
+[01/11/18, 17:25:56:378] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "EBZH5iPW7rwqQD",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515662726.000054&team=T8MVCNGTA",
+  "msg": "1515662726.000054",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:25:56:379] info: Creating new Electron notification.
+[01/11/18, 17:25:56:383] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "ZRwigsyWgkjQP1",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515662726.000373&team=T8MVCNGTA",
+  "msg": "1515662726.000373",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:25:56:384] info: Creating new Electron notification.
+[01/11/18, 17:25:56:394] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "LRYiOtmplNqxgp",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515662750.000543&team=T8MVCNGTA",
+  "msg": "1515662750.000543",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:25:56:395] info: Creating new Electron notification.
+[01/11/18, 17:25:56:404] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "OREigur70mv951",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515662753.000232&team=T8MVCNGTA",
+  "msg": "1515662753.000232",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:25:56:405] info: Creating new Electron notification.
+[01/11/18, 17:26:52:094] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    661,
+    716
+  ],
+  "position": [
+    16,
+    36
+  ],
+  "isMaximized": false
+}
+[01/11/18, 17:26:54:806] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    661,
+    716
+  ],
+  "position": [
+    16,
+    36
+  ],
+  "isMaximized": false
+}
+[01/11/18, 17:27:31:820] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    661,
+    716
+  ],
+  "position": [
+    16,
+    36
+  ],
+  "isMaximized": false
+}
+[01/11/18, 17:27:53:030] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    661,
+    736
+  ],
+  "position": [
+    16,
+    16
+  ],
+  "isMaximized": false
+}
+[01/11/18, 17:28:01:840] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    661,
+    716
+  ],
+  "position": [
+    16,
+    36
+  ],
+  "isMaximized": false
+}
+[01/11/18, 17:28:05:361] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1366,
+    748
+  ],
+  "position": [
+    0,
+    20
+  ],
+  "isMaximized": false
+}
+[01/11/18, 17:28:33:940] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1366,
+    768
+  ],
+  "position": [
+    0,
+    0
+  ],
+  "isMaximized": false
+}
+[01/11/18, 17:29:34:604] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1366,
+    748
+  ],
+  "position": [
+    0,
+    20
+  ],
+  "isMaximized": false
+}
+[01/11/18, 17:30:25:778] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "9mptXCO95WPW2J",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515663025.000083&team=T8MVCNGTA",
+  "msg": "1515663025.000083",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:30:25:780] info: Creating new Electron notification.
+[01/11/18, 17:33:58:375] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "QRNiQFkNBjQ8rQ",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515663237.000518&team=T8MVCNGTA",
+  "msg": "1515663237.000518",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:33:58:376] info: Creating new Electron notification.
+[01/11/18, 17:34:02:157] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "5glu8H2g5JlOyl",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515663241.000430&team=T8MVCNGTA",
+  "msg": "1515663241.000430",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:34:02:160] info: Creating new Electron notification.
+[01/11/18, 17:35:01:342] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "DAYHkIZYVpBYQn",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515663301.000023&team=T8MVCNGTA",
+  "msg": "1515663301.000023",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:35:01:343] info: Creating new Electron notification.
+[01/11/18, 17:35:35:733] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "3GjIQSDk0WOvw0",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515663335.000205&team=T8MVCNGTA",
+  "msg": "1515663335.000205",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:35:35:736] info: Creating new Electron notification.
+[01/11/18, 17:35:36:308] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "kPwSVT9LBn08AK",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515663335.000563&team=T8MVCNGTA",
+  "msg": "1515663335.000563",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:35:36:309] info: Creating new Electron notification.
+[01/11/18, 17:40:59:570] info: Store: FOREGROUND_APP
+[01/12/18, 10:40:50:869] info: ╔════════════════════════════════════════════════════════════════════════════╗
+[01/12/18, 10:40:50:869] info: ║      Slack 3.0.2, linux 4.9.75-1-lts on x64 at 01/12/18, 10:40:50:866      ║
+[01/12/18, 10:40:50:869] info: ╚════════════════════════════════════════════════════════════════════════════╝
+[01/12/18, 10:40:52:878] info: Initializing local storage instance at path: /home/mnkhbmb/.config/Slack/local-settings.json
+[01/12/18, 10:40:54:226] info: TraceRecorder: setting up trace recorder, trace will be stored under /home/mnkhbmb/.config/Slack/logs/recorded-trace
+[01/12/18, 10:40:56:563] info: BrowserStore: Keychain access previously denied, don't ask again
+[01/12/18, 10:40:56:970] info: Store: persist/REHYDRATE
+{
+  "appTeams": {
+    "selectedTeamId": "T8MVCNGTA",
+    "teamsByIndex": [
+      "T8MVCNGTA"
+    ],
+    "teamsToSignOut": []
+  },
+  "dialog": "[REDACTED]",
+  "downloads": "[REDACTED]",
+  "settings": {
+    "appVersion": "3.0.2",
+    "versionName": "Around The World",
+    "platform": "linux",
+    "platformVersion": {
+      "major": 4,
+      "minor": 9,
+      "build": 75
+    },
+    "isWin10": false,
+    "isBeforeWin10": false,
+    "resourcePath": "/usr/lib/slack/resources/app.asar",
+    "webappSrcPath": null,
+    "webappParams": null,
+    "isDevMode": false,
+    "devEnv": null,
+    "logFile": null,
+    "openDevToolsOnStart": false,
+    "pretendNotReallyWindows10": false,
+    "releaseChannel": "prod",
+    "autoHideMenuBar": false,
+    "isTitleBarHidden": false,
+    "hasRunApp": true,
+    "hasRunFromTray": true,
+    "reportIssueOnStartup": false,
+    "runFromTray": true,
+    "launchOnStartup": false,
+    "spellcheckerLanguage": null,
+    "zoomLevel": 0,
+    "workspaceIdleTimeout": 21600000,
+    "whitelistedUrlSchemes": [
+      "http:",
+      "https:",
+      "mailto:",
+      "skype:",
+      "spotify:",
+      "live:",
+      "callto:",
+      "tel:",
+      "im:",
+      "sip:",
+      "sips:",
+      "slack:"
+    ],
+    "isTitleBarForcedByUser": false,
+    "PrefSSBFileDownloadPath": "/home/mnkhbmb/Downloads",
+    "notificationMethod": null,
+    "notificationPlayback": null,
+    "notifyPosition": {
+      "corner": "bottom_right",
+      "display": "same_as_app"
+    },
+    "locale": "en-US",
+    "useHwAcceleration": true,
+    "os": false,
+    "release": false,
+    "desktopEnvironment": false,
+    "isAeroGlassEnabled": false,
+    "linux": {
+      "os": "",
+      "release": "",
+      "desktopEnvironment": ""
+    }
+  },
+  "teams": "[REDACTED]",
+  "unreads": {
+    "T8MVCNGTA": {
+      "unreads": 0,
+      "unreadHighlights": 0,
+      "showBullet": true
+    }
+  },
+  "windowFrame": {
+    "windowSettings": {
+      "size": [
+        1366,
+        748
+      ],
+      "position": [
+        0,
+        20
+      ],
+      "isMaximized": false
+    },
+    "isFullScreen": false
+  }
+}
+[01/12/18, 10:40:56:972] info: initializeMainWindowEpic: Waiting for selected team to load
+{
+  "selectedTeamId": "T8MVCNGTA"
+}
+[01/12/18, 10:40:56:972] info: NetworkStatus: Waiting for network online…
+[01/12/18, 10:40:57:013] info: UpdaterEpics: Updates disabled because
+{
+  "reasons": [
+    "using Linux"
+  ]
+}
+[01/12/18, 10:40:58:011] error: Couldn't get Linux distro info
+[01/12/18, 10:40:58:906] info: Store: INITIALIZE_SETTINGS
+{
+  "releaseChannel": "prod",
+  "platformVersion": {
+    "major": 4,
+    "minor": 9,
+    "build": 75
+  },
+  "isTitleBarHidden": false,
+  "isDevMode": false,
+  "appVersion": "3.0.2",
+  "versionName": "Around The World",
+  "devEnv": null,
+  "resourcePath": "/usr/lib/slack/resources/app.asar",
+  "webappSrcPath": null,
+  "webappParams": null,
+  "launchOnStartup": false,
+  "openDevToolsOnStart": false,
+  "logFile": null,
+  "pretendNotReallyWindows10": false,
+  "isAeroGlassEnabled": false,
+  "linux": {
+    "os": "",
+    "release": "",
+    "desktopEnvironment": ""
+  }
+}
+[01/12/18, 10:40:58:907] info: AutoLoginEpic: Checking for autologin.
+[01/12/18, 10:40:58:908] info: AutoLoginEpic: Completed autologin processing — successfully logged in 0 workspaces.
+[01/12/18, 10:40:58:908] info: Store: AUTOLOGIN_TEAMS_COMPLETE
+[01/12/18, 10:40:58:911] info: WebContentsMediator: Attaching to new webContents
+[01/12/18, 10:40:58:913] info: Store: ADD_WINDOW
+{
+  "id": 2,
+  "type": "main"
+}
+[01/12/18, 10:40:58:916] info: BrowserViewManager: Starting initialization
+[01/12/18, 10:40:58:916] info: BrowserViewManager: Activating BrowserView
+{
+  "teamId": "T8MVCNGTA"
+}
+[01/12/18, 10:40:58:916] info: BrowserViewManager: Creating BrowserView
+{
+  "teamId": "T8MVCNGTA"
+}
+[01/12/18, 10:40:58:918] info: WebContentsMediator: Attaching to new webContents
+[01/12/18, 10:40:58:920] info: BrowserViewManager: 
++-----------+------+-----+
+|           | Full | Min |
+|-----------+------+-----+
+| T8MVCNGTA | ✔    |     |
++-----------+------+-----+
+[01/12/18, 10:40:58:921] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "teamId": "T8MVCNGTA",
+  "state": "unloaded"
+}
+[01/12/18, 10:40:58:927] info: BrowserViewManager: Activating BrowserView
+{
+  "teamId": "T8MVCNGTA"
+}
+[01/12/18, 10:40:58:929] info: BrowserViewManager: 
++-----------+------+-----+
+|           | Full | Min |
+|-----------+------+-----+
+| T8MVCNGTA | ✔    |     |
++-----------+------+-----+
+[01/12/18, 10:40:58:929] info: BrowserViewManager: Finished initialization
+{
+  "elapsed": 13
+}
+[01/12/18, 10:40:58:931] info: PersistSettingsWindowBehavior: Loading windowMetrics
+{
+  "settings": {
+    "size": [
+      1366,
+      748
+    ],
+    "position": [
+      0,
+      20
+    ],
+    "isMaximized": false
+  }
+}
+[01/12/18, 10:40:59:016] info: Application: Setting main window ID
+{
+  "id": 2
+}
+[01/12/18, 10:40:59:017] info: App: Welcome to Slack 3.0.2 x64
+[01/12/18, 10:40:59:017] info: App load time: 9095ms
+[01/12/18, 10:40:59:024] info: NetworkStatus: Response from api.test
+{
+  "status": "online"
+}
+[01/12/18, 10:40:59:024] info: Store: SET_NETWORK_STATUS online
+[01/12/18, 10:40:59:447] info: Store: SET_FULL_SCREEN
+[01/12/18, 10:41:16:273] info: WebContents LifeCycle: webContents:3 from 'unloaded' to 'loaded' took 17349 ms
+[01/12/18, 10:41:16:273] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T8MVCNGTA"
+}
+[01/12/18, 10:41:16:282] info: initializeMainWindowEpic: Showing main window
+{
+  "shouldMinimize": false,
+  "shouldMaximize": false,
+  "shouldHide": false
+}
+[01/12/18, 10:41:16:290] info: Store: MAIN_WINDOW_SHOWN
+[01/12/18, 10:41:17:217] info: Store: SELECT_CHANNEL C8MVCNMPA
+[01/12/18, 10:41:17:222] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T8MVCNGTA"
+}
+[01/12/18, 10:41:17:226] info: Store: UPDATE_SETTINGS
+{
+  "locale": "en-US"
+}
+[01/12/18, 10:41:17:312] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T8MVCNGTA",
+  "theme": {
+    "active_item": "#4C9689",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#38978D",
+    "badge": "#EB4D5C",
+    "column_bg": "#4D394B",
+    "hover_item": "#3E313C",
+    "menu_bg": "#3E313C",
+    "text_color": "#FFFFFF"
+  }
+}
+[01/12/18, 10:41:17:354] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    661,
+    716
+  ],
+  "position": [
+    689,
+    36
+  ],
+  "isMaximized": false
+}
+[01/12/18, 10:41:17:432] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T8MVCNGTA"
+}
+[01/12/18, 10:41:18:702] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": false,
+  "teamId": "T8MVCNGTA"
+}
+[01/12/18, 10:41:18:784] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T8MVCNGTA"
+}
+[01/12/18, 10:41:18:819] info: WebContents LifeCycle: webContents:3 from 'loaded' to 'webapp-loaded' took 2547 ms
+[01/12/18, 10:41:18:819] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "webapp-loaded",
+  "teamId": "T8MVCNGTA"
+}
+[01/12/18, 10:41:18:907] info: Store: STORE_API_TOKEN
+{
+  "token": "xoxs-⋯",
+  "teamId": "T8MVCNGTA"
+}
+[01/12/18, 10:41:19:120] info: WebContentsMediator: Attaching to new webContents
+[01/12/18, 10:41:24:189] info: Store: SELECT_CHANNEL D8NH9B5BM
+[01/14/18, 19:11:24:462] info: ╔════════════════════════════════════════════════════════════════════════════╗
+[01/14/18, 19:11:24:463] info: ║      Slack 3.0.2, linux 4.9.75-1-lts on x64 at 01/14/18, 19:11:24:459      ║
+[01/14/18, 19:11:24:463] info: ╚════════════════════════════════════════════════════════════════════════════╝
+[01/14/18, 19:11:25:995] info: Initializing local storage instance at path: /home/mnkhbmb/.config/Slack/local-settings.json
+[01/14/18, 19:11:27:667] info: TraceRecorder: setting up trace recorder, trace will be stored under /home/mnkhbmb/.config/Slack/logs/recorded-trace
+[01/14/18, 19:11:30:340] info: BrowserStore: Keychain access previously denied, don't ask again
+[01/14/18, 19:11:30:575] info: Store: persist/REHYDRATE
+{
+  "appTeams": {
+    "selectedTeamId": "T8MVCNGTA",
+    "teamsByIndex": [
+      "T8MVCNGTA"
+    ],
+    "teamsToSignOut": []
+  },
+  "dialog": "[REDACTED]",
+  "downloads": "[REDACTED]",
+  "settings": {
+    "appVersion": "3.0.2",
+    "versionName": "Around The World",
+    "platform": "linux",
+    "platformVersion": {
+      "major": 4,
+      "minor": 9,
+      "build": 75
+    },
+    "isWin10": false,
+    "isBeforeWin10": false,
+    "resourcePath": "/usr/lib/slack/resources/app.asar",
+    "webappSrcPath": null,
+    "webappParams": null,
+    "isDevMode": false,
+    "devEnv": null,
+    "logFile": null,
+    "openDevToolsOnStart": false,
+    "pretendNotReallyWindows10": false,
+    "releaseChannel": "prod",
+    "autoHideMenuBar": false,
+    "isTitleBarHidden": false,
+    "hasRunApp": true,
+    "hasRunFromTray": true,
+    "reportIssueOnStartup": false,
+    "runFromTray": true,
+    "launchOnStartup": false,
+    "spellcheckerLanguage": null,
+    "zoomLevel": 0,
+    "workspaceIdleTimeout": 21600000,
+    "whitelistedUrlSchemes": [
+      "http:",
+      "https:",
+      "mailto:",
+      "skype:",
+      "spotify:",
+      "live:",
+      "callto:",
+      "tel:",
+      "im:",
+      "sip:",
+      "sips:",
+      "slack:"
+    ],
+    "isTitleBarForcedByUser": false,
+    "PrefSSBFileDownloadPath": "/home/mnkhbmb/Downloads",
+    "notificationMethod": null,
+    "notificationPlayback": null,
+    "notifyPosition": {
+      "corner": "bottom_right",
+      "display": "same_as_app"
+    },
+    "locale": "en-US",
+    "useHwAcceleration": true,
+    "os": false,
+    "release": false,
+    "desktopEnvironment": false,
+    "isAeroGlassEnabled": false,
+    "linux": {
+      "os": "",
+      "release": "",
+      "desktopEnvironment": ""
+    }
+  },
+  "teams": "[REDACTED]",
+  "unreads": {
+    "T8MVCNGTA": {
+      "unreads": 0,
+      "unreadHighlights": 0,
+      "showBullet": true
+    }
+  },
+  "windowFrame": {
+    "windowSettings": {
+      "size": [
+        661,
+        716
+      ],
+      "position": [
+        689,
+        36
+      ],
+      "isMaximized": false
+    },
+    "isFullScreen": false
+  }
+}
+[01/14/18, 19:11:30:576] info: initializeMainWindowEpic: Waiting for selected team to load
+{
+  "selectedTeamId": "T8MVCNGTA"
+}
+[01/14/18, 19:11:30:577] info: NetworkStatus: Waiting for network online…
+[01/14/18, 19:11:30:607] info: UpdaterEpics: Updates disabled because
+{
+  "reasons": [
+    "using Linux"
+  ]
+}
+[01/14/18, 19:11:32:770] error: Couldn't get Linux distro info
+[01/14/18, 19:11:33:390] info: Store: INITIALIZE_SETTINGS
+{
+  "releaseChannel": "prod",
+  "platformVersion": {
+    "major": 4,
+    "minor": 9,
+    "build": 75
+  },
+  "isTitleBarHidden": false,
+  "isDevMode": false,
+  "appVersion": "3.0.2",
+  "versionName": "Around The World",
+  "devEnv": null,
+  "resourcePath": "/usr/lib/slack/resources/app.asar",
+  "webappSrcPath": null,
+  "webappParams": null,
+  "launchOnStartup": false,
+  "openDevToolsOnStart": false,
+  "logFile": null,
+  "pretendNotReallyWindows10": false,
+  "isAeroGlassEnabled": false,
+  "linux": {
+    "os": "",
+    "release": "",
+    "desktopEnvironment": ""
+  }
+}
+[01/14/18, 19:11:33:392] info: AutoLoginEpic: Checking for autologin.
+[01/14/18, 19:11:33:392] info: AutoLoginEpic: Completed autologin processing — successfully logged in 0 workspaces.
+[01/14/18, 19:11:33:393] info: Store: AUTOLOGIN_TEAMS_COMPLETE
+[01/14/18, 19:11:33:397] info: WebContentsMediator: Attaching to new webContents
+[01/14/18, 19:11:33:399] info: Store: ADD_WINDOW
+{
+  "id": 2,
+  "type": "main"
+}
+[01/14/18, 19:11:33:402] info: BrowserViewManager: Starting initialization
+[01/14/18, 19:11:33:403] info: BrowserViewManager: Activating BrowserView
+{
+  "teamId": "T8MVCNGTA"
+}
+[01/14/18, 19:11:33:403] info: BrowserViewManager: Creating BrowserView
+{
+  "teamId": "T8MVCNGTA"
+}
+[01/14/18, 19:11:33:405] info: WebContentsMediator: Attaching to new webContents
+[01/14/18, 19:11:33:408] info: BrowserViewManager: 
++-----------+------+-----+
+|           | Full | Min |
+|-----------+------+-----+
+| T8MVCNGTA | ✔    |     |
++-----------+------+-----+
+[01/14/18, 19:11:33:409] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "teamId": "T8MVCNGTA",
+  "state": "unloaded"
+}
+[01/14/18, 19:11:33:416] info: BrowserViewManager: Activating BrowserView
+{
+  "teamId": "T8MVCNGTA"
+}
+[01/14/18, 19:11:33:418] info: BrowserViewManager: 
++-----------+------+-----+
+|           | Full | Min |
+|-----------+------+-----+
+| T8MVCNGTA | ✔    |     |
++-----------+------+-----+
+[01/14/18, 19:11:33:419] info: BrowserViewManager: Finished initialization
+{
+  "elapsed": 17
+}
+[01/14/18, 19:11:33:421] info: PersistSettingsWindowBehavior: Loading windowMetrics
+{
+  "settings": {
+    "size": [
+      661,
+      716
+    ],
+    "position": [
+      689,
+      36
+    ],
+    "isMaximized": false
+  }
+}
+[01/14/18, 19:11:33:553] info: Application: Setting main window ID
+{
+  "id": 2
+}
+[01/14/18, 19:11:33:555] info: App: Welcome to Slack 3.0.2 x64
+[01/14/18, 19:11:33:555] info: App load time: 10305ms
+[01/14/18, 19:11:33:576] info: NetworkStatus: Response from api.test
+{
+  "status": "online"
+}
+[01/14/18, 19:11:33:576] info: Store: SET_NETWORK_STATUS online
+[01/14/18, 19:11:33:883] info: Store: SET_FULL_SCREEN
+[01/14/18, 19:11:50:743] info: WebContents LifeCycle: webContents:3 from 'unloaded' to 'loaded' took 17332 ms
+[01/14/18, 19:11:50:744] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T8MVCNGTA"
+}
+[01/14/18, 19:11:50:752] info: initializeMainWindowEpic: Showing main window
+{
+  "shouldMinimize": false,
+  "shouldMaximize": false,
+  "shouldHide": false
+}
+[01/14/18, 19:11:50:758] info: Store: MAIN_WINDOW_SHOWN
+[01/14/18, 19:11:51:590] info: Store: SELECT_CHANNEL D8NH9B5BM
+[01/14/18, 19:11:51:594] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T8MVCNGTA"
+}
+[01/14/18, 19:11:51:597] info: Store: UPDATE_SETTINGS
+{
+  "locale": "en-US"
+}
+[01/14/18, 19:11:51:668] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T8MVCNGTA",
+  "theme": {
+    "active_item": "#4C9689",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#38978D",
+    "badge": "#EB4D5C",
+    "column_bg": "#4D394B",
+    "hover_item": "#3E313C",
+    "menu_bg": "#3E313C",
+    "text_color": "#FFFFFF"
+  }
+}
+[01/14/18, 19:11:52:118] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T8MVCNGTA"
+}
+[01/14/18, 19:11:53:209] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": false,
+  "teamId": "T8MVCNGTA"
+}
+[01/14/18, 19:11:53:350] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T8MVCNGTA"
+}
+[01/14/18, 19:11:53:355] info: WebContents LifeCycle: webContents:3 from 'loaded' to 'webapp-loaded' took 2612 ms
+[01/14/18, 19:11:53:355] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "webapp-loaded",
+  "teamId": "T8MVCNGTA"
+}
+[01/14/18, 19:11:53:462] info: Store: STORE_API_TOKEN
+{
+  "token": "xoxs-⋯",
+  "teamId": "T8MVCNGTA"
+}
+[01/14/18, 19:11:54:267] info: WebContentsMediator: Attaching to new webContents
+[01/14/18, 19:11:56:288] info: WebContentsMediator: Attaching to new webContents
+[01/14/18, 19:11:58:347] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1366,
+    748
+  ],
+  "position": [
+    0,
+    20
+  ],
+  "isMaximized": false
+}
+[01/14/18, 19:12:31:487] info: Store: SELECT_CHANNEL D8NH9B5GT
+[01/14/18, 19:12:32:013] info: Store: SELECT_CHANNEL C8MVCNMPA
+[01/14/18, 19:16:43:281] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "wlRfLhKj5KNQ2r",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515928602.000058&team=T8MVCNGTA",
+  "msg": "1515928602.000058",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/14/18, 19:16:43:286] info: Creating new Electron notification.
+[01/14/18, 19:27:28:144] info: Store: FOREGROUND_APP
+[01/15/18, 00:25:50:145] info: ╔════════════════════════════════════════════════════════════════════════════╗
+[01/15/18, 00:25:50:148] info: ║      Slack 3.0.2, linux 4.9.75-1-lts on x64 at 01/15/18, 00:25:50:140      ║
+[01/15/18, 00:25:50:148] info: ╚════════════════════════════════════════════════════════════════════════════╝
+[01/15/18, 00:25:51:307] info: Initializing local storage instance at path: /home/mnkhbmb/.config/Slack/local-settings.json
+[01/15/18, 00:25:52:867] info: TraceRecorder: setting up trace recorder, trace will be stored under /home/mnkhbmb/.config/Slack/logs/recorded-trace
+[01/15/18, 00:25:55:899] info: BrowserStore: Keychain access previously denied, don't ask again
+[01/15/18, 00:25:56:137] info: Store: persist/REHYDRATE
+{
+  "appTeams": {
+    "selectedTeamId": "T8MVCNGTA",
+    "teamsByIndex": [
+      "T8MVCNGTA"
+    ],
+    "teamsToSignOut": []
+  },
+  "dialog": "[REDACTED]",
+  "downloads": "[REDACTED]",
+  "settings": {
+    "appVersion": "3.0.2",
+    "versionName": "Around The World",
+    "platform": "linux",
+    "platformVersion": {
+      "major": 4,
+      "minor": 9,
+      "build": 75
+    },
+    "isWin10": false,
+    "isBeforeWin10": false,
+    "resourcePath": "/usr/lib/slack/resources/app.asar",
+    "webappSrcPath": null,
+    "webappParams": null,
+    "isDevMode": false,
+    "devEnv": null,
+    "logFile": null,
+    "openDevToolsOnStart": false,
+    "pretendNotReallyWindows10": false,
+    "releaseChannel": "prod",
+    "autoHideMenuBar": false,
+    "isTitleBarHidden": false,
+    "hasRunApp": true,
+    "hasRunFromTray": true,
+    "reportIssueOnStartup": false,
+    "runFromTray": true,
+    "launchOnStartup": false,
+    "spellcheckerLanguage": null,
+    "zoomLevel": 0,
+    "workspaceIdleTimeout": 21600000,
+    "whitelistedUrlSchemes": [
+      "http:",
+      "https:",
+      "mailto:",
+      "skype:",
+      "spotify:",
+      "live:",
+      "callto:",
+      "tel:",
+      "im:",
+      "sip:",
+      "sips:",
+      "slack:"
+    ],
+    "isTitleBarForcedByUser": false,
+    "PrefSSBFileDownloadPath": "/home/mnkhbmb/Downloads",
+    "notificationMethod": null,
+    "notificationPlayback": null,
+    "notifyPosition": {
+      "corner": "bottom_right",
+      "display": "same_as_app"
+    },
+    "locale": "en-US",
+    "useHwAcceleration": true,
+    "os": false,
+    "release": false,
+    "desktopEnvironment": false,
+    "isAeroGlassEnabled": false,
+    "linux": {
+      "os": "",
+      "release": "",
+      "desktopEnvironment": ""
+    }
+  },
+  "teams": "[REDACTED]",
+  "unreads": {
+    "T8MVCNGTA": {
+      "unreads": 1,
+      "unreadHighlights": 0,
+      "showBullet": true
+    }
+  },
+  "windowFrame": {
+    "windowSettings": {
+      "size": [
+        1366,
+        748
+      ],
+      "position": [
+        0,
+        20
+      ],
+      "isMaximized": false
+    },
+    "isFullScreen": false
+  }
+}
+[01/15/18, 00:25:56:139] info: initializeMainWindowEpic: Waiting for selected team to load
+{
+  "selectedTeamId": "T8MVCNGTA"
+}
+[01/15/18, 00:25:56:140] info: NetworkStatus: Waiting for network online…
+[01/15/18, 00:25:56:211] info: UpdaterEpics: Updates disabled because
+{
+  "reasons": [
+    "using Linux"
+  ]
+}
+[01/15/18, 00:25:57:690] error: Couldn't get Linux distro info
+[01/15/18, 00:25:58:707] info: Store: INITIALIZE_SETTINGS
+{
+  "releaseChannel": "prod",
+  "platformVersion": {
+    "major": 4,
+    "minor": 9,
+    "build": 75
+  },
+  "isTitleBarHidden": false,
+  "isDevMode": false,
+  "appVersion": "3.0.2",
+  "versionName": "Around The World",
+  "devEnv": null,
+  "resourcePath": "/usr/lib/slack/resources/app.asar",
+  "webappSrcPath": null,
+  "webappParams": null,
+  "launchOnStartup": false,
+  "openDevToolsOnStart": false,
+  "logFile": null,
+  "pretendNotReallyWindows10": false,
+  "isAeroGlassEnabled": false,
+  "linux": {
+    "os": "",
+    "release": "",
+    "desktopEnvironment": ""
+  }
+}
+[01/15/18, 00:25:58:713] info: AutoLoginEpic: Checking for autologin.
+[01/15/18, 00:25:58:714] info: AutoLoginEpic: Completed autologin processing — successfully logged in 0 workspaces.
+[01/15/18, 00:25:58:715] info: Store: AUTOLOGIN_TEAMS_COMPLETE
+[01/15/18, 00:25:58:723] info: WebContentsMediator: Attaching to new webContents
+[01/15/18, 00:25:58:727] info: Store: ADD_WINDOW
+{
+  "id": 2,
+  "type": "main"
+}
+[01/15/18, 00:25:58:730] info: BrowserViewManager: Starting initialization
+[01/15/18, 00:25:58:730] info: BrowserViewManager: Activating BrowserView
+{
+  "teamId": "T8MVCNGTA"
+}
+[01/15/18, 00:25:58:731] info: BrowserViewManager: Creating BrowserView
+{
+  "teamId": "T8MVCNGTA"
+}
+[01/15/18, 00:25:58:733] info: WebContentsMediator: Attaching to new webContents
+[01/15/18, 00:25:58:737] info: BrowserViewManager: 
++-----------+------+-----+
+|           | Full | Min |
+|-----------+------+-----+
+| T8MVCNGTA | ✔    |     |
++-----------+------+-----+
+[01/15/18, 00:25:58:738] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "teamId": "T8MVCNGTA",
+  "state": "unloaded"
+}
+[01/15/18, 00:25:58:747] info: BrowserViewManager: Activating BrowserView
+{
+  "teamId": "T8MVCNGTA"
+}
+[01/15/18, 00:25:58:750] info: BrowserViewManager: 
++-----------+------+-----+
+|           | Full | Min |
+|-----------+------+-----+
+| T8MVCNGTA | ✔    |     |
++-----------+------+-----+
+[01/15/18, 00:25:58:750] info: BrowserViewManager: Finished initialization
+{
+  "elapsed": 20
+}
+[01/15/18, 00:25:58:752] info: PersistSettingsWindowBehavior: Loading windowMetrics
+{
+  "settings": {
+    "size": [
+      1366,
+      748
+    ],
+    "position": [
+      0,
+      20
+    ],
+    "isMaximized": false
+  }
+}
+[01/15/18, 00:25:58:827] info: Application: Setting main window ID
+{
+  "id": 2
+}
+[01/15/18, 00:25:58:829] info: App: Welcome to Slack 3.0.2 x64
+[01/15/18, 00:25:58:829] info: App load time: 9940ms
+[01/15/18, 00:25:58:837] info: NetworkStatus: Response from api.test
+{
+  "status": "online"
+}
+[01/15/18, 00:25:58:838] info: Store: SET_NETWORK_STATUS online
+[01/15/18, 00:25:59:333] info: Store: SET_FULL_SCREEN
+[01/15/18, 00:26:10:554] info: WebContents LifeCycle: webContents:3 from 'unloaded' to 'loaded' took 11813 ms
+[01/15/18, 00:26:10:554] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T8MVCNGTA"
+}
+[01/15/18, 00:26:10:560] info: initializeMainWindowEpic: Showing main window
+{
+  "shouldMinimize": false,
+  "shouldMaximize": false,
+  "shouldHide": false
+}
+[01/15/18, 00:26:10:562] info: Store: MAIN_WINDOW_SHOWN
+[01/15/18, 00:26:10:994] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T8MVCNGTA"
+}
+[01/15/18, 00:26:11:458] info: Store: SELECT_CHANNEL C8MVCNMPA
+[01/15/18, 00:26:11:461] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T8MVCNGTA"
+}
+[01/15/18, 00:26:11:494] info: Store: UPDATE_SETTINGS
+{
+  "locale": "en-US"
+}
+[01/15/18, 00:26:11:553] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T8MVCNGTA",
+  "theme": {
+    "active_item": "#4C9689",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#38978D",
+    "badge": "#EB4D5C",
+    "column_bg": "#4D394B",
+    "hover_item": "#3E313C",
+    "menu_bg": "#3E313C",
+    "text_color": "#FFFFFF"
+  }
+}
+[01/15/18, 00:26:11:619] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    661,
+    716
+  ],
+  "position": [
+    689,
+    36
+  ],
+  "isMaximized": false
+}
+[01/15/18, 00:26:13:279] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": false,
+  "teamId": "T8MVCNGTA"
+}
+[01/15/18, 00:26:13:351] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T8MVCNGTA"
+}
+[01/15/18, 00:26:13:410] info: WebContents LifeCycle: webContents:3 from 'loaded' to 'webapp-loaded' took 2856 ms
+[01/15/18, 00:26:13:411] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "webapp-loaded",
+  "teamId": "T8MVCNGTA"
+}
+[01/15/18, 00:26:13:563] info: Store: STORE_API_TOKEN
+{
+  "token": "xoxs-⋯",
+  "teamId": "T8MVCNGTA"
+}
+[01/15/18, 00:26:14:171] info: WebContentsMediator: Attaching to new webContents
+[01/15/18, 00:26:48:285] info: WindowCloseBehavior: Attempted to close the window, hiding due to run from tray
+[01/15/18, 00:26:48:292] info: Store: SET_FULL_SCREEN
+[01/15/18, 12:30:42:598] info: ╔════════════════════════════════════════════════════════════════════════════╗
+[01/15/18, 12:30:42:599] info: ║      Slack 3.0.2, linux 4.9.75-1-lts on x64 at 01/15/18, 12:30:42:596      ║
+[01/15/18, 12:30:42:599] info: ╚════════════════════════════════════════════════════════════════════════════╝
+[01/15/18, 12:30:44:238] info: Initializing local storage instance at path: /home/mnkhbmb/.config/Slack/local-settings.json
+[01/15/18, 12:30:45:943] info: TraceRecorder: setting up trace recorder, trace will be stored under /home/mnkhbmb/.config/Slack/logs/recorded-trace
+[01/15/18, 12:30:48:630] info: BrowserStore: Keychain access previously denied, don't ask again
+[01/15/18, 12:30:49:054] info: Store: persist/REHYDRATE
+{
+  "appTeams": {
+    "selectedTeamId": "T8MVCNGTA",
+    "teamsByIndex": [
+      "T8MVCNGTA"
+    ],
+    "teamsToSignOut": []
+  },
+  "dialog": "[REDACTED]",
+  "downloads": "[REDACTED]",
+  "settings": {
+    "appVersion": "3.0.2",
+    "versionName": "Around The World",
+    "platform": "linux",
+    "platformVersion": {
+      "major": 4,
+      "minor": 9,
+      "build": 75
+    },
+    "isWin10": false,
+    "isBeforeWin10": false,
+    "resourcePath": "/usr/lib/slack/resources/app.asar",
+    "webappSrcPath": null,
+    "webappParams": null,
+    "isDevMode": false,
+    "devEnv": null,
+    "logFile": null,
+    "openDevToolsOnStart": false,
+    "pretendNotReallyWindows10": false,
+    "releaseChannel": "prod",
+    "autoHideMenuBar": false,
+    "isTitleBarHidden": false,
+    "hasRunApp": true,
+    "hasRunFromTray": true,
+    "reportIssueOnStartup": false,
+    "runFromTray": true,
+    "launchOnStartup": false,
+    "spellcheckerLanguage": null,
+    "zoomLevel": 0,
+    "workspaceIdleTimeout": 21600000,
+    "whitelistedUrlSchemes": [
+      "http:",
+      "https:",
+      "mailto:",
+      "skype:",
+      "spotify:",
+      "live:",
+      "callto:",
+      "tel:",
+      "im:",
+      "sip:",
+      "sips:",
+      "slack:"
+    ],
+    "isTitleBarForcedByUser": false,
+    "PrefSSBFileDownloadPath": "/home/mnkhbmb/Downloads",
+    "notificationMethod": null,
+    "notificationPlayback": null,
+    "notifyPosition": {
+      "corner": "bottom_right",
+      "display": "same_as_app"
+    },
+    "locale": "en-US",
+    "useHwAcceleration": true,
+    "os": false,
+    "release": false,
+    "desktopEnvironment": false,
+    "isAeroGlassEnabled": false,
+    "linux": {
+      "os": "",
+      "release": "",
+      "desktopEnvironment": ""
+    }
+  },
+  "teams": "[REDACTED]",
+  "unreads": {
+    "T8MVCNGTA": {
+      "unreads": 1,
+      "unreadHighlights": 1,
+      "showBullet": true
+    }
+  },
+  "windowFrame": {
+    "windowSettings": {
+      "size": [
+        661,
+        716
+      ],
+      "position": [
+        689,
+        36
+      ],
+      "isMaximized": false
+    },
+    "isFullScreen": false
+  }
+}
+[01/15/18, 12:30:49:057] info: initializeMainWindowEpic: Waiting for selected team to load
+{
+  "selectedTeamId": "T8MVCNGTA"
+}
+[01/15/18, 12:30:49:057] info: NetworkStatus: Waiting for network online…
+[01/15/18, 12:30:49:073] info: UpdaterEpics: Updates disabled because
+{
+  "reasons": [
+    "using Linux"
+  ]
+}
+[01/15/18, 12:30:51:048] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "request to https://slack.com/api/api.test?error= failed, reason: net::ERR_INTERNET_DISCONNECTED",
+    "type": "system",
+    "errno": "ERR_INTERNET_DISCONNECTED",
+    "code": "ERR_INTERNET_DISCONNECTED"
+  }
+}
+[01/15/18, 12:30:51:049] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[01/15/18, 12:30:51:049] info: Store: SET_NETWORK_STATUS offline
+[01/15/18, 12:30:51:583] error: Couldn't get Linux distro info
+[01/15/18, 12:30:53:074] info: Store: INITIALIZE_SETTINGS
+{
+  "releaseChannel": "prod",
+  "platformVersion": {
+    "major": 4,
+    "minor": 9,
+    "build": 75
+  },
+  "isTitleBarHidden": false,
+  "isDevMode": false,
+  "appVersion": "3.0.2",
+  "versionName": "Around The World",
+  "devEnv": null,
+  "resourcePath": "/usr/lib/slack/resources/app.asar",
+  "webappSrcPath": null,
+  "webappParams": null,
+  "launchOnStartup": false,
+  "openDevToolsOnStart": false,
+  "logFile": null,
+  "pretendNotReallyWindows10": false,
+  "isAeroGlassEnabled": false,
+  "linux": {
+    "os": "",
+    "release": "",
+    "desktopEnvironment": ""
+  }
+}
+[01/15/18, 12:30:53:077] info: AutoLoginEpic: Checking for autologin.
+[01/15/18, 12:30:53:077] info: AutoLoginEpic: Completed autologin processing — successfully logged in 0 workspaces.
+[01/15/18, 12:30:53:078] info: Store: AUTOLOGIN_TEAMS_COMPLETE
+[01/15/18, 12:30:53:085] info: WebContentsMediator: Attaching to new webContents
+[01/15/18, 12:30:53:089] info: Store: ADD_WINDOW
+{
+  "id": 2,
+  "type": "main"
+}
+[01/15/18, 12:30:53:092] info: BrowserViewManager: Starting initialization
+[01/15/18, 12:30:53:092] info: BrowserViewManager: Activating BrowserView
+{
+  "teamId": "T8MVCNGTA"
+}
+[01/15/18, 12:30:53:092] info: BrowserViewManager: Creating BrowserView
+{
+  "teamId": "T8MVCNGTA"
+}
+[01/15/18, 12:30:53:094] info: WebContentsMediator: Attaching to new webContents
+[01/15/18, 12:30:53:098] info: BrowserViewManager: 
++-----------+------+-----+
+|           | Full | Min |
+|-----------+------+-----+
+| T8MVCNGTA | ✔    |     |
++-----------+------+-----+
+[01/15/18, 12:30:53:099] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "teamId": "T8MVCNGTA",
+  "state": "unloaded"
+}
+[01/15/18, 12:30:53:106] info: BrowserViewManager: Activating BrowserView
+{
+  "teamId": "T8MVCNGTA"
+}
+[01/15/18, 12:30:53:108] info: BrowserViewManager: 
++-----------+------+-----+
+|           | Full | Min |
+|-----------+------+-----+
+| T8MVCNGTA | ✔    |     |
++-----------+------+-----+
+[01/15/18, 12:30:53:109] info: BrowserViewManager: Finished initialization
+{
+  "elapsed": 17
+}
+[01/15/18, 12:30:53:111] info: PersistSettingsWindowBehavior: Loading windowMetrics
+{
+  "settings": {
+    "size": [
+      661,
+      716
+    ],
+    "position": [
+      689,
+      36
+    ],
+    "isMaximized": false
+  }
+}
+[01/15/18, 12:30:53:170] info: Application: Setting main window ID
+{
+  "id": 2
+}
+[01/15/18, 12:30:53:173] info: App: Welcome to Slack 3.0.2 x64
+[01/15/18, 12:30:53:173] info: App load time: 11745ms
+[01/15/18, 12:30:53:889] info: Store: SET_FULL_SCREEN
+[01/15/18, 12:30:56:075] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "request to https://slack.com/api/api.test?error= failed, reason: net::ERR_INTERNET_DISCONNECTED",
+    "type": "system",
+    "errno": "ERR_INTERNET_DISCONNECTED",
+    "code": "ERR_INTERNET_DISCONNECTED"
+  }
+}
+[01/15/18, 12:30:56:076] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[01/15/18, 12:30:59:779] info: WebContents LifeCycle: webContents:3 from 'unloaded' to 'loaded' took 6677 ms
+[01/15/18, 12:30:59:779] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T8MVCNGTA"
+}
+[01/15/18, 12:30:59:895] info: WebContents LifeCycle: webContents:3 from 'loaded' to 'empty-page' took 117 ms
+[01/15/18, 12:30:59:895] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "empty-page",
+  "teamId": "T8MVCNGTA"
+}
+[01/15/18, 12:30:59:897] info: NetworkStatus: Waiting for network online…
+[01/15/18, 12:30:59:897] info: NetworkStatus: Waiting for network online…
+[01/15/18, 12:30:59:901] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "request to https://slack.com/api/api.test?error= failed, reason: net::ERR_INTERNET_DISCONNECTED",
+    "type": "system",
+    "errno": "ERR_INTERNET_DISCONNECTED",
+    "code": "ERR_INTERNET_DISCONNECTED"
+  }
+}
+[01/15/18, 12:30:59:901] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[01/15/18, 12:30:59:902] info: Store: SET_NETWORK_STATUS offline
+[01/15/18, 12:30:59:904] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "request to https://slack.com/api/api.test?error= failed, reason: net::ERR_INTERNET_DISCONNECTED",
+    "type": "system",
+    "errno": "ERR_INTERNET_DISCONNECTED",
+    "code": "ERR_INTERNET_DISCONNECTED"
+  }
+}
+[01/15/18, 12:30:59:904] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[01/15/18, 12:31:01:069] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "request to https://slack.com/api/api.test?error= failed, reason: net::ERR_INTERNET_DISCONNECTED",
+    "type": "system",
+    "errno": "ERR_INTERNET_DISCONNECTED",
+    "code": "ERR_INTERNET_DISCONNECTED"
+  }
+}
+[01/15/18, 12:31:01:069] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[01/15/18, 12:31:01:241] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": null,
+  "teamId": "T8MVCNGTA"
+}
+[01/15/18, 12:31:01:367] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": null,
+  "teamId": "T8MVCNGTA"
+}
+[01/15/18, 12:31:04:906] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "request to https://slack.com/api/api.test?error= failed, reason: net::ERR_INTERNET_DISCONNECTED",
+    "type": "system",
+    "errno": "ERR_INTERNET_DISCONNECTED",
+    "code": "ERR_INTERNET_DISCONNECTED"
+  }
+}
+[01/15/18, 12:31:04:906] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[01/15/18, 12:31:04:907] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "request to https://slack.com/api/api.test?error= failed, reason: net::ERR_INTERNET_DISCONNECTED",
+    "type": "system",
+    "errno": "ERR_INTERNET_DISCONNECTED",
+    "code": "ERR_INTERNET_DISCONNECTED"
+  }
+}
+[01/15/18, 12:31:04:907] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[01/15/18, 12:31:06:070] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "request to https://slack.com/api/api.test?error= failed, reason: net::ERR_INTERNET_DISCONNECTED",
+    "type": "system",
+    "errno": "ERR_INTERNET_DISCONNECTED",
+    "code": "ERR_INTERNET_DISCONNECTED"
+  }
+}
+[01/15/18, 12:31:06:070] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[01/15/18, 12:31:09:908] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "request to https://slack.com/api/api.test?error= failed, reason: net::ERR_INTERNET_DISCONNECTED",
+    "type": "system",
+    "errno": "ERR_INTERNET_DISCONNECTED",
+    "code": "ERR_INTERNET_DISCONNECTED"
+  }
+}
+[01/15/18, 12:31:09:909] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[01/15/18, 12:31:09:909] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "request to https://slack.com/api/api.test?error= failed, reason: net::ERR_INTERNET_DISCONNECTED",
+    "type": "system",
+    "errno": "ERR_INTERNET_DISCONNECTED",
+    "code": "ERR_INTERNET_DISCONNECTED"
+  }
+}
+[01/15/18, 12:31:09:909] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[01/15/18, 12:31:11:071] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "request to https://slack.com/api/api.test?error= failed, reason: net::ERR_INTERNET_DISCONNECTED",
+    "type": "system",
+    "errno": "ERR_INTERNET_DISCONNECTED",
+    "code": "ERR_INTERNET_DISCONNECTED"
+  }
+}
+[01/15/18, 12:31:11:071] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[01/15/18, 12:31:14:909] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "request to https://slack.com/api/api.test?error= failed, reason: net::ERR_INTERNET_DISCONNECTED",
+    "type": "system",
+    "errno": "ERR_INTERNET_DISCONNECTED",
+    "code": "ERR_INTERNET_DISCONNECTED"
+  }
+}
+[01/15/18, 12:31:14:910] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[01/15/18, 12:31:14:910] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "request to https://slack.com/api/api.test?error= failed, reason: net::ERR_INTERNET_DISCONNECTED",
+    "type": "system",
+    "errno": "ERR_INTERNET_DISCONNECTED",
+    "code": "ERR_INTERNET_DISCONNECTED"
+  }
+}
+[01/15/18, 12:31:14:910] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[01/15/18, 12:31:16:072] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "request to https://slack.com/api/api.test?error= failed, reason: net::ERR_INTERNET_DISCONNECTED",
+    "type": "system",
+    "errno": "ERR_INTERNET_DISCONNECTED",
+    "code": "ERR_INTERNET_DISCONNECTED"
+  }
+}
+[01/15/18, 12:31:16:072] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[01/15/18, 12:31:19:913] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "request to https://slack.com/api/api.test?error= failed, reason: net::ERR_INTERNET_DISCONNECTED",
+    "type": "system",
+    "errno": "ERR_INTERNET_DISCONNECTED",
+    "code": "ERR_INTERNET_DISCONNECTED"
+  }
+}
+[01/15/18, 12:31:19:914] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[01/15/18, 12:31:19:914] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "request to https://slack.com/api/api.test?error= failed, reason: net::ERR_INTERNET_DISCONNECTED",
+    "type": "system",
+    "errno": "ERR_INTERNET_DISCONNECTED",
+    "code": "ERR_INTERNET_DISCONNECTED"
+  }
+}
+[01/15/18, 12:31:19:914] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[01/15/18, 12:31:21:073] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "request to https://slack.com/api/api.test?error= failed, reason: net::ERR_INTERNET_DISCONNECTED",
+    "type": "system",
+    "errno": "ERR_INTERNET_DISCONNECTED",
+    "code": "ERR_INTERNET_DISCONNECTED"
+  }
+}
+[01/15/18, 12:31:21:073] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[01/15/18, 12:31:23:558] info: Store: QUIT_APP
+[01/15/18, 12:31:23:672] info: Allowing window close because user chose to quit
+[01/15/18, 12:31:23:674] info: App: Disposing application
+[01/15/18, 12:31:23:674] info: Store: REMOVE_WINDOW 2
+[01/15/18, 12:31:23:685] info: Store: QUIT_APP
+[01/15/18, 12:31:23:694] error: Telemetry: Failed to send telemetry request
+{
+  "error": {
+    "message": "net::ERR_INTERNET_DISCONNECTED",
+    "stack": "Error: net::ERR_INTERNET_DISCONNECTED"
+  }
+}
+[01/15/18, 12:32:55:923] info: ╔════════════════════════════════════════════════════════════════════════════╗
+[01/15/18, 12:32:55:924] info: ║      Slack 3.0.2, linux 4.9.75-1-lts on x64 at 01/15/18, 12:32:55:919      ║
+[01/15/18, 12:32:55:925] info: ╚════════════════════════════════════════════════════════════════════════════╝
+[01/15/18, 12:32:56:232] info: Initializing local storage instance at path: /home/mnkhbmb/.config/Slack/local-settings.json
+[01/15/18, 12:32:56:489] info: TraceRecorder: setting up trace recorder, trace will be stored under /home/mnkhbmb/.config/Slack/logs/recorded-trace
+[01/15/18, 12:32:56:888] info: BrowserStore: Keychain access previously denied, don't ask again
+[01/15/18, 12:32:56:899] info: Store: persist/REHYDRATE
+{
+  "appTeams": {
+    "selectedTeamId": "T8MVCNGTA",
+    "teamsByIndex": [
+      "T8MVCNGTA"
+    ],
+    "teamsToSignOut": []
+  },
+  "dialog": "[REDACTED]",
+  "downloads": "[REDACTED]",
+  "settings": {
+    "appVersion": "3.0.2",
+    "versionName": "Around The World",
+    "platform": "linux",
+    "platformVersion": {
+      "major": 4,
+      "minor": 9,
+      "build": 75
+    },
+    "isWin10": false,
+    "isBeforeWin10": false,
+    "resourcePath": "/usr/lib/slack/resources/app.asar",
+    "webappSrcPath": null,
+    "webappParams": null,
+    "isDevMode": false,
+    "devEnv": null,
+    "logFile": null,
+    "openDevToolsOnStart": false,
+    "pretendNotReallyWindows10": false,
+    "releaseChannel": "prod",
+    "autoHideMenuBar": false,
+    "isTitleBarHidden": false,
+    "hasRunApp": true,
+    "hasRunFromTray": true,
+    "reportIssueOnStartup": false,
+    "runFromTray": true,
+    "launchOnStartup": false,
+    "spellcheckerLanguage": null,
+    "zoomLevel": 0,
+    "workspaceIdleTimeout": 21600000,
+    "whitelistedUrlSchemes": [
+      "http:",
+      "https:",
+      "mailto:",
+      "skype:",
+      "spotify:",
+      "live:",
+      "callto:",
+      "tel:",
+      "im:",
+      "sip:",
+      "sips:",
+      "slack:"
+    ],
+    "isTitleBarForcedByUser": false,
+    "PrefSSBFileDownloadPath": "/home/mnkhbmb/Downloads",
+    "notificationMethod": null,
+    "notificationPlayback": null,
+    "notifyPosition": {
+      "corner": "bottom_right",
+      "display": "same_as_app"
+    },
+    "locale": "en-US",
+    "useHwAcceleration": true,
+    "os": false,
+    "release": false,
+    "desktopEnvironment": false,
+    "isAeroGlassEnabled": false,
+    "linux": {
+      "os": "",
+      "release": "",
+      "desktopEnvironment": ""
+    }
+  },
+  "teams": "[REDACTED]",
+  "unreads": {
+    "T8MVCNGTA": {
+      "unreads": 1,
+      "unreadHighlights": 1,
+      "showBullet": true
+    }
+  },
+  "windowFrame": {
+    "windowSettings": {
+      "size": [
+        661,
+        716
+      ],
+      "position": [
+        689,
+        36
+      ],
+      "isMaximized": false
+    },
+    "isFullScreen": false
+  }
+}
+[01/15/18, 12:32:56:900] info: initializeMainWindowEpic: Waiting for selected team to load
+{
+  "selectedTeamId": "T8MVCNGTA"
+}
+[01/15/18, 12:32:56:901] info: NetworkStatus: Waiting for network online…
+[01/15/18, 12:32:56:903] info: UpdaterEpics: Updates disabled because
+{
+  "reasons": [
+    "using Linux"
+  ]
+}
+[01/15/18, 12:32:56:973] error: Couldn't get Linux distro info
+[01/15/18, 12:32:57:109] info: Store: INITIALIZE_SETTINGS
+{
+  "releaseChannel": "prod",
+  "platformVersion": {
+    "major": 4,
+    "minor": 9,
+    "build": 75
+  },
+  "isTitleBarHidden": false,
+  "isDevMode": false,
+  "appVersion": "3.0.2",
+  "versionName": "Around The World",
+  "devEnv": null,
+  "resourcePath": "/usr/lib/slack/resources/app.asar",
+  "webappSrcPath": null,
+  "webappParams": null,
+  "launchOnStartup": false,
+  "openDevToolsOnStart": false,
+  "logFile": null,
+  "pretendNotReallyWindows10": false,
+  "isAeroGlassEnabled": false,
+  "linux": {
+    "os": "",
+    "release": "",
+    "desktopEnvironment": ""
+  }
+}
+[01/15/18, 12:32:57:111] info: AutoLoginEpic: Checking for autologin.
+[01/15/18, 12:32:57:111] info: AutoLoginEpic: Completed autologin processing — successfully logged in 0 workspaces.
+[01/15/18, 12:32:57:112] info: Store: AUTOLOGIN_TEAMS_COMPLETE
+[01/15/18, 12:32:57:115] info: WebContentsMediator: Attaching to new webContents
+[01/15/18, 12:32:57:118] info: Store: ADD_WINDOW
+{
+  "id": 2,
+  "type": "main"
+}
+[01/15/18, 12:32:57:120] info: BrowserViewManager: Starting initialization
+[01/15/18, 12:32:57:121] info: BrowserViewManager: Activating BrowserView
+{
+  "teamId": "T8MVCNGTA"
+}
+[01/15/18, 12:32:57:121] info: BrowserViewManager: Creating BrowserView
+{
+  "teamId": "T8MVCNGTA"
+}
+[01/15/18, 12:32:57:123] info: WebContentsMediator: Attaching to new webContents
+[01/15/18, 12:32:57:126] info: BrowserViewManager: 
++-----------+------+-----+
+|           | Full | Min |
+|-----------+------+-----+
+| T8MVCNGTA | ✔    |     |
++-----------+------+-----+
+[01/15/18, 12:32:57:127] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "teamId": "T8MVCNGTA",
+  "state": "unloaded"
+}
+[01/15/18, 12:32:57:134] info: BrowserViewManager: Activating BrowserView
+{
+  "teamId": "T8MVCNGTA"
+}
+[01/15/18, 12:32:57:136] info: BrowserViewManager: 
++-----------+------+-----+
+|           | Full | Min |
+|-----------+------+-----+
+| T8MVCNGTA | ✔    |     |
++-----------+------+-----+
+[01/15/18, 12:32:57:136] info: BrowserViewManager: Finished initialization
+{
+  "elapsed": 16
+}
+[01/15/18, 12:32:57:139] info: PersistSettingsWindowBehavior: Loading windowMetrics
+{
+  "settings": {
+    "size": [
+      661,
+      716
+    ],
+    "position": [
+      689,
+      36
+    ],
+    "isMaximized": false
+  }
+}
+[01/15/18, 12:32:57:155] info: Application: Setting main window ID
+{
+  "id": 2
+}
+[01/15/18, 12:32:57:156] info: App: Welcome to Slack 3.0.2 x64
+[01/15/18, 12:32:57:156] info: App load time: 1513ms
+[01/15/18, 12:32:57:220] info: Store: SET_FULL_SCREEN
+[01/15/18, 12:32:57:751] info: NetworkStatus: Response from api.test
+{
+  "status": "online"
+}
+[01/15/18, 12:32:57:752] info: Store: SET_NETWORK_STATUS online
+[01/15/18, 12:33:04:759] info: WebContents LifeCycle: webContents:3 from 'unloaded' to 'loaded' took 7630 ms
+[01/15/18, 12:33:04:760] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T8MVCNGTA"
+}
+[01/15/18, 12:33:04:771] info: initializeMainWindowEpic: Showing main window
+{
+  "shouldMinimize": false,
+  "shouldMaximize": false,
+  "shouldHide": false
+}
+[01/15/18, 12:33:04:776] info: Store: MAIN_WINDOW_SHOWN
+[01/15/18, 12:33:05:287] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T8MVCNGTA"
+}
+[01/15/18, 12:33:05:829] info: Store: SELECT_CHANNEL C8MVCNMPA
+[01/15/18, 12:33:05:833] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T8MVCNGTA"
+}
+[01/15/18, 12:33:05:836] info: Store: UPDATE_SETTINGS
+{
+  "locale": "en-US"
+}
+[01/15/18, 12:33:05:937] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T8MVCNGTA",
+  "theme": {
+    "active_item": "#4C9689",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#38978D",
+    "badge": "#EB4D5C",
+    "column_bg": "#4D394B",
+    "hover_item": "#3E313C",
+    "menu_bg": "#3E313C",
+    "text_color": "#FFFFFF"
+  }
+}
+[01/15/18, 12:33:10:666] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": false,
+  "teamId": "T8MVCNGTA"
+}
+[01/15/18, 12:33:10:747] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T8MVCNGTA"
+}
+[01/15/18, 12:33:10:752] info: WebContents LifeCycle: webContents:3 from 'loaded' to 'webapp-loaded' took 5993 ms
+[01/15/18, 12:33:10:752] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "webapp-loaded",
+  "teamId": "T8MVCNGTA"
+}
+[01/15/18, 12:33:10:869] info: Store: STORE_API_TOKEN
+{
+  "token": "xoxs-⋯",
+  "teamId": "T8MVCNGTA"
+}
+[01/15/18, 12:33:11:304] info: WebContentsMediator: Attaching to new webContents
+[01/15/18, 12:33:11:407] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1366,
+    748
+  ],
+  "position": [
+    0,
+    20
+  ],
+  "isMaximized": false
+}
+[01/15/18, 12:33:22:390] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    661,
+    716
+  ],
+  "position": [
+    16,
+    36
+  ],
+  "isMaximized": false
+}
+[01/15/18, 12:33:26:063] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1366,
+    748
+  ],
+  "position": [
+    0,
+    20
+  ],
+  "isMaximized": false
+}
+[01/15/18, 12:34:43:911] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1366,
+    748
+  ],
+  "position": [
+    0,
+    20
+  ],
+  "isMaximized": false
+}
+[01/15/18, 12:35:42:776] info: Store: SELECT_CHANNEL D8NH9B5BM
+[01/15/18, 12:43:02:414] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    661,
+    716
+  ],
+  "position": [
+    16,
+    36
+  ],
+  "isMaximized": false
+}
+[01/15/18, 12:43:04:671] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1366,
+    748
+  ],
+  "position": [
+    0,
+    20
+  ],
+  "isMaximized": false
+}
+[01/15/18, 18:22:20:650] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": false,
+  "teamId": "T8MVCNGTA"
+}
+[01/15/18, 18:22:20:750] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T8MVCNGTA"
+}
+[01/15/18, 21:38:40:477] info: ╔════════════════════════════════════════════════════════════════════════════╗
+[01/15/18, 21:38:40:479] info: ║      Slack 3.0.2, linux 4.9.75-1-lts on x64 at 01/15/18, 21:38:40:470      ║
+[01/15/18, 21:38:40:479] info: ╚════════════════════════════════════════════════════════════════════════════╝
+[01/15/18, 21:38:41:304] info: Initializing local storage instance at path: /home/mnkhbmb/.config/Slack/local-settings.json
+[01/15/18, 21:38:42:820] info: TraceRecorder: setting up trace recorder, trace will be stored under /home/mnkhbmb/.config/Slack/logs/recorded-trace
+[01/15/18, 21:38:45:288] info: BrowserStore: Keychain access previously denied, don't ask again
+[01/15/18, 21:38:45:549] info: Store: persist/REHYDRATE
+{
+  "appTeams": {
+    "selectedTeamId": "T8MVCNGTA",
+    "teamsByIndex": [
+      "T8MVCNGTA"
+    ],
+    "teamsToSignOut": []
+  },
+  "dialog": "[REDACTED]",
+  "downloads": "[REDACTED]",
+  "settings": {
+    "appVersion": "3.0.2",
+    "versionName": "Around The World",
+    "platform": "linux",
+    "platformVersion": {
+      "major": 4,
+      "minor": 9,
+      "build": 75
+    },
+    "isWin10": false,
+    "isBeforeWin10": false,
+    "resourcePath": "/usr/lib/slack/resources/app.asar",
+    "webappSrcPath": null,
+    "webappParams": null,
+    "isDevMode": false,
+    "devEnv": null,
+    "logFile": null,
+    "openDevToolsOnStart": false,
+    "pretendNotReallyWindows10": false,
+    "releaseChannel": "prod",
+    "autoHideMenuBar": false,
+    "isTitleBarHidden": false,
+    "hasRunApp": true,
+    "hasRunFromTray": true,
+    "reportIssueOnStartup": false,
+    "runFromTray": true,
+    "launchOnStartup": false,
+    "spellcheckerLanguage": null,
+    "zoomLevel": 0,
+    "workspaceIdleTimeout": 21600000,
+    "whitelistedUrlSchemes": [
+      "http:",
+      "https:",
+      "mailto:",
+      "skype:",
+      "spotify:",
+      "live:",
+      "callto:",
+      "tel:",
+      "im:",
+      "sip:",
+      "sips:",
+      "slack:"
+    ],
+    "isTitleBarForcedByUser": false,
+    "PrefSSBFileDownloadPath": "/home/mnkhbmb/Downloads",
+    "notificationMethod": null,
+    "notificationPlayback": null,
+    "notifyPosition": {
+      "corner": "bottom_right",
+      "display": "same_as_app"
+    },
+    "locale": "en-US",
+    "useHwAcceleration": true,
+    "os": false,
+    "release": false,
+    "desktopEnvironment": false,
+    "isAeroGlassEnabled": false,
+    "linux": {
+      "os": "",
+      "release": "",
+      "desktopEnvironment": ""
+    }
+  },
+  "teams": "[REDACTED]",
+  "unreads": {
+    "T8MVCNGTA": {
+      "unreads": 0,
+      "unreadHighlights": 0,
+      "showBullet": true
+    }
+  },
+  "windowFrame": {
+    "windowSettings": {
+      "size": [
+        1366,
+        748
+      ],
+      "position": [
+        0,
+        20
+      ],
+      "isMaximized": false
+    },
+    "isFullScreen": false
+  }
+}
+[01/15/18, 21:38:45:551] info: initializeMainWindowEpic: Waiting for selected team to load
+{
+  "selectedTeamId": "T8MVCNGTA"
+}
+[01/15/18, 21:38:45:551] info: NetworkStatus: Waiting for network online…
+[01/15/18, 21:38:45:576] info: UpdaterEpics: Updates disabled because
+{
+  "reasons": [
+    "using Linux"
+  ]
+}
+[01/15/18, 21:38:46:979] error: Couldn't get Linux distro info
+[01/15/18, 21:38:47:834] info: Store: INITIALIZE_SETTINGS
+{
+  "releaseChannel": "prod",
+  "platformVersion": {
+    "major": 4,
+    "minor": 9,
+    "build": 75
+  },
+  "isTitleBarHidden": false,
+  "isDevMode": false,
+  "appVersion": "3.0.2",
+  "versionName": "Around The World",
+  "devEnv": null,
+  "resourcePath": "/usr/lib/slack/resources/app.asar",
+  "webappSrcPath": null,
+  "webappParams": null,
+  "launchOnStartup": false,
+  "openDevToolsOnStart": false,
+  "logFile": null,
+  "pretendNotReallyWindows10": false,
+  "isAeroGlassEnabled": false,
+  "linux": {
+    "os": "",
+    "release": "",
+    "desktopEnvironment": ""
+  }
+}
+[01/15/18, 21:38:47:836] info: AutoLoginEpic: Checking for autologin.
+[01/15/18, 21:38:47:836] info: AutoLoginEpic: Completed autologin processing — successfully logged in 0 workspaces.
+[01/15/18, 21:38:47:837] info: Store: AUTOLOGIN_TEAMS_COMPLETE
+[01/15/18, 21:38:47:840] info: WebContentsMediator: Attaching to new webContents
+[01/15/18, 21:38:47:842] info: Store: ADD_WINDOW
+{
+  "id": 2,
+  "type": "main"
+}
+[01/15/18, 21:38:47:845] info: BrowserViewManager: Starting initialization
+[01/15/18, 21:38:47:845] info: BrowserViewManager: Activating BrowserView
+{
+  "teamId": "T8MVCNGTA"
+}
+[01/15/18, 21:38:47:845] info: BrowserViewManager: Creating BrowserView
+{
+  "teamId": "T8MVCNGTA"
+}
+[01/15/18, 21:38:47:847] info: WebContentsMediator: Attaching to new webContents
+[01/15/18, 21:38:47:850] info: BrowserViewManager: 
++-----------+------+-----+
+|           | Full | Min |
+|-----------+------+-----+
+| T8MVCNGTA | ✔    |     |
++-----------+------+-----+
+[01/15/18, 21:38:47:850] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "teamId": "T8MVCNGTA",
+  "state": "unloaded"
+}
+[01/15/18, 21:38:47:857] info: BrowserViewManager: Activating BrowserView
+{
+  "teamId": "T8MVCNGTA"
+}
+[01/15/18, 21:38:47:860] info: BrowserViewManager: 
++-----------+------+-----+
+|           | Full | Min |
+|-----------+------+-----+
+| T8MVCNGTA | ✔    |     |
++-----------+------+-----+
+[01/15/18, 21:38:47:860] info: BrowserViewManager: Finished initialization
+{
+  "elapsed": 15
+}
+[01/15/18, 21:38:47:863] info: PersistSettingsWindowBehavior: Loading windowMetrics
+{
+  "settings": {
+    "size": [
+      1366,
+      748
+    ],
+    "position": [
+      0,
+      20
+    ],
+    "isMaximized": false
+  }
+}
+[01/15/18, 21:38:47:930] info: Application: Setting main window ID
+{
+  "id": 2
+}
+[01/15/18, 21:38:47:932] info: App: Welcome to Slack 3.0.2 x64
+[01/15/18, 21:38:47:932] info: App load time: 8536ms
+[01/15/18, 21:38:48:092] info: Store: SET_FULL_SCREEN
+[01/15/18, 21:38:48:105] info: NetworkStatus: Response from api.test
+{
+  "status": "online"
+}
+[01/15/18, 21:38:48:106] info: Store: SET_NETWORK_STATUS online
+[01/15/18, 21:39:01:584] info: WebContents LifeCycle: webContents:3 from 'unloaded' to 'loaded' took 13731 ms
+[01/15/18, 21:39:01:584] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T8MVCNGTA"
+}
+[01/15/18, 21:39:01:590] info: initializeMainWindowEpic: Showing main window
+{
+  "shouldMinimize": false,
+  "shouldMaximize": false,
+  "shouldHide": false
+}
+[01/15/18, 21:39:01:594] info: Store: MAIN_WINDOW_SHOWN
+[01/15/18, 21:39:02:043] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T8MVCNGTA"
+}
+[01/15/18, 21:39:02:199] info: Store: SELECT_CHANNEL D8NH9B5BM
+[01/15/18, 21:39:02:202] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US"
+}
+[01/15/18, 21:39:02:205] info: Store: UPDATE_SETTINGS
+{
+  "locale": "en-US"
+}
+[01/15/18, 21:39:02:622] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1366,
+    748
+  ],
+  "position": [
+    0,
+    20
+  ],
+  "isMaximized": false
+}
+[01/15/18, 21:39:03:164] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T8MVCNGTA",
+  "theme": {
+    "active_item": "#4C9689",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#38978D",
+    "badge": "#EB4D5C",
+    "column_bg": "#4D394B",
+    "hover_item": "#3E313C",
+    "menu_bg": "#3E313C",
+    "text_color": "#FFFFFF"
+  }
+}
+[01/15/18, 21:39:03:467] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": false,
+  "teamId": "T8MVCNGTA"
+}
+[01/15/18, 21:39:03:626] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T8MVCNGTA"
+}
+[01/15/18, 21:39:03:629] info: WebContents LifeCycle: webContents:3 from 'loaded' to 'webapp-loaded' took 2046 ms
+[01/15/18, 21:39:03:630] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "webapp-loaded",
+  "teamId": "T8MVCNGTA"
+}
+[01/15/18, 21:39:03:836] info: Store: STORE_API_TOKEN
+{
+  "token": "xoxs-⋯",
+  "teamId": "T8MVCNGTA"
+}
+[01/15/18, 21:39:04:757] info: WebContentsMediator: Attaching to new webContents
+[01/15/18, 21:45:02:380] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": null,
+  "channel": "D8NH9B5BM",
+  "content": "[REDACTED]",
+  "id": "A2Ac9hYWAV6LyP",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=D8NH9B5BM&message=1516023900.000479&team=T8MVCNGTA",
+  "msg": "1516023900.000479",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/15/18, 21:45:02:385] info: Creating new Electron notification.
+[01/15/18, 22:04:35:515] info: Store: FOREGROUND_APP
+[01/15/18, 22:04:36:051] info: Store: FOREGROUND_APP
+[01/15/18, 22:04:36:531] info: Store: FOREGROUND_APP
+[01/16/18, 17:46:01:007] info: ╔════════════════════════════════════════════════════════════════════════════╗
+[01/16/18, 17:46:01:008] info: ║      Slack 3.0.2, linux 4.9.75-1-lts on x64 at 01/16/18, 17:46:01:005      ║
+[01/16/18, 17:46:01:008] info: ╚════════════════════════════════════════════════════════════════════════════╝
+[01/16/18, 17:46:02:098] info: Initializing local storage instance at path: /home/mnkhbmb/.config/Slack/local-settings.json
+[01/16/18, 17:46:04:034] info: TraceRecorder: setting up trace recorder, trace will be stored under /home/mnkhbmb/.config/Slack/logs/recorded-trace
+[01/16/18, 17:46:07:633] info: BrowserStore: Keychain access previously denied, don't ask again
+[01/16/18, 17:46:07:973] info: Store: persist/REHYDRATE
+{
+  "appTeams": {
+    "selectedTeamId": "T8MVCNGTA",
+    "teamsByIndex": [
+      "T8MVCNGTA"
+    ],
+    "teamsToSignOut": []
+  },
+  "dialog": "[REDACTED]",
+  "downloads": "[REDACTED]",
+  "settings": {
+    "appVersion": "3.0.2",
+    "versionName": "Around The World",
+    "platform": "linux",
+    "platformVersion": {
+      "major": 4,
+      "minor": 9,
+      "build": 75
+    },
+    "isWin10": false,
+    "isBeforeWin10": false,
+    "resourcePath": "/usr/lib/slack/resources/app.asar",
+    "webappSrcPath": null,
+    "webappParams": null,
+    "isDevMode": false,
+    "devEnv": null,
+    "logFile": null,
+    "openDevToolsOnStart": false,
+    "pretendNotReallyWindows10": false,
+    "releaseChannel": "prod",
+    "autoHideMenuBar": false,
+    "isTitleBarHidden": false,
+    "hasRunApp": true,
+    "hasRunFromTray": true,
+    "reportIssueOnStartup": false,
+    "runFromTray": true,
+    "launchOnStartup": false,
+    "spellcheckerLanguage": null,
+    "zoomLevel": 0,
+    "workspaceIdleTimeout": 21600000,
+    "whitelistedUrlSchemes": [
+      "http:",
+      "https:",
+      "mailto:",
+      "skype:",
+      "spotify:",
+      "live:",
+      "callto:",
+      "tel:",
+      "im:",
+      "sip:",
+      "sips:",
+      "slack:"
+    ],
+    "isTitleBarForcedByUser": false,
+    "PrefSSBFileDownloadPath": "/home/mnkhbmb/Downloads",
+    "notificationMethod": null,
+    "notificationPlayback": null,
+    "notifyPosition": {
+      "corner": "bottom_right",
+      "display": "same_as_app"
+    },
+    "locale": "en-US",
+    "useHwAcceleration": true,
+    "os": false,
+    "release": false,
+    "desktopEnvironment": false,
+    "isAeroGlassEnabled": false,
+    "linux": {
+      "os": "",
+      "release": "",
+      "desktopEnvironment": ""
+    }
+  },
+  "teams": "[REDACTED]",
+  "unreads": {
+    "T8MVCNGTA": {
+      "unreads": 0,
+      "unreadHighlights": 0,
+      "showBullet": true
+    }
+  },
+  "windowFrame": {
+    "windowSettings": {
+      "size": [
+        1366,
+        748
+      ],
+      "position": [
+        0,
+        20
+      ],
+      "isMaximized": false
+    },
+    "isFullScreen": false
+  }
+}
+[01/16/18, 17:46:07:976] info: initializeMainWindowEpic: Waiting for selected team to load
+{
+  "selectedTeamId": "T8MVCNGTA"
+}
+[01/16/18, 17:46:07:977] info: NetworkStatus: Waiting for network online…
+[01/16/18, 17:46:08:020] info: UpdaterEpics: Updates disabled because
+{
+  "reasons": [
+    "using Linux"
+  ]
+}
+[01/16/18, 17:46:09:432] error: Couldn't get Linux distro info
+[01/16/18, 17:46:10:862] info: Store: INITIALIZE_SETTINGS
+{
+  "releaseChannel": "prod",
+  "platformVersion": {
+    "major": 4,
+    "minor": 9,
+    "build": 75
+  },
+  "isTitleBarHidden": false,
+  "isDevMode": false,
+  "appVersion": "3.0.2",
+  "versionName": "Around The World",
+  "devEnv": null,
+  "resourcePath": "/usr/lib/slack/resources/app.asar",
+  "webappSrcPath": null,
+  "webappParams": null,
+  "launchOnStartup": false,
+  "openDevToolsOnStart": false,
+  "logFile": null,
+  "pretendNotReallyWindows10": false,
+  "isAeroGlassEnabled": false,
+  "linux": {
+    "os": "",
+    "release": "",
+    "desktopEnvironment": ""
+  }
+}
+[01/16/18, 17:46:10:864] info: AutoLoginEpic: Checking for autologin.
+[01/16/18, 17:46:10:864] info: AutoLoginEpic: Completed autologin processing — successfully logged in 0 workspaces.
+[01/16/18, 17:46:10:864] info: Store: AUTOLOGIN_TEAMS_COMPLETE
+[01/16/18, 17:46:10:870] info: WebContentsMediator: Attaching to new webContents
+[01/16/18, 17:46:10:872] info: Store: ADD_WINDOW
+{
+  "id": 2,
+  "type": "main"
+}
+[01/16/18, 17:46:10:875] info: BrowserViewManager: Starting initialization
+[01/16/18, 17:46:10:875] info: BrowserViewManager: Activating BrowserView
+{
+  "teamId": "T8MVCNGTA"
+}
+[01/16/18, 17:46:10:876] info: BrowserViewManager: Creating BrowserView
+{
+  "teamId": "T8MVCNGTA"
+}
+[01/16/18, 17:46:10:877] info: WebContentsMediator: Attaching to new webContents
+[01/16/18, 17:46:10:880] info: BrowserViewManager: 
++-----------+------+-----+
+|           | Full | Min |
+|-----------+------+-----+
+| T8MVCNGTA | ✔    |     |
++-----------+------+-----+
+[01/16/18, 17:46:10:881] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "teamId": "T8MVCNGTA",
+  "state": "unloaded"
+}
+[01/16/18, 17:46:10:888] info: BrowserViewManager: Activating BrowserView
+{
+  "teamId": "T8MVCNGTA"
+}
+[01/16/18, 17:46:10:891] info: BrowserViewManager: 
++-----------+------+-----+
+|           | Full | Min |
+|-----------+------+-----+
+| T8MVCNGTA | ✔    |     |
++-----------+------+-----+
+[01/16/18, 17:46:10:891] info: BrowserViewManager: Finished initialization
+{
+  "elapsed": 16
+}
+[01/16/18, 17:46:10:893] info: PersistSettingsWindowBehavior: Loading windowMetrics
+{
+  "settings": {
+    "size": [
+      1366,
+      748
+    ],
+    "position": [
+      0,
+      20
+    ],
+    "isMaximized": false
+  }
+}
+[01/16/18, 17:46:11:075] info: Application: Setting main window ID
+{
+  "id": 2
+}
+[01/16/18, 17:46:11:078] info: App: Welcome to Slack 3.0.2 x64
+[01/16/18, 17:46:11:079] info: App load time: 11315ms
+[01/16/18, 17:46:11:087] info: NetworkStatus: Response from api.test
+{
+  "status": "online"
+}
+[01/16/18, 17:46:11:088] info: Store: SET_NETWORK_STATUS online
+[01/16/18, 17:46:11:295] info: Store: SET_FULL_SCREEN
+[01/16/18, 17:46:32:323] info: Store: SELECT_CHANNEL D8NH9B5BM
+[01/16/18, 17:46:32:329] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US"
+}
+[01/16/18, 17:46:32:332] info: Store: UPDATE_SETTINGS
+{
+  "locale": "en-US"
+}
+[01/16/18, 17:46:32:748] info: WebContents LifeCycle: webContents:3 from 'unloaded' to 'loaded' took 21865 ms
+[01/16/18, 17:46:32:749] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T8MVCNGTA"
+}
+[01/16/18, 17:46:32:754] info: initializeMainWindowEpic: Showing main window
+{
+  "shouldMinimize": false,
+  "shouldMaximize": false,
+  "shouldHide": false
+}
+[01/16/18, 17:46:32:755] info: Store: MAIN_WINDOW_SHOWN
+[01/16/18, 17:46:33:035] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T8MVCNGTA",
+  "theme": {
+    "active_item": "#4C9689",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#38978D",
+    "badge": "#EB4D5C",
+    "column_bg": "#4D394B",
+    "hover_item": "#3E313C",
+    "menu_bg": "#3E313C",
+    "text_color": "#FFFFFF"
+  }
+}
+[01/16/18, 17:46:33:223] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T8MVCNGTA"
+}
+[01/16/18, 17:46:33:776] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1366,
+    748
+  ],
+  "position": [
+    0,
+    20
+  ],
+  "isMaximized": false
+}
+[01/16/18, 17:46:34:268] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": false,
+  "teamId": "T8MVCNGTA"
+}
+[01/16/18, 17:46:34:355] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T8MVCNGTA"
+}
+[01/16/18, 17:46:34:358] info: WebContents LifeCycle: webContents:3 from 'loaded' to 'webapp-loaded' took 1610 ms
+[01/16/18, 17:46:34:358] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "webapp-loaded",
+  "teamId": "T8MVCNGTA"
+}
+[01/16/18, 17:46:34:545] info: Store: STORE_API_TOKEN
+{
+  "token": "xoxs-⋯",
+  "teamId": "T8MVCNGTA"
+}
+[01/16/18, 17:46:35:311] info: WebContentsMediator: Attaching to new webContents
+[01/16/18, 17:46:49:194] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1366,
+    748
+  ],
+  "position": [
+    0,
+    20
+  ],
+  "isMaximized": false
+}
+[01/16/18, 17:47:03:579] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1366,
+    768
+  ],
+  "position": [
+    0,
+    0
+  ],
+  "isMaximized": false
+}
+[01/16/18, 17:47:45:031] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1366,
+    748
+  ],
+  "position": [
+    0,
+    20
+  ],
+  "isMaximized": false
+}
+[01/16/18, 18:02:08:778] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1366,
+    768
+  ],
+  "position": [
+    0,
+    0
+  ],
+  "isMaximized": false
+}
+[01/16/18, 18:18:46:808] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1366,
+    748
+  ],
+  "position": [
+    0,
+    20
+  ],
+  "isMaximized": false
+}
+[01/16/18, 18:19:48:478] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1366,
+    768
+  ],
+  "position": [
+    0,
+    0
+  ],
+  "isMaximized": false
+}
+[01/16/18, 18:19:57:055] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1366,
+    748
+  ],
+  "position": [
+    0,
+    20
+  ],
+  "isMaximized": false
+}
+[01/16/18, 19:58:28:786] info: ╔════════════════════════════════════════════════════════════════════════════╗
+[01/16/18, 19:58:28:787] info: ║      Slack 3.0.2, linux 4.9.76-1-lts on x64 at 01/16/18, 19:58:28:779      ║
+[01/16/18, 19:58:28:787] info: ╚════════════════════════════════════════════════════════════════════════════╝
+[01/16/18, 19:58:30:280] info: Initializing local storage instance at path: /home/mnkhbmb/.config/Slack/local-settings.json
+[01/16/18, 19:58:31:877] info: TraceRecorder: setting up trace recorder, trace will be stored under /home/mnkhbmb/.config/Slack/logs/recorded-trace
+[01/16/18, 19:58:35:790] info: BrowserStore: Keychain access previously denied, don't ask again
+[01/16/18, 19:58:36:224] info: Store: persist/REHYDRATE
+{
+  "appTeams": {
+    "selectedTeamId": "T8MVCNGTA",
+    "teamsByIndex": [
+      "T8MVCNGTA"
+    ],
+    "teamsToSignOut": []
+  },
+  "dialog": "[REDACTED]",
+  "downloads": "[REDACTED]",
+  "settings": {
+    "appVersion": "3.0.2",
+    "versionName": "Around The World",
+    "platform": "linux",
+    "platformVersion": {
+      "major": 4,
+      "minor": 9,
+      "build": 75
+    },
+    "isWin10": false,
+    "isBeforeWin10": false,
+    "resourcePath": "/usr/lib/slack/resources/app.asar",
+    "webappSrcPath": null,
+    "webappParams": null,
+    "isDevMode": false,
+    "devEnv": null,
+    "logFile": null,
+    "openDevToolsOnStart": false,
+    "pretendNotReallyWindows10": false,
+    "releaseChannel": "prod",
+    "autoHideMenuBar": false,
+    "isTitleBarHidden": false,
+    "hasRunApp": true,
+    "hasRunFromTray": true,
+    "reportIssueOnStartup": false,
+    "runFromTray": true,
+    "launchOnStartup": false,
+    "spellcheckerLanguage": null,
+    "zoomLevel": 0,
+    "workspaceIdleTimeout": 21600000,
+    "whitelistedUrlSchemes": [
+      "http:",
+      "https:",
+      "mailto:",
+      "skype:",
+      "spotify:",
+      "live:",
+      "callto:",
+      "tel:",
+      "im:",
+      "sip:",
+      "sips:",
+      "slack:"
+    ],
+    "isTitleBarForcedByUser": false,
+    "PrefSSBFileDownloadPath": "/home/mnkhbmb/Downloads",
+    "notificationMethod": null,
+    "notificationPlayback": null,
+    "notifyPosition": {
+      "corner": "bottom_right",
+      "display": "same_as_app"
+    },
+    "locale": "en-US",
+    "useHwAcceleration": true,
+    "os": false,
+    "release": false,
+    "desktopEnvironment": false,
+    "isAeroGlassEnabled": false,
+    "linux": {
+      "os": "",
+      "release": "",
+      "desktopEnvironment": ""
+    }
+  },
+  "teams": "[REDACTED]",
+  "unreads": {
+    "T8MVCNGTA": {
+      "unreads": 0,
+      "unreadHighlights": 0,
+      "showBullet": true
+    }
+  },
+  "windowFrame": {
+    "windowSettings": {
+      "size": [
+        1366,
+        748
+      ],
+      "position": [
+        0,
+        20
+      ],
+      "isMaximized": false
+    },
+    "isFullScreen": false
+  }
+}
+[01/16/18, 19:58:36:226] info: initializeMainWindowEpic: Waiting for selected team to load
+{
+  "selectedTeamId": "T8MVCNGTA"
+}
+[01/16/18, 19:58:36:227] info: NetworkStatus: Waiting for network online…
+[01/16/18, 19:58:36:281] info: UpdaterEpics: Updates disabled because
+{
+  "reasons": [
+    "using Linux"
+  ]
+}
+[01/16/18, 19:58:37:527] error: Couldn't get Linux distro info
+[01/16/18, 19:58:39:157] info: Store: INITIALIZE_SETTINGS
+{
+  "releaseChannel": "prod",
+  "platformVersion": {
+    "major": 4,
+    "minor": 9,
+    "build": 76
+  },
+  "isTitleBarHidden": false,
+  "isDevMode": false,
+  "appVersion": "3.0.2",
+  "versionName": "Around The World",
+  "devEnv": null,
+  "resourcePath": "/usr/lib/slack/resources/app.asar",
+  "webappSrcPath": null,
+  "webappParams": null,
+  "launchOnStartup": false,
+  "openDevToolsOnStart": false,
+  "logFile": null,
+  "pretendNotReallyWindows10": false,
+  "isAeroGlassEnabled": false,
+  "linux": {
+    "os": "",
+    "release": "",
+    "desktopEnvironment": ""
+  }
+}
+[01/16/18, 19:58:39:160] info: AutoLoginEpic: Checking for autologin.
+[01/16/18, 19:58:39:160] info: AutoLoginEpic: Completed autologin processing — successfully logged in 0 workspaces.
+[01/16/18, 19:58:39:161] info: Store: AUTOLOGIN_TEAMS_COMPLETE
+[01/16/18, 19:58:39:166] info: WebContentsMediator: Attaching to new webContents
+[01/16/18, 19:58:39:168] info: Store: ADD_WINDOW
+{
+  "id": 2,
+  "type": "main"
+}
+[01/16/18, 19:58:39:170] info: BrowserViewManager: Starting initialization
+[01/16/18, 19:58:39:171] info: BrowserViewManager: Activating BrowserView
+{
+  "teamId": "T8MVCNGTA"
+}
+[01/16/18, 19:58:39:171] info: BrowserViewManager: Creating BrowserView
+{
+  "teamId": "T8MVCNGTA"
+}
+[01/16/18, 19:58:39:173] info: WebContentsMediator: Attaching to new webContents
+[01/16/18, 19:58:39:176] info: BrowserViewManager: 
++-----------+------+-----+
+|           | Full | Min |
+|-----------+------+-----+
+| T8MVCNGTA | ✔    |     |
++-----------+------+-----+
+[01/16/18, 19:58:39:177] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "teamId": "T8MVCNGTA",
+  "state": "unloaded"
+}
+[01/16/18, 19:58:39:184] info: BrowserViewManager: Activating BrowserView
+{
+  "teamId": "T8MVCNGTA"
+}
+[01/16/18, 19:58:39:187] info: BrowserViewManager: 
++-----------+------+-----+
+|           | Full | Min |
+|-----------+------+-----+
+| T8MVCNGTA | ✔    |     |
++-----------+------+-----+
+[01/16/18, 19:58:39:187] info: BrowserViewManager: Finished initialization
+{
+  "elapsed": 17
+}
+[01/16/18, 19:58:39:190] info: PersistSettingsWindowBehavior: Loading windowMetrics
+{
+  "settings": {
+    "size": [
+      1366,
+      748
+    ],
+    "position": [
+      0,
+      20
+    ],
+    "isMaximized": false
+  }
+}
+[01/16/18, 19:58:39:345] info: Application: Setting main window ID
+{
+  "id": 2
+}
+[01/16/18, 19:58:39:347] info: App: Welcome to Slack 3.0.2 x64
+[01/16/18, 19:58:39:347] info: App load time: 12558ms
+[01/16/18, 19:58:39:356] info: NetworkStatus: Response from api.test
+{
+  "status": "online"
+}
+[01/16/18, 19:58:39:356] info: Store: SET_NETWORK_STATUS online
+[01/16/18, 19:58:39:742] info: Store: SET_FULL_SCREEN
+[01/16/18, 19:58:54:943] info: WebContents LifeCycle: webContents:3 from 'unloaded' to 'loaded' took 15764 ms
+[01/16/18, 19:58:54:944] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T8MVCNGTA"
+}
+[01/16/18, 19:58:54:950] info: initializeMainWindowEpic: Showing main window
+{
+  "shouldMinimize": false,
+  "shouldMaximize": false,
+  "shouldHide": false
+}
+[01/16/18, 19:58:54:963] info: Store: MAIN_WINDOW_SHOWN
+[01/16/18, 19:58:55:413] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T8MVCNGTA"
+}
+[01/16/18, 19:58:55:743] info: Store: SELECT_CHANNEL D8NH9B5BM
+[01/16/18, 19:58:55:748] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T8MVCNGTA"
+}
+[01/16/18, 19:58:55:806] info: Store: UPDATE_SETTINGS
+{
+  "locale": "en-US"
+}
+[01/16/18, 19:58:56:091] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T8MVCNGTA",
+  "theme": {
+    "active_item": "#4C9689",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#38978D",
+    "badge": "#EB4D5C",
+    "column_bg": "#4D394B",
+    "hover_item": "#3E313C",
+    "menu_bg": "#3E313C",
+    "text_color": "#FFFFFF"
+  }
+}
+[01/16/18, 19:58:56:255] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    661,
+    716
+  ],
+  "position": [
+    689,
+    36
+  ],
+  "isMaximized": false
+}
+[01/16/18, 19:58:57:443] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": false,
+  "teamId": "T8MVCNGTA"
+}
+[01/16/18, 19:58:57:691] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T8MVCNGTA"
+}
+[01/16/18, 19:58:57:737] info: WebContents LifeCycle: webContents:3 from 'loaded' to 'webapp-loaded' took 2794 ms
+[01/16/18, 19:58:57:737] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "webapp-loaded",
+  "teamId": "T8MVCNGTA"
+}
+[01/16/18, 19:58:58:627] info: Store: STORE_API_TOKEN
+{
+  "token": "xoxs-⋯",
+  "teamId": "T8MVCNGTA"
+}
+[01/16/18, 19:58:58:879] info: WebContentsMediator: Attaching to new webContents
+[01/16/18, 19:58:59:625] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    661,
+    716
+  ],
+  "position": [
+    16,
+    36
+  ],
+  "isMaximized": false
+}
+[01/16/18, 19:59:02:985] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1366,
+    748
+  ],
+  "position": [
+    0,
+    20
+  ],
+  "isMaximized": false
+}
+[01/16/18, 20:35:26:590] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "Ny3CNhRoZVpV2j",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1516106126.000165&team=T8MVCNGTA",
+  "msg": "1516106126.000165",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/16/18, 20:35:26:594] info: Creating new Electron notification.
+[01/16/18, 20:54:48:174] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "plyi9iGMzk84rJ",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1516107287.000313&team=T8MVCNGTA",
+  "msg": "1516107287.000313",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/16/18, 20:54:48:176] info: Creating new Electron notification.
+[01/16/18, 21:09:40:047] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "3PLf7sDk4EBz54",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1516108179.000387&team=T8MVCNGTA",
+  "msg": "1516108179.000387",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/16/18, 21:09:40:050] info: Creating new Electron notification.
+[01/16/18, 21:09:45:590] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "yxLfytR8py7zx7",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1516108185.000107&team=T8MVCNGTA",
+  "msg": "1516108185.000107",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/16/18, 21:09:45:591] info: Creating new Electron notification.
+[01/16/18, 21:09:56:113] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "ZN7SQuyWpNBoOy",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1516108195.000385&team=T8MVCNGTA",
+  "msg": "1516108195.000385",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/16/18, 21:09:56:115] info: Creating new Electron notification.
+[01/16/18, 21:45:01:274] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": null,
+  "channel": "D8NH9B5BM",
+  "content": "[REDACTED]",
+  "id": "Dl3iJCZYO898Wz",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=D8NH9B5BM&message=1516110300.000433&team=T8MVCNGTA",
+  "msg": "1516110300.000433",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/16/18, 21:45:01:275] info: Creating new Electron notification.
+[01/17/18, 01:13:55:713] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": false,
+  "teamId": "T8MVCNGTA"
+}
+[01/17/18, 01:13:55:850] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T8MVCNGTA"
+}
+[01/18/18, 10:06:40:316] info: ╔════════════════════════════════════════════════════════════════════════════╗
+[01/18/18, 10:06:40:318] info: ║      Slack 3.0.2, linux 4.9.76-1-lts on x64 at 01/18/18, 10:06:40:308      ║
+[01/18/18, 10:06:40:318] info: ╚════════════════════════════════════════════════════════════════════════════╝
+[01/18/18, 10:06:41:835] info: Initializing local storage instance at path: /home/mnkhbmb/.config/Slack/local-settings.json
+[01/18/18, 10:06:43:710] info: TraceRecorder: setting up trace recorder, trace will be stored under /home/mnkhbmb/.config/Slack/logs/recorded-trace
+[01/18/18, 10:06:47:482] info: BrowserStore: Keychain access previously denied, don't ask again
+[01/18/18, 10:06:48:148] info: Store: persist/REHYDRATE
+{
+  "appTeams": {
+    "selectedTeamId": "T8MVCNGTA",
+    "teamsByIndex": [
+      "T8MVCNGTA"
+    ],
+    "teamsToSignOut": []
+  },
+  "dialog": "[REDACTED]",
+  "downloads": "[REDACTED]",
+  "settings": {
+    "appVersion": "3.0.2",
+    "versionName": "Around The World",
+    "platform": "linux",
+    "platformVersion": {
+      "major": 4,
+      "minor": 9,
+      "build": 76
+    },
+    "isWin10": false,
+    "isBeforeWin10": false,
+    "resourcePath": "/usr/lib/slack/resources/app.asar",
+    "webappSrcPath": null,
+    "webappParams": null,
+    "isDevMode": false,
+    "devEnv": null,
+    "logFile": null,
+    "openDevToolsOnStart": false,
+    "pretendNotReallyWindows10": false,
+    "releaseChannel": "prod",
+    "autoHideMenuBar": false,
+    "isTitleBarHidden": false,
+    "hasRunApp": true,
+    "hasRunFromTray": true,
+    "reportIssueOnStartup": false,
+    "runFromTray": true,
+    "launchOnStartup": false,
+    "spellcheckerLanguage": null,
+    "zoomLevel": 0,
+    "workspaceIdleTimeout": 21600000,
+    "whitelistedUrlSchemes": [
+      "http:",
+      "https:",
+      "mailto:",
+      "skype:",
+      "spotify:",
+      "live:",
+      "callto:",
+      "tel:",
+      "im:",
+      "sip:",
+      "sips:",
+      "slack:"
+    ],
+    "isTitleBarForcedByUser": false,
+    "PrefSSBFileDownloadPath": "/home/mnkhbmb/Downloads",
+    "notificationMethod": null,
+    "notificationPlayback": null,
+    "notifyPosition": {
+      "corner": "bottom_right",
+      "display": "same_as_app"
+    },
+    "locale": "en-US",
+    "useHwAcceleration": true,
+    "os": false,
+    "release": false,
+    "desktopEnvironment": false,
+    "isAeroGlassEnabled": false,
+    "linux": {
+      "os": "",
+      "release": "",
+      "desktopEnvironment": ""
+    }
+  },
+  "teams": "[REDACTED]",
+  "unreads": {
+    "T8MVCNGTA": {
+      "unreads": 0,
+      "unreadHighlights": 0,
+      "showBullet": true
+    }
+  },
+  "windowFrame": {
+    "windowSettings": {
+      "size": [
+        1366,
+        748
+      ],
+      "position": [
+        0,
+        20
+      ],
+      "isMaximized": false
+    },
+    "isFullScreen": false
+  }
+}
+[01/18/18, 10:06:48:153] info: initializeMainWindowEpic: Waiting for selected team to load
+{
+  "selectedTeamId": "T8MVCNGTA"
+}
+[01/18/18, 10:06:48:154] info: NetworkStatus: Waiting for network online…
+[01/18/18, 10:06:48:224] info: UpdaterEpics: Updates disabled because
+{
+  "reasons": [
+    "using Linux"
+  ]
+}
+[01/18/18, 10:06:49:748] error: Couldn't get Linux distro info
+[01/18/18, 10:06:50:371] info: Store: INITIALIZE_SETTINGS
+{
+  "releaseChannel": "prod",
+  "platformVersion": {
+    "major": 4,
+    "minor": 9,
+    "build": 76
+  },
+  "isTitleBarHidden": false,
+  "isDevMode": false,
+  "appVersion": "3.0.2",
+  "versionName": "Around The World",
+  "devEnv": null,
+  "resourcePath": "/usr/lib/slack/resources/app.asar",
+  "webappSrcPath": null,
+  "webappParams": null,
+  "launchOnStartup": false,
+  "openDevToolsOnStart": false,
+  "logFile": null,
+  "pretendNotReallyWindows10": false,
+  "isAeroGlassEnabled": false,
+  "linux": {
+    "os": "",
+    "release": "",
+    "desktopEnvironment": ""
+  }
+}
+[01/18/18, 10:06:50:373] info: AutoLoginEpic: Checking for autologin.
+[01/18/18, 10:06:50:373] info: AutoLoginEpic: Completed autologin processing — successfully logged in 0 workspaces.
+[01/18/18, 10:06:50:373] info: Store: AUTOLOGIN_TEAMS_COMPLETE
+[01/18/18, 10:06:50:377] info: WebContentsMediator: Attaching to new webContents
+[01/18/18, 10:06:50:380] info: Store: ADD_WINDOW
+{
+  "id": 2,
+  "type": "main"
+}
+[01/18/18, 10:06:50:382] info: BrowserViewManager: Starting initialization
+[01/18/18, 10:06:50:382] info: BrowserViewManager: Activating BrowserView
+{
+  "teamId": "T8MVCNGTA"
+}
+[01/18/18, 10:06:50:382] info: BrowserViewManager: Creating BrowserView
+{
+  "teamId": "T8MVCNGTA"
+}
+[01/18/18, 10:06:50:384] info: WebContentsMediator: Attaching to new webContents
+[01/18/18, 10:06:50:388] info: BrowserViewManager: 
++-----------+------+-----+
+|           | Full | Min |
+|-----------+------+-----+
+| T8MVCNGTA | ✔    |     |
++-----------+------+-----+
+[01/18/18, 10:06:50:389] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "teamId": "T8MVCNGTA",
+  "state": "unloaded"
+}
+[01/18/18, 10:06:50:396] info: BrowserViewManager: Activating BrowserView
+{
+  "teamId": "T8MVCNGTA"
+}
+[01/18/18, 10:06:50:399] info: BrowserViewManager: 
++-----------+------+-----+
+|           | Full | Min |
+|-----------+------+-----+
+| T8MVCNGTA | ✔    |     |
++-----------+------+-----+
+[01/18/18, 10:06:50:400] info: BrowserViewManager: Finished initialization
+{
+  "elapsed": 17
+}
+[01/18/18, 10:06:50:403] info: PersistSettingsWindowBehavior: Loading windowMetrics
+{
+  "settings": {
+    "size": [
+      1366,
+      748
+    ],
+    "position": [
+      0,
+      20
+    ],
+    "isMaximized": false
+  }
+}
+[01/18/18, 10:06:50:450] info: Application: Setting main window ID
+{
+  "id": 2
+}
+[01/18/18, 10:06:50:451] info: App: Welcome to Slack 3.0.2 x64
+[01/18/18, 10:06:50:452] info: App load time: 11455ms
+[01/18/18, 10:06:50:458] info: NetworkStatus: Response from api.test
+{
+  "status": "online"
+}
+[01/18/18, 10:06:50:459] info: Store: SET_NETWORK_STATUS online
+[01/18/18, 10:06:50:647] info: Store: SET_FULL_SCREEN
+[01/18/18, 10:07:04:829] info: WebContents LifeCycle: webContents:3 from 'unloaded' to 'loaded' took 14437 ms
+[01/18/18, 10:07:04:829] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T8MVCNGTA"
+}
+[01/18/18, 10:07:04:845] info: initializeMainWindowEpic: Showing main window
+{
+  "shouldMinimize": false,
+  "shouldMaximize": false,
+  "shouldHide": false
+}
+[01/18/18, 10:07:04:846] info: Store: MAIN_WINDOW_SHOWN
+[01/18/18, 10:07:05:415] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T8MVCNGTA"
+}
+[01/18/18, 10:07:05:641] info: Store: SELECT_CHANNEL D8NH9B5BM
+[01/18/18, 10:07:05:649] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T8MVCNGTA"
+}
+[01/18/18, 10:07:05:652] info: Store: UPDATE_SETTINGS
+{
+  "locale": "en-US"
+}
+[01/18/18, 10:07:05:814] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T8MVCNGTA",
+  "theme": {
+    "active_item": "#4C9689",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#38978D",
+    "badge": "#EB4D5C",
+    "column_bg": "#4D394B",
+    "hover_item": "#3E313C",
+    "menu_bg": "#3E313C",
+    "text_color": "#FFFFFF"
+  }
+}
+[01/18/18, 10:07:06:355] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    661,
+    716
+  ],
+  "position": [
+    689,
+    36
+  ],
+  "isMaximized": false
+}
+[01/18/18, 10:07:07:264] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": false,
+  "teamId": "T8MVCNGTA"
+}
+[01/18/18, 10:07:07:521] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T8MVCNGTA"
+}
+[01/18/18, 10:07:07:524] info: WebContents LifeCycle: webContents:3 from 'loaded' to 'webapp-loaded' took 2696 ms
+[01/18/18, 10:07:07:524] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "webapp-loaded",
+  "teamId": "T8MVCNGTA"
+}
+[01/18/18, 10:07:07:962] info: Store: STORE_API_TOKEN
+{
+  "token": "xoxs-⋯",
+  "teamId": "T8MVCNGTA"
+}
+[01/18/18, 10:07:08:982] info: WebContentsMediator: Attaching to new webContents
+[01/18/18, 10:07:17:764] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    433,
+    716
+  ],
+  "position": [
+    917,
+    36
+  ],
+  "isMaximized": false
+}
+[01/18/18, 22:47:27:592] info: ╔════════════════════════════════════════════════════════════════════════════╗
+[01/18/18, 22:47:27:594] info: ║      Slack 3.0.2, linux 4.9.76-1-lts on x64 at 01/18/18, 22:47:27:584      ║
+[01/18/18, 22:47:27:594] info: ╚════════════════════════════════════════════════════════════════════════════╝
+[01/18/18, 22:47:28:938] info: Initializing local storage instance at path: /home/mnkhbmb/.config/Slack/local-settings.json
+[01/18/18, 22:47:30:921] info: TraceRecorder: setting up trace recorder, trace will be stored under /home/mnkhbmb/.config/Slack/logs/recorded-trace
+[01/18/18, 22:47:33:980] info: BrowserStore: Keychain access previously denied, don't ask again
+[01/18/18, 22:47:34:159] info: Store: persist/REHYDRATE
+{
+  "appTeams": {
+    "selectedTeamId": "T8MVCNGTA",
+    "teamsByIndex": [
+      "T8MVCNGTA"
+    ],
+    "teamsToSignOut": []
+  },
+  "dialog": "[REDACTED]",
+  "downloads": "[REDACTED]",
+  "settings": {
+    "appVersion": "3.0.2",
+    "versionName": "Around The World",
+    "platform": "linux",
+    "platformVersion": {
+      "major": 4,
+      "minor": 9,
+      "build": 76
+    },
+    "isWin10": false,
+    "isBeforeWin10": false,
+    "resourcePath": "/usr/lib/slack/resources/app.asar",
+    "webappSrcPath": null,
+    "webappParams": null,
+    "isDevMode": false,
+    "devEnv": null,
+    "logFile": null,
+    "openDevToolsOnStart": false,
+    "pretendNotReallyWindows10": false,
+    "releaseChannel": "prod",
+    "autoHideMenuBar": false,
+    "isTitleBarHidden": false,
+    "hasRunApp": true,
+    "hasRunFromTray": true,
+    "reportIssueOnStartup": false,
+    "runFromTray": true,
+    "launchOnStartup": false,
+    "spellcheckerLanguage": null,
+    "zoomLevel": 0,
+    "workspaceIdleTimeout": 21600000,
+    "whitelistedUrlSchemes": [
+      "http:",
+      "https:",
+      "mailto:",
+      "skype:",
+      "spotify:",
+      "live:",
+      "callto:",
+      "tel:",
+      "im:",
+      "sip:",
+      "sips:",
+      "slack:"
+    ],
+    "isTitleBarForcedByUser": false,
+    "PrefSSBFileDownloadPath": "/home/mnkhbmb/Downloads",
+    "notificationMethod": null,
+    "notificationPlayback": null,
+    "notifyPosition": {
+      "corner": "bottom_right",
+      "display": "same_as_app"
+    },
+    "locale": "en-US",
+    "useHwAcceleration": true,
+    "os": false,
+    "release": false,
+    "desktopEnvironment": false,
+    "isAeroGlassEnabled": false,
+    "linux": {
+      "os": "",
+      "release": "",
+      "desktopEnvironment": ""
+    }
+  },
+  "teams": "[REDACTED]",
+  "unreads": {
+    "T8MVCNGTA": {
+      "unreads": 0,
+      "unreadHighlights": 0,
+      "showBullet": true
+    }
+  },
+  "windowFrame": {
+    "windowSettings": {
+      "size": [
+        433,
+        716
+      ],
+      "position": [
+        917,
+        36
+      ],
+      "isMaximized": false
+    },
+    "isFullScreen": false
+  }
+}
+[01/18/18, 22:47:34:160] info: initializeMainWindowEpic: Waiting for selected team to load
+{
+  "selectedTeamId": "T8MVCNGTA"
+}
+[01/18/18, 22:47:34:161] info: NetworkStatus: Waiting for network online…
+[01/18/18, 22:47:34:175] info: UpdaterEpics: Updates disabled because
+{
+  "reasons": [
+    "using Linux"
+  ]
+}
+[01/18/18, 22:47:35:233] error: Couldn't get Linux distro info
+[01/18/18, 22:47:35:758] info: Store: INITIALIZE_SETTINGS
+{
+  "releaseChannel": "prod",
+  "platformVersion": {
+    "major": 4,
+    "minor": 9,
+    "build": 76
+  },
+  "isTitleBarHidden": false,
+  "isDevMode": false,
+  "appVersion": "3.0.2",
+  "versionName": "Around The World",
+  "devEnv": null,
+  "resourcePath": "/usr/lib/slack/resources/app.asar",
+  "webappSrcPath": null,
+  "webappParams": null,
+  "launchOnStartup": false,
+  "openDevToolsOnStart": false,
+  "logFile": null,
+  "pretendNotReallyWindows10": false,
+  "isAeroGlassEnabled": false,
+  "linux": {
+    "os": "",
+    "release": "",
+    "desktopEnvironment": ""
+  }
+}
+[01/18/18, 22:47:35:760] info: AutoLoginEpic: Checking for autologin.
+[01/18/18, 22:47:35:761] info: AutoLoginEpic: Completed autologin processing — successfully logged in 0 workspaces.
+[01/18/18, 22:47:35:761] info: Store: AUTOLOGIN_TEAMS_COMPLETE
+[01/18/18, 22:47:35:764] info: WebContentsMediator: Attaching to new webContents
+[01/18/18, 22:47:35:766] info: Store: ADD_WINDOW
+{
+  "id": 2,
+  "type": "main"
+}
+[01/18/18, 22:47:35:770] info: BrowserViewManager: Starting initialization
+[01/18/18, 22:47:35:770] info: BrowserViewManager: Activating BrowserView
+{
+  "teamId": "T8MVCNGTA"
+}
+[01/18/18, 22:47:35:771] info: BrowserViewManager: Creating BrowserView
+{
+  "teamId": "T8MVCNGTA"
+}
+[01/18/18, 22:47:35:773] info: WebContentsMediator: Attaching to new webContents
+[01/18/18, 22:47:35:777] info: BrowserViewManager: 
++-----------+------+-----+
+|           | Full | Min |
+|-----------+------+-----+
+| T8MVCNGTA | ✔    |     |
++-----------+------+-----+
+[01/18/18, 22:47:35:778] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "teamId": "T8MVCNGTA",
+  "state": "unloaded"
+}
+[01/18/18, 22:47:35:787] info: BrowserViewManager: Activating BrowserView
+{
+  "teamId": "T8MVCNGTA"
+}
+[01/18/18, 22:47:35:791] info: BrowserViewManager: 
++-----------+------+-----+
+|           | Full | Min |
+|-----------+------+-----+
+| T8MVCNGTA | ✔    |     |
++-----------+------+-----+
+[01/18/18, 22:47:35:791] info: BrowserViewManager: Finished initialization
+{
+  "elapsed": 21
+}
+[01/18/18, 22:47:35:793] info: PersistSettingsWindowBehavior: Loading windowMetrics
+{
+  "settings": {
+    "size": [
+      433,
+      716
+    ],
+    "position": [
+      917,
+      36
+    ],
+    "isMaximized": false
+  }
+}
+[01/18/18, 22:47:35:855] info: Application: Setting main window ID
+{
+  "id": 2
+}
+[01/18/18, 22:47:35:856] info: App: Welcome to Slack 3.0.2 x64
+[01/18/18, 22:47:35:856] info: App load time: 9509ms
+[01/18/18, 22:47:36:189] info: Store: SET_FULL_SCREEN
+[01/18/18, 22:47:36:198] info: NetworkStatus: Response from api.test
+{
+  "status": "online"
+}
+[01/18/18, 22:47:36:199] info: Store: SET_NETWORK_STATUS online
+[01/18/18, 22:47:52:035] info: WebContents LifeCycle: webContents:3 from 'unloaded' to 'loaded' took 16253 ms
+[01/18/18, 22:47:52:035] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T8MVCNGTA"
+}
+[01/18/18, 22:47:52:041] info: initializeMainWindowEpic: Showing main window
+{
+  "shouldMinimize": false,
+  "shouldMaximize": false,
+  "shouldHide": false
+}
+[01/18/18, 22:47:52:054] info: Store: MAIN_WINDOW_SHOWN
+[01/18/18, 22:47:52:557] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T8MVCNGTA"
+}
+[01/18/18, 22:47:52:866] info: Store: SELECT_CHANNEL D8NH9B5BM
+[01/18/18, 22:47:52:870] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T8MVCNGTA"
+}
+[01/18/18, 22:47:52:872] info: Store: UPDATE_SETTINGS
+{
+  "locale": "en-US"
+}
+[01/18/18, 22:47:52:962] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T8MVCNGTA",
+  "theme": {
+    "active_item": "#4C9689",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#38978D",
+    "badge": "#EB4D5C",
+    "column_bg": "#4D394B",
+    "hover_item": "#3E313C",
+    "menu_bg": "#3E313C",
+    "text_color": "#FFFFFF"
+  }
+}
+[01/18/18, 22:47:53:213] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    661,
+    716
+  ],
+  "position": [
+    689,
+    36
+  ],
+  "isMaximized": false
+}
+[01/18/18, 22:47:54:916] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": false,
+  "teamId": "T8MVCNGTA"
+}
+[01/18/18, 22:47:54:987] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T8MVCNGTA"
+}
+[01/18/18, 22:47:54:990] info: WebContents LifeCycle: webContents:3 from 'loaded' to 'webapp-loaded' took 2956 ms
+[01/18/18, 22:47:54:991] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "webapp-loaded",
+  "teamId": "T8MVCNGTA"
+}
+[01/18/18, 22:47:55:121] info: Store: STORE_API_TOKEN
+{
+  "token": "xoxs-⋯",
+  "teamId": "T8MVCNGTA"
+}
+[01/18/18, 22:47:55:682] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    661,
+    716
+  ],
+  "position": [
+    16,
+    36
+  ],
+  "isMaximized": false
+}
+[01/18/18, 22:47:55:727] info: WebContentsMediator: Attaching to new webContents
+[01/18/18, 22:47:57:411] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1366,
+    748
+  ],
+  "position": [
+    0,
+    20
+  ],
+  "isMaximized": false
+}
+[01/18/18, 23:03:32:587] info: Store: FOREGROUND_APP
+[01/20/18, 11:01:42:179] info: ╔════════════════════════════════════════════════════════════════════════════╗
+[01/20/18, 11:01:42:180] info: ║      Slack 3.0.2, linux 4.9.76-1-lts on x64 at 01/20/18, 11:01:42:175      ║
+[01/20/18, 11:01:42:180] info: ╚════════════════════════════════════════════════════════════════════════════╝
+[01/20/18, 11:01:43:988] info: Initializing local storage instance at path: /home/mnkhbmb/.config/Slack/local-settings.json
+[01/20/18, 11:01:47:358] info: TraceRecorder: setting up trace recorder, trace will be stored under /home/mnkhbmb/.config/Slack/logs/recorded-trace
+[01/20/18, 11:01:51:555] info: BrowserStore: Keychain access previously denied, don't ask again
+[01/20/18, 11:01:51:801] info: Store: persist/REHYDRATE
+{
+  "appTeams": {
+    "selectedTeamId": "T8MVCNGTA",
+    "teamsByIndex": [
+      "T8MVCNGTA"
+    ],
+    "teamsToSignOut": []
+  },
+  "dialog": "[REDACTED]",
+  "downloads": "[REDACTED]",
+  "settings": {
+    "appVersion": "3.0.2",
+    "versionName": "Around The World",
+    "platform": "linux",
+    "platformVersion": {
+      "major": 4,
+      "minor": 9,
+      "build": 76
+    },
+    "isWin10": false,
+    "isBeforeWin10": false,
+    "resourcePath": "/usr/lib/slack/resources/app.asar",
+    "webappSrcPath": null,
+    "webappParams": null,
+    "isDevMode": false,
+    "devEnv": null,
+    "logFile": null,
+    "openDevToolsOnStart": false,
+    "pretendNotReallyWindows10": false,
+    "releaseChannel": "prod",
+    "autoHideMenuBar": false,
+    "isTitleBarHidden": false,
+    "hasRunApp": true,
+    "hasRunFromTray": true,
+    "reportIssueOnStartup": false,
+    "runFromTray": true,
+    "launchOnStartup": false,
+    "spellcheckerLanguage": null,
+    "zoomLevel": 0,
+    "workspaceIdleTimeout": 21600000,
+    "whitelistedUrlSchemes": [
+      "http:",
+      "https:",
+      "mailto:",
+      "skype:",
+      "spotify:",
+      "live:",
+      "callto:",
+      "tel:",
+      "im:",
+      "sip:",
+      "sips:",
+      "slack:"
+    ],
+    "isTitleBarForcedByUser": false,
+    "PrefSSBFileDownloadPath": "/home/mnkhbmb/Downloads",
+    "notificationMethod": null,
+    "notificationPlayback": null,
+    "notifyPosition": {
+      "corner": "bottom_right",
+      "display": "same_as_app"
+    },
+    "locale": "en-US",
+    "useHwAcceleration": true,
+    "os": false,
+    "release": false,
+    "desktopEnvironment": false,
+    "isAeroGlassEnabled": false,
+    "linux": {
+      "os": "",
+      "release": "",
+      "desktopEnvironment": ""
+    }
+  },
+  "teams": "[REDACTED]",
+  "unreads": {
+    "T8MVCNGTA": {
+      "unreads": 0,
+      "unreadHighlights": 0,
+      "showBullet": true
+    }
+  },
+  "windowFrame": {
+    "windowSettings": {
+      "size": [
+        1366,
+        748
+      ],
+      "position": [
+        0,
+        20
+      ],
+      "isMaximized": false
+    },
+    "isFullScreen": false
+  }
+}
+[01/20/18, 11:01:51:804] info: initializeMainWindowEpic: Waiting for selected team to load
+{
+  "selectedTeamId": "T8MVCNGTA"
+}
+[01/20/18, 11:01:51:804] info: NetworkStatus: Waiting for network online…
+[01/20/18, 11:01:51:866] info: UpdaterEpics: Updates disabled because
+{
+  "reasons": [
+    "using Linux"
+  ]
+}
+[01/20/18, 11:01:53:086] error: Couldn't get Linux distro info
+[01/20/18, 11:01:54:489] info: Store: INITIALIZE_SETTINGS
+{
+  "releaseChannel": "prod",
+  "platformVersion": {
+    "major": 4,
+    "minor": 9,
+    "build": 76
+  },
+  "isTitleBarHidden": false,
+  "isDevMode": false,
+  "appVersion": "3.0.2",
+  "versionName": "Around The World",
+  "devEnv": null,
+  "resourcePath": "/usr/lib/slack/resources/app.asar",
+  "webappSrcPath": null,
+  "webappParams": null,
+  "launchOnStartup": false,
+  "openDevToolsOnStart": false,
+  "logFile": null,
+  "pretendNotReallyWindows10": false,
+  "isAeroGlassEnabled": false,
+  "linux": {
+    "os": "",
+    "release": "",
+    "desktopEnvironment": ""
+  }
+}
+[01/20/18, 11:01:54:491] info: AutoLoginEpic: Checking for autologin.
+[01/20/18, 11:01:54:491] info: AutoLoginEpic: Completed autologin processing — successfully logged in 0 workspaces.
+[01/20/18, 11:01:54:492] info: Store: AUTOLOGIN_TEAMS_COMPLETE
+[01/20/18, 11:01:54:496] info: WebContentsMediator: Attaching to new webContents
+[01/20/18, 11:01:54:499] info: Store: ADD_WINDOW
+{
+  "id": 2,
+  "type": "main"
+}
+[01/20/18, 11:01:54:502] info: BrowserViewManager: Starting initialization
+[01/20/18, 11:01:54:502] info: BrowserViewManager: Activating BrowserView
+{
+  "teamId": "T8MVCNGTA"
+}
+[01/20/18, 11:01:54:502] info: BrowserViewManager: Creating BrowserView
+{
+  "teamId": "T8MVCNGTA"
+}
+[01/20/18, 11:01:54:504] info: WebContentsMediator: Attaching to new webContents
+[01/20/18, 11:01:54:507] info: BrowserViewManager: 
++-----------+------+-----+
+|           | Full | Min |
+|-----------+------+-----+
+| T8MVCNGTA | ✔    |     |
++-----------+------+-----+
+[01/20/18, 11:01:54:508] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "teamId": "T8MVCNGTA",
+  "state": "unloaded"
+}
+[01/20/18, 11:01:54:516] info: BrowserViewManager: Activating BrowserView
+{
+  "teamId": "T8MVCNGTA"
+}
+[01/20/18, 11:01:54:518] info: BrowserViewManager: 
++-----------+------+-----+
+|           | Full | Min |
+|-----------+------+-----+
+| T8MVCNGTA | ✔    |     |
++-----------+------+-----+
+[01/20/18, 11:01:54:519] info: BrowserViewManager: Finished initialization
+{
+  "elapsed": 16
+}
+[01/20/18, 11:01:54:521] info: PersistSettingsWindowBehavior: Loading windowMetrics
+{
+  "settings": {
+    "size": [
+      1366,
+      748
+    ],
+    "position": [
+      0,
+      20
+    ],
+    "isMaximized": false
+  }
+}
+[01/20/18, 11:01:54:695] info: Application: Setting main window ID
+{
+  "id": 2
+}
+[01/20/18, 11:01:54:698] info: App: Welcome to Slack 3.0.2 x64
+[01/20/18, 11:01:54:698] info: App load time: 14708ms
+[01/20/18, 11:01:54:713] info: NetworkStatus: Response from api.test
+{
+  "status": "online"
+}
+[01/20/18, 11:01:54:713] info: Store: SET_NETWORK_STATUS online
+[01/20/18, 11:01:54:918] info: Store: SET_FULL_SCREEN
+[01/20/18, 11:02:12:280] info: WebContents LifeCycle: webContents:3 from 'unloaded' to 'loaded' took 17769 ms
+[01/20/18, 11:02:12:280] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T8MVCNGTA"
+}
+[01/20/18, 11:02:12:286] info: initializeMainWindowEpic: Showing main window
+{
+  "shouldMinimize": false,
+  "shouldMaximize": false,
+  "shouldHide": false
+}
+[01/20/18, 11:02:12:289] info: Store: MAIN_WINDOW_SHOWN
+[01/20/18, 11:02:12:793] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T8MVCNGTA"
+}
+[01/20/18, 11:02:13:159] info: Store: SELECT_CHANNEL D8NH9B5BM
+[01/20/18, 11:02:13:163] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T8MVCNGTA"
+}
+[01/20/18, 11:02:13:165] info: Store: UPDATE_SETTINGS
+{
+  "locale": "en-US"
+}
+[01/20/18, 11:02:13:251] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T8MVCNGTA",
+  "theme": {
+    "active_item": "#4C9689",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#38978D",
+    "badge": "#EB4D5C",
+    "column_bg": "#4D394B",
+    "hover_item": "#3E313C",
+    "menu_bg": "#3E313C",
+    "text_color": "#FFFFFF"
+  }
+}
+[01/20/18, 11:02:13:436] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    443,
+    716
+  ],
+  "position": [
+    462,
+    36
+  ],
+  "isMaximized": false
+}
+[01/20/18, 11:02:14:335] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": false,
+  "teamId": "T8MVCNGTA"
+}
+[01/20/18, 11:02:14:420] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T8MVCNGTA"
+}
+[01/20/18, 11:02:14:422] info: WebContents LifeCycle: webContents:3 from 'loaded' to 'webapp-loaded' took 2143 ms
+[01/20/18, 11:02:14:422] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "webapp-loaded",
+  "teamId": "T8MVCNGTA"
+}
+[01/20/18, 11:02:14:591] info: Store: STORE_API_TOKEN
+{
+  "token": "xoxs-⋯",
+  "teamId": "T8MVCNGTA"
+}
+[01/20/18, 11:02:15:137] info: WebContentsMediator: Attaching to new webContents
+[01/20/18, 11:11:48:926] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1366,
+    748
+  ],
+  "position": [
+    0,
+    20
+  ],
+  "isMaximized": false
+}
+[01/20/18, 11:57:31:810] info: ╔════════════════════════════════════════════════════════════════════════════╗
+[01/20/18, 11:57:31:811] info: ║      Slack 3.0.2, linux 4.9.76-1-lts on x64 at 01/20/18, 11:57:31:805      ║
+[01/20/18, 11:57:31:811] info: ╚════════════════════════════════════════════════════════════════════════════╝
+[01/20/18, 11:57:33:042] info: Initializing local storage instance at path: /home/mnkhbmb/.config/Slack/local-settings.json
+[01/20/18, 11:57:35:190] info: TraceRecorder: setting up trace recorder, trace will be stored under /home/mnkhbmb/.config/Slack/logs/recorded-trace
+[01/20/18, 11:57:38:815] info: BrowserStore: Keychain access previously denied, don't ask again
+[01/20/18, 11:57:39:257] info: Store: persist/REHYDRATE
+{
+  "appTeams": {
+    "selectedTeamId": "T8MVCNGTA",
+    "teamsByIndex": [
+      "T8MVCNGTA"
+    ],
+    "teamsToSignOut": []
+  },
+  "dialog": "[REDACTED]",
+  "downloads": "[REDACTED]",
+  "settings": {
+    "appVersion": "3.0.2",
+    "versionName": "Around The World",
+    "platform": "linux",
+    "platformVersion": {
+      "major": 4,
+      "minor": 9,
+      "build": 76
+    },
+    "isWin10": false,
+    "isBeforeWin10": false,
+    "resourcePath": "/usr/lib/slack/resources/app.asar",
+    "webappSrcPath": null,
+    "webappParams": null,
+    "isDevMode": false,
+    "devEnv": null,
+    "logFile": null,
+    "openDevToolsOnStart": false,
+    "pretendNotReallyWindows10": false,
+    "releaseChannel": "prod",
+    "autoHideMenuBar": false,
+    "isTitleBarHidden": false,
+    "hasRunApp": true,
+    "hasRunFromTray": true,
+    "reportIssueOnStartup": false,
+    "runFromTray": true,
+    "launchOnStartup": false,
+    "spellcheckerLanguage": null,
+    "zoomLevel": 0,
+    "workspaceIdleTimeout": 21600000,
+    "whitelistedUrlSchemes": [
+      "http:",
+      "https:",
+      "mailto:",
+      "skype:",
+      "spotify:",
+      "live:",
+      "callto:",
+      "tel:",
+      "im:",
+      "sip:",
+      "sips:",
+      "slack:"
+    ],
+    "isTitleBarForcedByUser": false,
+    "PrefSSBFileDownloadPath": "/home/mnkhbmb/Downloads",
+    "notificationMethod": null,
+    "notificationPlayback": null,
+    "notifyPosition": {
+      "corner": "bottom_right",
+      "display": "same_as_app"
+    },
+    "locale": "en-US",
+    "useHwAcceleration": true,
+    "os": false,
+    "release": false,
+    "desktopEnvironment": false,
+    "isAeroGlassEnabled": false,
+    "linux": {
+      "os": "",
+      "release": "",
+      "desktopEnvironment": ""
+    }
+  },
+  "teams": "[REDACTED]",
+  "unreads": {
+    "T8MVCNGTA": {
+      "unreads": 0,
+      "unreadHighlights": 0,
+      "showBullet": true
+    }
+  },
+  "windowFrame": {
+    "windowSettings": {
+      "size": [
+        1366,
+        748
+      ],
+      "position": [
+        0,
+        20
+      ],
+      "isMaximized": false
+    },
+    "isFullScreen": false
+  }
+}
+[01/20/18, 11:57:39:258] info: initializeMainWindowEpic: Waiting for selected team to load
+{
+  "selectedTeamId": "T8MVCNGTA"
+}
+[01/20/18, 11:57:39:259] info: NetworkStatus: Waiting for network online…
+[01/20/18, 11:57:39:310] info: UpdaterEpics: Updates disabled because
+{
+  "reasons": [
+    "using Linux"
+  ]
+}
+[01/20/18, 11:57:40:627] error: Couldn't get Linux distro info
+[01/20/18, 11:57:41:953] info: Store: INITIALIZE_SETTINGS
+{
+  "releaseChannel": "prod",
+  "platformVersion": {
+    "major": 4,
+    "minor": 9,
+    "build": 76
+  },
+  "isTitleBarHidden": false,
+  "isDevMode": false,
+  "appVersion": "3.0.2",
+  "versionName": "Around The World",
+  "devEnv": null,
+  "resourcePath": "/usr/lib/slack/resources/app.asar",
+  "webappSrcPath": null,
+  "webappParams": null,
+  "launchOnStartup": false,
+  "openDevToolsOnStart": false,
+  "logFile": null,
+  "pretendNotReallyWindows10": false,
+  "isAeroGlassEnabled": false,
+  "linux": {
+    "os": "",
+    "release": "",
+    "desktopEnvironment": ""
+  }
+}
+[01/20/18, 11:57:41:955] info: AutoLoginEpic: Checking for autologin.
+[01/20/18, 11:57:41:956] info: AutoLoginEpic: Completed autologin processing — successfully logged in 0 workspaces.
+[01/20/18, 11:57:41:956] info: Store: AUTOLOGIN_TEAMS_COMPLETE
+[01/20/18, 11:57:41:960] info: WebContentsMediator: Attaching to new webContents
+[01/20/18, 11:57:41:962] info: Store: ADD_WINDOW
+{
+  "id": 2,
+  "type": "main"
+}
+[01/20/18, 11:57:41:965] info: BrowserViewManager: Starting initialization
+[01/20/18, 11:57:41:965] info: BrowserViewManager: Activating BrowserView
+{
+  "teamId": "T8MVCNGTA"
+}
+[01/20/18, 11:57:41:966] info: BrowserViewManager: Creating BrowserView
+{
+  "teamId": "T8MVCNGTA"
+}
+[01/20/18, 11:57:41:967] info: WebContentsMediator: Attaching to new webContents
+[01/20/18, 11:57:41:971] info: BrowserViewManager: 
++-----------+------+-----+
+|           | Full | Min |
+|-----------+------+-----+
+| T8MVCNGTA | ✔    |     |
++-----------+------+-----+
+[01/20/18, 11:57:41:971] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "teamId": "T8MVCNGTA",
+  "state": "unloaded"
+}
+[01/20/18, 11:57:41:979] info: BrowserViewManager: Activating BrowserView
+{
+  "teamId": "T8MVCNGTA"
+}
+[01/20/18, 11:57:41:981] info: BrowserViewManager: 
++-----------+------+-----+
+|           | Full | Min |
+|-----------+------+-----+
+| T8MVCNGTA | ✔    |     |
++-----------+------+-----+
+[01/20/18, 11:57:41:982] info: BrowserViewManager: Finished initialization
+{
+  "elapsed": 16
+}
+[01/20/18, 11:57:41:984] info: PersistSettingsWindowBehavior: Loading windowMetrics
+{
+  "settings": {
+    "size": [
+      1366,
+      748
+    ],
+    "position": [
+      0,
+      20
+    ],
+    "isMaximized": false
+  }
+}
+[01/20/18, 11:57:42:074] info: Application: Setting main window ID
+{
+  "id": 2
+}
+[01/20/18, 11:57:42:076] info: App: Welcome to Slack 3.0.2 x64
+[01/20/18, 11:57:42:076] info: App load time: 12982ms
+[01/20/18, 11:57:42:085] info: NetworkStatus: Response from api.test
+{
+  "status": "online"
+}
+[01/20/18, 11:57:42:086] info: Store: SET_NETWORK_STATUS online
+[01/20/18, 11:57:42:324] info: Store: SET_FULL_SCREEN
+[01/20/18, 11:57:58:700] info: WebContents LifeCycle: webContents:3 from 'unloaded' to 'loaded' took 16725 ms
+[01/20/18, 11:57:58:700] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T8MVCNGTA"
+}
+[01/20/18, 11:57:58:707] info: initializeMainWindowEpic: Showing main window
+{
+  "shouldMinimize": false,
+  "shouldMaximize": false,
+  "shouldHide": false
+}
+[01/20/18, 11:57:58:708] info: Store: MAIN_WINDOW_SHOWN
+[01/20/18, 11:57:59:230] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T8MVCNGTA"
+}
+[01/20/18, 11:57:59:446] info: Store: SELECT_CHANNEL D8NH9B5BM
+[01/20/18, 11:57:59:448] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T8MVCNGTA"
+}
+[01/20/18, 11:57:59:451] info: Store: UPDATE_SETTINGS
+{
+  "locale": "en-US"
+}
+[01/20/18, 11:57:59:453] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T8MVCNGTA",
+  "theme": {
+    "active_item": "#4C9689",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#38978D",
+    "badge": "#EB4D5C",
+    "column_bg": "#4D394B",
+    "hover_item": "#3E313C",
+    "menu_bg": "#3E313C",
+    "text_color": "#FFFFFF"
+  }
+}
+[01/20/18, 11:58:00:109] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1366,
+    748
+  ],
+  "position": [
+    0,
+    20
+  ],
+  "isMaximized": false
+}
+[01/20/18, 11:58:00:764] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": false,
+  "teamId": "T8MVCNGTA"
+}
+[01/20/18, 11:58:00:918] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T8MVCNGTA"
+}
+[01/20/18, 11:58:00:921] info: WebContents LifeCycle: webContents:3 from 'loaded' to 'webapp-loaded' took 2222 ms
+[01/20/18, 11:58:00:921] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "webapp-loaded",
+  "teamId": "T8MVCNGTA"
+}
+[01/20/18, 11:58:01:281] info: Store: STORE_API_TOKEN
+{
+  "token": "xoxs-⋯",
+  "teamId": "T8MVCNGTA"
+}
+[01/20/18, 11:58:02:787] info: WebContentsMediator: Attaching to new webContents
+[01/20/18, 12:18:00:557] info: ╔════════════════════════════════════════════════════════════════════════════╗
+[01/20/18, 12:18:00:558] info: ║      Slack 3.0.2, linux 4.9.76-1-lts on x64 at 01/20/18, 12:18:00:552      ║
+[01/20/18, 12:18:00:558] info: ╚════════════════════════════════════════════════════════════════════════════╝
+[01/20/18, 12:18:00:906] info: Initializing local storage instance at path: /home/mnkhbmb/.config/Slack/local-settings.json
+[01/20/18, 12:18:01:213] info: TraceRecorder: setting up trace recorder, trace will be stored under /home/mnkhbmb/.config/Slack/logs/recorded-trace
+[01/20/18, 12:18:01:651] info: BrowserStore: Keychain access previously denied, don't ask again
+[01/20/18, 12:18:01:662] info: Store: persist/REHYDRATE
+{
+  "appTeams": {
+    "selectedTeamId": "T8MVCNGTA",
+    "teamsByIndex": [
+      "T8MVCNGTA"
+    ],
+    "teamsToSignOut": []
+  },
+  "dialog": "[REDACTED]",
+  "downloads": "[REDACTED]",
+  "settings": {
+    "appVersion": "3.0.2",
+    "versionName": "Around The World",
+    "platform": "linux",
+    "platformVersion": {
+      "major": 4,
+      "minor": 9,
+      "build": 76
+    },
+    "isWin10": false,
+    "isBeforeWin10": false,
+    "resourcePath": "/usr/lib/slack/resources/app.asar",
+    "webappSrcPath": null,
+    "webappParams": null,
+    "isDevMode": false,
+    "devEnv": null,
+    "logFile": null,
+    "openDevToolsOnStart": false,
+    "pretendNotReallyWindows10": false,
+    "releaseChannel": "prod",
+    "autoHideMenuBar": false,
+    "isTitleBarHidden": false,
+    "hasRunApp": true,
+    "hasRunFromTray": true,
+    "reportIssueOnStartup": false,
+    "runFromTray": true,
+    "launchOnStartup": false,
+    "spellcheckerLanguage": null,
+    "zoomLevel": 0,
+    "workspaceIdleTimeout": 21600000,
+    "whitelistedUrlSchemes": [
+      "http:",
+      "https:",
+      "mailto:",
+      "skype:",
+      "spotify:",
+      "live:",
+      "callto:",
+      "tel:",
+      "im:",
+      "sip:",
+      "sips:",
+      "slack:"
+    ],
+    "isTitleBarForcedByUser": false,
+    "PrefSSBFileDownloadPath": "/home/mnkhbmb/Downloads",
+    "notificationMethod": null,
+    "notificationPlayback": null,
+    "notifyPosition": {
+      "corner": "bottom_right",
+      "display": "same_as_app"
+    },
+    "locale": "en-US",
+    "useHwAcceleration": true,
+    "os": false,
+    "release": false,
+    "desktopEnvironment": false,
+    "isAeroGlassEnabled": false,
+    "linux": {
+      "os": "",
+      "release": "",
+      "desktopEnvironment": ""
+    }
+  },
+  "teams": "[REDACTED]",
+  "unreads": {
+    "T8MVCNGTA": {
+      "unreads": 0,
+      "unreadHighlights": 0,
+      "showBullet": true
+    }
+  },
+  "windowFrame": {
+    "windowSettings": {
+      "size": [
+        1366,
+        748
+      ],
+      "position": [
+        0,
+        20
+      ],
+      "isMaximized": false
+    },
+    "isFullScreen": false
+  }
+}
+[01/20/18, 12:18:01:664] info: initializeMainWindowEpic: Waiting for selected team to load
+{
+  "selectedTeamId": "T8MVCNGTA"
+}
+[01/20/18, 12:18:01:665] info: NetworkStatus: Waiting for network online…
+[01/20/18, 12:18:01:667] info: UpdaterEpics: Updates disabled because
+{
+  "reasons": [
+    "using Linux"
+  ]
+}
+[01/20/18, 12:18:01:757] error: Couldn't get Linux distro info
+[01/20/18, 12:18:01:933] info: Store: INITIALIZE_SETTINGS
+{
+  "releaseChannel": "prod",
+  "platformVersion": {
+    "major": 4,
+    "minor": 9,
+    "build": 76
+  },
+  "isTitleBarHidden": false,
+  "isDevMode": false,
+  "appVersion": "3.0.2",
+  "versionName": "Around The World",
+  "devEnv": null,
+  "resourcePath": "/usr/lib/slack/resources/app.asar",
+  "webappSrcPath": null,
+  "webappParams": null,
+  "launchOnStartup": false,
+  "openDevToolsOnStart": false,
+  "logFile": null,
+  "pretendNotReallyWindows10": false,
+  "isAeroGlassEnabled": false,
+  "linux": {
+    "os": "",
+    "release": "",
+    "desktopEnvironment": ""
+  }
+}
+[01/20/18, 12:18:01:935] info: AutoLoginEpic: Checking for autologin.
+[01/20/18, 12:18:01:936] info: AutoLoginEpic: Completed autologin processing — successfully logged in 0 workspaces.
+[01/20/18, 12:18:01:936] info: Store: AUTOLOGIN_TEAMS_COMPLETE
+[01/20/18, 12:18:01:942] info: WebContentsMediator: Attaching to new webContents
+[01/20/18, 12:18:01:946] info: Store: ADD_WINDOW
+{
+  "id": 2,
+  "type": "main"
+}
+[01/20/18, 12:18:01:949] info: BrowserViewManager: Starting initialization
+[01/20/18, 12:18:01:950] info: BrowserViewManager: Activating BrowserView
+{
+  "teamId": "T8MVCNGTA"
+}
+[01/20/18, 12:18:01:950] info: BrowserViewManager: Creating BrowserView
+{
+  "teamId": "T8MVCNGTA"
+}
+[01/20/18, 12:18:01:952] info: WebContentsMediator: Attaching to new webContents
+[01/20/18, 12:18:01:958] info: BrowserViewManager: 
++-----------+------+-----+
+|           | Full | Min |
+|-----------+------+-----+
+| T8MVCNGTA | ✔    |     |
++-----------+------+-----+
+[01/20/18, 12:18:01:959] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "teamId": "T8MVCNGTA",
+  "state": "unloaded"
+}
+[01/20/18, 12:18:01:971] info: BrowserViewManager: Activating BrowserView
+{
+  "teamId": "T8MVCNGTA"
+}
+[01/20/18, 12:18:01:975] info: BrowserViewManager: 
++-----------+------+-----+
+|           | Full | Min |
+|-----------+------+-----+
+| T8MVCNGTA | ✔    |     |
++-----------+------+-----+
+[01/20/18, 12:18:01:976] info: BrowserViewManager: Finished initialization
+{
+  "elapsed": 26
+}
+[01/20/18, 12:18:01:979] info: PersistSettingsWindowBehavior: Loading windowMetrics
+{
+  "settings": {
+    "size": [
+      1366,
+      748
+    ],
+    "position": [
+      0,
+      20
+    ],
+    "isMaximized": false
+  }
+}
+[01/20/18, 12:18:02:009] info: Application: Setting main window ID
+{
+  "id": 2
+}
+[01/20/18, 12:18:02:012] info: App: Welcome to Slack 3.0.2 x64
+[01/20/18, 12:18:02:012] info: App load time: 1791ms
+[01/20/18, 12:18:02:176] info: Store: SET_FULL_SCREEN
+[01/20/18, 12:18:02:514] info: NetworkStatus: Response from api.test
+{
+  "status": "online"
+}
+[01/20/18, 12:18:02:515] info: Store: SET_NETWORK_STATUS online
+[01/20/18, 12:18:10:033] info: WebContents LifeCycle: webContents:3 from 'unloaded' to 'loaded' took 8071 ms
+[01/20/18, 12:18:10:034] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T8MVCNGTA"
+}
+[01/20/18, 12:18:10:047] info: initializeMainWindowEpic: Showing main window
+{
+  "shouldMinimize": false,
+  "shouldMaximize": false,
+  "shouldHide": false
+}
+[01/20/18, 12:18:10:048] info: Store: MAIN_WINDOW_SHOWN
+[01/20/18, 12:18:10:594] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T8MVCNGTA"
+}
+[01/20/18, 12:18:11:089] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    661,
+    716
+  ],
+  "position": [
+    689,
+    36
+  ],
+  "isMaximized": false
+}
+[01/20/18, 12:18:11:505] info: Store: SELECT_CHANNEL D8NH9B5BM
+[01/20/18, 12:18:11:508] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T8MVCNGTA"
+}
+[01/20/18, 12:18:11:512] info: Store: UPDATE_SETTINGS
+{
+  "locale": "en-US"
+}
+[01/20/18, 12:18:11:565] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T8MVCNGTA",
+  "theme": {
+    "active_item": "#4C9689",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#38978D",
+    "badge": "#EB4D5C",
+    "column_bg": "#4D394B",
+    "hover_item": "#3E313C",
+    "menu_bg": "#3E313C",
+    "text_color": "#FFFFFF"
+  }
+}
+[01/20/18, 12:18:12:387] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": false,
+  "teamId": "T8MVCNGTA"
+}
+[01/20/18, 12:18:12:515] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T8MVCNGTA"
+}
+[01/20/18, 12:18:12:564] info: WebContents LifeCycle: webContents:3 from 'loaded' to 'webapp-loaded' took 2530 ms
+[01/20/18, 12:18:12:564] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "webapp-loaded",
+  "teamId": "T8MVCNGTA"
+}
+[01/20/18, 12:18:12:688] info: Store: STORE_API_TOKEN
+{
+  "token": "xoxs-⋯",
+  "teamId": "T8MVCNGTA"
+}
+[01/20/18, 12:18:12:823] info: WebContentsMediator: Attaching to new webContents
+[01/20/18, 12:23:20:177] info: ╔════════════════════════════════════════════════════════════════════════════╗
+[01/20/18, 12:23:20:179] info: ║      Slack 3.0.2, linux 4.9.76-1-lts on x64 at 01/20/18, 12:23:20:172      ║
+[01/20/18, 12:23:20:179] info: ╚════════════════════════════════════════════════════════════════════════════╝
+[01/20/18, 12:23:20:516] info: Initializing local storage instance at path: /home/mnkhbmb/.config/Slack/local-settings.json
+[01/20/18, 12:23:20:771] info: TraceRecorder: setting up trace recorder, trace will be stored under /home/mnkhbmb/.config/Slack/logs/recorded-trace
+[01/20/18, 12:23:21:309] info: BrowserStore: Keychain access previously denied, don't ask again
+[01/20/18, 12:23:21:326] info: Store: persist/REHYDRATE
+{
+  "appTeams": {
+    "selectedTeamId": "T8MVCNGTA",
+    "teamsByIndex": [
+      "T8MVCNGTA"
+    ],
+    "teamsToSignOut": []
+  },
+  "dialog": "[REDACTED]",
+  "downloads": "[REDACTED]",
+  "settings": {
+    "appVersion": "3.0.2",
+    "versionName": "Around The World",
+    "platform": "linux",
+    "platformVersion": {
+      "major": 4,
+      "minor": 9,
+      "build": 76
+    },
+    "isWin10": false,
+    "isBeforeWin10": false,
+    "resourcePath": "/usr/lib/slack/resources/app.asar",
+    "webappSrcPath": null,
+    "webappParams": null,
+    "isDevMode": false,
+    "devEnv": null,
+    "logFile": null,
+    "openDevToolsOnStart": false,
+    "pretendNotReallyWindows10": false,
+    "releaseChannel": "prod",
+    "autoHideMenuBar": false,
+    "isTitleBarHidden": false,
+    "hasRunApp": true,
+    "hasRunFromTray": true,
+    "reportIssueOnStartup": false,
+    "runFromTray": true,
+    "launchOnStartup": false,
+    "spellcheckerLanguage": null,
+    "zoomLevel": 0,
+    "workspaceIdleTimeout": 21600000,
+    "whitelistedUrlSchemes": [
+      "http:",
+      "https:",
+      "mailto:",
+      "skype:",
+      "spotify:",
+      "live:",
+      "callto:",
+      "tel:",
+      "im:",
+      "sip:",
+      "sips:",
+      "slack:"
+    ],
+    "isTitleBarForcedByUser": false,
+    "PrefSSBFileDownloadPath": "/home/mnkhbmb/Downloads",
+    "notificationMethod": null,
+    "notificationPlayback": null,
+    "notifyPosition": {
+      "corner": "bottom_right",
+      "display": "same_as_app"
+    },
+    "locale": "en-US",
+    "useHwAcceleration": true,
+    "os": false,
+    "release": false,
+    "desktopEnvironment": false,
+    "isAeroGlassEnabled": false,
+    "linux": {
+      "os": "",
+      "release": "",
+      "desktopEnvironment": ""
+    }
+  },
+  "teams": "[REDACTED]",
+  "unreads": {
+    "T8MVCNGTA": {
+      "unreads": 0,
+      "unreadHighlights": 0,
+      "showBullet": true
+    }
+  },
+  "windowFrame": {
+    "windowSettings": {
+      "size": [
+        661,
+        716
+      ],
+      "position": [
+        689,
+        36
+      ],
+      "isMaximized": false
+    },
+    "isFullScreen": false
+  }
+}
+[01/20/18, 12:23:21:329] info: initializeMainWindowEpic: Waiting for selected team to load
+{
+  "selectedTeamId": "T8MVCNGTA"
+}
+[01/20/18, 12:23:21:330] info: NetworkStatus: Waiting for network online…
+[01/20/18, 12:23:21:334] info: UpdaterEpics: Updates disabled because
+{
+  "reasons": [
+    "using Linux"
+  ]
+}
+[01/20/18, 12:23:21:457] error: Couldn't get Linux distro info
+[01/20/18, 12:23:21:659] info: Store: INITIALIZE_SETTINGS
+{
+  "releaseChannel": "prod",
+  "platformVersion": {
+    "major": 4,
+    "minor": 9,
+    "build": 76
+  },
+  "isTitleBarHidden": false,
+  "isDevMode": false,
+  "appVersion": "3.0.2",
+  "versionName": "Around The World",
+  "devEnv": null,
+  "resourcePath": "/usr/lib/slack/resources/app.asar",
+  "webappSrcPath": null,
+  "webappParams": null,
+  "launchOnStartup": false,
+  "openDevToolsOnStart": false,
+  "logFile": null,
+  "pretendNotReallyWindows10": false,
+  "isAeroGlassEnabled": false,
+  "linux": {
+    "os": "",
+    "release": "",
+    "desktopEnvironment": ""
+  }
+}
+[01/20/18, 12:23:21:662] info: AutoLoginEpic: Checking for autologin.
+[01/20/18, 12:23:21:662] info: AutoLoginEpic: Completed autologin processing — successfully logged in 0 workspaces.
+[01/20/18, 12:23:21:663] info: Store: AUTOLOGIN_TEAMS_COMPLETE
+[01/20/18, 12:23:21:670] info: WebContentsMediator: Attaching to new webContents
+[01/20/18, 12:23:21:673] info: Store: ADD_WINDOW
+{
+  "id": 2,
+  "type": "main"
+}
+[01/20/18, 12:23:21:678] info: BrowserViewManager: Starting initialization
+[01/20/18, 12:23:21:678] info: BrowserViewManager: Activating BrowserView
+{
+  "teamId": "T8MVCNGTA"
+}
+[01/20/18, 12:23:21:679] info: BrowserViewManager: Creating BrowserView
+{
+  "teamId": "T8MVCNGTA"
+}
+[01/20/18, 12:23:21:681] info: WebContentsMediator: Attaching to new webContents
+[01/20/18, 12:23:21:687] info: BrowserViewManager: 
++-----------+------+-----+
+|           | Full | Min |
+|-----------+------+-----+
+| T8MVCNGTA | ✔    |     |
++-----------+------+-----+
+[01/20/18, 12:23:21:688] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "teamId": "T8MVCNGTA",
+  "state": "unloaded"
+}
+[01/20/18, 12:23:21:708] info: BrowserViewManager: Activating BrowserView
+{
+  "teamId": "T8MVCNGTA"
+}
+[01/20/18, 12:23:21:712] info: BrowserViewManager: 
++-----------+------+-----+
+|           | Full | Min |
+|-----------+------+-----+
+| T8MVCNGTA | ✔    |     |
++-----------+------+-----+
+[01/20/18, 12:23:21:712] info: BrowserViewManager: Finished initialization
+{
+  "elapsed": 34
+}
+[01/20/18, 12:23:21:716] info: PersistSettingsWindowBehavior: Loading windowMetrics
+{
+  "settings": {
+    "size": [
+      661,
+      716
+    ],
+    "position": [
+      689,
+      36
+    ],
+    "isMaximized": false
+  }
+}
+[01/20/18, 12:23:21:740] info: Application: Setting main window ID
+{
+  "id": 2
+}
+[01/20/18, 12:23:21:742] info: App: Welcome to Slack 3.0.2 x64
+[01/20/18, 12:23:21:743] info: App load time: 1934ms
+[01/20/18, 12:23:21:869] info: Store: SET_FULL_SCREEN
+[01/20/18, 12:23:22:040] info: NetworkStatus: Response from api.test
+{
+  "status": "online"
+}
+[01/20/18, 12:23:22:041] info: Store: SET_NETWORK_STATUS online
+[01/20/18, 12:23:28:465] info: WebContents LifeCycle: webContents:3 from 'unloaded' to 'loaded' took 6773 ms
+[01/20/18, 12:23:28:466] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T8MVCNGTA"
+}
+[01/20/18, 12:23:28:486] info: initializeMainWindowEpic: Showing main window
+{
+  "shouldMinimize": false,
+  "shouldMaximize": false,
+  "shouldHide": false
+}
+[01/20/18, 12:23:28:487] info: Store: MAIN_WINDOW_SHOWN
+[01/20/18, 12:23:28:913] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T8MVCNGTA"
+}
+[01/20/18, 12:23:29:453] info: Store: SELECT_CHANNEL D8NH9B5BM
+[01/20/18, 12:23:29:457] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T8MVCNGTA"
+}
+[01/20/18, 12:23:29:461] info: Store: UPDATE_SETTINGS
+{
+  "locale": "en-US"
+}
+[01/20/18, 12:23:29:545] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T8MVCNGTA",
+  "theme": {
+    "active_item": "#4C9689",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#38978D",
+    "badge": "#EB4D5C",
+    "column_bg": "#4D394B",
+    "hover_item": "#3E313C",
+    "menu_bg": "#3E313C",
+    "text_color": "#FFFFFF"
+  }
+}
+[01/20/18, 12:23:29:579] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    433,
+    716
+  ],
+  "position": [
+    917,
+    36
+  ],
+  "isMaximized": false
+}
+[01/20/18, 12:23:30:313] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": false,
+  "teamId": "T8MVCNGTA"
+}
+[01/20/18, 12:23:30:412] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T8MVCNGTA"
+}
+[01/20/18, 12:23:30:452] info: WebContents LifeCycle: webContents:3 from 'loaded' to 'webapp-loaded' took 1987 ms
+[01/20/18, 12:23:30:452] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "webapp-loaded",
+  "teamId": "T8MVCNGTA"
+}
+[01/20/18, 12:23:30:565] info: Store: STORE_API_TOKEN
+{
+  "token": "xoxs-⋯",
+  "teamId": "T8MVCNGTA"
+}
+[01/20/18, 12:23:30:705] info: WebContentsMediator: Attaching to new webContents
+[01/20/18, 12:23:58:672] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    661,
+    716
+  ],
+  "position": [
+    689,
+    36
+  ],
+  "isMaximized": false
+}
+[01/20/18, 12:29:46:062] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": false,
+  "teamId": "T8MVCNGTA"
+}
+[01/20/18, 12:29:46:153] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T8MVCNGTA"
+}
+[01/20/18, 12:47:14:722] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    661,
+    716
+  ],
+  "position": [
+    2129,
+    36
+  ],
+  "isMaximized": false
+}
+[01/20/18, 12:49:06:367] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    661,
+    736
+  ],
+  "position": [
+    2129,
+    16
+  ],
+  "isMaximized": false
+}
+[01/20/18, 12:49:15:798] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "size": [
+    1366,
+    768
+  ],
+  "position": [
+    1440,
+    0
+  ],
+  "isMaximized": false
+}

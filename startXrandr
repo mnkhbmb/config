@@ -1,0 +1,1 @@
+xrandr --auto --output DP1-3 --mode 1440x900 --left-of eDP1

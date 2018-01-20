@@ -1,0 +1,959 @@
+[01/11/18, 16:56:44:465] info: ╔════════════════════════════════════════════════════════════════════════════╗
+[01/11/18, 16:56:44:466] info: ║      Slack 3.0.2, linux 4.9.75-1-lts on x64 at 01/11/18, 16:56:44:461      ║
+[01/11/18, 16:56:44:466] info: ╚════════════════════════════════════════════════════════════════════════════╝
+[01/11/18, 16:56:44:653] info: Initializing local storage instance at path: /home/mnkhbmb/.config/Slack/local-settings.json
+[01/11/18, 16:56:45:702] error: Calls failed to load, bailing
+[01/11/18, 16:56:45:705] info: updateSuspendResume: true
+[01/11/18, 16:56:45:706] warn: updateSpellcheckerLanguage: Tried to update language, but spellchecker not initialized
+[01/11/18, 16:56:50:748] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T8MVCNGTA"
+}
+[01/11/18, 16:56:50:757] info: Store: MAIN_WINDOW_SHOWN
+[01/11/18, 16:56:51:280] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T8MVCNGTA"
+}
+[01/11/18, 16:56:52:859] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    689,
+    36
+  ],
+  "size": [
+    661,
+    716
+  ]
+}
+[01/11/18, 16:56:52:860] info: Store: SELECT_CHANNEL C8MVCNMPA
+[01/11/18, 16:56:52:860] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T8MVCNGTA"
+}
+[01/11/18, 16:56:52:861] info: Store: UPDATE_SETTINGS
+{
+  "locale": "en-US"
+}
+[01/11/18, 16:56:52:862] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T8MVCNGTA",
+  "theme": {
+    "active_item": "#4C9689",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#38978D",
+    "badge": "#EB4D5C",
+    "column_bg": "#4D394B",
+    "hover_item": "#3E313C",
+    "menu_bg": "#3E313C",
+    "text_color": "#FFFFFF"
+  }
+}
+[01/11/18, 16:56:53:574] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": false,
+  "teamId": "T8MVCNGTA"
+}
+[01/11/18, 16:56:53:575] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T8MVCNGTA"
+}
+[01/11/18, 16:56:53:577] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "webapp-loaded",
+  "teamId": "T8MVCNGTA"
+}
+[01/11/18, 16:56:53:843] info: Store: STORE_API_TOKEN
+{
+  "teamId": "T8MVCNGTA",
+  "token": "xoxs-⋯"
+}
+[01/11/18, 16:56:55:632] info: Unloading spellchecker
+[01/11/18, 16:56:56:246] info: Unloading spellchecker
+[01/11/18, 16:56:58:962] info: Couldn't detect language for text of length '949': Failed to identify language, ignoring sample
+[01/11/18, 16:57:00:183] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    0,
+    20
+  ],
+  "size": [
+    1366,
+    748
+  ]
+}
+[01/11/18, 16:57:00:451] info: Unloading spellchecker
+[01/11/18, 16:57:01:830] info: Unloading spellchecker
+[01/11/18, 17:11:29:102] info: Unloading spellchecker
+[01/11/18, 17:15:40:249] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[01/11/18, 17:15:40:249] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[01/11/18, 17:15:40:451] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "lPvSohqPoE3qro",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515662139.000325&team=T8MVCNGTA",
+  "msg": "1515662139.000325",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:15:48:180] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[01/11/18, 17:15:48:180] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[01/11/18, 17:15:48:196] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "M6Ef2iWrEo6OVQ",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515662147.000315&team=T8MVCNGTA",
+  "msg": "1515662147.000315",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:15:56:466] info: Unloading spellchecker
+[01/11/18, 17:16:00:227] info: Unloading spellchecker
+[01/11/18, 17:16:10:037] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[01/11/18, 17:16:10:038] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[01/11/18, 17:16:10:056] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "GEYFWsQxgZzyPQ",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515662169.000264&team=T8MVCNGTA",
+  "msg": "1515662169.000264",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:16:15:430] info: Unloading spellchecker
+[01/11/18, 17:16:18:617] info: Unloading spellchecker
+[01/11/18, 17:16:25:726] info: Unloading spellchecker
+[01/11/18, 17:16:26:249] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[01/11/18, 17:16:26:250] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[01/11/18, 17:16:26:269] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "mP2SRt96oPy21M",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515662185.000383&team=T8MVCNGTA",
+  "msg": "1515662185.000383",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:16:28:172] info: Unloading spellchecker
+[01/11/18, 17:16:36:030] info: Unloading spellchecker
+[01/11/18, 17:16:43:310] info: Unloading spellchecker
+[01/11/18, 17:16:43:325] info: Store: MAIN_WINDOW_FOCUSED
+[01/11/18, 17:16:48:687] info: Unloading spellchecker
+[01/11/18, 17:16:50:026] info: Unloading spellchecker
+[01/11/18, 17:16:51:256] info: Unloading spellchecker
+[01/11/18, 17:16:52:840] info: Unloading spellchecker
+[01/11/18, 17:17:08:970] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[01/11/18, 17:17:08:971] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[01/11/18, 17:17:08:988] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "5glu6u2g5DM8gP",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515662228.000361&team=T8MVCNGTA",
+  "msg": "1515662228.000361",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:17:12:635] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[01/11/18, 17:17:12:636] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[01/11/18, 17:17:12:660] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "P8MHNCj54XyZog",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515662232.000129&team=T8MVCNGTA",
+  "msg": "1515662232.000129",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:17:15:500] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[01/11/18, 17:17:15:501] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[01/11/18, 17:17:15:513] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "3GjIGFDk0yApDM",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515662235.000002&team=T8MVCNGTA",
+  "msg": "1515662235.000002",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:17:43:106] info: Unloading spellchecker
+[01/11/18, 17:17:45:004] info: Unloading spellchecker
+[01/11/18, 17:17:56:938] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[01/11/18, 17:17:56:938] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[01/11/18, 17:17:56:952] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "GEYFqHQxgZ8G4O",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515662276.000328&team=T8MVCNGTA",
+  "msg": "1515662276.000328",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:17:58:614] info: Unloading spellchecker
+[01/11/18, 17:18:03:016] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[01/11/18, 17:18:03:016] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[01/11/18, 17:18:03:027] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "LRYilImpl2OnW6",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515662282.000316&team=T8MVCNGTA",
+  "msg": "1515662282.000316",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:18:29:681] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[01/11/18, 17:18:29:681] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[01/11/18, 17:18:29:691] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "LRYiVSmpl2Dmoz",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515662309.000222&team=T8MVCNGTA",
+  "msg": "1515662309.000222",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:18:32:754] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[01/11/18, 17:18:32:754] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[01/11/18, 17:18:32:763] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "3GjIZTDk0y4v16",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515662312.000176&team=T8MVCNGTA",
+  "msg": "1515662312.000176",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:18:35:463] info: Unloading spellchecker
+[01/11/18, 17:18:36:456] info: Unloading spellchecker
+[01/11/18, 17:18:41:409] info: Unloading spellchecker
+[01/11/18, 17:18:43:637] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[01/11/18, 17:18:43:638] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[01/11/18, 17:18:43:642] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "oPvSJU6wY9yEKA",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515662323.000225&team=T8MVCNGTA",
+  "msg": "1515662323.000225",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:18:47:938] info: Unloading spellchecker
+[01/11/18, 17:18:53:392] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[01/11/18, 17:18:53:392] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[01/11/18, 17:18:53:396] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "yn6SmcR8W0pzXL",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515662333.000022&team=T8MVCNGTA",
+  "msg": "1515662333.000022",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:18:56:860] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[01/11/18, 17:18:56:861] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[01/11/18, 17:18:56:866] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "AxQHmfYWrmLR5k",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515662336.000202&team=T8MVCNGTA",
+  "msg": "1515662336.000202",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:18:58:811] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[01/11/18, 17:18:58:812] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[01/11/18, 17:18:58:816] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "V95COhJYX06omv",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515662338.000179&team=T8MVCNGTA",
+  "msg": "1515662338.000179",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:19:06:491] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[01/11/18, 17:19:06:492] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[01/11/18, 17:19:06:503] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "By8hBij5L02Agr",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515662345.000550&team=T8MVCNGTA",
+  "msg": "1515662345.000550",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:19:12:855] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[01/11/18, 17:19:12:855] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[01/11/18, 17:19:12:868] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "yn6SXsR8W0p43o",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515662352.000190&team=T8MVCNGTA",
+  "msg": "1515662352.000190",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:19:13:644] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[01/11/18, 17:19:13:644] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[01/11/18, 17:19:13:653] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "WRwiktnGD0ZRmG",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515662353.000205&team=T8MVCNGTA",
+  "msg": "1515662353.000205",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:20:09:185] info: Unloading spellchecker
+[01/11/18, 17:20:16:091] info: Unloading spellchecker
+[01/11/18, 17:20:16:579] info: Unloading spellchecker
+[01/11/18, 17:20:27:196] info: Unloading spellchecker
+[01/11/18, 17:20:30:171] info: Unloading spellchecker
+[01/11/18, 17:20:30:183] info: Store: MAIN_WINDOW_FOCUSED
+[01/11/18, 17:20:32:256] info: Unloading spellchecker
+[01/11/18, 17:20:55:410] info: Unloading spellchecker
+[01/11/18, 17:20:56:784] info: Unloading spellchecker
+[01/11/18, 17:20:57:862] info: Unloading spellchecker
+[01/11/18, 17:21:07:364] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[01/11/18, 17:21:07:364] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[01/11/18, 17:21:07:375] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "LRYiAumpl2wDlk",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515662467.000053&team=T8MVCNGTA",
+  "msg": "1515662467.000053",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:21:08:073] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[01/11/18, 17:21:08:073] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[01/11/18, 17:21:08:082] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "DAYHRCZYVjMMnX",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515662467.000385&team=T8MVCNGTA",
+  "msg": "1515662467.000385",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:21:42:396] info: Unloading spellchecker
+[01/11/18, 17:21:43:337] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    16,
+    36
+  ],
+  "size": [
+    661,
+    716
+  ]
+}
+[01/11/18, 17:21:46:505] info: Unloading spellchecker
+[01/11/18, 17:21:51:841] info: Unloading spellchecker
+[01/11/18, 17:22:14:109] info: Unloading spellchecker
+[01/11/18, 17:22:20:969] info: Unloading spellchecker
+[01/11/18, 17:22:26:288] info: Unloading spellchecker
+[01/11/18, 17:22:27:883] info: Unloading spellchecker
+[01/11/18, 17:22:27:884] info: Store: UPDATE_SETTINGS
+{
+  "hasRunFromTray": true
+}
+[01/11/18, 17:22:27:885] info: Store: SHOW_TRAY_BALLOON
+{
+  "content": "Slack’s set to stay running in the notification area. To change this, visit Preferences > Linux App.",
+  "title": "Why didn’t Slack quit?"
+}
+[01/11/18, 17:22:27:978] info: Store: SET_FULL_SCREEN
+[01/11/18, 17:22:31:455] info: Store: FOREGROUND_APP
+[01/11/18, 17:22:31:655] info: Store: FOREGROUND_APP
+[01/11/18, 17:22:32:462] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    689,
+    36
+  ],
+  "size": [
+    661,
+    716
+  ]
+}
+[01/11/18, 17:22:33:514] info: Unloading spellchecker
+[01/11/18, 17:22:44:597] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[01/11/18, 17:22:44:597] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[01/11/18, 17:22:44:605] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "pPRS7FGMNWRGG2",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515662564.000004&team=T8MVCNGTA",
+  "msg": "1515662564.000004",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:22:51:989] info: Unloading spellchecker
+[01/11/18, 17:22:52:773] info: Unloading spellchecker
+[01/11/18, 17:22:53:499] info: Unloading spellchecker
+[01/11/18, 17:22:53:504] info: Unloading spellchecker
+[01/11/18, 17:22:54:481] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    0,
+    20
+  ],
+  "size": [
+    1366,
+    748
+  ]
+}
+[01/11/18, 17:23:01:504] info: Unloading spellchecker
+[01/11/18, 17:23:09:841] info: Unloading spellchecker
+[01/11/18, 17:23:14:754] info: Unloading spellchecker
+[01/11/18, 17:23:15:690] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    16,
+    36
+  ],
+  "size": [
+    661,
+    716
+  ]
+}
+[01/11/18, 17:23:19:521] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[01/11/18, 17:23:19:521] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[01/11/18, 17:23:19:532] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "1DYCZHXxjwBwYj",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515662599.000068&team=T8MVCNGTA",
+  "msg": "1515662599.000068",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:23:20:228] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[01/11/18, 17:23:20:228] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[01/11/18, 17:23:20:237] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "R7MSXIO5l2z27B",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515662600.000028&team=T8MVCNGTA",
+  "msg": "1515662600.000028",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:23:34:814] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[01/11/18, 17:23:34:815] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[01/11/18, 17:23:34:827] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "WRwirSnGD8VQ6M",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515662614.000298&team=T8MVCNGTA",
+  "msg": "1515662614.000298",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:23:49:321] info: Unloading spellchecker
+[01/11/18, 17:23:55:762] info: Unloading spellchecker
+[01/11/18, 17:24:00:228] info: Unloading spellchecker
+[01/11/18, 17:24:41:212] info: Unloading spellchecker
+[01/11/18, 17:24:56:854] info: Unloading spellchecker
+[01/11/18, 17:25:03:091] info: Unloading spellchecker
+[01/11/18, 17:25:03:586] info: Unloading spellchecker
+[01/11/18, 17:25:05:666] info: Unloading spellchecker
+[01/11/18, 17:25:11:189] info: Unloading spellchecker
+[01/11/18, 17:25:29:249] info: Unloading spellchecker
+[01/11/18, 17:25:52:794] error: Jan-11 17:25:52.794 SOCKET-MANAGER (T8MVCNGTA) Closing socket due to unknown error
+[01/11/18, 17:25:56:270] error: Jan-11 17:25:56.269 Message failed to send undefined
+{
+  "error": "socket_closed"
+}
+[01/11/18, 17:25:56:341] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[01/11/18, 17:25:56:341] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[01/11/18, 17:25:56:343] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[01/11/18, 17:25:56:343] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[01/11/18, 17:25:56:346] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[01/11/18, 17:25:56:346] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[01/11/18, 17:25:56:348] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[01/11/18, 17:25:56:348] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[01/11/18, 17:25:56:350] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[01/11/18, 17:25:56:351] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[01/11/18, 17:25:56:359] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[01/11/18, 17:25:56:359] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[01/11/18, 17:25:56:373] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[01/11/18, 17:25:56:373] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[01/11/18, 17:25:56:375] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[01/11/18, 17:25:56:375] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[01/11/18, 17:25:56:377] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[01/11/18, 17:25:56:377] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[01/11/18, 17:25:56:389] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "6jmf6T57YG6Nx8",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515662706.000577&team=T8MVCNGTA",
+  "msg": "1515662706.000577",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:25:56:394] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "9mptJUO95WEK1k",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515662708.000020&team=T8MVCNGTA",
+  "msg": "1515662708.000020",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:25:56:396] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "kPwS8c9LBnVY8Q",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515662711.000139&team=T8MVCNGTA",
+  "msg": "1515662711.000139",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:25:56:397] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "nPYSvfZxn5JMEm",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515662714.000236&team=T8MVCNGTA",
+  "msg": "1515662714.000236",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:25:56:397] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "r6EfJhyAZVzRNQ",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515662718.000045&team=T8MVCNGTA",
+  "msg": "1515662718.000045",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:25:56:399] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "EBZH5iPW7rwqQD",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515662726.000054&team=T8MVCNGTA",
+  "msg": "1515662726.000054",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:25:56:400] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "ZRwigsyWgkjQP1",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515662726.000373&team=T8MVCNGTA",
+  "msg": "1515662726.000373",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:25:56:403] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "LRYiOtmplNqxgp",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515662750.000543&team=T8MVCNGTA",
+  "msg": "1515662750.000543",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:25:56:408] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "OREigur70mv951",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515662753.000232&team=T8MVCNGTA",
+  "msg": "1515662753.000232",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:26:26:567] info: Unloading spellchecker
+[01/11/18, 17:26:42:635] info: Unloading spellchecker
+[01/11/18, 17:26:52:095] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    16,
+    36
+  ],
+  "size": [
+    661,
+    716
+  ]
+}
+[01/11/18, 17:26:52:920] info: Unloading spellchecker
+[01/11/18, 17:26:53:326] info: Unloading spellchecker
+[01/11/18, 17:26:53:330] info: Unloading spellchecker
+[01/11/18, 17:26:53:880] info: Unloading spellchecker
+[01/11/18, 17:26:54:807] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    16,
+    36
+  ],
+  "size": [
+    661,
+    716
+  ]
+}
+[01/11/18, 17:27:07:060] info: Unloading spellchecker
+[01/11/18, 17:27:31:821] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    16,
+    36
+  ],
+  "size": [
+    661,
+    716
+  ]
+}
+[01/11/18, 17:27:53:031] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    16,
+    16
+  ],
+  "size": [
+    661,
+    736
+  ]
+}
+[01/11/18, 17:28:01:842] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    16,
+    36
+  ],
+  "size": [
+    661,
+    716
+  ]
+}
+[01/11/18, 17:28:04:439] info: Unloading spellchecker
+[01/11/18, 17:28:04:443] info: Unloading spellchecker
+[01/11/18, 17:28:04:735] info: Unloading spellchecker
+[01/11/18, 17:28:05:361] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    0,
+    20
+  ],
+  "size": [
+    1366,
+    748
+  ]
+}
+[01/11/18, 17:28:32:886] info: Unloading spellchecker
+[01/11/18, 17:28:33:941] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    0,
+    0
+  ],
+  "size": [
+    1366,
+    768
+  ]
+}
+[01/11/18, 17:29:34:605] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    0,
+    20
+  ],
+  "size": [
+    1366,
+    748
+  ]
+}
+[01/11/18, 17:29:49:147] info: Unloading spellchecker
+[01/11/18, 17:29:51:266] info: Unloading spellchecker
+[01/11/18, 17:30:12:185] info: Unloading spellchecker
+[01/11/18, 17:30:13:541] info: Unloading spellchecker
+[01/11/18, 17:30:25:775] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[01/11/18, 17:30:25:776] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[01/11/18, 17:30:25:788] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "9mptXCO95WPW2J",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515663025.000083&team=T8MVCNGTA",
+  "msg": "1515663025.000083",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:32:38:912] info: Unloading spellchecker
+[01/11/18, 17:33:58:371] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[01/11/18, 17:33:58:372] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[01/11/18, 17:33:58:386] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "QRNiQFkNBjQ8rQ",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515663237.000518&team=T8MVCNGTA",
+  "msg": "1515663237.000518",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:34:02:155] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[01/11/18, 17:34:02:156] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[01/11/18, 17:34:02:166] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "5glu8H2g5JlOyl",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515663241.000430&team=T8MVCNGTA",
+  "msg": "1515663241.000430",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:34:16:667] info: Unloading spellchecker
+[01/11/18, 17:34:20:628] info: Unloading spellchecker
+[01/11/18, 17:35:01:337] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[01/11/18, 17:35:01:337] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[01/11/18, 17:35:01:349] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "DAYHkIZYVpBYQn",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515663301.000023&team=T8MVCNGTA",
+  "msg": "1515663301.000023",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:35:18:823] info: Unloading spellchecker
+[01/11/18, 17:35:35:729] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[01/11/18, 17:35:35:729] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[01/11/18, 17:35:35:744] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "3GjIQSDk0WOvw0",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515663335.000205&team=T8MVCNGTA",
+  "msg": "1515663335.000205",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:35:36:306] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[01/11/18, 17:35:36:307] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[01/11/18, 17:35:36:317] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "kPwSVT9LBn08AK",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515663335.000563&team=T8MVCNGTA",
+  "msg": "1515663335.000563",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/11/18, 17:35:43:625] info: Unloading spellchecker
+[01/11/18, 17:38:40:016] info: Unloading spellchecker
+[01/11/18, 17:38:48:968] info: Unloading spellchecker
+[01/11/18, 17:39:10:161] info: Unloading spellchecker
+[01/11/18, 17:39:11:873] info: Unloading spellchecker
+[01/11/18, 17:40:59:571] info: Store: FOREGROUND_APP

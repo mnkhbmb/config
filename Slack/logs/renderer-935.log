@@ -1,0 +1,149 @@
+[01/14/18, 19:11:43:676] info: ╔════════════════════════════════════════════════════════════════════════════╗
+[01/14/18, 19:11:43:677] info: ║      Slack 3.0.2, linux 4.9.75-1-lts on x64 at 01/14/18, 19:11:43:673      ║
+[01/14/18, 19:11:43:677] info: ╚════════════════════════════════════════════════════════════════════════════╝
+[01/14/18, 19:11:43:836] info: Initializing local storage instance at path: /home/mnkhbmb/.config/Slack/local-settings.json
+[01/14/18, 19:11:44:995] error: Calls failed to load, bailing
+[01/14/18, 19:11:45:001] info: updateSuspendResume: true
+[01/14/18, 19:11:45:002] warn: updateSpellcheckerLanguage: Tried to update language, but spellchecker not initialized
+[01/14/18, 19:11:50:752] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T8MVCNGTA"
+}
+[01/14/18, 19:11:50:763] info: Store: MAIN_WINDOW_SHOWN
+[01/14/18, 19:11:53:063] info: Store: SELECT_CHANNEL D8NH9B5BM
+[01/14/18, 19:11:53:064] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T8MVCNGTA"
+}
+[01/14/18, 19:11:53:064] info: Store: UPDATE_SETTINGS
+{
+  "locale": "en-US"
+}
+[01/14/18, 19:11:53:067] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T8MVCNGTA",
+  "theme": {
+    "active_item": "#4C9689",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#38978D",
+    "badge": "#EB4D5C",
+    "column_bg": "#4D394B",
+    "hover_item": "#3E313C",
+    "menu_bg": "#3E313C",
+    "text_color": "#FFFFFF"
+  }
+}
+[01/14/18, 19:11:53:070] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T8MVCNGTA"
+}
+[01/14/18, 19:11:53:441] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": false,
+  "teamId": "T8MVCNGTA"
+}
+[01/14/18, 19:11:53:450] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T8MVCNGTA"
+}
+[01/14/18, 19:11:53:451] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "webapp-loaded",
+  "teamId": "T8MVCNGTA"
+}
+[01/14/18, 19:11:53:463] info: Store: STORE_API_TOKEN
+{
+  "teamId": "T8MVCNGTA",
+  "token": "xoxs-⋯"
+}
+[01/14/18, 19:11:56:096] info: Unloading spellchecker
+[01/14/18, 19:11:56:264] info: Raw Locale list: ["C","en_US.utf8","POSIX",""]
+[01/14/18, 19:11:56:264] info: Filtered Locale list: ["en_US"]
+[01/14/18, 19:11:56:264] info: Counts: {"en":["en_US"]}
+[01/14/18, 19:11:56:265] info: Setting en
+[01/14/18, 19:11:56:265] info: Result: {"en":"en-US"}
+[01/14/18, 19:11:56:267] info: Requesting to load en-US, alternatives are ["en-US","en-US","en-US"]
+[01/14/18, 19:11:56:268] info: Loading dictionary for language en-US
+[01/14/18, 19:11:56:286] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/en-us-7-1.bdic
+[01/14/18, 19:11:56:899] info: Setting current spellchecker to en-US, requested language was en-US
+[01/14/18, 19:11:56:899] info: Creating node-spellchecker instance
+[01/14/18, 19:11:56:901] info: Actually installing spell check provider to Electron
+[01/14/18, 19:11:57:407] info: Restoring spellchecker
+[01/14/18, 19:11:57:407] info: Loading dictionary for language en-US
+[01/14/18, 19:11:57:407] info: Returning local copy: /home/mnkhbmb/.config/Slack/dictionaries/en-US.bdic
+[01/14/18, 19:11:57:454] info: Setting current spellchecker to en-US, requested language was en-US
+[01/14/18, 19:11:58:238] info: Unloading spellchecker
+[01/14/18, 19:11:58:348] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    0,
+    20
+  ],
+  "size": [
+    1366,
+    748
+  ]
+}
+[01/14/18, 19:12:02:203] info: Restoring spellchecker
+[01/14/18, 19:12:02:204] info: Loading dictionary for language en-US
+[01/14/18, 19:12:02:204] info: Returning local copy: /home/mnkhbmb/.config/Slack/dictionaries/en-US.bdic
+[01/14/18, 19:12:02:233] info: Setting current spellchecker to en-US, requested language was en-US
+[01/14/18, 19:12:02:233] info: Creating node-spellchecker instance
+[01/14/18, 19:12:02:684] info: Unloading spellchecker
+[01/14/18, 19:12:03:046] info: Restoring spellchecker
+[01/14/18, 19:12:03:047] info: Loading dictionary for language en-US
+[01/14/18, 19:12:03:047] info: Returning local copy: /home/mnkhbmb/.config/Slack/dictionaries/en-US.bdic
+[01/14/18, 19:12:03:074] info: Setting current spellchecker to en-US, requested language was en-US
+[01/14/18, 19:12:03:074] info: Creating node-spellchecker instance
+[01/14/18, 19:12:03:708] info: Unloading spellchecker
+[01/14/18, 19:12:27:440] info: Restoring spellchecker
+[01/14/18, 19:12:27:440] info: Loading dictionary for language en-US
+[01/14/18, 19:12:27:441] info: Returning local copy: /home/mnkhbmb/.config/Slack/dictionaries/en-US.bdic
+[01/14/18, 19:12:27:474] info: Setting current spellchecker to en-US, requested language was en-US
+[01/14/18, 19:12:27:474] info: Creating node-spellchecker instance
+[01/14/18, 19:12:27:722] info: Unloading spellchecker
+[01/14/18, 19:12:28:357] info: Restoring spellchecker
+[01/14/18, 19:12:28:358] info: Loading dictionary for language en-US
+[01/14/18, 19:12:28:358] info: Returning local copy: /home/mnkhbmb/.config/Slack/dictionaries/en-US.bdic
+[01/14/18, 19:12:28:393] info: Setting current spellchecker to en-US, requested language was en-US
+[01/14/18, 19:12:28:393] info: Creating node-spellchecker instance
+[01/14/18, 19:12:28:522] info: Unloading spellchecker
+[01/14/18, 19:12:29:966] info: Restoring spellchecker
+[01/14/18, 19:12:29:967] info: Loading dictionary for language en-US
+[01/14/18, 19:12:29:967] info: Returning local copy: /home/mnkhbmb/.config/Slack/dictionaries/en-US.bdic
+[01/14/18, 19:12:29:984] info: Setting current spellchecker to en-US, requested language was en-US
+[01/14/18, 19:12:29:984] info: Creating node-spellchecker instance
+[01/14/18, 19:12:31:540] info: Store: SELECT_CHANNEL D8NH9B5GT
+[01/14/18, 19:12:32:056] info: Store: SELECT_CHANNEL C8MVCNMPA
+[01/14/18, 19:12:35:883] info: Unloading spellchecker
+[01/14/18, 19:12:37:489] info: Couldn't get hint text from messages in channel: Failed to fetch recent messages
+[01/14/18, 19:12:38:014] info: Couldn't get hint text from messages in channel: Failed to fetch recent messages
+[01/14/18, 19:16:43:271] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[01/14/18, 19:16:43:272] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[01/14/18, 19:16:43:367] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T8MVCNGTA-U8NLBTRGU-43219e0313c9-512",
+  "channel": "C8MVCNMPA",
+  "content": "[REDACTED]",
+  "id": "wlRfLhKj5KNQ2r",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C8MVCNMPA&message=1515928602.000058&team=T8MVCNGTA",
+  "msg": "1515928602.000058",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T8MVCNGTA",
+  "title": "[REDACTED]"
+}
+[01/14/18, 19:27:28:145] info: Store: FOREGROUND_APP
+[01/14/18, 19:27:29:538] info: Restoring spellchecker
+[01/14/18, 19:27:29:539] info: Loading dictionary for language en-US
+[01/14/18, 19:27:29:539] info: Returning local copy: /home/mnkhbmb/.config/Slack/dictionaries/en-US.bdic
+[01/14/18, 19:27:29:590] info: Setting current spellchecker to en-US, requested language was en-US
+[01/14/18, 19:27:29:590] info: Creating node-spellchecker instance

@@ -1,0 +1,10 @@
+URxvt.saveLines: 4096
+URxvt.scrollBar: false
+URxvt.depth: 32
+URxvt.background: [80]#000000
+URxvt.font: xft:Hack:pixelsize=10
+URxvt.letterSpace: -1
+URxvt.cursorUnderline: true
+URxvt.cursorBlink: true
+;URxvt.transparent: true
+;URxvt.shadin: 20

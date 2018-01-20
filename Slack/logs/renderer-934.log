@@ -1,0 +1,223 @@
+[01/16/18, 17:46:20:705] info: ╔════════════════════════════════════════════════════════════════════════════╗
+[01/16/18, 17:46:20:706] info: ║      Slack 3.0.2, linux 4.9.75-1-lts on x64 at 01/16/18, 17:46:20:702      ║
+[01/16/18, 17:46:20:706] info: ╚════════════════════════════════════════════════════════════════════════════╝
+[01/16/18, 17:46:20:835] info: Initializing local storage instance at path: /home/mnkhbmb/.config/Slack/local-settings.json
+[01/16/18, 17:46:21:694] error: Calls failed to load, bailing
+[01/16/18, 17:46:21:699] info: updateSuspendResume: true
+[01/16/18, 17:46:21:700] warn: updateSpellcheckerLanguage: Tried to update language, but spellchecker not initialized
+[01/16/18, 17:46:32:970] info: Store: SELECT_CHANNEL D8NH9B5BM
+[01/16/18, 17:46:32:974] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US"
+}
+[01/16/18, 17:46:32:975] info: Store: UPDATE_SETTINGS
+{
+  "locale": "en-US"
+}
+[01/16/18, 17:46:32:987] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T8MVCNGTA"
+}
+[01/16/18, 17:46:33:013] info: Store: MAIN_WINDOW_SHOWN
+[01/16/18, 17:46:33:066] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T8MVCNGTA",
+  "theme": {
+    "active_item": "#4C9689",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#38978D",
+    "badge": "#EB4D5C",
+    "column_bg": "#4D394B",
+    "hover_item": "#3E313C",
+    "menu_bg": "#3E313C",
+    "text_color": "#FFFFFF"
+  }
+}
+[01/16/18, 17:46:33:233] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T8MVCNGTA"
+}
+[01/16/18, 17:46:33:777] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    0,
+    20
+  ],
+  "size": [
+    1366,
+    748
+  ]
+}
+[01/16/18, 17:46:34:448] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": false,
+  "teamId": "T8MVCNGTA"
+}
+[01/16/18, 17:46:34:449] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T8MVCNGTA"
+}
+[01/16/18, 17:46:34:449] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "webapp-loaded",
+  "teamId": "T8MVCNGTA"
+}
+[01/16/18, 17:46:34:601] info: Store: STORE_API_TOKEN
+{
+  "teamId": "T8MVCNGTA",
+  "token": "xoxs-⋯"
+}
+[01/16/18, 17:46:38:108] info: Raw Locale list: ["C","en_US.utf8","POSIX",""]
+[01/16/18, 17:46:38:108] info: Filtered Locale list: ["en_US"]
+[01/16/18, 17:46:38:108] info: Counts: {"en":["en_US"]}
+[01/16/18, 17:46:38:108] info: Setting en
+[01/16/18, 17:46:38:109] info: Result: {"en":"en-US"}
+[01/16/18, 17:46:38:111] info: Requesting to load en-US, alternatives are ["en-US","en-US","en-US"]
+[01/16/18, 17:46:38:112] info: Loading dictionary for language en-US
+[01/16/18, 17:46:38:145] info: Returning local copy: /home/mnkhbmb/.config/Slack/dictionaries/en-US.bdic
+[01/16/18, 17:46:38:203] info: Setting current spellchecker to en-US, requested language was en-US
+[01/16/18, 17:46:38:203] info: Creating node-spellchecker instance
+[01/16/18, 17:46:38:205] info: Actually installing spell check provider to Electron
+[01/16/18, 17:46:38:265] info: Unloading spellchecker
+[01/16/18, 17:46:48:082] info: Restoring spellchecker
+[01/16/18, 17:46:48:083] info: Loading dictionary for language en-US
+[01/16/18, 17:46:48:083] info: Returning local copy: /home/mnkhbmb/.config/Slack/dictionaries/en-US.bdic
+[01/16/18, 17:46:48:113] info: Unloading spellchecker
+[01/16/18, 17:46:48:135] info: Setting current spellchecker to en-US, requested language was en-US
+[01/16/18, 17:46:48:135] info: Creating node-spellchecker instance
+[01/16/18, 17:46:49:197] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    0,
+    20
+  ],
+  "size": [
+    1366,
+    748
+  ]
+}
+[01/16/18, 17:47:03:580] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    0,
+    0
+  ],
+  "size": [
+    1366,
+    768
+  ]
+}
+[01/16/18, 17:47:44:061] info: Restoring spellchecker
+[01/16/18, 17:47:44:062] info: Loading dictionary for language en-US
+[01/16/18, 17:47:44:062] info: Returning local copy: /home/mnkhbmb/.config/Slack/dictionaries/en-US.bdic
+[01/16/18, 17:47:44:095] info: Setting current spellchecker to en-US, requested language was en-US
+[01/16/18, 17:47:44:377] info: Unloading spellchecker
+[01/16/18, 17:47:45:032] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    0,
+    20
+  ],
+  "size": [
+    1366,
+    748
+  ]
+}
+[01/16/18, 18:01:17:405] info: Restoring spellchecker
+[01/16/18, 18:01:17:418] info: Loading dictionary for language en-US
+[01/16/18, 18:01:17:419] info: Returning local copy: /home/mnkhbmb/.config/Slack/dictionaries/en-US.bdic
+[01/16/18, 18:01:17:441] info: Setting current spellchecker to en-US, requested language was en-US
+[01/16/18, 18:01:17:441] info: Creating node-spellchecker instance
+[01/16/18, 18:01:17:843] info: Unloading spellchecker
+[01/16/18, 18:02:08:779] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    0,
+    0
+  ],
+  "size": [
+    1366,
+    768
+  ]
+}
+[01/16/18, 18:18:45:836] info: Restoring spellchecker
+[01/16/18, 18:18:45:836] info: Loading dictionary for language en-US
+[01/16/18, 18:18:45:837] info: Returning local copy: /home/mnkhbmb/.config/Slack/dictionaries/en-US.bdic
+[01/16/18, 18:18:45:894] info: Setting current spellchecker to en-US, requested language was en-US
+[01/16/18, 18:18:45:894] info: Creating node-spellchecker instance
+[01/16/18, 18:18:46:556] info: Unloading spellchecker
+[01/16/18, 18:18:46:808] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    0,
+    20
+  ],
+  "size": [
+    1366,
+    748
+  ]
+}
+[01/16/18, 18:19:48:480] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    0,
+    0
+  ],
+  "size": [
+    1366,
+    768
+  ]
+}
+[01/16/18, 18:19:56:083] info: Restoring spellchecker
+[01/16/18, 18:19:56:083] info: Loading dictionary for language en-US
+[01/16/18, 18:19:56:084] info: Returning local copy: /home/mnkhbmb/.config/Slack/dictionaries/en-US.bdic
+[01/16/18, 18:19:56:112] info: Setting current spellchecker to en-US, requested language was en-US
+[01/16/18, 18:19:56:112] info: Creating node-spellchecker instance
+[01/16/18, 18:19:57:011] info: Unloading spellchecker
+[01/16/18, 18:19:57:056] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    0,
+    20
+  ],
+  "size": [
+    1366,
+    748
+  ]
+}
+[01/16/18, 18:36:52:480] info: Restoring spellchecker
+[01/16/18, 18:36:52:480] info: Loading dictionary for language en-US
+[01/16/18, 18:36:52:480] info: Returning local copy: /home/mnkhbmb/.config/Slack/dictionaries/en-US.bdic
+[01/16/18, 18:36:52:505] info: Setting current spellchecker to en-US, requested language was en-US
+[01/16/18, 18:36:52:505] info: Creating node-spellchecker instance
+[01/16/18, 18:36:53:074] info: Unloading spellchecker
+[01/16/18, 18:38:16:347] info: Restoring spellchecker
+[01/16/18, 18:38:16:347] info: Loading dictionary for language en-US
+[01/16/18, 18:38:16:347] info: Returning local copy: /home/mnkhbmb/.config/Slack/dictionaries/en-US.bdic
+[01/16/18, 18:38:16:362] info: Setting current spellchecker to en-US, requested language was en-US
+[01/16/18, 18:38:16:363] info: Creating node-spellchecker instance
+[01/16/18, 18:38:16:958] info: Unloading spellchecker
+[01/16/18, 19:58:46:660] info: ╔════════════════════════════════════════════════════════════════════════════╗
+[01/16/18, 19:58:46:661] info: ║      Slack 3.0.2, linux 4.9.76-1-lts on x64 at 01/16/18, 19:58:46:657      ║
+[01/16/18, 19:58:46:661] info: ╚════════════════════════════════════════════════════════════════════════════╝
+[01/16/18, 19:58:46:764] info: Initializing local storage instance at path: /home/mnkhbmb/.config/Slack/local-settings.json
+[01/16/18, 19:58:54:946] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T8MVCNGTA"
+}
+[01/16/18, 19:58:54:965] info: Store: MAIN_WINDOW_SHOWN
